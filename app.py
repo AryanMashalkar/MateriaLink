@@ -5,9 +5,11 @@ accepted name and NCBI taxon -> known compounds -> modern literature signal per 
 
 Run: streamlit run app.py
 """
+import html as H
 import json
 from pathlib import Path
 
+import altair as alt
 import pandas as pd
 import streamlit as st
 
@@ -15,14 +17,96 @@ ROOT = Path(__file__).resolve().parent
 P = ROOT / "data/processed"
 R = ROOT / "results"
 
-st.set_page_config(page_title="MateriaLink", page_icon="🌿", layout="wide")
+st.set_page_config(page_title="MateriaLink · Dioscorides", page_icon="🌿", layout="wide",
+                   initial_sidebar_state="collapsed")
 
+INK, MUTED, PAPER, CARD, LINE = "#2a2620", "#7a6f5f", "#f5efe3", "#fffaf1", "#e4d9c4"
+HERB, RUBRIC, GOLD = "#2f5d3a", "#a8442a", "#b8892b"
+TIER_COLOR = {"A": HERB, "B": "#6c8f3d", "C": GOLD, "D": "#b9ad98", "n/a": "#d9cfbd"}
 TIER_HELP = {"A": "5+ PubMed abstracts co-mention plant and disease",
              "B": "2 to 4 co-mentioning abstracts",
              "C": "1 co-mentioning abstract",
              "D": "no co-mention found",
-             "n/a": "category not in the MONDO disease ontology"}
-TIER_COLOR = {"A": "#1e7b4f", "B": "#5a9e3a", "C": "#c49a1a", "D": "#9aa5b1", "n/a": "#c8ced6"}
+             "n/a": "category outside the MONDO disease ontology"}
+
+CSS = f"""
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=GFS+Didot&family=Inter:wght@400;500;600&display=swap');
+html, body, [class*="st-"], .stMarkdown, p, label, li {{ font-family: 'Inter', sans-serif; }}
+.stApp {{ background: radial-gradient(circle at 15% 0%, #fbf7ee 0%, {PAPER} 45%, #efe6d4 100%); }}
+header[data-testid="stHeader"] {{ background: transparent; }}
+.block-container {{ padding-top: 2.2rem; max-width: 1280px; }}
+h1, h2, h3 {{ font-family: 'Cormorant Garamond', serif !important; color: {INK}; letter-spacing: .2px; }}
+.hero {{ display:flex; align-items:flex-end; justify-content:space-between; gap:2rem; flex-wrap:wrap;
+        border-bottom: 1px solid {LINE}; padding-bottom: 1.1rem; margin-bottom: 1.2rem; }}
+.hero .kicker {{ font: 600 .72rem 'Inter'; letter-spacing: .22em; text-transform: uppercase; color: {RUBRIC}; }}
+.hero .title {{ font: 700 4.6rem/.95 'Cormorant Garamond', serif; color: {INK}; margin: .3rem 0 .4rem 0; letter-spacing: -.5px; }}
+.hero .title span {{ color: {RUBRIC}; font-style: italic; }}
+.hero .greek {{ font-family: 'GFS Didot', serif; font-size: 1.25rem; color: {MUTED}; }}
+.hero .sub {{ max-width: 560px; color: {MUTED}; font-size: .95rem; line-height: 1.5; margin-top: .4rem; }}
+.stats {{ display:flex; gap: .7rem; flex-wrap: wrap; }}
+.stat {{ background: {CARD}; border: 1px solid {LINE}; border-radius: 14px; padding: .7rem 1rem; min-width: 118px; }}
+.stat b {{ display:block; font: 700 1.9rem 'Cormorant Garamond', serif; color: {INK}; line-height: 1; }}
+.stat small {{ color: {MUTED}; font-size: .72rem; letter-spacing: .04em; }}
+.card {{ background: {CARD}; border: 1px solid {LINE}; border-radius: 18px; padding: 1.2rem 1.35rem;
+        box-shadow: 0 1px 0 rgba(255,255,255,.7) inset, 0 10px 30px -18px rgba(60,40,10,.35); margin-bottom: 1rem; }}
+.label {{ font: 600 .7rem 'Inter'; letter-spacing: .18em; text-transform: uppercase; color: {MUTED}; margin-bottom: .55rem; }}
+.manuscript {{ font-family: 'GFS Didot', serif; font-size: 1.12rem; line-height: 1.75; color: #3a3329;
+              max-height: 520px; overflow-y: auto; padding-right: .4rem; }}
+.manuscript::first-letter {{ float:left; font: 700 3.6rem/0.85 'Cormorant Garamond', serif; color: {RUBRIC};
+                             padding: .35rem .45rem 0 0; }}
+.headword {{ font-family: 'GFS Didot', serif; font-size: 2.1rem; color: {INK}; line-height: 1.1; }}
+.urn {{ font: 500 .72rem ui-monospace, monospace; color: {MUTED}; background: #f1e8d6; padding: .15rem .5rem;
+       border-radius: 6px; display:inline-block; margin-top: .4rem; }}
+.syn {{ color: {MUTED}; font-size: .82rem; margin-top: .55rem; font-style: italic; }}
+.taxon {{ font: italic 600 2.3rem 'Cormorant Garamond', serif; color: {HERB}; line-height: 1.05; }}
+.taxon-meta {{ color: {MUTED}; font-size: .82rem; margin-top: .2rem; }}
+.conf {{ display:flex; align-items:center; gap:.7rem; margin: .45rem 0; }}
+.conf .name {{ width: 42%; font: italic 500 1.08rem 'Cormorant Garamond', serif; color: {INK}; }}
+.conf .bar {{ flex:1; height: 8px; background: #efe5d2; border-radius: 99px; overflow:hidden; }}
+.conf .bar i {{ display:block; height:100%; border-radius: 99px; background: linear-gradient(90deg, {HERB}, #5d8a55); }}
+.conf .pct {{ width: 44px; text-align:right; font: 600 .82rem 'Inter'; color: {INK}; }}
+.seal {{ display:inline-block; font: 600 .72rem 'Inter'; letter-spacing:.08em; text-transform: uppercase; color: {RUBRIC};
+        border: 1.5px solid {RUBRIC}; border-radius: 99px; padding: .18rem .65rem; margin-left: .5rem; vertical-align: middle; }}
+.baseline {{ margin-top: .9rem; padding-top: .7rem; border-top: 1px dashed {LINE}; color: {MUTED}; font-size: .8rem; }}
+.baseline b {{ color: {INK}; font-weight: 600; }}
+.chips {{ display:flex; flex-wrap:wrap; gap:.4rem; }}
+.chip {{ background: #f3ead8; border: 1px solid {LINE}; border-radius: 99px; padding: .22rem .7rem; font-size: .8rem; color: #4a4134; }}
+.use {{ display:grid; grid-template-columns: 34px 1fr auto; gap: .8rem; align-items:center;
+       padding: .62rem 0; border-bottom: 1px solid #efe6d3; }}
+.use:last-child {{ border-bottom: 0; }}
+.tier {{ width: 30px; height: 30px; border-radius: 50%; color: #fff; font: 700 .8rem 'Inter';
+        display:flex; align-items:center; justify-content:center; }}
+.use .en {{ font-weight: 600; color: {INK}; font-size: .95rem; }}
+.use .gr {{ font-family: 'GFS Didot', serif; color: {MUTED}; font-size: .95rem; }}
+.use .cat {{ font-size: .74rem; color: {MUTED}; letter-spacing: .02em; }}
+.use .ev {{ text-align:right; font-size: .76rem; color: {MUTED}; }}
+.use .ev a {{ color: {HERB}; text-decoration: none; border-bottom: 1px dotted {HERB}; }}
+.cc {{ display:inline-block; background: #e9f0e3; color: {HERB}; border-radius: 6px; padding: .05rem .4rem; margin-left:.2rem; font-size:.7rem; }}
+.legend {{ display:flex; flex-wrap:wrap; gap: .9rem; font-size: .74rem; color: {MUTED}; margin-top: .6rem; }}
+.legend span i {{ display:inline-block; width:10px; height:10px; border-radius:50%; margin-right:.3rem; vertical-align: -1px; }}
+.big {{ font: 700 3.4rem 'Cormorant Garamond', serif; color: {INK}; line-height: 1; }}
+.vs {{ color: {MUTED}; font-size: .9rem; margin-top: .3rem; }}
+.pill {{ display:inline-block; border-radius:99px; padding:.15rem .6rem; font: 600 .75rem 'Inter'; }}
+.lead {{ font: 500 1.35rem/1.5 'Cormorant Garamond', serif; color: {INK}; max-width: 900px; }}
+.note {{ color: {MUTED}; font-size: .82rem; line-height: 1.5; }}
+.stTabs [data-baseweb="tab-list"] {{ gap: 1.6rem; border-bottom: 1px solid {LINE}; }}
+.stTabs [data-baseweb="tab"] {{ font: 600 .86rem 'Inter'; color: {MUTED}; padding: .6rem 0; background: transparent; }}
+.stTabs [aria-selected="true"] {{ color: {RUBRIC} !important; }}
+.stTabs [data-baseweb="tab-highlight"] {{ background-color: {RUBRIC}; }}
+div[data-baseweb="select"] > div, .stTextInput input {{ background: {CARD} !important; border-color: {LINE} !important; border-radius: 10px !important; }}
+footer {{ visibility: hidden; }}
+</style>
+"""
+st.markdown(CSS, unsafe_allow_html=True)
+
+
+def html(s):
+    st.markdown("\n".join(l.strip() for l in s.splitlines()), unsafe_allow_html=True)
+
+
+def e(x):
+    return H.escape(str(x)) if x is not None else ""
 
 
 @st.cache_data
@@ -35,147 +119,221 @@ def load():
 
 def key(cid):
     b, c = cid.split(".", 1)
-    num = "".join(x for x in c if x.isdigit()) or "0"
-    return int(b), int(num), c
-
-
-def badge(t):
-    return (f"<span title='{TIER_HELP.get(t, '')}' style='background:{TIER_COLOR.get(t, '#ccc')};"
-            f"color:white;padding:1px 8px;border-radius:9px;font-size:0.8em;font-weight:600'>{t}</span>")
+    return int(b), int("".join(x for x in c if x.isdigit()) or 0), c
 
 
 ch, en, base = load()
 en = sorted(en, key=lambda r: key(r["id"]))
+plants = [r for r in en if r["is_plant"] and r["candidates"]]
+uses_all = [u for r in en for u in r["uses"]]
+n_species = sum(1 for r in plants if r["candidates"][0].get("rank") == "species")
+n_signal = sum(1 for u in uses_all if u.get("evidence", {}).get("tier") in ("A", "B", "C"))
 
-st.title("MateriaLink")
-st.caption("Dioscorides, *De materia medica* (1st c. CE), read in Greek and linked to modern botany, "
-           "chemistry and literature. Research prototype: literature signals are not evidence of "
-           "efficacy, and nothing here is medical advice.")
+html(f"""
+<div class="hero">
+  <div>
+    <div class="kicker">A concordance of Dioscorides · 1st century CE</div>
+    <div class="title">Materia<span>Link</span></div>
+    <div class="greek">Περὶ ὕλης ἰατρικῆς · De materia medica</div>
+    <div class="sub">Read in the original Greek, each chapter is linked to a modern species, the compounds that plant
+    is known to contain, and what today's literature says about every use Dioscorides gives.</div>
+  </div>
+  <div class="stats">
+    <div class="stat"><b>{len(en)}</b><small>chapters read</small></div>
+    <div class="stat"><b>{n_species}</b><small>pinned to a species</small></div>
+    <div class="stat"><b>{len(uses_all):,}</b><small>uses extracted</small></div>
+    <div class="stat"><b>{n_signal}</b><small>with a PubMed signal</small></div>
+  </div>
+</div>
+""")
 
-tab_ch, tab_stats, tab_chance, tab_about = st.tabs(["Chapter explorer", "Corpus overview", "Better than chance?", "Method and limits"])
+tab_ch, tab_chance, tab_stats, tab_about = st.tabs(
+    ["📜  Chapter explorer", "🎲  Better than chance?", "📊  Corpus overview", "⚖️  Method and limits"])
 
+# ---------------------------------------------------------------- explorer
 with tab_ch:
-    left, right = st.columns([1, 2.2])
-    with left:
+    f1, f2, f3 = st.columns([1, 2.2, 3])
+    with f1:
         books = sorted({r["book"] for r in en})
-        book = st.radio("Book", books, horizontal=True, index=books.index(4) if 4 in books else 0)
-        q = st.text_input("Search (Greek headword, Latin taxon or English use)", "")
-        rows = [r for r in en if r["book"] == book]
-        if q:
-            ql = q.lower()
-            rows = [r for r in en if ql in r["headword"].lower()
-                    or any(ql in c["taxon"].lower() for c in r["candidates"])
-                    or any(ql in (u.get("en") or "").lower() for u in r["uses"])]
-        only_plants = st.checkbox("Plants only", True)
-        if only_plants:
-            rows = [r for r in rows if r["is_plant"]]
-        if not rows:
-            st.info("No chapters match.")
-            st.stop()
-        labels = [f"{r['id']}  {r['headword']}  ({r['candidates'][0]['taxon'] if r['candidates'] else '—'})" for r in rows]
-        pick = st.selectbox("Chapter", range(len(rows)), format_func=lambda i: labels[i])
-        r = rows[pick]
-        c = ch.get(r["id"], {})
-        st.markdown(f"**{r['headword']}**  \n`{r['urn']}`")
-        if c.get("synonyms"):
-            st.caption("Other names given: " + ", ".join(c["synonyms"][:12]))
-        with st.expander("Greek text", expanded=True):
-            st.markdown(f"<div style='font-size:1.02em;line-height:1.55'>{c.get('text', '')}</div>",
-                        unsafe_allow_html=True)
-        st.caption("Text: Wellmann edition via First1KGreek, CC BY-SA 4.0.")
+        book = st.selectbox("Book", books, index=books.index(4) if 4 in books else 0,
+                            format_func=lambda b: f"Book {b}")
+    with f2:
+        q = st.text_input("Search", "", placeholder="κώνειον, Conium, asthma, burns …")
+    rows = [r for r in en if r["book"] == book and r["is_plant"]]
+    if q:
+        ql = q.lower()
+        rows = [r for r in en if ql in r["headword"].lower()
+                or any(ql in c["taxon"].lower() for c in r["candidates"])
+                or any(ql in (u.get("en") or "").lower() for u in r["uses"])]
+    if not rows:
+        st.info("No chapters match.")
+        st.stop()
+    labels = [f"{r['id']} · {r['headword']} — {r['candidates'][0]['taxon'] if r['candidates'] else 'unidentified'}"
+              for r in rows]
+    default = next((i for i, r in enumerate(rows) if r["id"] == "4.78"), 0)
+    with f3:
+        pick = st.selectbox("Chapter", range(len(rows)), index=default, format_func=lambda i: labels[i])
+    r = rows[pick]
+    c = ch.get(r["id"], {})
+    cands = r["candidates"]
+
+    left, right = st.columns([1, 1.25], gap="large")
+    with left:
+        syn = c.get("synonyms") or []
+        html(f"""
+        <div class="card">
+          <div class="label">Chapter {e(r['id'])} · the Greek text</div>
+          <div class="headword">{e(r['headword'])}</div>
+          <div class="urn">{e(r['urn'])}</div>
+          {f'<div class="syn">also called: {e(", ".join(syn[:10]))}</div>' if syn else ''}
+          <div style="height:.9rem"></div>
+          <div class="manuscript">{e(c.get('text', ''))}</div>
+          <div class="note" style="margin-top:.8rem">Wellmann edition via First1KGreek · CC BY-SA 4.0</div>
+        </div>""")
 
     with right:
-        cands = r["candidates"]
         if not r["is_plant"]:
-            st.warning("This chapter is not about a plant (animal, mineral or prepared product).")
-        if cands:
+            html('<div class="card"><div class="label">Identification</div>Not a plant: an animal, mineral or prepared product.</div>')
+        elif cands:
             top = cands[0]
             disputed = len(cands) > 1 and cands[1]["prob"] >= 0.5 * top["prob"]
-            st.subheader("Identification")
-            if disputed:
-                st.markdown("⚖️ **Disputed:** the second candidate is at least half as likely as the first.")
-            df = pd.DataFrame([{"candidate": x["taxon"], "confidence": x["prob"], "resolved to": x.get("resolved_name") or "",
-                                "rank": x.get("rank"), "NCBI taxa": len(x.get("ncbitaxon") or []),
-                                "compounds known": x.get("n_compounds", 0)} for x in cands])
-            st.dataframe(df, hide_index=True, width='stretch',
-                         column_config={"confidence": st.column_config.ProgressColumn(min_value=0, max_value=1, format="%.2f")})
+            bars = "".join(
+                f'<div class="conf"><div class="name">{e(x["taxon"])}</div>'
+                f'<div class="bar"><i style="width:{max(2, x["prob"] * 100):.0f}%"></i></div>'
+                f'<div class="pct">{x["prob"]:.0%}</div></div>' for x in cands)
+            meta = []
+            if top.get("resolved_name"):
+                meta.append(f"resolved to {e(top['resolved_name'])} ({e(top.get('rank'))})")
+            if top.get("ncbitaxon"):
+                meta.append(f"{len(top['ncbitaxon'])} NCBI taxa")
             b = base.get(r["id"], {}).get("candidates", [])
-            if b:
-                st.caption("Spelling-only baseline (Greek name transliterated and fuzzy-matched to genera): "
-                           + ", ".join(f"{x['taxon']} {x['prob']:.2f}" for x in b[:3]))
+            bl = ", ".join(f"{e(x['taxon'])} {x['prob']:.0%}" for x in b[:3]) if b else "no match"
+            html(f"""
+            <div class="card">
+              <div class="label">Most likely plant{'<span class="seal">disputed</span>' if disputed else ''}</div>
+              <div class="taxon">{e(top['taxon'])}</div>
+              <div class="taxon-meta">{' · '.join(meta)}</div>
+              <div style="height:.8rem"></div>
+              {bars}
+              <div class="baseline"><b>Spelling alone would say:</b> {bl}
+              <br>(the Greek name transliterated and fuzzy-matched to plant genera, for comparison)</div>
+            </div>""")
             comps = top.get("compounds") or []
             if comps:
-                st.subheader(f"Known compounds in {top.get('resolved_name') or top['taxon']}")
-                names = [x["name"] if isinstance(x, dict) else str(x) for x in comps[:24]]
-                st.markdown(" · ".join(names))
-                st.caption("From LOTUS / COCONUT natural-product occurrence records (via enveda/ethnobotany, MIT). "
-                           "Records can be noisy.")
-        st.subheader("Uses Dioscorides gives, and what modern sources say")
-        if r["uses"]:
-            for u in r["uses"]:
-                ev = u.get("evidence", {})
-                t = ev.get("tier", "n/a")
-                pm = ev.get("pmids") or []
-                links = " ".join(f"[{p}](https://pubmed.ncbi.nlm.nih.gov/{p}/)" for p in pm[:3])
-                cc = ev.get("cross_cultural") or []
-                extra = f" · also recorded in {', '.join(cc)}" if cc else ""
-                st.markdown(f"{badge(t)} &nbsp;**{u.get('en')}** · *{u.get('greek')}* · "
-                            f"<span style='color:#6b7785'>{u.get('category')}</span>"
-                            f"{' · ' + str(ev.get('n_pubmed', 0)) + ' abstracts ' + links if ev.get('n_pubmed') else ''}{extra}",
-                            unsafe_allow_html=True)
-        else:
-            st.caption("No uses extracted.")
-        st.caption("Tiers: " + " · ".join(f"{k} = {v}" for k, v in TIER_HELP.items()))
+                names = [n for n in (x["name"] if isinstance(x, dict) else str(x) for x in comps) if len(n) <= 32][:20]
+                chips = "".join(f'<span class="chip">{e(n)}</span>' for n in names)
+                html(f"""
+                <div class="card">
+                  <div class="label">Known compounds · {e(top.get('n_compounds', len(comps)))} recorded</div>
+                  <div class="chips">{chips}</div>
+                  <div class="note" style="margin-top:.7rem">LOTUS / COCONUT occurrence records via enveda/ethnobotany (MIT). Records can be noisy.</div>
+                </div>""")
 
-with tab_stats:
-    plants = [r for r in en if r["is_plant"] and r["candidates"]]
-    ranks = pd.Series([r["candidates"][0].get("rank") for r in plants]).value_counts()
-    uses = [u for r in en for u in r["uses"]]
-    tiers = pd.Series([u.get("evidence", {}).get("tier", "n/a") for u in uses]).value_counts()
-    c1, c2, c3, c4 = st.columns(4)
-    c1.metric("Chapters processed", len(en))
-    c2.metric("Plant chapters", len(plants))
-    c3.metric("Resolved to a species", int(ranks.get("species", 0)))
-    c4.metric("Uses extracted", len(uses))
-    a, b = st.columns(2)
-    with a:
-        st.markdown("**Evidence tier of each use**")
-        st.bar_chart(tiers.reindex(["A", "B", "C", "D", "n/a"]).fillna(0))
-    with b:
-        st.markdown("**Most common disease categories**")
-        st.bar_chart(pd.Series([u.get("category") for u in uses]).value_counts().head(12))
-    ev_path = R / "evaluation.json"
-    if ev_path.exists():
-        ev = json.loads(ev_path.read_text())
-        st.markdown(f"**Accuracy against the gold set** (n = {ev['n_gold']})")
-        if ev.get("warning"):
-            st.caption(ev["warning"])
-        st.dataframe(pd.DataFrame({m: {k: v["acc"] for k, v in res.items()} for m, res in ev["methods"].items()}).T)
-        if (R / "reliability.png").exists():
-            st.image(str(R / "reliability.png"), width=360)
+        items = []
+        for u in r["uses"]:
+            ev = u.get("evidence", {})
+            t = ev.get("tier", "n/a")
+            pm = ev.get("pmids") or []
+            links = " ".join(f'<a href="https://pubmed.ncbi.nlm.nih.gov/{p}/" target="_blank">{p}</a>' for p in pm[:2])
+            cc = "".join(f'<span class="cc">{e(x)}</span>' for x in (ev.get("cross_cultural") or []))
+            n = ev.get("n_pubmed", 0)
+            evtxt = (f"{n} abstract{'s' if n != 1 else ''}<br>{links}" if n else "") + (f"<br>{cc}" if cc else "")
+            items.append(
+                f'<div class="use"><div class="tier" style="background:{TIER_COLOR.get(t, "#ccc")}" '
+                f'title="{e(TIER_HELP.get(t, ""))}">{"–" if t == "n/a" else t}</div>'
+                f'<div><div class="en">{e(u.get("en"))}</div><div class="gr">{e(u.get("greek"))}</div>'
+                f'<div class="cat">{e(u.get("category"))}</div></div><div class="ev">{evtxt}</div></div>')
+        legend = "".join(f'<span><i style="background:{TIER_COLOR[k]}"></i>{k}: {v}</span>' for k, v in TIER_HELP.items())
+        html(f"""
+        <div class="card">
+          <div class="label">What Dioscorides prescribes it for · and what modern sources say</div>
+          {''.join(items) if items else '<div class="note">No uses extracted.</div>'}
+          <div class="legend">{legend}</div>
+        </div>""")
 
+# ---------------------------------------------------------------- chance test
 with tab_chance:
     ct = R / "chance_test.json"
     if ct.exists():
         d = json.loads(ct.read_text())
         m = d["meta"]
-        st.markdown(
-            f"For each of **{m['n_plants']} confidently identified plants** we took the disease categories "
-            f"Dioscorides assigns ({m['n_pairs']} plant-use pairs) and asked how often modern sources link that "
-            f"plant to that category. Then we shuffled the categories between plants {m['n_perm']:,} times, keeping "
-            "each plant's number of uses and each category's overall frequency, to see what chance alone gives.")
-        cols = st.columns(2)
-        for col, name, label in ((cols[0], "literature", "PubMed co-mentions"),
-                                 (cols[1], "cross_cultural", "Independent traditions (5 ethnomedicine databases)")):
+        html(f"""
+        <div class="lead">If Dioscorides' prescriptions were guesses, they should match modern findings no more often than
+        the same prescriptions shuffled at random between plants. We tested that on <b>{m['n_plants']}</b> confidently
+        identified plants and <b>{m['n_pairs']}</b> plant-use pairs, with {m['n_perm']:,} shuffles.</div>
+        <div style="height:1rem"></div>""")
+        cols = st.columns(2, gap="large")
+        for col, name, label in ((cols[0], "cross_cultural", "Agrees with five other medical traditions"),
+                                 (cols[1], "literature", "Agrees with the modern literature (PubMed)")):
             v = d[name]
-            col.metric(label, f"{v['observed']:.1%}", f"chance {v['null_mean']:.1%}, ×{v['enrichment']}, p = {v['p_value']:.3f}")
-        st.image(str(R / "chance_test.png"), width='stretch')
-        st.caption("Reading: the uses line up with modern findings a little more often than chance, and the signal is "
-                   "stronger against other traditional systems than against the literature. Plants that were studied "
-                   "because of their traditional use (circularity) can inflate the literature number; see the README.")
+            sig = v["p_value"] < 0.05
+            pill = (f'<span class="pill" style="background:#e3eedc;color:{HERB}">significant · p = {v["p_value"]:.3f}</span>' if sig
+                    else f'<span class="pill" style="background:#f4e9cf;color:#8a6414">borderline · p = {v["p_value"]:.3f}</span>')
+            with col:
+                html(f"""
+                <div class="card">
+                  <div class="label">{label}</div>
+                  <div class="big">{v['observed']:.1%}</div>
+                  <div class="vs">of uses match, against <b>{v['null_mean']:.1%}</b> by chance (×{v['enrichment']})</div>
+                  <div style="margin-top:.7rem">{pill}</div>
+                </div>""")
+        st.image(str(R / "chance_test.png"), width="stretch")
+        html(f"""<div class="card"><div class="note">How the shuffle works: each plant keeps its number of uses and each disease category keeps
+        how often it appears overall, so popular categories such as inflammation get no unfair advantage. Only the
+        pairing of plant and category is randomised.<br><br><b>Reading it honestly:</b> the signal is real but modest.
+        It is stronger against other traditional systems than against the literature. Plants studied <i>because</i> of
+        their traditional reputation can inflate the literature figure (circularity); the cross-tradition comparison is
+        partly independent of that.</div></div>""")
     else:
         st.info("Run `python src/chance_test.py` first.")
 
+# ---------------------------------------------------------------- overview
+with tab_stats:
+    tiers = (pd.Series([u.get("evidence", {}).get("tier", "n/a") for u in uses_all]).value_counts()
+             .reindex(["A", "B", "C", "D", "n/a"]).fillna(0).reset_index())
+    tiers.columns = ["tier", "uses"]
+    cats = pd.Series([u.get("category") for u in uses_all]).value_counts().head(12).reset_index()
+    cats.columns = ["category", "uses"]
+    a, b = st.columns(2, gap="large")
+    with a:
+        html('<div class="label">Evidence tier of every extracted use</div>')
+        ch1 = alt.Chart(tiers).mark_bar(cornerRadiusTopLeft=6, cornerRadiusTopRight=6).encode(
+            x=alt.X("tier:N", sort=None, title=None, axis=alt.Axis(labelAngle=0)),
+            y=alt.Y("uses:Q", title=None),
+            color=alt.Color("tier:N", scale=alt.Scale(domain=list(TIER_COLOR), range=list(TIER_COLOR.values())), legend=None),
+            tooltip=["tier", "uses"]).properties(height=300)
+        st.altair_chart(ch1.configure_view(strokeWidth=0).configure(background="transparent")
+                        .configure_axis(grid=False, labelColor=MUTED, domainColor=LINE, tickColor=LINE), width="stretch")
+    with b:
+        html('<div class="label">What the uses treat · top 12 categories</div>')
+        ch2 = alt.Chart(cats).mark_bar(cornerRadiusTopRight=6, cornerRadiusBottomRight=6, color=HERB).encode(
+            y=alt.Y("category:N", sort="-x", title=None), x=alt.X("uses:Q", title=None),
+            tooltip=["category", "uses"]).properties(height=300)
+        st.altair_chart(ch2.configure_view(strokeWidth=0).configure(background="transparent")
+                        .configure_axis(grid=False, labelColor=MUTED, domainColor=LINE, tickColor=LINE, labelLimit=220),
+                        width="stretch")
+    def pct(x):
+        return "" if x is None else f"{x:.0%}"
+
+    ev_path = R / "evaluation.json"
+    if ev_path.exists():
+        ev = json.loads(ev_path.read_text())
+        rows_ = "".join(
+            f"<tr><td>{m}</td>" + "".join(f"<td>{pct(v['acc'])}</td>" for v in res.values()) + "</tr>"
+            for m, res in ev["methods"].items())
+        html(f"""
+        <div class="card">
+          <div class="label">Identification accuracy against the gold set · n = {ev['n_gold']}</div>
+          <table style="width:100%;border-collapse:collapse;font-size:.9rem">
+            <tr style="color:{MUTED};text-align:left"><th>method</th><th>genus, top 1</th><th>genus, top 3</th>
+            <th>species, top 1</th><th>species, top 3</th></tr>{rows_}
+          </table>
+          <div class="note" style="margin-top:.6rem">{e(ev.get('warning', ''))}</div>
+        </div>""")
+
+# ---------------------------------------------------------------- about
 with tab_about:
-    st.markdown((ROOT / "docs/method.md").read_text(encoding="utf-8") if (ROOT / "docs/method.md").exists()
-                else "See README.md.")
+    md = (ROOT / "docs/method.md").read_text(encoding="utf-8") if (ROOT / "docs/method.md").exists() else "See README.md."
+    st.markdown(md)
+    html('<div class="note" style="margin-top:1rem">Research prototype. A literature signal is not evidence that a plant works, '
+         'and nothing here is medical advice. Several plants in this text are lethal.</div>')

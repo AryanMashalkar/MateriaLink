@@ -83,6 +83,14 @@ def main():
             hit += sum(1 for c in cats if c in known)
         return hit / tot if tot else 0.0
 
+    def hist_of(xs, bins=48):
+        lo, hi = min(xs), max(xs)
+        w = (hi - lo) / bins or 1
+        counts = [0] * bins
+        for x in xs:
+            counts[min(int((x - lo) / w), bins - 1)] += 1
+        return {"lo": round(lo, 5), "hi": round(hi, 5), "counts": counts}
+
     observed_assign = [set(c) for _, _, c in plants]
     results = {}
     for name, ref in (("literature", L), ("cross_cultural", T)):
@@ -105,6 +113,7 @@ def main():
             "enrichment": round(obs / mean_null, 3) if mean_null else None,
             "p_value": p,
             "null": null,
+            "null_hist": hist_of(null),
         }
     meta = {"n_plants": len(plants), "n_pairs": len(pool), "min_prob": a.min_prob, "n_perm": a.n, "seed": a.seed}
     out = ROOT / "results"
@@ -115,19 +124,30 @@ def main():
     import matplotlib
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
-    fig, axes = plt.subplots(1, 2, figsize=(10, 3.6))
-    for ax, (name, v) in zip(axes, results.items()):
-        ax.hist(v["null"], bins=40, color="#9aa5b1")
-        ax.axvline(v["observed"], color="#c0392b", lw=2.5, label=f"Dioscorides: {v['observed']:.0%}")
-        ax.set_title({"literature": "Modern literature (PubMed co-mentions)",
-                      "cross_cultural": "Other traditions (5 ethnomedicine DBs)"}[name], fontsize=10)
-        ax.set_xlabel("share of uses with support")
-        ax.legend(frameon=False, fontsize=9)
-        ax.text(0.98, 0.7, f"chance: {v['null_mean']:.0%}\nx{v['enrichment']}  p={v['p_value']:.4f}",
-                transform=ax.transAxes, ha="right", fontsize=9)
-    fig.suptitle(f"Permutation test, {meta['n_plants']} plants, {meta['n_pairs']} uses, {a.n:,} shuffles", fontsize=10)
+    import matplotlib.ticker
+    plt.rcParams.update({"font.family": "serif", "axes.edgecolor": "#cdbfa5", "axes.labelcolor": "#7a6f5f",
+                         "xtick.color": "#7a6f5f", "ytick.color": "#7a6f5f"})
+    fig, axes = plt.subplots(1, 2, figsize=(11, 3.8))
+    fig.patch.set_alpha(0)
+    for ax, name in zip(axes, ("cross_cultural", "literature")):
+        v = results[name]
+        ax.set_facecolor("none")
+        ax.hist(v["null"], bins=40, color="#d9cbb0", edgecolor="#fffaf1", linewidth=0.6)
+        ax.axvline(v["observed"], color="#a8442a", lw=2.8)
+        ymax = ax.get_ylim()[1]
+        ax.text(v["observed"], ymax * 0.96, f"  Dioscorides {v['observed']:.1%}", color="#a8442a",
+                fontsize=10, fontweight="bold", va="top")
+        ax.text(v["null_mean"], ymax * 0.06, f"chance {v['null_mean']:.1%}", color="#7a6f5f",
+                fontsize=9, ha="center")
+        ax.set_title({"literature": "Modern literature (PubMed)",
+                      "cross_cultural": "Five other medical traditions"}[name], fontsize=11, color="#2a2620", loc="left")
+        ax.set_xlabel("share of uses that match")
+        ax.xaxis.set_major_formatter(matplotlib.ticker.PercentFormatter(1.0, decimals=0))
+        ax.set_yticks([])
+        for sp in ("top", "right", "left"):
+            ax.spines[sp].set_visible(False)
     fig.tight_layout()
-    fig.savefig(out / "chance_test.png", dpi=160)
+    fig.savefig(out / "chance_test.png", dpi=170, transparent=True)
     print(json.dumps({"meta": meta, **{k: {kk: vv for kk, vv in v.items() if kk != "null"} for k, v in results.items()}}, indent=1))
 
 

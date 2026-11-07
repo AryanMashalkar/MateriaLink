@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MateriaLink</title>
+<meta name="description" content="Dioscorides' De materia medica read in Greek and linked to modern species, compounds and literature, with a test of whether his prescriptions beat chance.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;1,6..96,400;1,6..96,500&family=GFS+Didot&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --porphyry:#2a1026; --porphyry-2:#361530; --porphyry-3:#45203f;
+  --gold:#d8b25c; --gold-dim:rgba(216,178,92,.42);
+  --vellum:#f1e6cf; --vellum-dim:rgba(241,230,207,.64); --vellum-faint:rgba(241,230,207,.16);
+  --verdigris:#5fb3a1; --verdigris-deep:#3f8577; --cinnabar:#e0573e;
+  --display:'Bodoni Moda', 'Didot', serif; --greek:'GFS Didot', 'Bodoni Moda', serif; --ui:'Manrope', system-ui, sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--porphyry);color:var(--vellum);font:400 16px/1.6 var(--ui);-webkit-font-smoothing:antialiased;
+  background-image:radial-gradient(1200px 700px at 78% -10%, rgba(216,178,92,.10), transparent 60%),
+                   radial-gradient(900px 600px at -10% 110%, rgba(95,179,161,.07), transparent 60%);}
+a{color:var(--gold)}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1240px;margin:0 auto;padding:0 28px}
+
+/* nav */
+nav{display:flex;align-items:center;justify-content:space-between;padding:22px 0}
+.brand{font:500 1.35rem var(--display);letter-spacing:.01em;color:var(--vellum);text-decoration:none}
+.brand i{color:var(--gold)}
+nav ul{display:flex;gap:28px;list-style:none;margin:0;padding:0}
+nav ul a{color:var(--vellum-dim);text-decoration:none;font-size:.92rem}
+nav ul a:hover{color:var(--vellum)}
+
+/* hero */
+.intro{max-width:640px;font:400 1.08rem/1.6 var(--ui);color:var(--vellum-dim);margin:26px 0 8px}
+.hero{display:grid;grid-template-columns:minmax(300px,5fr) 8fr;gap:40px;align-items:center;min-height:78vh;padding:12px 0 40px}
+.where{color:var(--vellum-dim);font-size:.9rem}
+.hw{font:400 8rem/1.05 var(--greek);color:var(--gold);margin:6px 0 10px;letter-spacing:-.01em;white-space:nowrap;
+  text-shadow:0 0 40px rgba(216,178,92,.18)}
+.translit{font:italic 400 clamp(1.5rem,2.6vw,2.2rem)/1.15 var(--display);color:var(--vellum);margin:0}
+.translit .arrow{color:var(--gold-dim);font-style:normal;margin:0 .35em}
+.verdict{margin:14px 0 0;color:var(--vellum-dim);font-size:.95rem;max-width:420px}
+.verdict b{color:var(--vellum);font-weight:600}
+.disputed{display:inline-block;margin-top:12px;padding:4px 12px;border:1px solid var(--cinnabar);color:#f3a493;border-radius:2px;font-size:.82rem}
+.excerpt{font:400 1.05rem/1.75 var(--greek);color:var(--vellum-dim);margin:22px 0 0;max-width:440px;
+  display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+.controls{display:flex;gap:10px;margin-top:28px;flex-wrap:wrap}
+button{font:600 .9rem var(--ui);cursor:pointer;border-radius:999px;padding:10px 18px;border:1px solid var(--gold-dim);
+  background:transparent;color:var(--vellum);transition:background .2s,border-color .2s}
+button:hover{background:rgba(216,178,92,.08);border-color:var(--gold)}
+button.primary{background:var(--gold);color:var(--porphyry);border-color:var(--gold)}
+button.primary:hover{background:#e6c272}
+
+/* loom */
+.loom{width:100%;height:auto;overflow:visible}
+.loom .lbl{font:italic 400 23px var(--display);fill:var(--vellum)}
+.loom .pct{font:600 12px var(--ui);fill:var(--gold)}
+.loom .use{font:500 15px var(--ui);fill:var(--vellum)}
+.loom .usegr{font:400 14px var(--greek);fill:var(--vellum-dim)}
+.loom .tier{font:700 10.5px var(--ui);fill:var(--porphyry)}
+.loom .cap{font:500 12.5px var(--ui);fill:var(--vellum-dim)}
+.loom path.e{fill:none;stroke-linecap:round}
+.draw{transition:stroke-dashoffset 1.1s cubic-bezier(.6,.05,.25,1)}
+.fade{transition:opacity .6s ease}
+@media (prefers-reduced-motion:reduce){.draw,.fade{transition:none}}
+
+/* folio */
+.folio{display:grid;grid-template-columns:5fr 6fr;gap:56px;padding:56px 0;border-top:1px solid var(--vellum-faint)}
+h2{font:400 clamp(2rem,3.6vw,3rem)/1.1 var(--display);margin:0 0 14px;color:var(--vellum)}
+h3{font:500 1.15rem var(--display);margin:0 0 12px;color:var(--gold)}
+.greek-text{font:400 1.12rem/1.85 var(--greek);color:var(--vellum);max-height:560px;overflow:auto;padding-right:10px}
+.urn{font-size:.8rem;color:var(--vellum-dim);margin:14px 0 0;word-break:break-all}
+.syn{color:var(--vellum-dim);font:400 1rem var(--greek);margin:0 0 18px}
+.uses{list-style:none;margin:0 0 34px;padding:0}
+.uses li{display:grid;grid-template-columns:28px 1fr auto;gap:14px;align-items:baseline;padding:12px 0;border-bottom:1px solid var(--vellum-faint)}
+.dot{width:14px;height:14px;border-radius:50%;display:inline-block;transform:translateY(2px)}
+.uses .en{font-weight:600}
+.uses .gr{font:400 1rem var(--greek);color:var(--vellum-dim)}
+.uses .cat{font-size:.8rem;color:var(--vellum-dim)}
+.uses .ev{text-align:right;font-size:.82rem;color:var(--vellum-dim);white-space:nowrap}
+.uses .ev a{color:var(--verdigris);text-decoration:none;border-bottom:1px solid rgba(95,179,161,.4)}
+.cc{display:inline-block;margin-left:4px;font-size:.72rem;color:var(--verdigris)}
+.key{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:.8rem;color:var(--vellum-dim);margin-top:-18px;margin-bottom:34px}
+.comps{display:flex;flex-wrap:wrap;gap:8px}
+.comps span{font-size:.84rem;padding:5px 11px;border:1px solid var(--gold-dim);border-radius:999px;color:var(--vellum)}
+.note{font-size:.84rem;color:var(--vellum-dim);margin-top:12px;max-width:62ch}
+
+/* odds */
+.odds{padding:96px 0 72px;border-top:1px solid var(--vellum-faint)}
+.odds-lead{font:400 clamp(1.6rem,3vw,2.5rem)/1.3 var(--display);max-width:26ch;margin:0 0 56px}
+.odds-lead em{color:var(--gold)}
+.tests{display:grid;grid-template-columns:1fr 1fr;gap:48px}
+.test .num{font:400 clamp(3.4rem,6vw,5.2rem)/1 var(--display);color:var(--vellum)}
+.test .num small{font-size:.4em;color:var(--vellum-dim);margin-left:.3em}
+.test p{color:var(--vellum-dim);margin:8px 0 18px;max-width:46ch}
+.badge{display:inline-block;font-size:.8rem;padding:3px 10px;border-radius:2px}
+.badge.sig{background:rgba(95,179,161,.16);color:var(--verdigris)}
+.badge.border{background:rgba(216,178,92,.14);color:var(--gold)}
+.test{display:flex;flex-direction:column;align-items:flex-start}
+.hist{width:100%;height:auto;margin-top:auto;padding-top:20px}
+.hist text{font:500 11.5px var(--ui);fill:var(--vellum-dim)}
+.fine{margin-top:44px;color:var(--vellum-dim);font-size:.92rem;max-width:72ch}
+
+/* index */
+.index{padding:80px 0;border-top:1px solid var(--vellum-faint)}
+.index-head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap;margin-bottom:30px}
+.index-head p{color:var(--vellum-dim);margin:0;max-width:52ch}
+.filters{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+input[type=search]{font:500 .95rem var(--ui);color:var(--vellum);background:var(--porphyry-2);border:1px solid var(--vellum-faint);
+  border-radius:999px;padding:10px 18px;width:min(340px,80vw)}
+input[type=search]::placeholder{color:var(--vellum-dim)}
+.seg button{padding:8px 14px}
+.seg button[aria-pressed=true]{background:var(--vellum);color:var(--porphyry);border-color:var(--vellum)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:2px}
+.cell{text-align:left;border-radius:0;border:0;padding:14px 14px 12px;background:var(--porphyry-2);color:var(--vellum);display:flex;flex-direction:column;gap:3px;min-height:92px}
+.cell:hover{background:var(--porphyry-3)}
+.cell .g{font:400 1.25rem/1.15 var(--greek)}
+.cell .l{font:italic 400 .86rem/1.2 var(--display);color:var(--vellum-dim)}
+.cell .bar{margin-top:auto;height:3px;background:var(--vellum-faint);position:relative}
+.cell .bar i{position:absolute;inset:0 auto 0 0;background:var(--verdigris)}
+.cell.on{outline:1px solid var(--gold);outline-offset:-1px}
+.count{color:var(--vellum-dim);font-size:.85rem;margin-top:14px}
+
+footer{border-top:1px solid var(--vellum-faint);padding:56px 0 80px;display:grid;grid-template-columns:repeat(3,1fr);gap:40px;color:var(--vellum-dim);font-size:.9rem}
+footer h3{font-size:1.05rem}
+
+@media (max-width:900px){
+  .hero,.folio,.tests,footer{grid-template-columns:1fr}
+  .hero{min-height:auto;gap:12px}
+  nav ul{gap:16px}
+  nav ul{display:none}
+  .loomwrap{overflow-x:auto;margin:0 -16px;padding:0 16px}
+  .loom{min-width:640px}
+  .wrap{padding:0 16px}
+  .uses .ev{white-space:normal}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav aria-label="Main">
+    <a class="brand" href="#top">Materia<i>Link</i></a>
+    <ul>
+      <li><a href="#chapter">The chapter</a></li>
+      <li><a href="#odds">Better than chance?</a></li>
+      <li><a href="#index">All plants</a></li>
+      <li><a href="https://github.com/AryanMashalkar/MateriaLink">Code</a></li>
+    </ul>
+  </nav>
+
+  <p class="intro" id="top">For fifteen centuries, Dioscorides' <i>De materia medica</i> decided what doctors prescribed. We read it in the original Greek and traced every plant to modern science.</p>
+
+  <section class="hero" aria-live="polite">
+    <div>
+      <div class="where" id="where"></div>
+      <div class="hw" id="hw" lang="grc"></div>
+      <p class="translit" id="translit"></p>
+      <p class="verdict" id="verdict"></p>
+      <div id="disp"></div>
+      <p class="excerpt" id="excerpt" lang="grc"></p>
+      <div class="controls">
+        <button id="prev" aria-label="Previous chapter">Previous</button>
+        <button class="primary" id="rand">Show me another plant</button>
+        <button id="next" aria-label="Next chapter">Next</button>
+      </div>
+    </div>
+    <div class="loomwrap"><svg class="loom" id="loom" role="img" aria-label="Links from the Greek name to candidate species and to each use"></svg></div>
+  </section>
+
+  <section class="folio" id="chapter">
+    <div>
+      <h3>What Dioscorides wrote</h3>
+      <p class="syn" id="syn" lang="grc"></p>
+      <div class="greek-text" id="gtext" lang="grc"></div>
+      <p class="urn" id="urn"></p>
+    </div>
+    <div>
+      <h3>His prescriptions, checked</h3>
+      <ul class="uses" id="uses"></ul>
+      <div class="key" id="key"></div>
+      <h3 id="comph">Compounds found in this plant</h3>
+      <div class="comps" id="comps"></div>
+      <p class="note" id="basenote"></p>
+    </div>
+  </section>
+
+  <section class="odds" id="odds">
+    <h2 class="odds-lead">Shuffle his prescriptions between plants 10,000 times. <em>His real ones still match more often.</em></h2>
+    <div class="tests" id="tests"></div>
+    <p class="fine" id="fine"></p>
+  </section>
+
+  <section class="index" id="index">
+    <div class="index-head">
+      <div>
+        <h2>Every plant in Books 3 and 4</h2>
+        <p>The green line under each name shows how many of its uses modern papers back up.</p>
+      </div>
+      <div class="filters">
+        <input type="search" id="q" placeholder="Find a plant, species or ailment" aria-label="Find a plant, species or ailment">
+        <div class="seg" role="group" aria-label="Book">
+          <button data-b="0" aria-pressed="true">Both</button>
+          <button data-b="3" aria-pressed="false">Book 3</button>
+          <button data-b="4" aria-pressed="false">Book 4</button>
+        </div>
+      </div>
+    </div>
+    <div class="grid" id="grid"></div>
+    <p class="count" id="count"></p>
+  </section>
+
+  <footer>
+    <div>
+      <h3>How it works</h3>
+      The Greek text is split into chapters. A language model reads each description and proposes species with probabilities, and lists every use. Names are matched to NCBI taxa; compounds come from LOTUS and COCONUT; each use is checked against PubMed co-mentions and five other medical traditions.
+    </div>
+    <div>
+      <h3>What it does not claim</h3>
+      A paper that mentions a plant and a disease together is a signal, not proof that the plant works. Some identifications are disputed, and some plants were studied because of their reputation. Nothing here is medical advice. Hemlock, aconite and mandrake are lethal.
+    </div>
+    <div>
+      <h3>Sources</h3>
+      Greek text: Wellmann edition via First1KGreek, CC BY-SA 4.0. Grounding and evidence: enveda/ethnobotany, MIT. Extraction by Claude (Anthropic), disclosed and cached in the repository. <a href="https://github.com/AryanMashalkar/MateriaLink">Code and data</a>.
+    </div>
+  </footer>
+</div>
+
+<script>
+const TIER = {A:'#5fb3a1', B:'#3f8577', C:'#d8b25c', D:'rgba(241,230,207,.30)', 'n/a':'transparent'};
+const TIER_TXT = {A:'five or more papers', B:'two to four papers', C:'one paper', D:'no papers yet', 'n/a':'outside the disease ontology'};
+const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const NS = 'http://www.w3.org/2000/svg';
+let D, plants, cur = 0, book = 0;
+
+const translit = g => {
+  const m = {'α':'a','β':'b','γ':'g','δ':'d','ε':'e','ζ':'z','η':'ē','θ':'th','ι':'i','κ':'k','λ':'l','μ':'m','ν':'n','ξ':'x','ο':'o','π':'p','ρ':'r','σ':'s','ς':'s','τ':'t','υ':'u','φ':'ph','χ':'ch','ψ':'ps','ω':'ō'};
+  return g.normalize('NFD').replace(/[̀-ͯ̓̔͂ͅ]/g,'').toLowerCase().split('').map(c => m[c] ?? c).join('');
+};
+const score = c => { const u = c.uses.filter(x => x.tier !== 'n/a'); return u.length ? u.filter(x => 'ABC'.includes(x.tier)).length / u.length : 0; };
+
+function el(tag, attrs, parent){ const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); parent && parent.appendChild(e); return e; }
+function curve(x1,y1,x2,y2){ const m = (x1+x2)/2; return `M${x1},${y1} C${m},${y1} ${m},${y2} ${x2},${y2}`; }
+
+function drawLoom(c){
+  const svg = $('loom'); svg.innerHTML = '';
+  const uses = c.uses.slice(0, 14), cands = c.cands.slice(0, 4);
+  const H = Math.max(330, uses.length * 48 + 130, Math.min(c.cands.length, 4) * 128 + 110), W = 820, ax = 18, ay = H/2 + 16, cx = 290, ux = 560;
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  const anims = [];
+  const cy = cands.map((_, i) => ay + (i - (cands.length - 1) / 2) * 128);
+  const uy = uses.map((_, i) => ay + (i - (uses.length - 1) / 2) * 48);
+  [['The Greek name', ax, 'start'], ['Most likely species', cx, 'middle'], ['What he used it for', ux - 9, 'start']]
+    .forEach(([t, x, a]) => { el('text', {x, y: 18, class:'cap', 'text-anchor': a}, svg).textContent = t; });
+  // anchor
+  el('circle', {cx:ax, cy:ay, r:7, fill:'none', stroke:'#d8b25c', 'stroke-width':2}, svg);
+  // threads to candidates
+  cands.forEach((k, i) => {
+    const p = el('path', {d:curve(ax+7, ay, cx-10, cy[i]), class:'e draw', stroke:'#d8b25c', 'stroke-width':1 + k.p*16, 'stroke-opacity':.25 + k.p*.65}, svg);
+    anims.push([p, i * 120]);
+  });
+  // threads from top candidate to uses
+  if (cands.length) uses.forEach((u, i) => {
+    const t = u.tier;
+    const p = el('path', {d:curve(cx+12, cy[0], ux-9, uy[i]), class:'e draw', stroke: t === 'n/a' ? 'rgba(241,230,207,.25)' : (t === 'D' ? 'rgba(241,230,207,.22)' : TIER[t]),
+      'stroke-width': t === 'A' ? 3 : t === 'B' ? 2.2 : 1.4, 'stroke-dasharray-base': t === 'n/a' ? '3 5' : ''}, svg);
+    anims.push([p, 500 + i * 55]);
+  });
+  // compound dust around top candidate
+  if (cands.length && c.ncomp){
+    const n = Math.min(c.ncomp, 60); let s = 7;
+    const rnd = () => (s = (s * 9301 + 49297) % 233280) / 233280;
+    const g = el('g', {class:'fade', opacity: RM ? 1 : 0}, svg);
+    el('title', {}, g).textContent = `${c.ncomp} compounds recorded in this plant`;
+    for (let i = 0; i < n; i++){ const a = rnd() * Math.PI * 2, r = 15 + rnd() * 18;
+      el('circle', {cx: cx + Math.cos(a)*r, cy: cy[0] + Math.sin(a)*r*.8, r: .9 + rnd()*1.7, fill:'#d8b25c', 'fill-opacity': .35 + rnd()*.5}, g); }
+    anims.push([g, 900, true]);
+  }
+  // candidate nodes + labels
+  cands.forEach((k, i) => {
+    el('circle', {cx, cy:cy[i], r: i ? 5 : 9, fill: i ? '#45203f' : '#d8b25c', stroke:'#d8b25c', 'stroke-width':1.5}, svg);
+    const t = el('text', {x: cx, y: cy[i] - (i ? 16 : 42), 'text-anchor':'middle', class:'lbl', opacity: i ? .72 : 1}, svg);
+    t.textContent = k.t;
+    const pc = el('text', {x: cx, y: cy[i] + (i ? 24 : 52), 'text-anchor':'middle', class:'pct'}, svg);
+    pc.textContent = Math.round(k.p * 100) + '%';
+  });
+  if (cands.length && c.ncomp){ el('text', {x: cx, y: cy[0] + 70, 'text-anchor':'middle', class:'cap'}, svg).textContent = `${c.ncomp} known compounds`; }
+  // use nodes
+  uses.forEach((u, i) => {
+    const col = TIER[u.tier];
+    const g = el('g', {}, svg);
+    el('title', {}, g).textContent = `${u.en}: ${TIER_TXT[u.tier]}`;
+    el('circle', {cx: ux, cy: uy[i], r: 9, fill: col, stroke: u.tier === 'n/a' ? 'rgba(241,230,207,.4)' : 'none', 'stroke-dasharray': u.tier === 'n/a' ? '2 2' : ''}, g);
+    if ('ABC'.includes(u.tier)) el('text', {x: ux, y: uy[i] + 3.8, 'text-anchor':'middle', class:'tier'}, g).textContent = u.tier;
+    const en = u.en.length > 28 ? u.en.slice(0, 27) + '…' : u.en;
+    el('text', {x: ux + 18, y: uy[i] + 1, class:'use'}, g).textContent = en;
+    el('text', {x: ux + 18, y: uy[i] + 19, class:'usegr'}, g).textContent = (u.gr || '').length > 28 ? u.gr.slice(0, 27) + '…' : u.gr;
+  });
+  if (!cands.length){ el('text', {x: 60, y: ay + 5, class:'lbl'}, svg).textContent = 'Not a plant: an animal, mineral or prepared product.'; }
+  // orchestrated draw
+  if (!RM) {
+    anims.forEach(([p, delay, fade]) => {
+      if (fade) { setTimeout(() => p.setAttribute('opacity', 1), delay); return; }
+      const L = p.getTotalLength(); p.style.strokeDasharray = L; p.style.strokeDashoffset = L;
+      setTimeout(() => { p.style.strokeDashoffset = 0; }, 30 + delay);
+      setTimeout(() => { if (p.getAttribute('stroke-dasharray-base')) p.style.strokeDasharray = p.getAttribute('stroke-dasharray-base'); }, delay + 1200);
+    });
+  } else anims.forEach(([p]) => { const b = p.getAttribute && p.getAttribute('stroke-dasharray-base'); if (b) p.style.strokeDasharray = b; });
+}
+
+function show(i, push = true){
+  cur = (i + plants.length) % plants.length;
+  const c = plants[cur], top = c.cands[0];
+  $('where').textContent = `Book ${c.id.split('.')[0]}, chapter ${c.id.split('.')[1]}`;
+  $('hw').textContent = c.hw;
+  const colw = $('hw').parentElement.clientWidth || 400;
+  $('hw').style.fontSize = Math.min(132, colw / (c.hw.length * 0.56)) + 'px';
+  $('translit').innerHTML = top ? `${esc(translit(c.hw))}<span class="arrow">to</span>${esc(top.t)}` : esc(translit(c.hw));
+  const ok = c.uses.filter(u => 'ABC'.includes(u.tier)).length;
+  $('verdict').innerHTML = top ? `<b>${Math.round(top.p*100)}% likely</b> from the description. Modern papers back <b>${ok} of ${c.uses.length}</b> uses he gives.` : '';
+  $('disp').innerHTML = c.cands.length > 1 && c.cands[1].p >= .5 * c.cands[0].p ? `<span class="disputed">Scholars could read this as ${esc(c.cands[1].t)} too</span>` : '';
+  $('excerpt').textContent = c.text.slice(0, 320);
+  drawLoom(c);
+  $('syn').textContent = c.syn.length ? 'Also called ' + c.syn.join(', ') : '';
+  $('gtext').textContent = c.text;
+  $('urn').textContent = c.urn;
+  $('uses').innerHTML = c.uses.map(u => `<li><span class="dot" style="background:${TIER[u.tier]};${u.tier==='n/a'?'border:1px dashed rgba(241,230,207,.5)':''}"></span>
+    <div><div class="en">${esc(u.en)}</div><div class="gr" lang="grc">${esc(u.gr)}</div><div class="cat">${esc(u.cat)}</div></div>
+    <div class="ev">${u.n ? `${u.n} paper${u.n>1?'s':''}<br>${u.pm.slice(0,2).map(p => `<a href="https://pubmed.ncbi.nlm.nih.gov/${p}/" target="_blank" rel="noopener">${p}</a>`).join(' ')}` : 'no papers yet'}
+    ${u.cc.length ? `<br><span class="cc">also in ${u.cc.map(esc).join(', ')}</span>` : ''}</div></li>`).join('') || '<li>No uses extracted.</li>';
+  $('key').innerHTML = Object.keys(TIER).map(k => `<span><span class="dot" style="background:${TIER[k]};${k==='n/a'?'border:1px dashed rgba(241,230,207,.5)':''}"></span> ${TIER_TXT[k]}</span>`).join('');
+  $('comph').style.display = c.comps.length ? '' : 'none';
+  $('comps').innerHTML = c.comps.map(n => `<span>${esc(n)}</span>`).join('');
+  $('basenote').textContent = c.base.length ? `Matching the spelling alone would have guessed ${c.base.map(b => b.t).join(' or ')}.` : '';
+  document.querySelectorAll('.cell').forEach(x => x.classList.toggle('on', x.dataset.id === c.id));
+  if (push) history.replaceState(null, '', '#' + c.id);
+}
+
+function hist(v, color){
+  const W = 520, H = 170, pad = 22, h = v.null_hist, n = h.counts.length, max = Math.max(...h.counts);
+  const lo = Math.min(h.lo, v.observed) - .004, hi = Math.max(h.hi, v.observed) + .006;
+  const X = x => pad + (x - lo) / (hi - lo) * (W - 2*pad), bw = (h.hi - h.lo) / n;
+  let s = `<svg class="hist" viewBox="0 0 ${W} ${H+28}" role="img" aria-label="Distribution of 10,000 shuffled results with Dioscorides' real result marked">`;
+  h.counts.forEach((k, i) => { const x0 = X(h.lo + i*bw), x1 = X(h.lo + (i+1)*bw), bh = k / max * (H - 30);
+    s += `<rect x="${x0}" y="${H - bh}" width="${Math.max(1, x1 - x0 - 1.2)}" height="${bh}" fill="rgba(241,230,207,.26)"/>`; });
+  const ox = X(v.observed);
+  s += `<line x1="${ox}" x2="${ox}" y1="8" y2="${H}" stroke="#e0573e" stroke-width="2.5"/>`;
+  s += `<text x="${ox + 8}" y="20" style="fill:#f3a493;font-weight:600">Dioscorides ${(v.observed*100).toFixed(1)}%</text>`;
+  s += `<line x1="${pad}" x2="${W-pad}" y1="${H}" y2="${H}" stroke="rgba(241,230,207,.25)"/>`;
+  for (let t = Math.ceil(lo*100); t <= Math.floor(hi*100); t += 2) s += `<text x="${X(t/100)}" y="${H + 20}" text-anchor="middle">${t}%</text>`;
+  return s + '</svg>';
+}
+
+function renderOdds(){
+  const ch = D.chance, m = ch.meta;
+  const T = [['cross_cultural', 'match the same use in five other medical traditions (Indian, Korean, Chinese, Vietnamese, West African)'],
+             ['literature', 'match a disease that PubMed papers mention alongside the plant']];
+  $('tests').innerHTML = T.map(([k, txt]) => { const v = ch[k], sig = v.p_value < .05;
+    return `<div class="test"><div class="num">${(v.observed*100).toFixed(1)}%<small>vs ${(v.null_mean*100).toFixed(1)}% by chance</small></div>
+      <p>of his prescriptions ${txt}.</p>
+      <span class="badge ${sig ? 'sig' : 'border'}">${sig ? 'Unlikely to be chance' : 'Just short of significant'}, p = ${v.p_value.toFixed(3)}</span>
+      ${hist(v)}</div>`; }).join('');
+  const e = D.eval.methods;
+  $('fine').innerHTML = `Tested on ${m.n_plants} confidently identified plants and ${m.n_pairs} plant and use pairs. Each shuffle keeps every plant's number of uses and how common each kind of disease is, so only the pairing changes. The effect is modest, and stronger against other traditions than against the literature, where plants studied <i>because</i> of their reputation can inflate the match. On the ${D.eval.n} published identifications checked so far, reading the description gets ${Math.round(e.llm.species_top1*D.eval.n)} right and spelling alone gets ${Math.round(e.baseline.genus_top1*D.eval.n)}; a larger hand-checked set is in progress.`;
+}
+
+function renderGrid(){
+  const q = $('q').value.trim().toLowerCase();
+  const list = plants.filter(c => (!book || c.id.startsWith(book + '.')) && (!q || c.hw.toLowerCase().includes(q) || translit(c.hw).includes(q)
+      || c.cands.some(k => k.t.toLowerCase().includes(q)) || c.uses.some(u => (u.en||'').toLowerCase().includes(q))));
+  $('grid').innerHTML = list.map(c => `<button class="cell${plants[cur] && plants[cur].id === c.id ? ' on' : ''}" data-id="${c.id}">
+      <span class="g" lang="grc">${esc(c.hw)}</span><span class="l">${esc(c.cands[0] ? c.cands[0].t : '')}</span>
+      <span class="bar"><i style="width:${Math.round(score(c)*100)}%"></i></span></button>`).join('');
+  $('count').textContent = list.length ? `${list.length} plants` : 'No plant matches. Try a Greek name, a Latin genus or an ailment such as cough.';
+}
+
+fetch('data.json').then(r => r.json()).then(d => {
+  D = d; plants = d.chapters.filter(c => c.plant && c.cands.length);
+  const h = decodeURIComponent(location.hash.slice(1));
+  const start = plants.findIndex(c => c.id === (h || '4.78'));
+  renderOdds(); renderGrid(); show(start < 0 ? 0 : start, false);
+  $('prev').onclick = () => show(cur - 1); $('next').onclick = () => show(cur + 1);
+  $('rand').onclick = () => { const good = plants.map((c, i) => [c, i]).filter(([c]) => c.uses.some(u => 'AB'.includes(u.tier)));
+    show(good[Math.floor(Math.random() * good.length)][1]); };
+  $('q').oninput = renderGrid;
+  document.querySelectorAll('.seg button').forEach(b => b.onclick = () => { book = +b.dataset.b;
+    document.querySelectorAll('.seg button').forEach(x => x.setAttribute('aria-pressed', x === b)); renderGrid(); });
+  $('grid').onclick = e => { const b = e.target.closest('.cell'); if (!b) return;
+    show(plants.findIndex(c => c.id === b.dataset.id)); window.scrollTo({top: 0, behavior: RM ? 'auto' : 'smooth'}); };
+});
+</script>
+</body>
+</html>

@@ -34,11 +34,15 @@ The effect is real but modest. We report it as it is: a small, consistent signal
 
 **Identification accuracy.** `src/evaluate.py` scores the spelling-only baseline against the model on a hand-curated gold set (top-1 and top-3, genus and species, bootstrap 95% CIs, Cohen's kappa between annotators, calibration error). The gold set currently holds 6 published identifications (Touwaide, *Pharmantica*, Solanaceae) and 54 chapters awaiting two independent annotators, so current numbers are illustrative only. On those 6 rows: baseline 1/6 at genus level, model 5/6 at species level.
 
+**Explore it: https://aryanmashalkar.github.io/MateriaLink/** (interactive site)  
+**Analysis app: https://materialink-dioscorides.streamlit.app**
+
 ## Run it
 
 ```bash
 pip install -r requirements.txt
-streamlit run app.py
+streamlit run app.py              # analysis app
+python src/export_site.py         # refresh docs/data.json for the static site in docs/
 ```
 
 All processed data is in the repo, so the app runs without any API key.
