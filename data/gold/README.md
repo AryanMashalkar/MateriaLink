@@ -1,6 +1,6 @@
 # Gold set
 
-Current state (7 Nov 2026): 59 of 60 chapters filled. annotator1 = Gunther, *The Greek Herbal of Dioscorides* (1934); annotator2 = Osbaldeston, *Dioscorides: De materia medica* (2000), both cited by chapter in `source_citation`. Identifications were transcribed from the books (AI-assisted, team spot-checked), never chosen by the model being evaluated. The original instructions for human annotators follow, for anyone extending the set.
+Current state (7 Nov 2026): 59 of 60 chapters filled. annotator1 = Gunther, *The Greek Herbal of Dioscorides* (1934); annotator2 = Osbaldeston, *Dioscorides: De materia medica* (2000), both cited by chapter in `source_citation`. Identifications were transcribed from the books (AI-assisted; team spot check on 7 Nov 2026: 10 random rows x 2 books, 20/20 matched, see `spotcheck.md`), never chosen by the model being evaluated. The original instructions for human annotators follow, for anyone extending the set.
 
 ## How to fill it
 
