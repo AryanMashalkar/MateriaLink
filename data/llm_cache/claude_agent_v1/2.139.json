@@ -1,0 +1,33 @@
+{
+ "id": "2.139",
+ "headword": "καυκαλίς",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Tordylium apulum",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Torilis",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Daucus carota",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "οὐρητικόν",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

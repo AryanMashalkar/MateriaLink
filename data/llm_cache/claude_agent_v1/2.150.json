@@ -1,0 +1,38 @@
+{
+ "id": "2.150",
+ "headword": "ἀμπελόπρασον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Allium ampeloprasum",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Allium",
+   "prob": 0.08,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "bulb"
+ ],
+ "uses": [
+  {
+   "greek": "οὐρητικώτερον",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "καταμηνίων ἀγωγόν",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "θηριοδήκτοις",
+   "en": "venomous bites",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

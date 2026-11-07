@@ -1,0 +1,48 @@
+{
+ "id": "1.76",
+ "headword": "βράθυ",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Juniperus sabina",
+   "prob": 0.8,
+   "why": ""
+  },
+  {
+   "taxon": "Juniperus",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "νομάς",
+   "en": "spreading sores",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "φλεγμονὰς",
+   "en": "inflammation",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "ἄνθρακας",
+   "en": "carbuncles",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "αἷμα δι᾿ οὔρων ἄγει",
+   "en": "brings blood in the urine",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἔμβρυα ἐκτινάσσει",
+   "en": "expels the fetus",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

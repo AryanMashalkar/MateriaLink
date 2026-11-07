@@ -1,0 +1,80 @@
+{
+ "id": "2.112",
+ "headword": "ῥαφανίς",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Raphanus sativus",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Armoracia rusticana",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "bark",
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "οὐρητικὴ",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "βήσσουσι χρονίως",
+   "en": "chronic cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ὑδρωπικοῖς",
+   "en": "dropsy",
+   "category": "cardiovascular disease"
+  },
+  {
+   "greek": "σπληνικοῖς",
+   "en": "spleen complaints",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "νομὰς",
+   "en": "spreading sores",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἐχεοδήκτοις",
+   "en": "viper bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ἀλωπεκίας",
+   "en": "hair loss",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "μυκήτων πνιγομένοις",
+   "en": "mushroom poisoning",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ἔμμηνά ἄγει",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "συναγχικοῖς",
+   "en": "quinsy",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "γαγγραίνας",
+   "en": "gangrene",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

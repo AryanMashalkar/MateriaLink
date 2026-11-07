@@ -1,0 +1,50 @@
+{
+ "id": "4.161",
+ "headword": "κίκι",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Ricinus communis",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "oil",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "κοιλίαν καθαίρει",
+   "en": "purgative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἔμετον κινεῖ",
+   "en": "emetic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἐφήλεις",
+   "en": "freckles",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "οἰδήματα ὀφθαλμῶν",
+   "en": "eye swellings",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "μαστοὺς σπαργῶντας",
+   "en": "engorged breasts",
+   "category": "breast disease"
+  },
+  {
+   "greek": "ἐρυσιπέλατα",
+   "en": "erysipelas",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

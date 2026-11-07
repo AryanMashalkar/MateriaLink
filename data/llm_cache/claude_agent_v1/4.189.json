@@ -1,0 +1,23 @@
+{
+ "id": "4.189",
+ "headword": "λινόζωστις",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Mercurialis annua",
+   "prob": 0.9,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "κοιλίαν καθαίρει",
+   "en": "purgative",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

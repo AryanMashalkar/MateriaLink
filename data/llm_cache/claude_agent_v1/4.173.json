@@ -1,0 +1,40 @@
+{
+ "id": "4.173",
+ "headword": "ἀκτῆ",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Sambucus nigra",
+   "prob": 0.5,
+   "why": ""
+  },
+  {
+   "taxon": "Sambucus ebulus",
+   "prob": 0.4,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "root",
+  "fruit"
+ ],
+ "uses": [
+  {
+   "greek": "ὑδρωπικοῖς",
+   "en": "dropsy (draws water)",
+   "category": "cardiovascular disease"
+  },
+  {
+   "greek": "φλέγμα καὶ χολὴν καθαίρει",
+   "en": "purges phlegm and bile",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἐχιοδήκτοις",
+   "en": "viper bites",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

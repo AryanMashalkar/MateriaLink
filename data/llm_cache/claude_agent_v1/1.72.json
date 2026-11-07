@@ -1,0 +1,57 @@
+{
+ "id": "1.72",
+ "headword": "πίσσα",
+ "is_plant": false,
+ "candidates": [],
+ "parts": [
+  "resin product (pitch)"
+ ],
+ "uses": [
+  {
+   "greek": "θανάσιμα φάρμακα",
+   "en": "deadly poisons",
+   "category": "poisoning"
+  },
+  {
+   "greek": "φθισικούς",
+   "en": "consumption",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "βῆχας, ἄσθματα",
+   "en": "cough and asthma",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "παρισθμίων καὶ συνάγχας",
+   "en": "tonsillitis and quinsy",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "πυορροοῦντα ὦτα",
+   "en": "running ears",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ἑρπετῶν δήγματα",
+   "en": "snake bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "λεπροὺς ὄνυχας",
+   "en": "diseased nails",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "χοιράδας",
+   "en": "scrofula",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "ῥαγάδας",
+   "en": "fissures",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

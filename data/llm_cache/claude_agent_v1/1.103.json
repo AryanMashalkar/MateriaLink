@@ -1,0 +1,65 @@
+{
+ "id": "1.103",
+ "headword": "ἄγνος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Vitex agnus-castus",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "herb",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "θηριοδήκτοις",
+   "en": "venomous bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "σπληνικοῖς",
+   "en": "spleen complaints",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "ὑδρωπικοῖς",
+   "en": "dropsy",
+   "category": "cardiovascular disease"
+  },
+  {
+   "greek": "γάλα κατασπᾷ",
+   "en": "promotes milk",
+   "category": "breast disease"
+  },
+  {
+   "greek": "ἔμμηνα ἄγει",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἐκλύει γονήν",
+   "en": "reduces semen (anaphrodisiac)",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "περὶ ὑστέραν φλεγμοναῖς",
+   "en": "inflamed womb",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "κεφαλαλγίας",
+   "en": "headache",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ληθαργικῶν καὶ φρενιτικῶν",
+   "en": "lethargy and delirium",
+   "category": "psychiatric disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

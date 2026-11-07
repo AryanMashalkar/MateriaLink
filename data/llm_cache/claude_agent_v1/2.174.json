@@ -1,0 +1,44 @@
+{
+ "id": "2.174",
+ "headword": "λεπίδιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Lepidium latifolium",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Lepidium",
+   "prob": 0.12,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ἰσχιαδικῶν",
+   "en": "sciatica",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "σπληνικῶν",
+   "en": "spleen complaints",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "λέπρας",
+   "en": "scaly skin",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ὀδόντων ἀλγήματα",
+   "en": "toothache",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

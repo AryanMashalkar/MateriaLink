@@ -1,0 +1,28 @@
+{
+ "id": "1.120",
+ "headword": "οὖα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Sorbus domestica",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Sorbus",
+   "prob": 0.08,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit"
+ ],
+ "uses": [
+  {
+   "greek": "σταλτικὰ κοιλίας",
+   "en": "binds the bowels",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

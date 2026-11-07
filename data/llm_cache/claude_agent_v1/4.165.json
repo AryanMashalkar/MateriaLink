@@ -1,0 +1,29 @@
+{
+ "id": "4.165",
+ "headword": "πιτύουσα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Euphorbia pithyusa",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Euphorbia",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "juice",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "κάτω καθαίρει",
+   "en": "purgative",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

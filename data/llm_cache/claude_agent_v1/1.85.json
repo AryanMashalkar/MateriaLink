@@ -1,0 +1,50 @@
+{
+ "id": "1.85",
+ "headword": "κάλαμος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Phragmites australis",
+   "prob": 0.5,
+   "why": ""
+  },
+  {
+   "taxon": "Arundo donax",
+   "prob": 0.4,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "leaf",
+  "bark"
+ ],
+ "uses": [
+  {
+   "greek": "ἐπισπᾶται σκόλοπας",
+   "en": "draws out splinters",
+   "category": "injury"
+  },
+  {
+   "greek": "στρέμματα",
+   "en": "sprains",
+   "category": "injury"
+  },
+  {
+   "greek": "ὀσφύος ἀλγήματα",
+   "en": "low back pain",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ἐρυσιπέλατά",
+   "en": "erysipelas",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἀλωπεκίας",
+   "en": "hair loss",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

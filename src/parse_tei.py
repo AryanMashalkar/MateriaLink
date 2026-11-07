@@ -23,6 +23,9 @@ GREEK_WORD = re.compile(r"[Ͱ-Ͽἀ-῿]+")
 def clean_text(el) -> str:
     """Text of a section with footnotes and editorial deletions removed."""
     el = etree.fromstring(etree.tostring(el))  # copy
+    # the TEI nests some chapters inside the previous one (unclosed divs); never pull their text in
+    for sub in el.xpath("./t:div[@subtype='chapter']", namespaces=NS):
+        el.remove(sub)
     for bad in el.xpath(".//t:note|.//t:del", namespaces=NS):
         tail = bad.tail
         parent = bad.getparent()
@@ -43,7 +46,9 @@ def clean_text(el) -> str:
 def synonyms_from_notes(chapter_el) -> list[str]:
     """Collect the ancient synonym lists ('οἱ δὲ X, Ῥωμαῖοι Y') kept in the RV footnotes."""
     syn = []
-    for note in chapter_el.xpath(".//t:note", namespaces=NS):
+    own = [n for n in chapter_el.xpath(".//t:note", namespaces=NS)
+           if next((a for a in n.iterancestors() if a.get("subtype") == "chapter"), None) is chapter_el]
+    for note in own:
         txt = re.sub(r"\s+", " ", " ".join(note.itertext()))
         if "οἱ δὲ" in txt or "Ῥωμαῖοι" in txt or "Αἰγύπτιοι" in txt:
             for m in re.finditer(r"(?:οἱ δὲ|Ῥωμαῖοι|Αἰγύπτιοι|Γάλλοι|Δάκοι|Ἀφροι|προφῆται)\s+([^,·.;]+)", txt):
@@ -80,10 +85,13 @@ def main():
     records = []
     for book in tree.xpath("//t:div[@subtype='book']", namespaces=NS):
         b = book.get("n")
-        for ch in book.xpath("./t:div[@subtype='chapter']", namespaces=NS):
+        seen = set()
+        # './/' not './': in Books 1, 2 and 4 the TEI nests later chapters inside earlier ones
+        for ch in book.xpath(".//t:div[@subtype='chapter']", namespaces=NS):
             c = ch.get("n")
-            if c == "preface":
+            if c == "preface" or c in seen:
                 continue
+            seen.add(c)
             secs = ch.xpath("./t:div[@subtype='section']", namespaces=NS) or [ch]
             sections = []
             for s in secs:

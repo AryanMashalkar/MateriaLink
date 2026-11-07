@@ -1,0 +1,44 @@
+{
+ "id": "1.95",
+ "headword": "κύπρος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Lawsonia inermis",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "flower"
+ ],
+ "uses": [
+  {
+   "greek": "ἄφθας",
+   "en": "mouth ulcers",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἄνθρακας",
+   "en": "carbuncles",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "πυρώδεις φλεγμονὰς",
+   "en": "fiery inflammations",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "πυρικαύτων",
+   "en": "burns",
+   "category": "injury"
+  },
+  {
+   "greek": "κεφαλαλγίας",
+   "en": "headache",
+   "category": "nervous system disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

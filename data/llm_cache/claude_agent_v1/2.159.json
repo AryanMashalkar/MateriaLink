@@ -1,0 +1,88 @@
+{
+ "id": "2.159",
+ "headword": "πέπερι",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Piper nigrum",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Piper longum",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit"
+ ],
+ "uses": [
+  {
+   "greek": "πεπτικήν",
+   "en": "aids digestion",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "οὐρητικήν",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ταῖς κόραις ἐπισκοτούντων",
+   "en": "dim sight",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "ῥίγεσι περιοδικοῖς",
+   "en": "intermittent fevers",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "θηριοδήκτοις",
+   "en": "venomous bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ἄγει ἔμβρυα",
+   "en": "expels the fetus",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἀτόκιον",
+   "en": "contraceptive",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "βηξί",
+   "en": "cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "συνάγχαις",
+   "en": "quinsy",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "στρόφους",
+   "en": "colic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὄρεξιν κινεῖ",
+   "en": "stimulates appetite",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "χοιράδας",
+   "en": "scrofula",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "ἀλφοὺς",
+   "en": "white skin patches",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

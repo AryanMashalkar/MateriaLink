@@ -1,0 +1,49 @@
+{
+ "id": "2.110",
+ "headword": "γογγύλη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Brassica rapa",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Brassica",
+   "prob": 0.08,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "ἀφροδισίων παρορμητική",
+   "en": "aphrodisiac",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ποδάγρας",
+   "en": "gout",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "χιμέτλης",
+   "en": "chilblains",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "οὐρητικός",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "θανασίμοις",
+   "en": "poisons",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

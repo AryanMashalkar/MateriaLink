@@ -1,0 +1,28 @@
+{
+ "id": "1.124",
+ "headword": "πιστάκια",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Pistacia vera",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "nut"
+ ],
+ "uses": [
+  {
+   "greek": "εὐστόμαχα",
+   "en": "good for the stomach",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἑρπετοδήκτοις",
+   "en": "snake bites",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

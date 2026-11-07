@@ -1,0 +1,33 @@
+{
+ "id": "4.141",
+ "headword": "ἐχῖνος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Echinops",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Echium",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "ῥεύματα ὀφθαλμῶν",
+   "en": "eye discharge",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "ὠταλγίας",
+   "en": "earache",
+   "category": "otorhinolaryngologic disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

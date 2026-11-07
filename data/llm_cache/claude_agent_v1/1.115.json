@@ -1,0 +1,50 @@
+{
+ "id": "1.115",
+ "headword": "μηλέα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Cydonia oblonga",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Malus domestica",
+   "prob": 0.35,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit",
+  "leaf",
+  "flower"
+ ],
+ "uses": [
+  {
+   "greek": "στέγνωσιν κοιλίας",
+   "en": "binds the bowels",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "στομάχου ἀνατροπὴν",
+   "en": "upset stomach",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "μαστοὺς φλεγμαίνοντας",
+   "en": "inflamed breasts",
+   "category": "breast disease"
+  },
+  {
+   "greek": "σπλῆνας ἐσκιρρωμένους",
+   "en": "hardened spleen",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "κονδυλώματα",
+   "en": "condylomas",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,34 @@
+{
+ "id": "1.80",
+ "headword": "μελία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Fraxinus ornus",
+   "prob": 0.55,
+   "why": ""
+  },
+  {
+   "taxon": "Fraxinus excelsior",
+   "prob": 0.35,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "bark"
+ ],
+ "uses": [
+  {
+   "greek": "ἐχεοδήκτοις",
+   "en": "viper bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "λέπρας",
+   "en": "scaly skin",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

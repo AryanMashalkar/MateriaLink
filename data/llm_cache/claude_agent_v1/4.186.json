@@ -1,0 +1,28 @@
+{
+ "id": "4.186",
+ "headword": "πολυπόδιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Polypodium vulgare",
+   "prob": 0.9,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "κάτω καθαίρει φλέγμα καὶ χολήν",
+   "en": "purges phlegm and bile",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἄρθρων ἐξαρθρήματα",
+   "en": "dislocations, chapped fingers",
+   "category": "musculoskeletal system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

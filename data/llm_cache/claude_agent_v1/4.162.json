@@ -1,0 +1,58 @@
+{
+ "id": "4.162",
+ "headword": "ἐλλέβορος μέλας",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Helleborus cyclophyllus",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Helleborus niger",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Helleborus",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ἀλφοὺς",
+   "en": "white skin patches",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "λειχῆνας",
+   "en": "lichen",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "λέπρας",
+   "en": "scaly skin",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ὀδονταλγίας",
+   "en": "toothache",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ὑδρωπικοῖς",
+   "en": "dropsy",
+   "category": "cardiovascular disease"
+  },
+  {
+   "greek": "μανίας",
+   "en": "madness",
+   "category": "psychiatric disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

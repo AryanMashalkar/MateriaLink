@@ -1,0 +1,55 @@
+{
+ "id": "2.175",
+ "headword": "βατράχιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Ranunculus sardous",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Ranunculus",
+   "prob": 0.5,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "stem",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ὄνυχας λεπροὺς καὶ ψώρας",
+   "en": "diseased nails and itch",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "μυρμηκίας καὶ ἀκροχορδόνας",
+   "en": "warts",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἀλωπεκίας",
+   "en": "hair loss",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "χιμετλιώντων",
+   "en": "chilblains",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "πταρμὸν κινεῖ",
+   "en": "induces sneezing",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ὀδονταλγίας",
+   "en": "toothache",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,29 @@
+{
+ "id": "4.172",
+ "headword": "θυμελαία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Daphne gnidium",
+   "prob": 0.9,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "κάτω καθαίρει",
+   "en": "purgative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἔμβρυα κτείνει",
+   "en": "kills the fetus",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

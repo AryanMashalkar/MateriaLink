@@ -1,0 +1,23 @@
+{
+ "id": "2.143",
+ "headword": "τραγοπώγων",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Tragopogon porrifolius",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Tragopogon",
+   "prob": 0.12,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb",
+  "root"
+ ],
+ "uses": [],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

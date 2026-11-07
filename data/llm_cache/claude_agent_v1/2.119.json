@@ -1,0 +1,39 @@
+{
+ "id": "2.119",
+ "headword": "ἀνδράφαξυς",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Atriplex hortensis",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Atriplex",
+   "prob": 0.12,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "κοιλίας μαλακτικόν",
+   "en": "laxative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "φύγεθλα",
+   "en": "boils",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἴκτερον",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

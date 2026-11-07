@@ -1,0 +1,39 @@
+{
+ "id": "4.169",
+ "headword": "χαμαισύκη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Euphorbia chamaesyce",
+   "prob": 0.8,
+   "why": ""
+  },
+  {
+   "taxon": "Euphorbia",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "branch",
+  "juice"
+ ],
+ "uses": [
+  {
+   "greek": "περὶ μήτραν ὀδύνας",
+   "en": "uterine pains",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἀκροχορδόνας",
+   "en": "warts",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἀμβλυωπίας",
+   "en": "dim sight",
+   "category": "vision disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

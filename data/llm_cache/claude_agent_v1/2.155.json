@@ -1,0 +1,79 @@
+{
+ "id": "2.155",
+ "headword": "κάρδαμον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Lepidium sativum",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Lepidium",
+   "prob": 0.08,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "ἕλμινθας",
+   "en": "intestinal worms",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "σπλῆνα μειοῦν",
+   "en": "reduces the spleen",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "ἔμβρυα φθεῖρον",
+   "en": "abortifacient",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἔμμηνα κινοῦν",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "συνουσίαν παρορμῶν",
+   "en": "aphrodisiac",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "λέπρας, λειχῆνας",
+   "en": "scaly skin and lichen",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἐκ θώρακος ἀνάγει",
+   "en": "expectorant",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἑρπετοδήκτων",
+   "en": "snake bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "τρίχας ῥεούσας",
+   "en": "hair loss",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἰσχιαδικοὺς",
+   "en": "sciatica",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "οἰδήματα καὶ φλεγμονὰς",
+   "en": "swellings and inflammation",
+   "category": "inflammatory disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

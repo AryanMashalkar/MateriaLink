@@ -1,0 +1,24 @@
+{
+ "id": "4.167",
+ "headword": "πέπλος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Euphorbia peplus",
+   "prob": 0.9,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "juice",
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "κάτω καθαίρει",
+   "en": "purgative",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,69 @@
+{
+ "id": "2.171",
+ "headword": "σκίλλα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Drimia maritima",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "bulb",
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "μάλαξιν κοιλίας",
+   "en": "laxative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "οὔρησιν κινῆσαι",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ὑδρωπικῶν",
+   "en": "dropsy",
+   "category": "cardiovascular disease"
+  },
+  {
+   "greek": "ἰκτέρου",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "στροφουμένων",
+   "en": "colic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "βηττόντων χρονίως",
+   "en": "chronic cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἀσθματικῶν",
+   "en": "asthma",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "πέψει",
+   "en": "aids digestion",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἀκροχορδόνας",
+   "en": "warts",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "χιμέτλας",
+   "en": "chilblains",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,65 @@
+{
+ "id": "1.110",
+ "headword": "ῥόα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Punica granatum",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit",
+  "rind",
+  "flower"
+ ],
+ "uses": [
+  {
+   "greek": "εὐστόμαχος",
+   "en": "good for the stomach",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "κοιλίαν καὶ στομάχου ῥεῦμα",
+   "en": "diarrhoea and stomach flux",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "αἱμοπτυικοὺς",
+   "en": "spitting blood",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "δυσεντερικῶν",
+   "en": "dysentery",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἐν στόματι καὶ αἰδοίῳ καὶ ἕδρᾳ ἕλκη",
+   "en": "mouth, genital and anal ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ὠταλγίας",
+   "en": "earache",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "οὔλων πλαδώντων",
+   "en": "spongy gums",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὀδόντων σειομένων",
+   "en": "loose teeth",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἐντεροκηλικοῖς",
+   "en": "hernia",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

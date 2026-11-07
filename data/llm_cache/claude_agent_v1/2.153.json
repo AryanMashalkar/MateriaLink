@@ -1,0 +1,28 @@
+{
+ "id": "2.153",
+ "headword": "σκορδόπρασον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Allium scorodoprasum",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Allium ampeloprasum",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "bulb"
+ ],
+ "uses": [
+  {
+   "greek": "ὅσα καὶ τὸ πράσον καὶ τὸ σκόρδον",
+   "en": "like leek and garlic",
+   "category": "other"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

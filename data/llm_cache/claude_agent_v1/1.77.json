@@ -1,0 +1,74 @@
+{
+ "id": "1.77",
+ "headword": "κέδρος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Cedrus libani",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Juniperus oxycedrus",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Juniperus excelsa",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "resin (cedria)",
+  "fruit"
+ ],
+ "uses": [
+  {
+   "greek": "ὀξυδερκὴς",
+   "en": "sharpens sight",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "λευκώματα καὶ οὐλὰς",
+   "en": "eye opacities and scars",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "σκώληκας τοὺς ἐν ὠσὶ",
+   "en": "worms in the ears",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ἤχους",
+   "en": "ringing in the ears",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ὀδόντος ἀλγηδόνα",
+   "en": "toothache",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἀτόκιόν",
+   "en": "contraceptive",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "συναγχικῶν",
+   "en": "quinsy",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "φθεῖράς",
+   "en": "lice",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "κεράστου δήγμασι",
+   "en": "horned viper bite",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

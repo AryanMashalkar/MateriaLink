@@ -1,0 +1,78 @@
+{
+ "id": "1.100",
+ "headword": "λύκιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Rhamnus lycioides",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Lycium europaeum",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Berberis aristata",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "extract (lykion)"
+ ],
+ "uses": [
+  {
+   "greek": "ἐπισκοτοῦντα ταῖς κόραις",
+   "en": "dim sight",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "ψωριάσεις τῶν βλεφάρων",
+   "en": "itchy eyelids",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "ὦτα πυορροοῦντα",
+   "en": "running ears",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "παρίσθμια",
+   "en": "tonsillitis",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "οὖλά εἱλκωμένα",
+   "en": "ulcerated gums",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ῥαγάδας ἐν δακτυλίῳ",
+   "en": "anal fissures",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "κοιλιακοῖς καὶ δυσεντερικοῖς",
+   "en": "diarrhoea and dysentery",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "αἱμοπτυικοῖς καὶ βήττουσι",
+   "en": "spitting blood and cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "λυσσῶντος κυνὸς",
+   "en": "rabid dog bite",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "ῥοῦν γυναικεῖον",
+   "en": "women's discharges",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

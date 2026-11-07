@@ -1,0 +1,33 @@
+{
+ "id": "1.114",
+ "headword": "κεράτια",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Ceratonia siliqua",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "pod"
+ ],
+ "uses": [
+  {
+   "greek": "κοιλίας λυτικά",
+   "en": "laxative (fresh)",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἵστησι κοιλίαν",
+   "en": "stops diarrhoea (dried)",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "διουρεῖται",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

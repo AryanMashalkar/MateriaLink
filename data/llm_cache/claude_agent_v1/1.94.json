@@ -1,0 +1,28 @@
+{
+ "id": "1.94",
+ "headword": "κυνόσβατος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Rosa canina",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Rosa",
+   "prob": 0.12,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit"
+ ],
+ "uses": [
+  {
+   "greek": "ἵστησι κοιλίαν",
+   "en": "stops diarrhoea",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

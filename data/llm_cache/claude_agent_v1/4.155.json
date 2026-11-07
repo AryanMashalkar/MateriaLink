@@ -1,0 +1,23 @@
+{
+ "id": "4.155",
+ "headword": "σίλλυβον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Silybum marianum",
+   "prob": 0.8,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ἔμετον κινεῖ",
+   "en": "emetic",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

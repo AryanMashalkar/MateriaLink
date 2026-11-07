@@ -1,0 +1,53 @@
+{
+ "id": "2.134",
+ "headword": "κολόκυνθα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Lagenaria siceraria",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Lagenaria",
+   "prob": 0.08,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit"
+ ],
+ "uses": [
+  {
+   "greek": "οἰδήματα καὶ ἀποστήματα",
+   "en": "swellings and abscesses",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "παιδίοις σειριῶσιν",
+   "en": "sunstroke in children",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ὀφθαλμοῦ φλεγμονάς",
+   "en": "eye inflammation",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "ποδαγρικὰς",
+   "en": "gout",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ὠταλγίας",
+   "en": "earache",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "κοιλίαν λύει",
+   "en": "laxative",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

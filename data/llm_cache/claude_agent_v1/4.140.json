@@ -1,0 +1,23 @@
+{
+ "id": "4.140",
+ "headword": "ὄσιρις",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Osyris alba",
+   "prob": 0.85,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "branch"
+ ],
+ "uses": [
+  {
+   "greek": "ἰκτερικοῖς",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

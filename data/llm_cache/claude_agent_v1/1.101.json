@@ -1,0 +1,23 @@
+{
+ "id": "1.101",
+ "headword": "ἀκακία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Vachellia nilotica",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Acacia",
+   "prob": 0.12,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "pod juice",
+  "gum"
+ ],
+ "uses": [],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,83 @@
+{
+ "id": "2.154",
+ "headword": "σίναπι",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Sinapis alba",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Brassica nigra",
+   "prob": 0.45,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "ἀποφλεγματίζειν",
+   "en": "clears phlegm",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἀντιάδας",
+   "en": "swollen tonsils",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "τραχύτητας τῆς ἀρτηρίας",
+   "en": "rough windpipe",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "πταρμοὺς κινεῖ",
+   "en": "induces sneezing",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἐπιλημπτικοὺς",
+   "en": "epilepsy",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ὑστερικῶς πνιγομένας",
+   "en": "hysterical suffocation",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ληθαργικῶν",
+   "en": "lethargy",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ἰσχιάδας",
+   "en": "sciatica",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "σπλῆνας",
+   "en": "spleen complaints",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "χρόνιον ἄλγημα",
+   "en": "chronic pain",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ἀλωπεκίας",
+   "en": "hair loss",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "λέπρας καὶ λειχῆνας",
+   "en": "scaly skin and lichen",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

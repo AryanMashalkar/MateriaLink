@@ -1,0 +1,28 @@
+{
+ "id": "4.156",
+ "headword": "βολβὸς ἐμετικός",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Narcissus",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Muscari comosum",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "bulb"
+ ],
+ "uses": [
+  {
+   "greek": "ἔμετον κινεῖ",
+   "en": "emetic",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

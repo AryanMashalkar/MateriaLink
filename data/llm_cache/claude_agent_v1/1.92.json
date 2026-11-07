@@ -1,0 +1,60 @@
+{
+ "id": "1.92",
+ "headword": "παλίουρος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Paliurus spina-christi",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Paliurus",
+   "prob": 0.08,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "leaf",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "βηξὶν",
+   "en": "cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἐν κύστει λίθους",
+   "en": "bladder stones",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἑρπετῶν δήγματα",
+   "en": "snake bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "κοιλίαν ἵστησιν",
+   "en": "stops diarrhoea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "οὖρά ἄγει",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "θανασίμοις",
+   "en": "deadly poisons",
+   "category": "poisoning"
+  },
+  {
+   "greek": "φύματα καὶ οἰδήματα",
+   "en": "growths and swellings",
+   "category": "inflammatory disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

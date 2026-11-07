@@ -1,0 +1,28 @@
+{
+ "id": "4.149",
+ "headword": "σησαμοειδὲς τὸ μέγα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Reseda alba",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Reseda",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "φλέγμα καὶ χολὴν καθαίρει",
+   "en": "purges phlegm and bile",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

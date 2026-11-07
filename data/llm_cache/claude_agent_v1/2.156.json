@@ -1,0 +1,53 @@
+{
+ "id": "2.156",
+ "headword": "θλάσπι",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Thlaspi arvense",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Capsella bursa-pastoris",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Thlaspi",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "χολὴν καθαῖρον",
+   "en": "purges bile",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἰσχιαδικούς",
+   "en": "sciatica",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ἐντὸς ἀποστάσεις",
+   "en": "internal abscesses",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "καταμήνια",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἔμβρυα φθείρει",
+   "en": "abortifacient",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

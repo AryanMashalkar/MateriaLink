@@ -1,0 +1,43 @@
+{
+ "id": "4.152",
+ "headword": "σταφὶς ἀγρία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Delphinium staphisagria",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "φθεῖρας",
+   "en": "lice",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "κνησμοὺς",
+   "en": "itch",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ὀδονταλγίας",
+   "en": "toothache",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "οὖλα",
+   "en": "gum disease",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ἄφθας",
+   "en": "mouth ulcers",
+   "category": "otorhinolaryngologic disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

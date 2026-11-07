@@ -1,0 +1,45 @@
+{
+ "id": "1.121",
+ "headword": "κοκκυμηλέα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Prunus domestica",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Prunus",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit",
+  "leaf",
+  "gum"
+ ],
+ "uses": [
+  {
+   "greek": "κοιλίας μαλακτικός",
+   "en": "laxative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "κιονίδα καὶ οὖλα καὶ παρίσθμια",
+   "en": "uvula, gums and tonsils",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "λίθων θρυπτικὸν",
+   "en": "breaks stones",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "λειχῆνας ἐπὶ παιδίων",
+   "en": "lichen in children",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

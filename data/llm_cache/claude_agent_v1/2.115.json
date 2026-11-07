@@ -1,0 +1,28 @@
+{
+ "id": "2.115",
+ "headword": "ἱππολάπαθον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Rumex hydrolapathum",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Rumex",
+   "prob": 0.35,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "τὴν αὐτὴν τοῖς προειρημένοις",
+   "en": "same as dock",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

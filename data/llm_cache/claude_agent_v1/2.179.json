@@ -1,0 +1,50 @@
+{
+ "id": "2.179",
+ "headword": "κισσός",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Hedera helix",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "flower",
+  "leaf",
+  "berry"
+ ],
+ "uses": [
+  {
+   "greek": "δυσεντερίας",
+   "en": "dysentery",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "πυρίκαυτα",
+   "en": "burns",
+   "category": "injury"
+  },
+  {
+   "greek": "σπλῆνα",
+   "en": "spleen complaints",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "χρόνια τῆς κεφαλῆς ἀλγήματα",
+   "en": "chronic headache",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ὠταλγίας καὶ πυορροοῦντα ὦτα",
+   "en": "earache and running ears",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ἀγονίαν ποιοῦσι",
+   "en": "causes infertility",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

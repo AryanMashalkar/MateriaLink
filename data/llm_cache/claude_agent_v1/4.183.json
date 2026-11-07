@@ -1,0 +1,44 @@
+{
+ "id": "4.183",
+ "headword": "ἄμπελος μέλαινα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Tamus communis",
+   "prob": 0.7,
+   "why": ""
+  },
+  {
+   "taxon": "Bryonia",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "shoot"
+ ],
+ "uses": [
+  {
+   "greek": "οὖρα κινεῖ",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "καταμήνια ἄγει",
+   "en": "promotes menstruation",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "σπληνικοῖς",
+   "en": "spleen complaints",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "ἐπιληπτικοῖς",
+   "en": "epilepsy",
+   "category": "psychiatric disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

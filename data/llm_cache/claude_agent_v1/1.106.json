@@ -1,0 +1,45 @@
+{
+ "id": "1.106",
+ "headword": "δρῦς",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Quercus robur",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Quercus ilex",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Quercus",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "bark",
+  "acorn",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "κακοήθεις σκληρίας",
+   "en": "malignant hard swellings",
+   "category": "cancer"
+  },
+  {
+   "greek": "πονηρευόμενα ἕλκη",
+   "en": "bad ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "οἰδήμασι",
+   "en": "swellings",
+   "category": "inflammatory disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

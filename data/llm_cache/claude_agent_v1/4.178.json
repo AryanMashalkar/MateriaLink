@@ -1,0 +1,23 @@
+{
+ "id": "4.178",
+ "headword": "ἄλυπον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Globularia alypum",
+   "prob": 0.85,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "μέλαιναν χολὴν καθαίρει",
+   "en": "purges black bile",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

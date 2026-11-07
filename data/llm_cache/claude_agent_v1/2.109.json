@@ -1,0 +1,74 @@
+{
+ "id": "2.109",
+ "headword": "θέρμος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Lupinus albus",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Lupinus",
+   "prob": 0.08,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed meal",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ἕλμινθας φθείρει",
+   "en": "kills intestinal worms",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "σπληνικούς",
+   "en": "spleen complaints",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "γαγγραίνης",
+   "en": "gangrene",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ψώρας, ἀλφῶν",
+   "en": "itch and white patches",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "καταμηνίων καὶ ἐμβρύων",
+   "en": "brings on menses and the fetus",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "πελιώματα",
+   "en": "bruises",
+   "category": "injury"
+  },
+  {
+   "greek": "ἰσχιάδας",
+   "en": "sciatica",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "χοιράδας",
+   "en": "scrofula",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "οὔρησιν κινεῖ",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "στομάχου ἄσην",
+   "en": "nausea",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

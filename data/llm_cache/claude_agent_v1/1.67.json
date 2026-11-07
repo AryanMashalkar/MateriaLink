@@ -1,0 +1,83 @@
+{
+ "id": "1.67",
+ "headword": "βδέλλιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Commiphora wightii",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Commiphora africana",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Commiphora",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "gum resin"
+ ],
+ "uses": [
+  {
+   "greek": "σκληριῶν",
+   "en": "hard swellings",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "βρογχοκηλῶν",
+   "en": "goitre",
+   "category": "endocrine system disease"
+  },
+  {
+   "greek": "ὑδροκηλῶν",
+   "en": "hydrocele",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἀναστομοῖ τὴν μήτραν",
+   "en": "opens the womb",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἐφέλκεται τὰ ἔμβρυα",
+   "en": "draws out the fetus",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "λίθους θρύπτει",
+   "en": "breaks stones",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "οὖρα ἄγει",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "βηχικοῖς",
+   "en": "cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "θηριοδήκτοις",
+   "en": "venomous bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ῥήγματα καὶ σπάσματα",
+   "en": "ruptures and spasms",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "πλευρᾶς πόνον",
+   "en": "pain in the side",
+   "category": "respiratory system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

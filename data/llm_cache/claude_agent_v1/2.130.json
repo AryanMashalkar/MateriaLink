@@ -1,0 +1,29 @@
+{
+ "id": "2.130",
+ "headword": "κορωνόπους",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Plantago coronopus",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Lepidium coronopus",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "κοιλιακοὺς",
+   "en": "diarrhoea",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

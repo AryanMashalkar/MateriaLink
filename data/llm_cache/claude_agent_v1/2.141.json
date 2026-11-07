@@ -1,0 +1,65 @@
+{
+ "id": "2.141",
+ "headword": "ὤκιμον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Ocimum basilicum",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb",
+  "seed",
+  "juice"
+ ],
+ "uses": [
+  {
+   "greek": "κοιλίας μαλακτικόν",
+   "en": "laxative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "οὐρητικόν",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "γάλακτος προκλητικόν",
+   "en": "promotes milk",
+   "category": "breast disease"
+  },
+  {
+   "greek": "φλεγμοναῖς",
+   "en": "inflammation",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "σκορπίου πληγῇ",
+   "en": "scorpion sting",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ὀφθαλμῶν ὀδύνας",
+   "en": "eye pain",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "χολὴν μέλαιναν",
+   "en": "melancholy (black bile)",
+   "category": "psychiatric disorder"
+  },
+  {
+   "greek": "δυσουροῦσί",
+   "en": "painful urination",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "πταρμοὺς",
+   "en": "sneezing",
+   "category": "respiratory system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

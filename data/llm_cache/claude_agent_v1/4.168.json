@@ -1,0 +1,23 @@
+{
+ "id": "4.168",
+ "headword": "πεπλίς",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Euphorbia peplis",
+   "prob": 0.85,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "κάτω καθαίρει",
+   "en": "purgative",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

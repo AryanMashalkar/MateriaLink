@@ -1,0 +1,47 @@
+{
+ "id": "1.73",
+ "headword": "ἄσφαλτος",
+ "is_plant": false,
+ "candidates": [],
+ "parts": [
+  "mineral (bitumen)"
+ ],
+ "uses": [
+  {
+   "greek": "πνίγας ὑστερικὰς",
+   "en": "hysterical suffocation",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἐπιλημπτικοὺς",
+   "en": "epilepsy",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ἔμμηνα κινεῖ",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "βηξὶ χρονίαις καὶ ἀσθματικοῖς",
+   "en": "chronic cough and asthma",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἑρπετῶν δήγμασι",
+   "en": "snake bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "δυσεντερικῶν",
+   "en": "dysentery",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὀδόντων ἀλγήματα",
+   "en": "toothache",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,30 @@
+{
+ "id": "1.86",
+ "headword": "πάπυρος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Cyperus papyrus",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "stem",
+  "root",
+  "ash"
+ ],
+ "uses": [
+  {
+   "greek": "ἀναστόμωσιν συρίγγων",
+   "en": "opens fistulas",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "νομάς τάς ἐν στόματι",
+   "en": "spreading mouth sores",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

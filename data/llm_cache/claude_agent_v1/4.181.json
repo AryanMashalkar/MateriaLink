@@ -1,0 +1,34 @@
+{
+ "id": "4.181",
+ "headword": "ἄμπελος ἀγρία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Tamus communis",
+   "prob": 0.5,
+   "why": ""
+  },
+  {
+   "taxon": "Vitis vinifera subsp. sylvestris",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "fruit"
+ ],
+ "uses": [
+  {
+   "greek": "ὑδρωπικοῖς",
+   "en": "dropsy",
+   "category": "cardiovascular disease"
+  },
+  {
+   "greek": "ἐφήλεις",
+   "en": "freckles",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

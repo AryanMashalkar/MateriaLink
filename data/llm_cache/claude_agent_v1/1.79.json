@@ -1,0 +1,45 @@
+{
+ "id": "1.79",
+ "headword": "πλάτανος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Platanus orientalis",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "bark",
+  "fruit"
+ ],
+ "uses": [
+  {
+   "greek": "ῥεύματα ὀφθαλμῶν",
+   "en": "eye discharge",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "οἰδήματα καὶ φλεγμονάς",
+   "en": "swellings and inflammation",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "ὀδονταλγίας",
+   "en": "toothache",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἑρπετοδήκτοις",
+   "en": "snake bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "πυρίκαυτα",
+   "en": "burns",
+   "category": "injury"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

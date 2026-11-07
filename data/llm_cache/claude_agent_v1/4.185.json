@@ -1,0 +1,33 @@
+{
+ "id": "4.185",
+ "headword": "θηλυπτερίς",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Pteridium aquilinum",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Athyrium filix-femina",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ἕλμινθα πλατεῖαν",
+   "en": "tapeworm",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "ἕλμινθας στρογγύλας",
+   "en": "roundworms",
+   "category": "infectious disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

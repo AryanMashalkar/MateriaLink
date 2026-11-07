@@ -1,0 +1,33 @@
+{
+ "id": "2.183",
+ "headword": "μυὸς ὦτα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Myosotis arvensis",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Anagallis",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Parietaria",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "αἰγιλώπια",
+   "en": "lacrimal fistula",
+   "category": "vision disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

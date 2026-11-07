@@ -1,0 +1,33 @@
+{
+ "id": "2.107",
+ "headword": "φακός",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Lens culinaris",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "κοιλίας σταλτικὸς",
+   "en": "binds the bowels",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ῥεύματα τῆς κοιλίας",
+   "en": "diarrhoea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἀνατροπὴν στομάχου",
+   "en": "upset stomach",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,68 @@
+{
+ "id": "2.158",
+ "headword": "ἐρύσιμον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Sisymbrium officinale",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Sisymbrium irio",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "θώρακος ῥευματισμόν",
+   "en": "chest catarrh",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἐμπύους",
+   "en": "empyema",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "βῆχας",
+   "en": "cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἴκτερον",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἰσχιάδα",
+   "en": "sciatica",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "θανάσιμα φάρμακα",
+   "en": "poisons",
+   "category": "poisoning"
+  },
+  {
+   "greek": "καρκινώματα κρυπτά",
+   "en": "hidden cancers",
+   "category": "cancer"
+  },
+  {
+   "greek": "παρωτίδας",
+   "en": "parotid swellings",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "διδύμων καὶ μαστῶν φλεγμονάς",
+   "en": "inflamed testicles and breasts",
+   "category": "breast disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

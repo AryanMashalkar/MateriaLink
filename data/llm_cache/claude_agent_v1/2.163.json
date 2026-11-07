@@ -1,0 +1,78 @@
+{
+ "id": "2.163",
+ "headword": "στρούθιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Saponaria officinalis",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Gypsophila struthium",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "οὐρητική",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἡπατικοῖς",
+   "en": "liver complaints",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "βηξίν, ὀρθοπνοίαις",
+   "en": "cough and breathlessness",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἰκτέρῳ",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "κοιλίαν ὑπάγει",
+   "en": "laxative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "λίθους θρύπτει",
+   "en": "breaks stones",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "σπλῆνα ἐσκιρρωμένον",
+   "en": "hardened spleen",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "ἔμμηνα ἄγει",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἔμβρυα φθείρει",
+   "en": "abortifacient",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "λέπρας",
+   "en": "scaly skin",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "φύματα",
+   "en": "growths",
+   "category": "inflammatory disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,71 @@
+{
+ "id": "2.120",
+ "headword": "κράμβη ἥμερος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Brassica oleracea",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "flower",
+  "seed",
+  "stem"
+ ],
+ "uses": [
+  {
+   "greek": "φλεγμονὴν καὶ οἰδήματα",
+   "en": "inflammation and swellings",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "ἐρυσιπέλατα καὶ λέπρας",
+   "en": "erysipelas and scaly skin",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἄνθρακας",
+   "en": "carbuncles",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ῥύσιν τριχῶν",
+   "en": "hair loss",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "σπληνικούς",
+   "en": "spleen complaints",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "φωνῆς ἀποκοπὴν",
+   "en": "loss of voice",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ἔμμηνα κινεῖ",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἀτόκιον",
+   "en": "contraceptive",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἕλμινθας",
+   "en": "intestinal worms",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "πλευρᾶς χρόνια ἀλγήματα",
+   "en": "chronic pain in the side",
+   "category": "musculoskeletal system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,60 @@
+{
+ "id": "1.126",
+ "headword": "μορέα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Morus nigra",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Morus",
+   "prob": 0.08,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit",
+  "root bark",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "λυτικὸς κοιλίας",
+   "en": "laxative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "νομὰς καὶ παρίσθμια",
+   "en": "spreading sores and tonsillitis",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "κοιλιακοὺς",
+   "en": "diarrhoea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "πλατεῖαν ἕλμινθα",
+   "en": "tapeworm",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "ἀκόνιτον πεπωκόσι",
+   "en": "aconite poisoning",
+   "category": "poisoning"
+  },
+  {
+   "greek": "πυρίκαυτα",
+   "en": "burns",
+   "category": "injury"
+  },
+  {
+   "greek": "φαλαγγιοδήκτοις",
+   "en": "spider bites",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

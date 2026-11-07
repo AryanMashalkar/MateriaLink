@@ -1,0 +1,44 @@
+{
+ "id": "1.93",
+ "headword": "ὀξυάκανθα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Crataegus azarolus",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Crataegus monogyna",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Pyracantha coccinea",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "διάρροιαν",
+   "en": "diarrhoea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ῥοῦν γυναικεῖον",
+   "en": "women's discharges",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "σκόλοπας καὶ ἀκίδας",
+   "en": "draws out splinters",
+   "category": "injury"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

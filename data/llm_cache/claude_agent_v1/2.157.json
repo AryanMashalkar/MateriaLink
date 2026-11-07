@@ -1,0 +1,23 @@
+{
+ "id": "2.157",
+ "headword": "δράβη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Lepidium draba",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Lepidium",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb",
+  "seed"
+ ],
+ "uses": [],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -116,6 +116,27 @@ def main():
             "null_hist": hist_of(null),
         }
     meta = {"n_plants": len(plants), "n_pairs": len(pool), "min_prob": a.min_prob, "n_perm": a.n, "seed": a.seed}
+
+    # Sensitivity check: the BERN2 table has no rows at all for many plants (even olive, grape, garlic).
+    # Those plants score 0 in real and shuffled pairings alike. Rerun the literature test on covered plants only.
+    keep = [i for i, x in enumerate(L) if x]
+    Ls, sz = [L[i] for i in keep], [sizes[i] for i in keep]
+    pool_s = [c for i in keep for c in plants[i][2]]
+    obs = stat([observed_assign[i] for i in keep], Ls)
+    null = []
+    for _ in range(a.n):
+        rng.shuffle(pool_s)
+        assign, j = [], 0
+        for k in sz:
+            assign.append(set(pool_s[j:j + k]))
+            j += k
+        null.append(stat(assign, Ls))
+    mn = sum(null) / len(null)
+    results["literature_covered_only"] = {
+        "observed": round(obs, 4), "null_mean": round(mn, 4), "enrichment": round(obs / mn, 3) if mn else None,
+        "p_value": (1 + sum(1 for x in null if x >= obs)) / (1 + len(null)), "n_plants": len(keep), "n_pairs": len(pool_s),
+        "null": null,
+    }
     out = ROOT / "results"
     out.mkdir(exist_ok=True)
     json.dump({"meta": meta, **{k: {kk: vv for kk, vv in v.items() if kk != "null"} for k, v in results.items()}},

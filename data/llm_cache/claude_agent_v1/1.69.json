@@ -1,0 +1,61 @@
+{
+ "id": "1.69",
+ "headword": "πίτυς",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Pinus halepensis",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Pinus pinea",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Pinus nigra",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "bark",
+  "leaf",
+  "seed",
+  "soot"
+ ],
+ "uses": [
+  {
+   "greek": "παρατρίμματα",
+   "en": "chafing",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ὀδονταλγίας",
+   "en": "toothache",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "κανθοὺς βεβρωμένους",
+   "en": "eroded eye corners",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "ὀφθαλμοὺς δακρύοντας",
+   "en": "watering eyes",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "βηξὶ",
+   "en": "cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "περὶ θώρακα πάθεσι",
+   "en": "chest complaints",
+   "category": "respiratory system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

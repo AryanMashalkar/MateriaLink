@@ -1,0 +1,28 @@
+{
+ "id": "2.122",
+ "headword": "κράμβη θαλασσία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Calystegia soldanella",
+   "prob": 0.8,
+   "why": ""
+  },
+  {
+   "taxon": "Convolvulus",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "λυτικωτάτη κοιλίας",
+   "en": "strong purgative",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

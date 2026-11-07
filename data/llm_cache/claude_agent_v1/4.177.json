@@ -1,0 +1,33 @@
+{
+ "id": "4.177",
+ "headword": "ἐπίθυμον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Cuscuta epithymum",
+   "prob": 0.9,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "φλέγμα καὶ χολὴν μέλαιναν καθαίρει",
+   "en": "purges phlegm and black bile",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "μελαγχολικῶν",
+   "en": "melancholy",
+   "category": "psychiatric disorder"
+  },
+  {
+   "greek": "ἐμπνευματουμένων",
+   "en": "flatulence",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

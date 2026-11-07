@@ -1,0 +1,43 @@
+{
+ "id": "2.184",
+ "headword": "ἰσάτις",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Isatis tinctoria",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "οἴδημα",
+   "en": "swellings",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "ἔναιμα τραύματα",
+   "en": "fresh wounds",
+   "category": "injury"
+  },
+  {
+   "greek": "αἱμορραγίας",
+   "en": "bleeding",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "φαγεδαινικὰ ἕλκη",
+   "en": "eating ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἕρπητας καὶ ἐρυσιπέλατα",
+   "en": "herpes and erysipelas",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

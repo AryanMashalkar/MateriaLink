@@ -1,0 +1,84 @@
+{
+ "id": "1.123",
+ "headword": "ἀμυγδάλη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Prunus dulcis",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "kernel"
+ ],
+ "uses": [
+  {
+   "greek": "ἐφήλεις",
+   "en": "freckles",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἄγει καταμήνια",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "κεφαλαλγίαις",
+   "en": "headache",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "σηπεδόνας καὶ ἕρπητας",
+   "en": "putrid and spreading sores",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "κυνόδηκτα",
+   "en": "dog bites",
+   "category": "injury"
+  },
+  {
+   "greek": "ὑπνωτικά",
+   "en": "brings sleep",
+   "category": "psychiatric disorder"
+  },
+  {
+   "greek": "οὐρητικὰ",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "αἵματος ἀναγωγὴν",
+   "en": "spitting blood",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "νεφριτικοὺς",
+   "en": "kidney disease",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "περιπνευμονικοὺς",
+   "en": "pneumonia",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "λιθιῶσι",
+   "en": "stones",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἡπατικοῖς",
+   "en": "liver complaints",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "βηξὶ",
+   "en": "cough",
+   "category": "respiratory system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

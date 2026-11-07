@@ -1,0 +1,29 @@
+{
+ "id": "1.129",
+ "headword": "περσέα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Mimusops laurifolia",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Mimusops",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "αἱμορραγίας",
+   "en": "bleeding",
+   "category": "hematologic disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

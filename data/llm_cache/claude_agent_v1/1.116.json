@@ -1,0 +1,35 @@
+{
+ "id": "1.116",
+ "headword": "ἄπιος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Pyrus communis",
+   "prob": 0.7,
+   "why": ""
+  },
+  {
+   "taxon": "Pyrus amygdaliformis",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit",
+  "leaf",
+  "wood ash"
+ ],
+ "uses": [
+  {
+   "greek": "κοιλίαν ἱστᾶσι",
+   "en": "stops diarrhoea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὑπὸ μυκήτων πνιγομένοις",
+   "en": "mushroom poisoning",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

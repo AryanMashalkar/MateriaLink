@@ -1,0 +1,38 @@
+{
+ "id": "4.147",
+ "headword": "χαμαιδάφνη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Danae racemosa",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Ruscus hypophyllum",
+   "prob": 0.4,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "κεφαλαλγίας",
+   "en": "headache",
+   "category": "psychiatric disorder"
+  },
+  {
+   "greek": "καύσους στομάχου",
+   "en": "burning stomach",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "στρόφους",
+   "en": "colic",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

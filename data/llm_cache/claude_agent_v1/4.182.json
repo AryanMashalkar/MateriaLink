@@ -1,0 +1,49 @@
+{
+ "id": "4.182",
+ "headword": "ἄμπελος λευκή",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Bryonia dioica",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Bryonia cretica",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "fruit"
+ ],
+ "uses": [
+  {
+   "greek": "ἐπιληπτικοῖς",
+   "en": "epilepsy",
+   "category": "psychiatric disorder"
+  },
+  {
+   "greek": "ὑδρωπικοῖς",
+   "en": "dropsy",
+   "category": "cardiovascular disease"
+  },
+  {
+   "greek": "ἐχιοδήκτοις",
+   "en": "snakebite",
+   "category": "poisoning"
+  },
+  {
+   "greek": "καταμήνια ἄγει",
+   "en": "promotes menstruation",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἐφήλεις",
+   "en": "freckles",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

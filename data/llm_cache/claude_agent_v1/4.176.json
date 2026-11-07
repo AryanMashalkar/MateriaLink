@@ -1,0 +1,33 @@
+{
+ "id": "4.176",
+ "headword": "κολόκυνθα ἀγρία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Citrullus colocynthis",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit"
+ ],
+ "uses": [
+  {
+   "greek": "κοιλίαν καθαίρει",
+   "en": "purgative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὀδονταλγίας",
+   "en": "toothache",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ἰσχιάδας",
+   "en": "sciatica",
+   "category": "musculoskeletal system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

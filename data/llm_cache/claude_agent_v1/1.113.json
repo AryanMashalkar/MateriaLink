@@ -1,0 +1,54 @@
+{
+ "id": "1.113",
+ "headword": "κεράσια",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Prunus avium",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Prunus cerasus",
+   "prob": 0.12,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit",
+  "gum"
+ ],
+ "uses": [
+  {
+   "greek": "εὐκοίλια",
+   "en": "laxative (fresh)",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἵστησι κοιλίαν",
+   "en": "stops diarrhoea (dried)",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "βῆχα χρονίαν",
+   "en": "chronic cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ὀξυδερκίαν",
+   "en": "sharpens sight",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "ὄρεξιν",
+   "en": "appetite",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "λιθιῶντας",
+   "en": "stones",
+   "category": "urinary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

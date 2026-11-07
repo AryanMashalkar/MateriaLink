@@ -1,0 +1,24 @@
+{
+ "id": "4.142",
+ "headword": "μῖλαξ τραχεῖα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Smilax aspera",
+   "prob": 0.9,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "fruit"
+ ],
+ "uses": [
+  {
+   "greek": "πρὸς τὰ θανάσιμα",
+   "en": "antidote to poisons",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

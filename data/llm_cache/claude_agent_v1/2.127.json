@@ -1,0 +1,48 @@
+{
+ "id": "2.127",
+ "headword": "σίον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Berula erecta",
+   "prob": 0.55,
+   "why": ""
+  },
+  {
+   "taxon": "Sium latifolium",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Apium nodiflorum",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "λίθους θρύπτει",
+   "en": "breaks stones",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "οὖρά κινεῖ",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἔμμηνα ἄγει",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "δυσεντερικοῖς",
+   "en": "dysentery",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,33 @@
+{
+ "id": "2.172",
+ "headword": "παγκράτιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Pancratium maritimum",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Pancratium",
+   "prob": 0.08,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "bulb"
+ ],
+ "uses": [
+  {
+   "greek": "σπληνικοῖς",
+   "en": "spleen complaints",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "ὑδρωπικοῖς",
+   "en": "dropsy",
+   "category": "cardiovascular disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,43 @@
+{
+ "id": "1.102",
+ "headword": "ἀμόργη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Olea europaea",
+   "prob": 0.9,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "olive oil dregs"
+ ],
+ "uses": [
+  {
+   "greek": "ὀδονταλγίας",
+   "en": "toothache",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "τραύματά",
+   "en": "wounds",
+   "category": "injury"
+  },
+  {
+   "greek": "αἰδοίῳ καὶ ἕδρᾳ καὶ μήτρᾳ εἱλκωμέναις",
+   "en": "genital, anal and uterine ulcers",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ποδαγρικούς καὶ ἀρθριτικοὺς",
+   "en": "gout and arthritis",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ὑδρωπικῶν",
+   "en": "dropsy",
+   "category": "cardiovascular disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

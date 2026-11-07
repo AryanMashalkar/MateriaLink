@@ -1,0 +1,29 @@
+{
+ "id": "2.111",
+ "headword": "βουνιάς",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Brassica napus",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Brassica",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "θανάσιμα",
+   "en": "antidote to poisons",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

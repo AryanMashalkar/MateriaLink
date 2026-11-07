@@ -1,0 +1,55 @@
+{
+ "id": "2.176",
+ "headword": "ἀνεμώνη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Anemone coronaria",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Anemone",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "leaf",
+  "stem"
+ ],
+ "uses": [
+  {
+   "greek": "κεφαλῆς κάθαρσιν",
+   "en": "clears the head",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ὀφθαλμῶν φλεγμονὰς",
+   "en": "eye inflammation",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "ῥυπαρὰ τῶν ἑλκῶν",
+   "en": "dirty ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "γάλα κατασπᾷ",
+   "en": "promotes milk",
+   "category": "breast disease"
+  },
+  {
+   "greek": "ἔμμηνα ἄγει",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "λέπρας",
+   "en": "scaly skin",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

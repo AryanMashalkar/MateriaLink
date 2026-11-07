@@ -1,0 +1,23 @@
+{
+ "id": "4.175",
+ "headword": "ἄπιος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Euphorbia apios",
+   "prob": 0.85,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ἄνω καὶ κάτω καθαίρει",
+   "en": "purges up and down",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

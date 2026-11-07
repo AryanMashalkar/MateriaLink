@@ -1,0 +1,59 @@
+{
+ "id": "1.108",
+ "headword": "ῥοῦς",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Rhus coriaria",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "fruit"
+ ],
+ "uses": [
+  {
+   "greek": "δυσεντερίας",
+   "en": "dysentery",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὤτων πυορροούντων",
+   "en": "running ears",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "πτερύγιά καὶ φαγεδαίνας",
+   "en": "pterygium and eating ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "κοιλιακοῖς",
+   "en": "diarrhoea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "θλάσματα, πελιώματα",
+   "en": "bruises",
+   "category": "injury"
+  },
+  {
+   "greek": "γλώττης τραχύτητας",
+   "en": "rough tongue",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "λευκὸν ῥοῦν",
+   "en": "white discharge",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "αἱμορροίδας",
+   "en": "haemorrhoids",
+   "category": "cardiovascular disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

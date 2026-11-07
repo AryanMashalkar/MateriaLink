@@ -1,0 +1,79 @@
+{
+ "id": "2.124",
+ "headword": "ἀνδράχνη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Portulaca oleracea",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb",
+  "juice"
+ ],
+ "uses": [
+  {
+   "greek": "κεφαλῆς ἀλγήμασι",
+   "en": "headache",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ὀφθαλμῶν φλεγμοναῖς",
+   "en": "eye inflammation",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "στομάχου πυρώσει",
+   "en": "heartburn",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἐρυσιπέλατι",
+   "en": "erysipelas",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "κύστεως ἀλγήματι",
+   "en": "bladder pain",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "αἱμωδίαν",
+   "en": "teeth on edge",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "τὰς πρὸς συνουσίαν ὁρμὰς ἐκλύει",
+   "en": "reduces sexual desire",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "πυρετοῖς",
+   "en": "fevers",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "ἕλμεις στρογγύλας",
+   "en": "roundworms",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "αἵματος πτύσιν",
+   "en": "spitting blood",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "δυσεντερίαν",
+   "en": "dysentery",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "αἱμορροίδα",
+   "en": "haemorrhoids",
+   "category": "cardiovascular disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

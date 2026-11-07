@@ -1,0 +1,33 @@
+{
+ "id": "2.121",
+ "headword": "κράμβη ἀγρία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Brassica cretica",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Brassica oleracea",
+   "prob": 0.35,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "τραυμάτων",
+   "en": "closes wounds",
+   "category": "injury"
+  },
+  {
+   "greek": "οἰδημάτων καὶ φλεγμονῶν",
+   "en": "swellings and inflammation",
+   "category": "inflammatory disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

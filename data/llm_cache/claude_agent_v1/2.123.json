@@ -1,0 +1,55 @@
+{
+ "id": "2.123",
+ "headword": "σεῦτλον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Beta vulgaris",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "root",
+  "juice"
+ ],
+ "uses": [
+  {
+   "greek": "σταλτικώτερον κοιλίας",
+   "en": "binds the bowels",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὠταλγίας",
+   "en": "earache",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "πιτύρων καὶ κονίδων",
+   "en": "dandruff and nits",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "χιμέτλης",
+   "en": "chilblains",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἀλφοὺς",
+   "en": "white skin patches",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἀλωπεκίας",
+   "en": "hair loss",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "πυρίκαυτα καὶ ἐρυσιπέλατα",
+   "en": "burns and erysipelas",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

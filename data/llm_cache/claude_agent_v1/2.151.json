@@ -1,0 +1,23 @@
+{
+ "id": "2.151",
+ "headword": "κρόμυον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Allium cepa",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "bulb"
+ ],
+ "uses": [
+  {
+   "greek": "οὐρητικώτερα",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

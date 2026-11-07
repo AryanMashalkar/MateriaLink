@@ -1,0 +1,46 @@
+{
+ "id": "1.128",
+ "headword": "σῦκα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Ficus carica",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit",
+  "sap",
+  "leaf",
+  "branch"
+ ],
+ "uses": [
+  {
+   "greek": "κοιλίας λυτικά",
+   "en": "laxative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "σβεστικὰ θερμασίας",
+   "en": "cool fever",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "χοιράδας",
+   "en": "scrofulous swellings",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "μυρμηκίας",
+   "en": "warts",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἀχῶρας, πίτυρα",
+   "en": "scalp sores and dandruff",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

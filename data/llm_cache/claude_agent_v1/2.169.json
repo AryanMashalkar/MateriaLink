@@ -1,0 +1,70 @@
+{
+ "id": "2.169",
+ "headword": "ἀσφόδελος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Asphodelus ramosus",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Asphodelus aestivus",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "leaf",
+  "flower"
+ ],
+ "uses": [
+  {
+   "greek": "οὔρησιν",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἔμμηνα",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "πλευρᾶς ἀλγήματα",
+   "en": "pain in the side",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "βῆχας",
+   "en": "cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "σπάσματα",
+   "en": "spasms",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ἑρπετοδήκτοις",
+   "en": "snake bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ῥυπαρὰ καὶ νεμόμενα ἕλκη",
+   "en": "dirty spreading ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "μαστῶν καὶ διδύμων φλεγμονὰς",
+   "en": "inflamed breasts and testicles",
+   "category": "breast disease"
+  },
+  {
+   "greek": "δοθιῆνας",
+   "en": "boils",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

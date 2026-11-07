@@ -1,4 +1,4 @@
-﻿"""MateriaLink: a Dioscorides concordance.
+"""MateriaLink: a Dioscorides concordance.
 
 Greek chapter of De materia medica -> candidate plant identifications with confidence ->
 accepted name and NCBI taxon -> known compounds -> modern literature signal per use.
@@ -16,8 +16,20 @@ import streamlit as st
 ROOT = Path(__file__).resolve().parent
 P = ROOT / "data/processed"
 R = ROOT / "results"
-import sys; sys.path.insert(0, str(ROOT / "src"))
-PLAIN = {}
+# plain-English names for the disease categories (same as src/export_site.py)
+PLAIN = {
+    "nervous system disorder": "nerves and pain", "infectious disease": "infections and fevers",
+    "inflammatory disease": "swelling and inflammation", "musculoskeletal system disease": "muscles and joints",
+    "digestive system disease": "digestion", "integumentary system disease": "skin", "immune system disease": "immunity",
+    "cancer": "tumours", "cardiovascular disease": "heart, blood vessels and dropsy", "connective tissue disease": "connective tissue",
+    "metabolic disease": "metabolism", "endocrine system disease": "glands and hormones", "psychiatric disorder": "mind and mood",
+    "hematologic disease": "blood and spleen", "respiratory system disease": "lungs and breathing",
+    "urinary system disease": "kidneys and bladder", "otorhinolaryngologic disease": "ear, nose and throat",
+    "nutritional disorder": "nutrition", "injury": "wounds and injuries", "vision disorder": "eyes",
+    "breast disease": "breasts and milk", "poisoning": "bites, stings and poisons",
+    "reproductive/obstetric": "women's health and childbirth", "other": "other",
+}
+
 
 st.set_page_config(page_title="MateriaLink · Dioscorides", page_icon="🌿", layout="wide",
                    initial_sidebar_state="collapsed")
@@ -127,6 +139,15 @@ def key(cid):
 
 
 ch, en, base, eng = load()
+
+
+def prep_html(tags):
+    if not tags:
+        return ""
+    chips = " ".join(f'<span style="display:inline-block;border:1px solid #b08d57;border-radius:999px;padding:.1rem .6rem;margin:.15rem;font-size:.85rem">{e(t["tag"])} <b>{t["n"]}</b></span>' for t in tags)
+    return (f'<div class="label">How he prepared it</div><div>{chips}</div>'
+            '<div class="note" style="margin:.3rem 0 .9rem">Ways of giving the remedy named in the Greek (number = how often). '
+            'Doses left out on purpose. History, not medical advice.</div>')
 EN = lambda cid: eng.get(cid, {}).get("en", "")
 en = sorted(en, key=lambda r: key(r["id"]))
 plants = [r for r in en if r["is_plant"] and r["candidates"]]
@@ -197,6 +218,7 @@ with tab_ch:
           <div class="label">In plain English</div>
           <div style="line-height:1.6">{e(eng.get(r['id'], {}).get('sum', ''))}</div>
           <div class="note" style="margin:.4rem 0 .9rem">Built from the uses, each translated phrase by phrase. Not a full literary translation.</div>
+          {prep_html(eng.get(r['id'], {}).get('prep', []))}
           <div class="label">The original Greek</div>
           <div class="manuscript">{e(c.get('text', ''))}</div>
           <div class="note" style="margin-top:.8rem">Wellmann edition via First1KGreek · CC BY-SA 4.0</div>
@@ -278,7 +300,7 @@ with tab_chance:
                                  (cols[1], "literature", "Agrees with the modern literature (PubMed)")):
             v = d[name]
             sig = v["p_value"] < 0.05
-            pill = (f'<span class="pill" style="background:#e3eedc;color:{HERB}">significant · p = {v["p_value"]:.3f}</span>' if sig
+            pill = (f'<span class="pill" style="background:#e3eedc;color:{HERB}">significant · p {"< 0.001" if v["p_value"] < 0.001 else "= " + format(v["p_value"], ".3f")}</span>' if sig
                     else f'<span class="pill" style="background:#f4e9cf;color:#8a6414">{"borderline" if v["p_value"] < 0.1 else "not significant alone"} · p = {v["p_value"]:.3f}</span>')
             with col:
                 html(f"""
@@ -291,9 +313,9 @@ with tab_chance:
         st.image(str(R / "chance_test.png"), width="stretch")
         html(f"""<div class="card"><div class="note">How the shuffle works: each plant keeps its number of uses and each disease category keeps
         how often it appears overall, so popular categories such as inflammation get no unfair advantage. Only the
-        pairing of plant and category is randomised.<br><br><b>Reading it honestly:</b> the signal is modest. Across all five
-        books the literature match is significant and the match with other traditions is not. On Books 3 and 4 alone it was
-        the other way round, so neither result should be read as strong on its own. Plants studied <i>because</i> of their
+        pairing of plant and category is randomised.<br><br><b>Reading it honestly:</b> on the complete text both comparisons beat
+        chance, but the effect is modest (about 1.1 times chance). Earlier, smaller runs disagreed: Books 3 and 4 alone favoured
+        the traditions, and a run missing 199 chapters favoured only the literature. We show every stage rather than the best one. Plants studied <i>because</i> of their
         traditional reputation can inflate the literature figure (circularity).</div></div>""")
     else:
         st.info("Run `python src/chance_test.py` first.")

@@ -1,0 +1,40 @@
+{
+ "id": "1.83",
+ "headword": "αἴγειρος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Populus nigra",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Populus",
+   "prob": 0.08,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "resin",
+  "fruit"
+ ],
+ "uses": [
+  {
+   "greek": "ποδαγρικὰς ὀδύνας",
+   "en": "gout pain",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ἐπιλημπτικοὺς",
+   "en": "epilepsy",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "στομάχου καὶ κοιλίας ῥεῦμα",
+   "en": "stomach flux and diarrhoea",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

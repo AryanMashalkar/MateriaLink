@@ -1,0 +1,33 @@
+{
+ "id": "4.163",
+ "headword": "σησαμοειδὲς τὸ μικρόν",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Reseda",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Sesamoides",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "φλέγμα καὶ χολὴν καθαίρει",
+   "en": "purges phlegm and bile",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "οἰδήματα",
+   "en": "swellings",
+   "category": "inflammatory disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

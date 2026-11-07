@@ -1,0 +1,63 @@
+{
+ "id": "1.105",
+ "headword": "ἀγριελαία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Olea europaea subsp. oleaster",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Olea europaea",
+   "prob": 0.35,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "ἐρυσιπελάτων, ἑρπήτων",
+   "en": "erysipelas and spreading sores",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἀνθράκων, νομῶν",
+   "en": "carbuncles and spreading ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "παρωνυχιῶν",
+   "en": "whitlows",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "αἱμορραγίαν",
+   "en": "bleeding",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "ῥοῦν γυναικεῖον",
+   "en": "women's discharges",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "σταφυλώματα καὶ φλυκταίνας",
+   "en": "eye bulges and blisters",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "ὦτα πυορροοῦντα",
+   "en": "running ears",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "κοιλιακῶν",
+   "en": "diarrhoea",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

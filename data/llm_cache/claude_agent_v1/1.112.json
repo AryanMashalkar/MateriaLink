@@ -1,0 +1,45 @@
+{
+ "id": "1.112",
+ "headword": "μυρσίνη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Myrtus communis",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "berry",
+  "excrescence"
+ ],
+ "uses": [
+  {
+   "greek": "κονδυλώμασι",
+   "en": "anal condylomas",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "παρωνυχίαις καὶ πτερυγίοις",
+   "en": "whitlows and pterygium",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "καθύγροις μασχάλαις",
+   "en": "sweaty armpits",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "καρδιακῶν ἱδρῶτας",
+   "en": "sweats of cardiac patients",
+   "category": "cardiovascular disease"
+  },
+  {
+   "greek": "πυρίκαυτα",
+   "en": "burns",
+   "category": "injury"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

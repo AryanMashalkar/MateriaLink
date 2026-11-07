@@ -1,0 +1,91 @@
+{
+ "id": "2.126",
+ "headword": "ἀρνόγλωσσον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Plantago major",
+   "prob": 0.55,
+   "why": ""
+  },
+  {
+   "taxon": "Plantago lanceolata",
+   "prob": 0.35,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "juice",
+  "seed",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "κακοήθη ἕλκη",
+   "en": "malignant ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἐλεφαντιῶντας",
+   "en": "elephantiasis",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "αἱμορραγίας",
+   "en": "bleeding",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "νομάς, ἄνθρακας, ἕρπητας",
+   "en": "spreading sores, carbuncles, herpes",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "κυνόδηκτα",
+   "en": "dog bites",
+   "category": "injury"
+  },
+  {
+   "greek": "πυρίκαυτα",
+   "en": "burns",
+   "category": "injury"
+  },
+  {
+   "greek": "φλεγμονάς",
+   "en": "inflammation",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "χοιράδας",
+   "en": "scrofula",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "δυσεντερικοῖς καὶ κοιλιακοῖς",
+   "en": "dysentery and diarrhoea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "λευκοφλεγματίας",
+   "en": "dropsy",
+   "category": "cardiovascular disease"
+  },
+  {
+   "greek": "ἐπιλημπτικοῖς",
+   "en": "epilepsy",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ἀσθματικοῖς",
+   "en": "asthma",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἐν στόματι νομὰς",
+   "en": "mouth sores",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,49 @@
+{
+ "id": "4.150",
+ "headword": "σίκυς ἄγριος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Ecballium elaterium",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "juice",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "κοιλίαν καθαίρει",
+   "en": "purgative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "καταμήνια ἄγει",
+   "en": "promotes menstruation",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἔμβρυα κτείνει",
+   "en": "kills the fetus",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἰκτερικοῖς",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "κεφαλαλγίας χρονίας",
+   "en": "chronic headache",
+   "category": "psychiatric disorder"
+  },
+  {
+   "greek": "συνάγχας",
+   "en": "quinsy",
+   "category": "otorhinolaryngologic disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

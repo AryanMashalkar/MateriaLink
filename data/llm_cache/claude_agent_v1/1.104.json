@@ -1,0 +1,66 @@
+{
+ "id": "1.104",
+ "headword": "ἰτέα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Salix alba",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Salix",
+   "prob": 0.35,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "fruit",
+  "bark",
+  "sap"
+ ],
+ "uses": [
+  {
+   "greek": "εἰλεώδεσι",
+   "en": "intestinal obstruction",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἀσυλλημψίαν",
+   "en": "contraceptive",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "αἱμοπτυικοὺς",
+   "en": "spitting blood",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἥλους καὶ τύλους",
+   "en": "corns and calluses",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ὠταλγίαις",
+   "en": "earache",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ποδάγρας",
+   "en": "gout",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "πίτυρα",
+   "en": "dandruff",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἐπισκοτούντων ταῖς κόραις",
+   "en": "dim sight",
+   "category": "vision disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

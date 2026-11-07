@@ -1,0 +1,78 @@
+{
+ "id": "1.68",
+ "headword": "λίβανος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Boswellia sacra",
+   "prob": 0.8,
+   "why": ""
+  },
+  {
+   "taxon": "Boswellia",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "resin"
+ ],
+ "uses": [
+  {
+   "greek": "ἐπισκοτοῦντα ταῖς κόραις",
+   "en": "dim sight",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "κοῖλα τῶν ἑλκῶν πληροῦν",
+   "en": "fills hollow ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἔναιμα τραύματα",
+   "en": "fresh wounds",
+   "category": "injury"
+  },
+  {
+   "greek": "αἱμορραγίαν",
+   "en": "bleeding",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "περὶ δακτύλιον κακοήθη ἔλκη",
+   "en": "malignant anal ulcers",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "μυρμηκίας",
+   "en": "warts",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "λειχῆνας",
+   "en": "lichen",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "πυρίκαυτα",
+   "en": "burns",
+   "category": "injury"
+  },
+  {
+   "greek": "χίμετλα",
+   "en": "chilblains",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἀλγήματα τῶν ὤτων",
+   "en": "earache",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "μαστούς φλεγμαίνοντας",
+   "en": "inflamed breasts after childbirth",
+   "category": "breast disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

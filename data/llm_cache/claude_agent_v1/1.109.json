@@ -1,0 +1,64 @@
+{
+ "id": "1.109",
+ "headword": "φοῖνιξ",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Phoenix dactylifera",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit",
+  "palm"
+ ],
+ "uses": [
+  {
+   "greek": "διάρροιαν",
+   "en": "diarrhoea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ῥοῦν γυναικεῖον",
+   "en": "women's discharges",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "αἱμορροίδας",
+   "en": "haemorrhoids",
+   "category": "cardiovascular disease"
+  },
+  {
+   "greek": "τραύματα κολλᾷ",
+   "en": "closes wounds",
+   "category": "injury"
+  },
+  {
+   "greek": "αἱμοπτυικοῖς",
+   "en": "spitting blood",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "στομαχικοῖς, δυσεντερικοῖς",
+   "en": "stomach complaints and dysentery",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "περὶ κύστιν",
+   "en": "bladder complaints",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἀρτηριῶν τραχύτητας",
+   "en": "rough windpipe",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "καύσωνα",
+   "en": "burning fever",
+   "category": "infectious disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

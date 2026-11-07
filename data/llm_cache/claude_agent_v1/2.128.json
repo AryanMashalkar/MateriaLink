@@ -1,0 +1,33 @@
+{
+ "id": "2.128",
+ "headword": "σισύμβριον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Nasturtium officinale",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Nasturtium",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "διουρητικά",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "φακοὺς καὶ ἔφηλιν",
+   "en": "freckles",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

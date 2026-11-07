@@ -1,0 +1,54 @@
+{
+ "id": "2.106",
+ "headword": "κύαμος Αἰγύπτιος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Nelumbo nucifera",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Nelumbo",
+   "prob": 0.08,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "κοιλιακοῖς καὶ δυσεντερικοῖς",
+   "en": "diarrhoea and dysentery",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὠταλγίαν",
+   "en": "earache",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ἐξαμβλώσκουσι",
+   "en": "abortifacient",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ὀρθοπνοίαις",
+   "en": "breathlessness",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ῥήγμασι, σπάσμασι",
+   "en": "ruptures and spasms",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "βηξί, κατάρρῳ",
+   "en": "cough and catarrh",
+   "category": "respiratory system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,61 @@
+{
+ "id": "2.135",
+ "headword": "σίκυς ἥμερος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Cucumis melo",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Cucumis sativus",
+   "prob": 0.35,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit",
+  "seed",
+  "leaf",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "εὐκοίλιος",
+   "en": "laxative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "κύστει ἁρμόδιος",
+   "en": "good for the bladder",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "λειποθυμιῶν",
+   "en": "fainting",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ἐν κύστει ἑλκώσεις",
+   "en": "bladder ulcers",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "κυνόδηκτα",
+   "en": "dog bites",
+   "category": "injury"
+  },
+  {
+   "greek": "ὀφθαλμοῦ φλεγμονὰς",
+   "en": "eye inflammation",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "ἐμέτους κινεῖ",
+   "en": "emetic",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

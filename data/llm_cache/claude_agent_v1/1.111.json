@@ -1,0 +1,23 @@
+{
+ "id": "1.111",
+ "headword": "βαλαύστιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Punica granatum",
+   "prob": 0.9,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "flower of wild pomegranate"
+ ],
+ "uses": [
+  {
+   "greek": "στυπτικήν",
+   "en": "astringent (as hypocist)",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

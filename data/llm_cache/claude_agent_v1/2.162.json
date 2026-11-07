@@ -1,0 +1,39 @@
+{
+ "id": "2.162",
+ "headword": "πταρμική",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Achillea ptarmica",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Anacyclus",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Achillea",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "flower"
+ ],
+ "uses": [
+  {
+   "greek": "ὑπώπια",
+   "en": "bruises under the eye",
+   "category": "injury"
+  },
+  {
+   "greek": "πταρμοὺς κινεῖ",
+   "en": "induces sneezing",
+   "category": "respiratory system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

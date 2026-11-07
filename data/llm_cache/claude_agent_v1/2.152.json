@@ -1,0 +1,73 @@
+{
+ "id": "2.152",
+ "headword": "σκόρδον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Allium sativum",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "bulb"
+ ],
+ "uses": [
+  {
+   "greek": "ἐκκριτικὴν φυσῶν",
+   "en": "expels wind",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἕλμιν πλατεῖαν",
+   "en": "tapeworm",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "οὖρα ἄγει",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἐχεοδήκτοις",
+   "en": "viper bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "λυσσοδήκτων",
+   "en": "rabid dog bites",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "ξενισμοὺς τῶν ὑδάτων",
+   "en": "effects of strange water",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἀρτηρίας λαμπρύνει",
+   "en": "clears the voice",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "βῆχας χρονίας",
+   "en": "chronic cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "φθεῖρας καὶ κονίδας",
+   "en": "lice and nits",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "ὑπώπια",
+   "en": "bruises under the eye",
+   "category": "injury"
+  },
+  {
+   "greek": "ἀλωπεκίας",
+   "en": "hair loss",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

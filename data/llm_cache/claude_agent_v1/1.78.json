@@ -1,0 +1,70 @@
+{
+ "id": "1.78",
+ "headword": "δάφνη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Laurus nobilis",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "berry",
+  "root bark"
+ ],
+ "uses": [
+  {
+   "greek": "περὶ κύστιν",
+   "en": "bladder complaints",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "φλεγμονὴν",
+   "en": "inflammation",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "ἐμέτους κινεῖ",
+   "en": "emetic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "φθίσιν καὶ ὀρθόπνοιαν",
+   "en": "consumption and breathlessness",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "σκορπιοπλήκτους",
+   "en": "scorpion stings",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ἀλφοὺς",
+   "en": "white skin patches",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ὠταλγίαις καὶ ἤχοις καὶ δυσηκοίαις",
+   "en": "earache, ringing and deafness",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "λίθοις θρύπτει",
+   "en": "breaks stones",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἔμβρυα κτείνει",
+   "en": "kills the fetus",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἡπατικοὺς",
+   "en": "liver complaints",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

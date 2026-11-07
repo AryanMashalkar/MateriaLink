@@ -1,0 +1,74 @@
+{
+ "id": "2.178",
+ "headword": "ἀναγαλλίς",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Lysimachia arvensis",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Lysimachia foemina",
+   "prob": 0.08,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb",
+  "juice"
+ ],
+ "uses": [
+  {
+   "greek": "τραυματικαί",
+   "en": "wound healing",
+   "category": "injury"
+  },
+  {
+   "greek": "σκολόπων ἐπισπαστικαί",
+   "en": "draws out splinters",
+   "category": "injury"
+  },
+  {
+   "greek": "νομῶν",
+   "en": "spreading sores",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ὀδόντος πόνον",
+   "en": "toothache",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἄργεμα",
+   "en": "eye ulcers",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "ἀμβλυωπίαις",
+   "en": "dim sight",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "ἐχεοδήκτους",
+   "en": "viper bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "νεφριτικοὺς καὶ ἡπατικούς",
+   "en": "kidney and liver complaints",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ὑδρωπιῶντας",
+   "en": "dropsy",
+   "category": "cardiovascular disease"
+  },
+  {
+   "greek": "προπτώσεις δακτυλίου",
+   "en": "rectal prolapse",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

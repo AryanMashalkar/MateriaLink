@@ -1,0 +1,28 @@
+{
+ "id": "4.171",
+ "headword": "χαμελαία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Daphne oleoides",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Cneorum tricoccon",
+   "prob": 0.4,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "κάτω καθαίρει φλέγμα καὶ χολήν",
+   "en": "purges phlegm and bile",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

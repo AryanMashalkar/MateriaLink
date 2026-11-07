@@ -1,0 +1,43 @@
+{
+ "id": "4.164",
+ "headword": "τιθύμαλλος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Euphorbia characias",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Euphorbia",
+   "prob": 0.4,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "juice"
+ ],
+ "uses": [
+  {
+   "greek": "κάτω καθαίρει φλέγμα καὶ χολήν",
+   "en": "purges phlegm and bile",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἔμετον κινεῖ",
+   "en": "emetic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἀκροχορδόνας",
+   "en": "warts",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ὀδονταλγίας",
+   "en": "toothache",
+   "category": "otorhinolaryngologic disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

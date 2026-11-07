@@ -1,0 +1,33 @@
+{
+ "id": "4.145",
+ "headword": "δάφνη Ἀλεξάνδρεια",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Ruscus hypoglossum",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Danae racemosa",
+   "prob": 0.4,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "δυστοκίας",
+   "en": "difficult labour",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "στραγγουρίας",
+   "en": "strangury",
+   "category": "urinary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

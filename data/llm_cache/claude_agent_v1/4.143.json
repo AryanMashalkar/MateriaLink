@@ -1,0 +1,28 @@
+{
+ "id": "4.143",
+ "headword": "μῖλαξ λεία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Calystegia sepium",
+   "prob": 0.5,
+   "why": ""
+  },
+  {
+   "taxon": "Convolvulus",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "ταραχώδη ἐνύπνια",
+   "en": "causes troubled dreams",
+   "category": "psychiatric disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

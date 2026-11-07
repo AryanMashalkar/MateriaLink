@@ -1,0 +1,33 @@
+{
+ "id": "4.139",
+ "headword": "πολύγαλον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Polygala vulgaris",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Polygala venulosa",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Polygala",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "γάλα πλεῖον",
+   "en": "increases breast milk",
+   "category": "breast disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

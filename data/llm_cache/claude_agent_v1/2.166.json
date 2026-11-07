@@ -1,0 +1,39 @@
+{
+ "id": "2.166",
+ "headword": "δρακόντιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Dracunculus vulgaris",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Arum",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ὠταλγίαν",
+   "en": "earache",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "πώλυπας",
+   "en": "nasal polyps",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "καρκινώματα",
+   "en": "cancers",
+   "category": "cancer"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

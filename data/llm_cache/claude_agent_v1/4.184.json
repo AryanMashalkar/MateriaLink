@@ -1,0 +1,28 @@
+{
+ "id": "4.184",
+ "headword": "πτέρις",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Dryopteris filix-mas",
+   "prob": 0.7,
+   "why": ""
+  },
+  {
+   "taxon": "Pteridium aquilinum",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ἕλμινθα πλατεῖαν",
+   "en": "tapeworm",
+   "category": "infectious disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

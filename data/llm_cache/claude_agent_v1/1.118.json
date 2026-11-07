@@ -1,0 +1,33 @@
+{
+ "id": "1.118",
+ "headword": "μέσπιλον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Crataegus azarolus",
+   "prob": 0.5,
+   "why": ""
+  },
+  {
+   "taxon": "Mespilus germanica",
+   "prob": 0.4,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit"
+ ],
+ "uses": [
+  {
+   "greek": "εὐστόμαχος",
+   "en": "good for the stomach",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "κοιλίας στεγνωτικός",
+   "en": "binds the bowels",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

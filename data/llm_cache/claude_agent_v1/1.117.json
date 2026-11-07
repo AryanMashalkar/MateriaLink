@@ -1,0 +1,44 @@
+{
+ "id": "1.117",
+ "headword": "λωτὸς τὸ δένδρον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Celtis australis",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Ziziphus lotus",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit",
+  "wood"
+ ],
+ "uses": [
+  {
+   "greek": "κοιλίας στεγνωτικόν",
+   "en": "binds the bowels",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "δυσεντερικοῖς",
+   "en": "dysentery",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "γυναιξὶ ῥοικαῖς",
+   "en": "women's discharges",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "τρίχας ἐπέχει ῥεούσας",
+   "en": "stops hair loss",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

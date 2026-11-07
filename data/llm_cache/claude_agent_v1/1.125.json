@@ -1,0 +1,64 @@
+{
+ "id": "1.125",
+ "headword": "κάρυα βασιλικά",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Juglans regia",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Corylus avellana",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "nut",
+  "shell"
+ ],
+ "uses": [
+  {
+   "greek": "ἐμέτους",
+   "en": "emetic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "θανασίμων φαρμάκων ἀντιφάρμακον",
+   "en": "antidote to poisons",
+   "category": "poisoning"
+  },
+  {
+   "greek": "στρόφους",
+   "en": "colic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἀλωπεκίας",
+   "en": "hair loss",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἔμμηνα ἐφίστησι",
+   "en": "stops menstruation",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "γαγγραίνας καὶ ἄνθρακας",
+   "en": "gangrene and carbuncles",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "αἰγιλώπια",
+   "en": "lacrimal fistula",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "πελιώματα",
+   "en": "bruises",
+   "category": "injury"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

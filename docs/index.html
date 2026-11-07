@@ -143,6 +143,13 @@ footer h3{font-size:1.05rem}
   .wrap{padding:0 16px}
   .uses .ev{white-space:normal}
 }
+.photo{margin:0 0 18px;display:none}.photo.on{display:block}
+.photo img{width:100%;max-height:300px;object-fit:cover;border-radius:10px;border:1px solid var(--vellum-faint);background:rgba(0,0,0,.2)}
+.photo figcaption{font-size:.78rem;color:var(--vellum-dim);margin-top:6px;line-height:1.45}
+.prep{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 12px}
+.prep span{font-size:.82rem;padding:4px 10px;border-radius:999px;border:1px solid var(--gold-dim);color:var(--vellum)}
+.prep span.vehicle{border-style:dashed;color:var(--vellum-dim)}
+.prep span b{color:var(--gold);font-weight:600;margin-left:4px}
 </style>
 </head>
 <body>
@@ -179,9 +186,13 @@ footer h3{font-size:1.05rem}
 
   <section class="folio" id="chapter">
     <div>
+      <figure class="photo" id="photo"><img id="photoimg" alt="" referrerpolicy="no-referrer"><figcaption id="photocap"></figcaption></figure>
       <h3>What this chapter says, in plain English</h3>
       <p class="lead-en" id="lead"></p>
       <p class="note">This summary is built from the uses on the right, each translated phrase by phrase from the Greek. It is not a full literary translation.</p>
+      <h3 id="preph">How he prepared it</h3>
+      <div class="prep" id="prep"></div>
+      <p class="note" id="prepnote">Taken word for word from the Greek: these are the ways of giving the remedy that the chapter mentions (the number is how often). Doses are left out on purpose. This is history, not medical advice.</p>
       <details class="orig" open>
         <summary>The original Greek text</summary>
         <p class="syn" id="syn"></p>
@@ -329,6 +340,42 @@ function drawLoom(c){
   } else anims.forEach(([p]) => { const b = p.getAttribute && p.getAttribute('stroke-dasharray-base'); if (b) p.style.strokeDasharray = b; });
 }
 
+const PHOTO = new Map();
+async function findPhoto(name){
+  if (PHOTO.has(name)) return PHOTO.get(name);
+  let r = null;
+  try {
+    const j = await (await fetch('https://api.inaturalist.org/v1/taxa?per_page=5&q=' + encodeURIComponent(name))).json();
+    const t = (j.results || []).find(x => x.name && x.name.toLowerCase() === name.toLowerCase() && x.default_photo);
+    if (t) r = {src: t.default_photo.medium_url, cap: t.default_photo.attribution || '', link: 'https://www.inaturalist.org/taxa/' + t.id, via: 'iNaturalist'};
+  } catch (e) {}
+  if (!r) try {
+    const j = await (await fetch('https://en.wikipedia.org/api/rest_v1/page/summary/' + encodeURIComponent(name.replace(/ /g, '_')))).json();
+    if (j.thumbnail && j.type !== 'disambiguation') r = {src: j.thumbnail.source, cap: 'Wikimedia Commons (see the article for author and licence)', link: (j.content_urls && j.content_urls.desktop.page) || '', via: 'Wikipedia'};
+  } catch (e) {}
+  PHOTO.set(name, r);
+  return r;
+}
+async function showPhoto(c){
+  const box = $('photo'), top = c.cands[0];
+  box.classList.remove('on');
+  if (!c.plant || !top || top.rank === 'unresolved') return;
+  const want = c.id, names = [top.t];
+  if (top.t.includes(' ')) names.push(top.t.split(' ')[0]);
+  for (const n of names){
+    const r = await findPhoto(n);
+    if (plants[cur].id !== want) return;
+    if (r){
+      const img = $('photoimg');
+      img.onerror = () => box.classList.remove('on');
+      img.onload = () => { if (plants[cur].id === want) box.classList.add('on'); };
+      img.src = r.src; img.alt = 'Modern photo of ' + n;
+      $('photocap').innerHTML = `Modern photo of <i>${esc(n)}</i>${n !== top.t ? ' (the genus)' : ''}, the most likely plant, for comparison only. ${esc(r.cap)} · <a href="${esc(r.link)}" target="_blank" rel="noopener">${r.via}</a>. Dioscorides' own copies had painted plants, as in the <a href="https://en.wikipedia.org/wiki/Vienna_Dioscurides" target="_blank" rel="noopener">Vienna Dioscorides</a> (about 512 AD).`;
+      return;
+    }
+  }
+}
+
 function show(i, push = true){
   cur = (i + plants.length) % plants.length;
   const c = plants[cur], top = c.cands[0];
@@ -339,17 +386,21 @@ function show(i, push = true){
   $('translit').innerHTML = `${esc(translit(c.hw))}<span class="arrow">means</span><span class="en">${esc(c.en || '?')}</span>`;
   $('latin').innerHTML = top ? `Most likely <i>${esc(top.t)}</i>` : '';
   const ok = c.uses.filter(u => 'ABC'.includes(u.tier)).length;
-  $('verdict').innerHTML = top ? `<b>${Math.round(top.p*100)}% likely</b> from the description. Modern papers back <b>${ok} of ${c.uses.length}</b> uses he gives.` : '';
+  $('verdict').innerHTML = top ? `<b>${Math.round(top.p*100)}% likely</b> from the description. ` + (c.lit ? `Modern papers back <b>${ok} of ${c.uses.length}</b> uses he gives.` : `Our PubMed source has <b>no papers indexed</b> for this plant yet.`) : '';
   $('disp').innerHTML = c.cands.length > 1 && c.cands[1].p >= .5 * c.cands[0].p ? `<span class="disputed">Scholars could read this as ${esc(c.cands[1].t)} too</span>` : '';
   $('plain').textContent = c.sum;
   $('lead').textContent = c.sum;
   drawLoom(c);
+  const pr = c.prep || [];
+  $('preph').style.display = $('prepnote').style.display = pr.length ? '' : 'none';
+  $('prep').innerHTML = pr.map(x => `<span class="${x.kind}">${esc(x.tag)}<b>${x.n}</b></span>`).join('');
+  showPhoto(c);
   $('syn').innerHTML = c.syn.length ? 'Other names he records: ' + c.syn.map(x => `<span lang="grc">${esc(x)}</span> <i>(${esc(translit(x))})</i>`).join(', ') : '';
   $('gtext').textContent = c.text;
   $('urn').textContent = c.urn;
   $('uses').innerHTML = c.uses.map(u => `<li><span class="dot" style="background:${TIER[u.tier]};${u.tier==='n/a'?'border:1px dashed rgba(241,230,207,.5)':''}"></span>
     <div><div class="en">${esc(u.en)}</div><div class="gr" lang="grc">${esc(u.gr)}</div><div class="cat">${esc(u.plain || u.cat)}</div></div>
-    <div class="ev">${u.n ? `${u.n} paper${u.n>1?'s':''}<br>${u.pm.slice(0,2).map(p => `<a href="https://pubmed.ncbi.nlm.nih.gov/${p}/" target="_blank" rel="noopener">${p}</a>`).join(' ')}` : 'no papers yet'}
+    <div class="ev">${u.n ? `${u.n} paper${u.n>1?'s':''}<br>${u.pm.slice(0,2).map(p => `<a href="https://pubmed.ncbi.nlm.nih.gov/${p}/" target="_blank" rel="noopener">${p}</a>`).join(' ')}` : (c.lit ? 'no papers yet' : 'plant not in our PubMed source')}
     ${u.cc.length ? `<br><span class="cc">also in ${u.cc.map(x => esc(TRAD[x.toLowerCase()] || x)).join(', ')}</span>` : ''}</div></li>`).join('') || '<li>No uses extracted.</li>';
   $('key').innerHTML = Object.keys(TIER).map(k => `<span><span class="dot" style="background:${TIER[k]};${k==='n/a'?'border:1px dashed rgba(241,230,207,.5)':''}"></span> ${TIER_TXT[k]}</span>`).join('');
   $('comph').style.display = c.comps.length ? '' : 'none';
@@ -368,7 +419,7 @@ function hist(v, color){
     s += `<rect x="${x0}" y="${H - bh}" width="${Math.max(1, x1 - x0 - 1.2)}" height="${bh}" fill="rgba(241,230,207,.26)"/>`; });
   const ox = X(v.observed);
   s += `<line x1="${ox}" x2="${ox}" y1="8" y2="${H}" stroke="#e0573e" stroke-width="2.5"/>`;
-  s += `<text x="${ox + 8}" y="20" style="fill:#f3a493;font-weight:600">Dioscorides ${(v.observed*100).toFixed(1)}%</text>`;
+  s += `<text x="${ox > W*.7 ? ox - 8 : ox + 8}" y="20" text-anchor="${ox > W*.7 ? 'end' : 'start'}" style="fill:#f3a493;font-weight:600">Dioscorides ${(v.observed*100).toFixed(1)}%</text>`;
   s += `<line x1="${pad}" x2="${W-pad}" y1="${H}" y2="${H}" stroke="rgba(241,230,207,.25)"/>`;
   for (let t = Math.ceil(lo*100); t <= Math.floor(hi*100); t += 2) s += `<text x="${X(t/100)}" y="${H + 20}" text-anchor="middle">${t}%</text>`;
   return s + '</svg>';
@@ -381,7 +432,7 @@ function renderOdds(){
   $('tests').innerHTML = T.map(([k, txt]) => { const v = ch[k], sig = v.p_value < .05;
     return `<div class="test"><div class="num">${(v.observed*100).toFixed(1)}%<small>vs ${(v.null_mean*100).toFixed(1)}% by chance</small></div>
       <p>of his prescriptions ${txt}.</p>
-      <span class="badge ${sig ? 'sig' : 'border'}">${sig ? 'Unlikely to be chance' : (v.p_value < .1 ? 'Just short of significant' : 'Not significant on its own')}, p = ${v.p_value.toFixed(3)}</span>
+      <span class="badge ${sig ? 'sig' : 'border'}">${sig ? 'Unlikely to be chance' : (v.p_value < .1 ? 'Just short of significant' : 'Not significant on its own')}, p ${v.p_value < .001 ? '< 0.001' : '= ' + v.p_value.toFixed(3)}</span>
       ${hist(v)}</div>`; }).join('');
   const e = D.eval.methods;
   $('fine').innerHTML = `Tested on ${m.n_plants} confidently identified plants and ${m.n_pairs} plant and use pairs. Each shuffle keeps every plant's number of uses and how common each kind of disease is, so only the pairing changes. The effect is modest. Plants studied <i>because</i> of their reputation can inflate the literature match, which is why we also compare against five independent traditions. On the ${D.eval.n} published identifications checked so far, reading the description gets ${Math.round(e.llm.species_top1*D.eval.n)} right and spelling alone gets ${Math.round(e.baseline.genus_top1*D.eval.n)}; a larger hand-checked set is in progress.`;

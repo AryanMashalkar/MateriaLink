@@ -1,0 +1,29 @@
+{
+ "id": "4.154",
+ "headword": "σπαρτίον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Spartium junceum",
+   "prob": 0.9,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "branch"
+ ],
+ "uses": [
+  {
+   "greek": "κάτω καθαίρει",
+   "en": "purgative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἰσχιαδικοῖς",
+   "en": "sciatica",
+   "category": "musculoskeletal system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

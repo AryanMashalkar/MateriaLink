@@ -1,0 +1,50 @@
+{
+ "id": "2.173",
+ "headword": "κάππαρις",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Capparis spinosa",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root bark",
+  "fruit",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "ῥυπαρὸν ἕλκος",
+   "en": "dirty ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "σπληνικῶν",
+   "en": "spleen complaints",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "ὀδόντι πονοῦντι",
+   "en": "toothache",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἀλφούς",
+   "en": "white skin patches",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "σκληρίας καὶ χοιράδας",
+   "en": "hard swellings and scrofula",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "σκώληκάς ἐν ὠσὶν",
+   "en": "worms in the ears",
+   "category": "otorhinolaryngologic disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

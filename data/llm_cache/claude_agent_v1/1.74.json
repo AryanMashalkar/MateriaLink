@@ -1,0 +1,69 @@
+{
+ "id": "1.74",
+ "headword": "κυπάρισσος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Cupressus sempervirens",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "cone"
+ ],
+ "uses": [
+  {
+   "greek": "κύστει ῥευματιζομένῃ καὶ δυσουρίᾳ",
+   "en": "bladder catarrh and painful urination",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "αἵματος ἀναγωγὴν",
+   "en": "spitting blood",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "δυσεντερίαν",
+   "en": "dysentery",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὀρθόμπνοιαν, βῆχας",
+   "en": "breathlessness and cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "πολύπους τοὺς ἐν τοῖς μυκτῆρσιν",
+   "en": "nasal polyps",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "λεπριῶντας ὄνυχας",
+   "en": "diseased nails",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἐντεροκήλας",
+   "en": "hernia",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "τραύματα κολλᾷ",
+   "en": "closes wounds",
+   "category": "injury"
+  },
+  {
+   "greek": "ἐρυσιπέλατα καὶ ἕρπητας",
+   "en": "erysipelas and spreading sores",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ὀφθαλμῶν φλεγμονάς",
+   "en": "eye inflammation",
+   "category": "vision disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

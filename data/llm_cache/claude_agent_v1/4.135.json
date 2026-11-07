@@ -1,0 +1,33 @@
+{
+ "id": "4.135",
+ "headword": "τριχομανές",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Asplenium trichomanes",
+   "prob": 0.8,
+   "why": ""
+  },
+  {
+   "taxon": "Asplenium",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "ἀλωπεκίας",
+   "en": "hair loss (alopecia)",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἀναδιδόναι τρίχας",
+   "en": "regrows hair",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

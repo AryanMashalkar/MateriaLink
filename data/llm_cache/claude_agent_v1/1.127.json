@@ -1,0 +1,44 @@
+{
+ "id": "1.127",
+ "headword": "συκόμορον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Ficus sycomorus",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit",
+  "sap"
+ ],
+ "uses": [
+  {
+   "greek": "τραυμάτων",
+   "en": "wounds",
+   "category": "injury"
+  },
+  {
+   "greek": "ἑρπετῶν δήγματα",
+   "en": "snake bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "σπλῆνας ἐσκιρρωμένους",
+   "en": "hardened spleen",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "στομάχου ἀλγήματα",
+   "en": "stomach pain",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "φρικία",
+   "en": "shivering fits",
+   "category": "infectious disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

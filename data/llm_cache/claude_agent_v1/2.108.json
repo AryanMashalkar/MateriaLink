@@ -1,0 +1,73 @@
+{
+ "id": "2.108",
+ "headword": "ὄροβος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Vicia ervilia",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Vicia",
+   "prob": 0.08,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed meal"
+ ],
+ "uses": [
+  {
+   "greek": "εὐκοίλιον",
+   "en": "laxative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "οὐρητικόν",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "καθαίρει ἕλκη",
+   "en": "cleans ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "φακοὺς καὶ σπίλους καὶ ἐφήλεις",
+   "en": "freckles and spots",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "νομάς καὶ γαγγραίνας",
+   "en": "spreading sores and gangrene",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "σκληρίας ἐν μαστοῖς",
+   "en": "hard breast lumps",
+   "category": "breast disease"
+  },
+  {
+   "greek": "κυνόδηκτα καὶ ἐχεόδηκτα",
+   "en": "dog and viper bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "δυσουρίας",
+   "en": "painful urination",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "στρόφους καὶ τεινεσμούς",
+   "en": "colic and tenesmus",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "χιμέτλας",
+   "en": "chilblains",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

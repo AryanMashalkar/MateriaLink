@@ -1,0 +1,57 @@
+4.135|τριχομανές|1|Asplenium trichomanes:0.8;Asplenium:0.1|herb|ἀλωπεκίας=hair loss (alopecia)=SKIN;ἀναδιδόναι τρίχας=regrows hair=SKIN
+4.136|ξάνθιον|1|Xanthium strumarium:0.8;Xanthium:0.1|fruit,herb|οἰδήματα=swellings=INFL;γαγγραινώδη καὶ φαγεδαινικὰ ἕλκη=gangrenous and eating ulcers=SKIN;ἐφήλεις=freckles=SKIN
+4.137|αἰγίλωψ|1|Aegilops ovata:0.5;Aegilops:0.3|herb|αἰγίλωπας=lacrimal fistula=EYE;σκληρίας=hard swellings=INFL
+4.138|γλαύξ|1|Lysimachia maritima:0.6;Astragalus:0.15|herb|γάλα ἀνακαλεῖται=restores breast milk=BREAST
+4.139|πολύγαλον|1|Polygala vulgaris:0.4;Polygala venulosa:0.3;Polygala:0.2|herb|γάλα πλεῖον=increases breast milk=BREAST
+4.140|ὄσιρις|1|Osyris alba:0.85|branch|ἰκτερικοῖς=jaundice=DIG
+4.141|ἐχῖνος|1|Echinops:0.2;Echium:0.1|herb|ῥεύματα ὀφθαλμῶν=eye discharge=EYE;ὠταλγίας=earache=ENT
+4.142|μῖλαξ τραχεῖα|1|Smilax aspera:0.9|leaf,fruit|πρὸς τὰ θανάσιμα=antidote to poisons=POIS
+4.143|μῖλαξ λεία|1|Calystegia sepium:0.5;Convolvulus:0.3|leaf|ταραχώδη ἐνύπνια=causes troubled dreams=PSY
+4.144|μυρσίνη ἀγρία|1|Ruscus aculeatus:0.9|root,fruit|οὖρα κινεῖ=diuretic=URO;καταμήνια ἄγει=promotes menstruation=REPRO;λίθους θρύπτει=breaks bladder stones=URO;ἰκτερικοῖς=jaundice=DIG;στραγγουρίας=strangury=URO;κεφαλαλγίας=headache=PSY
+4.145|δάφνη Ἀλεξάνδρεια|1|Ruscus hypoglossum:0.45;Danae racemosa:0.4|root|δυστοκίας=difficult labour=REPRO;στραγγουρίας=strangury=URO
+4.146|δαφνοειδές|1|Daphne laureola:0.7;Daphne:0.2|leaf|φλέγμα κάτω ἄγει=purges phlegm=DIG;ἔμετον κινεῖ=induces vomiting=DIG;καταμήνια ἄγει=promotes menstruation=REPRO;πταρμὸν κινεῖ=induces sneezing=RESP
+4.147|χαμαιδάφνη|1|Danae racemosa:0.4;Ruscus hypophyllum:0.4|leaf|κεφαλαλγίας=headache=PSY;καύσους στομάχου=burning stomach=DIG;στρόφους=colic=DIG
+4.148|ἐλλέβορος λευκός|1|Veratrum album:0.95|root|ἔμετον κινεῖ=emetic purge=DIG;ἐπιληπτικοῖς=epilepsy=PSY
+4.149|σησαμοειδὲς τὸ μέγα|1|Reseda alba:0.35;Reseda:0.3|seed|φλέγμα καὶ χολὴν καθαίρει=purges phlegm and bile=DIG
+4.150|σίκυς ἄγριος|1|Ecballium elaterium:0.95|juice,root|κοιλίαν καθαίρει=purgative=DIG;καταμήνια ἄγει=promotes menstruation=REPRO;ἔμβρυα κτείνει=kills the fetus=REPRO;ἰκτερικοῖς=jaundice=DIG;κεφαλαλγίας χρονίας=chronic headache=PSY;συνάγχας=quinsy=ENT
+4.152|σταφὶς ἀγρία|1|Delphinium staphisagria:0.95|seed|φθεῖρας=lice=SKIN;κνησμοὺς=itch=SKIN;ὀδονταλγίας=toothache=ENT;οὖλα=gum disease=ENT;ἄφθας=mouth ulcers=ENT
+4.153|θαψία|1|Thapsia garganica:0.85;Thapsia:0.1|root,juice|κάτω καθαίρει=purgative=DIG;ἀσθματικοῖς=asthma=RESP;πλευρᾶς χρονίους πόνους=chronic side pain=MSK;ἀλωπεκίας=hair loss=SKIN;ὑπώπια=bruises=INJ
+4.154|σπαρτίον|1|Spartium junceum:0.9|seed,branch|κάτω καθαίρει=purgative=DIG;ἰσχιαδικοῖς=sciatica=MSK
+4.155|σίλλυβον|1|Silybum marianum:0.8|root|ἔμετον κινεῖ=emetic=DIG
+4.156|βολβὸς ἐμετικός|1|Narcissus:0.3;Muscari comosum:0.3|bulb|ἔμετον κινεῖ=emetic=DIG
+4.157|βάλανος μυρεψική|1|Moringa peregrina:0.9|fruit,oil|σπληνικοῖς=spleen complaints=HEM;ποδάγρας=gout=MSK;ψώρας=itch=SKIN;λέπρας=scaly skin=SKIN;ἀλφοὺς=white skin patches=SKIN;ἐφήλεις=freckles=SKIN;κοιλίαν λύει=purgative=DIG
+4.158|νάρκισσος|1|Narcissus poeticus:0.5;Narcissus tazetta:0.35|bulb|ἔμετον κινεῖ=emetic=DIG;πυρίκαυστα=burns=INJ;νεῦρα ἀποκεκομμένα=cut sinews=INJ;σφυρῶν στρέμματα=ankle sprains=MSK;ἄρθρων πόνους χρονίους=chronic joint pain=MSK;ἀλφοὺς=white skin patches=SKIN;ἀποστήματα=abscesses=INF;σκόλοπας=splinters=INJ
+4.159|ἱπποφαές|1|Euphorbia acanthothamnos:0.4;Hippophae rhamnoides:0.2|juice,root|χολὴν καὶ φλέγμα καὶ ὕδωρ καθαίρει=purges bile, phlegm and water=DIG
+4.160|ἱππόφαιστον|1|Centaurea spinosa:0.4;Centaurea:0.2|juice|κάτω καθαίρει=purgative=DIG;ὀρθοπνοίας=breathlessness=RESP;ἐπιληπτικοῖς=epilepsy=PSY;νευρικοῖς=nerve disorders=PSY
+4.161|κίκι|1|Ricinus communis:0.95|seed,oil,leaf|κοιλίαν καθαίρει=purgative=DIG;ἔμετον κινεῖ=emetic=DIG;ἐφήλεις=freckles=SKIN;οἰδήματα ὀφθαλμῶν=eye swellings=EYE;μαστοὺς σπαργῶντας=engorged breasts=BREAST;ἐρυσιπέλατα=erysipelas=SKIN
+4.162|ἐλλέβορος μέλας|1|Helleborus cyclophyllus:0.45;Helleborus niger:0.3;Helleborus:0.15|root|ἀλφοὺς=white skin patches=SKIN;λειχῆνας=lichen=SKIN;λέπρας=scaly skin=SKIN;ὀδονταλγίας=toothache=ENT;ὑδρωπικοῖς=dropsy=CV;μανίας=madness=PSY
+4.163|σησαμοειδὲς τὸ μικρόν|1|Reseda:0.3;Sesamoides:0.2|seed|φλέγμα καὶ χολὴν καθαίρει=purges phlegm and bile=DIG;οἰδήματα=swellings=INFL
+4.164|τιθύμαλλος|1|Euphorbia characias:0.45;Euphorbia:0.4|juice|κάτω καθαίρει φλέγμα καὶ χολήν=purges phlegm and bile=DIG;ἔμετον κινεῖ=emetic=DIG;ἀκροχορδόνας=warts=SKIN;ὀδονταλγίας=toothache=ENT
+4.165|πιτύουσα|1|Euphorbia pithyusa:0.6;Euphorbia:0.3|juice,root|κάτω καθαίρει=purgative=DIG
+4.166|λαθυρίς|1|Euphorbia lathyris:0.95|seed|κοιλίαν καθαίρει=purgative (phlegm, bile, water)=DIG
+4.167|πέπλος|1|Euphorbia peplus:0.9|juice,herb|κάτω καθαίρει=purgative=DIG
+4.168|πεπλίς|1|Euphorbia peplis:0.85|herb|κάτω καθαίρει=purgative=DIG
+4.169|χαμαισύκη|1|Euphorbia chamaesyce:0.8;Euphorbia:0.1|branch,juice|περὶ μήτραν ὀδύνας=uterine pains=REPRO;ἀκροχορδόνας=warts=SKIN;ἀμβλυωπίας=dim sight=EYE
+4.170|σκαμμωνία|1|Convolvulus scammonia:0.95|juice,root|κάτω καθαίρει φλέγμα καὶ χολήν=purges phlegm and bile=DIG;ἰσχιάδας=sciatica=MSK;λέπρας=scaly skin=SKIN
+4.171|χαμελαία|1|Daphne oleoides:0.4;Cneorum tricoccon:0.4|leaf|κάτω καθαίρει φλέγμα καὶ χολήν=purges phlegm and bile=DIG
+4.172|θυμελαία|1|Daphne gnidium:0.9|seed,leaf|κάτω καθαίρει=purgative=DIG;ἔμβρυα κτείνει=kills the fetus=REPRO
+4.173|ἀκτῆ|1|Sambucus nigra:0.5;Sambucus ebulus:0.4|leaf,root,fruit|ὑδρωπικοῖς=dropsy (draws water)=CV;φλέγμα καὶ χολὴν καθαίρει=purges phlegm and bile=DIG;ἐχιοδήκτοις=viper bites=POIS
+4.174|πυκνόκομον|1|Scabiosa:0.2;Succisa pratensis:0.15|seed,root|ταραχώδη ἐνύπνια=causes troubled dreams=PSY;οἰδήματα=swellings=INFL
+4.175|ἄπιος|1|Euphorbia apios:0.85|root|ἄνω καὶ κάτω καθαίρει=purges up and down=DIG
+4.176|κολόκυνθα ἀγρία|1|Citrullus colocynthis:0.95|fruit|κοιλίαν καθαίρει=purgative=DIG;ὀδονταλγίας=toothache=ENT;ἰσχιάδας=sciatica=MSK
+4.177|ἐπίθυμον|1|Cuscuta epithymum:0.9|herb|φλέγμα καὶ χολὴν μέλαιναν καθαίρει=purges phlegm and black bile=DIG;μελαγχολικῶν=melancholy=PSY;ἐμπνευματουμένων=flatulence=DIG
+4.178|ἄλυπον|1|Globularia alypum:0.85|seed|μέλαιναν χολὴν καθαίρει=purges black bile=DIG
+4.179|ἔμπετρον|1|Frankenia:0.2;Herniaria:0.15|herb|φλέγμα καὶ χολὴν καθαίρει=purges phlegm, bile and water=DIG
+4.180|κληματίς|1|Clematis vitalba:0.6;Clematis flammula:0.3|seed,leaf|φλέγμα καὶ χολὴν ἄγει=purges phlegm and bile=DIG;λέπρας=scaly skin=SKIN
+4.181|ἄμπελος ἀγρία|1|Tamus communis:0.5;Vitis vinifera subsp. sylvestris:0.3|root,fruit|ὑδρωπικοῖς=dropsy=CV;ἐφήλεις=freckles=SKIN
+4.182|ἄμπελος λευκή|1|Bryonia dioica:0.6;Bryonia cretica:0.3|root,fruit|ἐπιληπτικοῖς=epilepsy=PSY;ὑδρωπικοῖς=dropsy=CV;ἐχιοδήκτοις=snakebite=POIS;καταμήνια ἄγει=promotes menstruation=REPRO;ἐφήλεις=freckles=SKIN
+4.183|ἄμπελος μέλαινα|1|Tamus communis:0.7;Bryonia:0.15|root,shoot|οὖρα κινεῖ=diuretic=URO;καταμήνια ἄγει=promotes menstruation=REPRO;σπληνικοῖς=spleen complaints=HEM;ἐπιληπτικοῖς=epilepsy=PSY
+4.184|πτέρις|1|Dryopteris filix-mas:0.7;Pteridium aquilinum:0.2|root|ἕλμινθα πλατεῖαν=tapeworm=INF
+4.185|θηλυπτερίς|1|Pteridium aquilinum:0.6;Athyrium filix-femina:0.3|root|ἕλμινθα πλατεῖαν=tapeworm=INF;ἕλμινθας στρογγύλας=roundworms=INF
+4.186|πολυπόδιον|1|Polypodium vulgare:0.9|root|κάτω καθαίρει φλέγμα καὶ χολήν=purges phlegm and bile=DIG;ἄρθρων ἐξαρθρήματα=dislocations, chapped fingers=MSK
+4.187|δρυοπτερίς|1|Dryopteris:0.4;Cystopteris fragilis:0.3|root,leaf|τρίχας ψιλοῖ=removes hair (depilatory)=SKIN
+4.188|κνῆκος|1|Carthamus tinctorius:0.85|seed,flower|κοιλίαν καθαίρει=purgative=DIG
+4.189|λινόζωστις|1|Mercurialis annua:0.9|herb|κοιλίαν καθαίρει=purgative=DIG
+4.190|ἡλιοτρόπιον τὸ μέγα|1|Heliotropium europaeum:0.85|leaf,seed|σκορπιοπλήκτοις=scorpion stings=POIS;ἀκροχορδόνας=warts=SKIN;καταμήνια ἄγει=promotes menstruation=REPRO
+4.191|ἡλιοτρόπιον τὸ μικρόν|1|Heliotropium supinum:0.6;Heliotropium:0.3|herb,fruit|ἕλμινθα πλατεῖαν καὶ στρογγύλην=tapeworm and roundworm=INF;ἀκροχορδόνας=warts=SKIN
+4.192|σκορπιοειδές|1|Scorpiurus muricatus:0.5;Heliotropium:0.2|leaf|σκορπιοπλήκτοις=scorpion stings=POIS

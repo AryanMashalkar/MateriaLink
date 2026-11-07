@@ -1,0 +1,43 @@
+{
+ "id": "1.82",
+ "headword": "μάκιρ",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Holarrhena pubescens",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Ailanthus excelsa",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Holarrhena",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "bark"
+ ],
+ "uses": [
+  {
+   "greek": "αἵματος πτύσιν",
+   "en": "spitting blood",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "δυσεντερίαν",
+   "en": "dysentery",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "κοιλίας ῥευματισμόν",
+   "en": "diarrhoea",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

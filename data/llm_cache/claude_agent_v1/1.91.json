@@ -1,0 +1,39 @@
+{
+ "id": "1.91",
+ "headword": "ἅλιμον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Atriplex halimus",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Atriplex",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "σπάσματα καὶ ῥήγματα",
+   "en": "spasms and ruptures",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "στρόφους",
+   "en": "colic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "γάλα κατασπᾷ",
+   "en": "promotes milk",
+   "category": "breast disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

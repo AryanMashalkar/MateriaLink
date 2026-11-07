@@ -1,0 +1,34 @@
+{
+ "id": "2.137",
+ "headword": "γιγγίδιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Visnaga daucoides",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Daucus",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "εὐστόμαχον",
+   "en": "good for the stomach",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "οὐρητικόν",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

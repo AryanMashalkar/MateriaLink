@@ -1,0 +1,76 @@
+{
+ "id": "1.87",
+ "headword": "μυρίκη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Tamarix gallica",
+   "prob": 0.5,
+   "why": ""
+  },
+  {
+   "taxon": "Tamarix aphylla",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Tamarix",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit",
+  "bark",
+  "leaf",
+  "ash"
+ ],
+ "uses": [
+  {
+   "greek": "αἵματος πτύσεις",
+   "en": "spitting blood",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "κοιλιακοῖς",
+   "en": "diarrhoea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ῥοικαῖς γυναιξὶ",
+   "en": "women's discharges",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἰκτέρῳ",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "φαλαγγιοδήκτοις",
+   "en": "spider bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "οἰδήματα",
+   "en": "swellings",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "σπλῆνα τήκει",
+   "en": "reduces the spleen",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "ὀδονταλγίαις",
+   "en": "toothache",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "φθεῖρας",
+   "en": "lice",
+   "category": "infectious disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

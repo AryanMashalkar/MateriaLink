@@ -1,0 +1,54 @@
+{
+ "id": "4.157",
+ "headword": "βάλανος μυρεψική",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Moringa peregrina",
+   "prob": 0.9,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit",
+  "oil"
+ ],
+ "uses": [
+  {
+   "greek": "σπληνικοῖς",
+   "en": "spleen complaints",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "ποδάγρας",
+   "en": "gout",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ψώρας",
+   "en": "itch",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "λέπρας",
+   "en": "scaly skin",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἀλφοὺς",
+   "en": "white skin patches",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἐφήλεις",
+   "en": "freckles",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "κοιλίαν λύει",
+   "en": "purgative",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

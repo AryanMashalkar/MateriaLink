@@ -1,0 +1,30 @@
+{
+ "id": "2.167",
+ "headword": "ἄρον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Arum italicum",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Arum maculatum",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "leaf",
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "ποδαγρικῶν",
+   "en": "gout",
+   "category": "musculoskeletal system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

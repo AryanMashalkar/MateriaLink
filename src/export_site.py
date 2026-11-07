@@ -5,6 +5,8 @@ Usage: python src/export_site.py   ->  docs/data.json
 import json
 from pathlib import Path
 
+from preparation import prep_tags
+
 ROOT = Path(__file__).resolve().parents[1]
 P = ROOT / "data/processed"
 
@@ -34,7 +36,7 @@ def join_en(xs):
     return xs[0] if len(xs) == 1 else ", ".join(xs[:-1]) + " and " + xs[-1] if xs else ""
 
 
-def summary(name, r, top, cands, uses):
+def summary(name, r, top, cands, uses, lit=True):
     """Plain-English summary built only from the structured record (no new claims)."""
     if not r["is_plant"] or not top:
         s = f"This chapter is about {name or 'a substance'}, not a plant."
@@ -57,7 +59,9 @@ def summary(name, r, top, cands, uses):
         s += f" He gives {len(uses)} use{'s' if len(uses) > 1 else ''}, mostly for {join_en(cats[:3]) or 'various complaints'}."
         scored = [u for u in uses if u.get("evidence", {}).get("tier", "n/a") != "n/a"]
         ok = [u for u in scored if u["evidence"]["tier"] in "ABC"]
-        if scored:
+        if scored and not lit:
+            s += " Our PubMed source has no papers indexed for this plant, so its uses cannot be checked against the literature here."
+        elif scored:
             s += f" Modern papers mention the plant together with {len(ok)} of the {len(scored)} uses that can be checked"
             s += f" (for example {ok[0]['en']})." if ok else "."
     return s
@@ -72,6 +76,9 @@ def main():
     ch = {r["id"]: r for r in map(json.loads, (P / "chapters.jsonl").open(encoding="utf-8"))}
     base = {r["id"]: r for r in map(json.loads, (P / "baseline_predictions.jsonl").open(encoding="utf-8"))}
     names = tsv(ROOT / "data/editorial/taxon_common_names.tsv")
+    import pandas as pd
+    dis = pd.read_csv(ROOT / "data/external/enveda/plant_disease_collapsed.tsv.gz", sep="\t", usecols=["plant_curie", "database"])
+    covered = set(dis.loc[dis.database == "bern2", "plant_curie"])  # plants with any PubMed rows in the source
     over = tsv(ROOT / "data/editorial/chapter_english.tsv")
     out = []
     for r in sorted(map(json.loads, (P / "enriched.jsonl").open(encoding="utf-8")), key=lambda r: key(r["id"])):
@@ -80,11 +87,13 @@ def main():
         top = cands[0] if cands else {}
         comps = [x["name"] for x in (top.get("compounds") or []) if len(x["name"]) <= 30][:18]
         b = base.get(r["id"], {}).get("candidates", [])
+        lit = bool(top) and any(t in covered for t in (top.get("ncbitaxon") or []))
         en = over.get(r["id"]) or (names.get(top.get("taxon", "")) if top else "") or ""
         out.append({
             "id": r["id"], "hw": r["headword"], "en": en,
-            "sum": summary(en, r, top, cands, r["uses"]), "parts": r.get("parts", []), "urn": r["urn"], "plant": r["is_plant"],
+            "sum": summary(en, r, top, cands, r["uses"], lit), "lit": lit, "parts": r.get("parts", []), "urn": r["urn"], "plant": r["is_plant"],
             "syn": (c.get("synonyms") or [])[:8], "text": c.get("text", ""),
+            "prep": prep_tags(c.get("text", "")),
             "cands": [{"t": x["taxon"], "p": round(x["prob"], 2), "rank": x.get("rank"), "en": names.get(x["taxon"], "")} for x in cands[:4]],
             "ncomp": top.get("n_compounds", 0), "comps": comps,
             "base": [{"t": x["taxon"], "p": round(x["prob"], 2)} for x in b[:2]],

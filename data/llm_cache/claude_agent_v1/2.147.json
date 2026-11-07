@@ -1,0 +1,29 @@
+{
+ "id": "2.147",
+ "headword": "Μηδική",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Medicago sativa",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Medicago",
+   "prob": 0.08,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "ψύξεως δεόμενα",
+   "en": "cooling for hot swellings",
+   "category": "inflammatory disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

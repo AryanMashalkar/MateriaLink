@@ -1,0 +1,49 @@
+{
+ "id": "4.153",
+ "headword": "θαψία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Thapsia garganica",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Thapsia",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "juice"
+ ],
+ "uses": [
+  {
+   "greek": "κάτω καθαίρει",
+   "en": "purgative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἀσθματικοῖς",
+   "en": "asthma",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "πλευρᾶς χρονίους πόνους",
+   "en": "chronic side pain",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ἀλωπεκίας",
+   "en": "hair loss",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ὑπώπια",
+   "en": "bruises",
+   "category": "injury"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,28 @@
+{
+ "id": "4.138",
+ "headword": "γλαύξ",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Lysimachia maritima",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Astragalus",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "γάλα ἀνακαλεῖται",
+   "en": "restores breast milk",
+   "category": "breast disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

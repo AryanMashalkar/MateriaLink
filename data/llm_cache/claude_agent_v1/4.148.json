@@ -1,0 +1,28 @@
+{
+ "id": "4.148",
+ "headword": "ἐλλέβορος λευκός",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Veratrum album",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ἔμετον κινεῖ",
+   "en": "emetic purge",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἐπιληπτικοῖς",
+   "en": "epilepsy",
+   "category": "psychiatric disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

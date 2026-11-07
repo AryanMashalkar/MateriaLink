@@ -1,0 +1,53 @@
+{
+ "id": "2.164",
+ "headword": "κυκλάμινος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Cyclamen graecum",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Cyclamen hederifolium",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Cyclamen",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ἄγει φλέγμα καὶ ὕδωρ",
+   "en": "purges phlegm and water",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἔμμηνα κινεῖ",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ὠκυτόκιον",
+   "en": "speeds childbirth",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "θανάσιμα",
+   "en": "poisons",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ἑρπετῶν ἀντιφάρμακον",
+   "en": "snake bites",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

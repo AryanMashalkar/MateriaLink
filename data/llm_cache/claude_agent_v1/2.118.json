@@ -1,0 +1,70 @@
+{
+ "id": "2.118",
+ "headword": "μολόχη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Malva sylvestris",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Malva",
+   "prob": 0.12,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "root",
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "ἐντέροις καὶ κύστει",
+   "en": "bowel and bladder",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "αἰγιλώπια",
+   "en": "lacrimal fistula",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "σφηκῶν καὶ μελισσῶν πληγὰς",
+   "en": "wasp and bee stings",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ἀχῶρας καὶ πίτυρα",
+   "en": "scalp sores and dandruff",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "πυρίκαυτα καὶ ἐρυσιπέλατα",
+   "en": "burns and erysipelas",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "θανασίμοις",
+   "en": "poisons",
+   "category": "poisoning"
+  },
+  {
+   "greek": "φαλαγγιοδήκτους",
+   "en": "spider bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "γάλα κατασπᾷ",
+   "en": "promotes milk",
+   "category": "breast disease"
+  },
+  {
+   "greek": "περὶ κύστιν ἀλγήματα",
+   "en": "bladder pain",
+   "category": "urinary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

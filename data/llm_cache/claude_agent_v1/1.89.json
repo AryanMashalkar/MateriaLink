@@ -1,0 +1,33 @@
+{
+ "id": "1.89",
+ "headword": "ἀκακαλλίς",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Cassia absus",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Tamarix",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Cassia",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit"
+ ],
+ "uses": [
+  {
+   "greek": "ὀξυδερκίαν",
+   "en": "sharpens sight",
+   "category": "vision disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

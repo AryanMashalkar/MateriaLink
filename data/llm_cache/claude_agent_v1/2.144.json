@@ -1,0 +1,22 @@
+{
+ "id": "2.144",
+ "headword": "ὀρνιθόγαλον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Ornithogalum umbellatum",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Ornithogalum",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "bulb"
+ ],
+ "uses": [],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,34 @@
+{
+ "id": "2.133",
+ "headword": "χονδρίλη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Chondrilla juncea",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Chondrilla",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb",
+  "juice"
+ ],
+ "uses": [
+  {
+   "greek": "ἔχεις",
+   "en": "viper bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "κοιλίαν ἵστησιν",
+   "en": "stops diarrhoea",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

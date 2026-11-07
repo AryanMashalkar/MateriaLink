@@ -1,0 +1,44 @@
+{
+ "id": "2.140",
+ "headword": "εὔζωμον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Eruca vesicaria",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Diplotaxis",
+   "prob": 0.08,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "συνουσίαν παρορμᾷ",
+   "en": "aphrodisiac",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "οὐρητικὸν",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "πεπτικὸν",
+   "en": "aids digestion",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "εὐκοίλιον",
+   "en": "laxative",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

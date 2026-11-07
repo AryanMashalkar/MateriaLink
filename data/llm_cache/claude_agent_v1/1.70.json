@@ -1,0 +1,61 @@
+{
+ "id": "1.70",
+ "headword": "σχῖνος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Pistacia lentiscus",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Pistacia",
+   "prob": 0.08,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "fruit",
+  "bark",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "αἵματος ἀναγωγὰς",
+   "en": "spitting blood",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ῥύσεις κοιλίας καὶ δυσεντερίας",
+   "en": "diarrhoea and dysentery",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἐκ μήτρας αἱμορραγίας",
+   "en": "uterine bleeding",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "προπτώσεις ὑστέρας καὶ δακτυλίου",
+   "en": "prolapse of womb and rectum",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ὀστέα πωροῖ",
+   "en": "heals bone",
+   "category": "injury"
+  },
+  {
+   "greek": "οὐρητικόν",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "σειομένους ὀδόντας",
+   "en": "loose teeth",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

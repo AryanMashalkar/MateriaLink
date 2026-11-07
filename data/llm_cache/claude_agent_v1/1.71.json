@@ -1,0 +1,31 @@
+{
+ "id": "1.71",
+ "headword": "τέρμινθος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Pistacia terebinthus",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Pistacia",
+   "prob": 0.12,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "fruit",
+  "bark",
+  "resin"
+ ],
+ "uses": [
+  {
+   "greek": "ὅσα καὶ ἡ σχῖνος",
+   "en": "same as mastic (astringent)",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

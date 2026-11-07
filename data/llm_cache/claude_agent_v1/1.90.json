@@ -1,0 +1,27 @@
+{
+ "id": "1.90",
+ "headword": "ῥάμνος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Rhamnus lycioides",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Paliurus spina-christi",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Rhamnus",
+   "prob": 0.25,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "shrub"
+ ],
+ "uses": [],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,55 @@
+{
+ "id": "2.131",
+ "headword": "σόγχος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Sonchus oleraceus",
+   "prob": 0.7,
+   "why": ""
+  },
+  {
+   "taxon": "Sonchus asper",
+   "prob": 0.25,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb",
+  "juice",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "στομάχῳ καυσουμένῳ",
+   "en": "heartburn",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "φλεγμοναῖς",
+   "en": "inflammation",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "δηγμοὺς στομάχου",
+   "en": "stomach pain",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "γάλα κατασπᾷ",
+   "en": "promotes milk",
+   "category": "breast disease"
+  },
+  {
+   "greek": "δακτυλίου καὶ μήτρας φλεγμοναῖς",
+   "en": "anal and uterine inflammation",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "σκορπιοπλήκτοις",
+   "en": "scorpion stings",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

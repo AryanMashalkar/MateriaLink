@@ -1,0 +1,49 @@
+{
+ "id": "4.144",
+ "headword": "μυρσίνη ἀγρία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Ruscus aculeatus",
+   "prob": 0.9,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "fruit"
+ ],
+ "uses": [
+  {
+   "greek": "οὖρα κινεῖ",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "καταμήνια ἄγει",
+   "en": "promotes menstruation",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "λίθους θρύπτει",
+   "en": "breaks bladder stones",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἰκτερικοῖς",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "στραγγουρίας",
+   "en": "strangury",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "κεφαλαλγίας",
+   "en": "headache",
+   "category": "psychiatric disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

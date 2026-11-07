@@ -1,0 +1,39 @@
+{
+ "id": "2.180",
+ "headword": "χελιδόνιον μέγα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Chelidonium majus",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "juice",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ὀξυωπίαν",
+   "en": "sharpens sight",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "ἰκτερικούς",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἕρπητας",
+   "en": "spreading sores",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ὀδονταλγίας",
+   "en": "toothache",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

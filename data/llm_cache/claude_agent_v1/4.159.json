@@ -1,0 +1,29 @@
+{
+ "id": "4.159",
+ "headword": "ἱπποφαές",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Euphorbia acanthothamnos",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Hippophae rhamnoides",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "juice",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "χολὴν καὶ φλέγμα καὶ ὕδωρ καθαίρει",
+   "en": "purges bile, phlegm and water",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

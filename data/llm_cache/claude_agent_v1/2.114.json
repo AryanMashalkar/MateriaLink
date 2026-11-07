@@ -1,0 +1,79 @@
+{
+ "id": "2.114",
+ "headword": "λάπαθον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Rumex acetosa",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Rumex patientia",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Rumex",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "λέπρας, λειχῆνας",
+   "en": "scaly skin and lichen",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ὄνυχας λεπρούς",
+   "en": "diseased nails",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "κνησμοὺς",
+   "en": "itching",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ὀδονταλγίας",
+   "en": "toothache",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "χοιράδας καὶ παρωτίδας",
+   "en": "scrofula and parotid swellings",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "σπλῆνα τήκει",
+   "en": "reduces the spleen",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "ῥοῦν γυναικεῖον",
+   "en": "women's discharges",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἰκτερικοὺς",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "λίθους ἐν κύστει",
+   "en": "bladder stones",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "σκορπιοπλήκτοις",
+   "en": "scorpion stings",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,63 @@
+{
+ "id": "4.158",
+ "headword": "νάρκισσος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Narcissus poeticus",
+   "prob": 0.5,
+   "why": ""
+  },
+  {
+   "taxon": "Narcissus tazetta",
+   "prob": 0.35,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "bulb"
+ ],
+ "uses": [
+  {
+   "greek": "ἔμετον κινεῖ",
+   "en": "emetic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "πυρίκαυστα",
+   "en": "burns",
+   "category": "injury"
+  },
+  {
+   "greek": "νεῦρα ἀποκεκομμένα",
+   "en": "cut sinews",
+   "category": "injury"
+  },
+  {
+   "greek": "σφυρῶν στρέμματα",
+   "en": "ankle sprains",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ἄρθρων πόνους χρονίους",
+   "en": "chronic joint pain",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ἀλφοὺς",
+   "en": "white skin patches",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἀποστήματα",
+   "en": "abscesses",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "σκόλοπας",
+   "en": "splinters",
+   "category": "injury"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

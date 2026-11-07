@@ -1,0 +1,24 @@
+{
+ "id": "4.188",
+ "headword": "κνῆκος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Carthamus tinctorius",
+   "prob": 0.85,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "flower"
+ ],
+ "uses": [
+  {
+   "greek": "κοιλίαν καθαίρει",
+   "en": "purgative",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

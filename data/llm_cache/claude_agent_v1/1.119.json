@@ -1,0 +1,29 @@
+{
+ "id": "1.119",
+ "headword": "κρανία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Cornus mas",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit",
+  "sap"
+ ],
+ "uses": [
+  {
+   "greek": "κοιλίας ῥύσιν καὶ δυσεντερίαν",
+   "en": "diarrhoea and dysentery",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "λειχῆνας",
+   "en": "lichen",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,29 @@
+{
+ "id": "4.187",
+ "headword": "δρυοπτερίς",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Dryopteris",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Cystopteris fragilis",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "τρίχας ψιλοῖ",
+   "en": "removes hair (depilatory)",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

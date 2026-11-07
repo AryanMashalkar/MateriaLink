@@ -1,0 +1,50 @@
+{
+ "id": "1.84",
+ "headword": "πτελέα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Ulmus minor",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Ulmus",
+   "prob": 0.12,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "bark",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "λέπραν",
+   "en": "scaly skin",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "τραύματα κολλᾷ",
+   "en": "closes wounds",
+   "category": "injury"
+  },
+  {
+   "greek": "ἄγει φλέγμα",
+   "en": "purges phlegm",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "κατάγματα πωροῖ",
+   "en": "heals fractures",
+   "category": "injury"
+  },
+  {
+   "greek": "ἕλκη ἀπουλοῖ",
+   "en": "heals ulcers",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

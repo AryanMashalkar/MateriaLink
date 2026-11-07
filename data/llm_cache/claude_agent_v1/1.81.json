@@ -1,0 +1,50 @@
+{
+ "id": "1.81",
+ "headword": "λεύκη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Populus alba",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Populus",
+   "prob": 0.08,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "bark",
+  "leaf",
+  "bud"
+ ],
+ "uses": [
+  {
+   "greek": "ἰσχιάδας",
+   "en": "sciatica",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "στραγγουρίας",
+   "en": "strangury",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἀτόκιος",
+   "en": "contraceptive",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ὠταλγίαν",
+   "en": "earache",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ἀμβλυωπίας",
+   "en": "dim sight",
+   "category": "vision disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

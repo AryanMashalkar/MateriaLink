@@ -1,0 +1,69 @@
+{
+ "id": "1.99",
+ "headword": "ῥόδα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Rosa gallica",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Rosa damascena",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Rosa",
+   "prob": 0.12,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "petals",
+  "flower heads"
+ ],
+ "uses": [
+  {
+   "greek": "ἄλγημα κεφαλῆς",
+   "en": "headache",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ὀφθαλμῶν, ὤτων",
+   "en": "eye and ear pain",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "οὔλων",
+   "en": "gum pain",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὑποχονδρίων φλεγμονὰς",
+   "en": "inflammation below the ribs",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "στομάχου πλάδον",
+   "en": "weak stomach",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἐρυσιπέλατα",
+   "en": "erysipelas",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "κοιλίαν ῥέουσαν",
+   "en": "diarrhoea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "αἵματος ἀναγωγὴν",
+   "en": "spitting blood",
+   "category": "respiratory system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

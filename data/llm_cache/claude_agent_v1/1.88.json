@@ -1,0 +1,29 @@
+{
+ "id": "1.88",
+ "headword": "ἐρείκη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Erica arborea",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Erica",
+   "prob": 0.12,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "foliage",
+  "flower"
+ ],
+ "uses": [
+  {
+   "greek": "ἑρπετῶν δήγματα",
+   "en": "snake bites",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

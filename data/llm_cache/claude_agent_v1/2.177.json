@@ -1,0 +1,49 @@
+{
+ "id": "2.177",
+ "headword": "ἀργεμώνη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Papaver argemone",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Glaucium corniculatum",
+   "prob": 0.25,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "latex"
+ ],
+ "uses": [
+  {
+   "greek": "ἄργεμα καὶ νεφέλια",
+   "en": "eye ulcers and clouding",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "φλεγμονὰς",
+   "en": "inflammation",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "δυσεντερικοῖς",
+   "en": "dysentery",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "τραυμάτων",
+   "en": "wounds",
+   "category": "injury"
+  },
+  {
+   "greek": "θηριοδήκτοις",
+   "en": "venomous bites",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

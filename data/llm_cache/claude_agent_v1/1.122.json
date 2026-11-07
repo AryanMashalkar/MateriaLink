@@ -1,0 +1,17 @@
+{
+ "id": "1.122",
+ "headword": "κόμαρος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Arbutus unedo",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit"
+ ],
+ "uses": [],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,23 @@
+{
+ "id": "2.116",
+ "headword": "λαμψάνη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Sinapis arvensis",
+   "prob": 0.5,
+   "why": ""
+  },
+  {
+   "taxon": "Lapsana communis",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "stem"
+ ],
+ "uses": [],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

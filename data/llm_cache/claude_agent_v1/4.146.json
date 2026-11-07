@@ -1,0 +1,43 @@
+{
+ "id": "4.146",
+ "headword": "δαφνοειδές",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Daphne laureola",
+   "prob": 0.7,
+   "why": ""
+  },
+  {
+   "taxon": "Daphne",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "φλέγμα κάτω ἄγει",
+   "en": "purges phlegm",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἔμετον κινεῖ",
+   "en": "induces vomiting",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "καταμήνια ἄγει",
+   "en": "promotes menstruation",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "πταρμὸν κινεῖ",
+   "en": "induces sneezing",
+   "category": "respiratory system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

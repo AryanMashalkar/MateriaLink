@@ -1,0 +1,58 @@
+{
+ "id": "1.75",
+ "headword": "ἄρκευθος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Juniperus oxycedrus",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Juniperus communis",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Juniperus",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "berry"
+ ],
+ "uses": [
+  {
+   "greek": "οὐρητικαί",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἐν θώρακι καὶ βῆχας",
+   "en": "chest complaints and cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἐμπνευματώσεις καὶ στρόφους",
+   "en": "flatulence and colic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "θηρία",
+   "en": "venomous bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "σπάσμασι καὶ ῥήγμασι",
+   "en": "spasms and ruptures",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ὑστερικῶς πνιγομέναις",
+   "en": "hysterical suffocation",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

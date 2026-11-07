@@ -1,0 +1,70 @@
+{
+ "id": "2.136",
+ "headword": "θρίδαξ",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Lactuca sativa",
+   "prob": 0.7,
+   "why": ""
+  },
+  {
+   "taxon": "Lactuca serriola",
+   "prob": 0.25,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "seed",
+  "juice"
+ ],
+ "uses": [
+  {
+   "greek": "ὑπνωτική",
+   "en": "brings sleep",
+   "category": "psychiatric disorder"
+  },
+  {
+   "greek": "κοιλίας μαλακτική",
+   "en": "laxative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "γάλακτος κατασπαστική",
+   "en": "promotes milk",
+   "category": "breast disease"
+  },
+  {
+   "greek": "στομαχικοῖς",
+   "en": "stomach complaints",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἐπικαύσεις",
+   "en": "burns",
+   "category": "injury"
+  },
+  {
+   "greek": "ἀνώδυνος",
+   "en": "pain-relieving",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ἄγει ἔμμηνα",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "σκορπιοπλήκτους καὶ φαλαγγιοδήκτους",
+   "en": "scorpion and spider bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ὀνειρωγμοὺς καὶ συνουσίαν ἀποστρέφει",
+   "en": "reduces wet dreams and desire",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

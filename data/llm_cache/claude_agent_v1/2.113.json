@@ -1,0 +1,38 @@
+{
+ "id": "2.113",
+ "headword": "σίσαρον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Sium sisarum",
+   "prob": 0.8,
+   "why": ""
+  },
+  {
+   "taxon": "Pastinaca sativa",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "εὐστόμαχος",
+   "en": "good for the stomach",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "οὐρητική",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ὀρέξεως προκλητική",
+   "en": "stimulates appetite",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,35 @@
+{
+ "id": "2.129",
+ "headword": "κρῆθμον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Crithmum maritimum",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "leaf",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "δυσουροῦσι",
+   "en": "painful urination",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἰκτερικοῖς",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "καταμήνια",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,43 @@
+{
+ "id": "4.160",
+ "headword": "ἱππόφαιστον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Centaurea spinosa",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Centaurea",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "juice"
+ ],
+ "uses": [
+  {
+   "greek": "κάτω καθαίρει",
+   "en": "purgative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὀρθοπνοίας",
+   "en": "breathlessness",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἐπιληπτικοῖς",
+   "en": "epilepsy",
+   "category": "psychiatric disorder"
+  },
+  {
+   "greek": "νευρικοῖς",
+   "en": "nerve disorders",
+   "category": "psychiatric disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

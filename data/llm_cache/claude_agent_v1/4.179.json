@@ -1,0 +1,28 @@
+{
+ "id": "4.179",
+ "headword": "ἔμπετρον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Frankenia",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Herniaria",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "φλέγμα καὶ χολὴν καθαίρει",
+   "en": "purges phlegm, bile and water",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}
