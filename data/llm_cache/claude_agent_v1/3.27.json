@@ -1,0 +1,84 @@
+{
+ "id": "3.27",
+ "headword": "ὀρίγανος Ἡρακλεωτική",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Origanum vulgare",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Origanum heracleoticum",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Origanum",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb",
+  "juice"
+ ],
+ "uses": [
+  {
+   "greek": "θηριοδήκτοις",
+   "en": "venomous bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "κώνειον ἢ μηκώνιον",
+   "en": "hemlock or opium poisoning",
+   "category": "poisoning"
+  },
+  {
+   "greek": "σπάσματα ῥήγματα",
+   "en": "spasms, ruptures",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ὕδρωπας",
+   "en": "dropsy",
+   "category": "cardiovascular disease"
+  },
+  {
+   "greek": "μέλανα κατὰ κοιλίαν",
+   "en": "purgative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἔμμηνα",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "βῆχας",
+   "en": "cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "κνησμοὺς καὶ ψώραν",
+   "en": "itch and scabies",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἴκτερον",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "παρίσθμια καὶ ἄφθας",
+   "en": "tonsil and mouth sores",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ὠταλγίας",
+   "en": "earache",
+   "category": "otorhinolaryngologic disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

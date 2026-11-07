@@ -1,0 +1,66 @@
+{
+ "id": "3.102",
+ "headword": "κρίνον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Lilium candidum",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Lilium",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "flower",
+  "leaf",
+  "root",
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "σκληριῶν περὶ μήτραν",
+   "en": "uterine indurations",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἑρπετοδήκτοις",
+   "en": "snakebite",
+   "category": "poisoning"
+  },
+  {
+   "greek": "κατακαύματα",
+   "en": "burns",
+   "category": "injury"
+  },
+  {
+   "greek": "παλαιὰ ἕλκη καὶ τραύματα",
+   "en": "chronic ulcers and wounds",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἔμμηνα ἄγει",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "στρέμματα",
+   "en": "sprains",
+   "category": "injury"
+  },
+  {
+   "greek": "ἀλφοὺς καὶ λέπρας",
+   "en": "vitiligo and leprous skin",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ὄρχεων φλεγμονάς",
+   "en": "testicular inflammation",
+   "category": "urinary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

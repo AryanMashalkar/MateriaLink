@@ -1,0 +1,38 @@
+{
+ "id": "3.128",
+ "headword": "σατύριον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Orchis",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Platanthera bifolia",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Fritillaria graeca",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ὀπισθότονον",
+   "en": "opisthotonus",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "συνουσίαν παρορμᾶν",
+   "en": "aphrodisiac",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

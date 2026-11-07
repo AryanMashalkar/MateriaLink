@@ -1,0 +1,28 @@
+{
+ "id": "3.116",
+ "headword": "γεράνιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Geranium tuberosum",
+   "prob": 0.5,
+   "why": ""
+  },
+  {
+   "taxon": "Geranium",
+   "prob": 0.35,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ὑστέρας ἐμπνευματώσεις",
+   "en": "uterine flatulence",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

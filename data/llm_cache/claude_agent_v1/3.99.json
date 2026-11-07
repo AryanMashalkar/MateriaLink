@@ -1,0 +1,33 @@
+{
+ "id": "3.99",
+ "headword": "λευκάς",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Leucas",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Lamium",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Stachys",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "ἰοβόλων",
+   "en": "venomous bites and stings",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

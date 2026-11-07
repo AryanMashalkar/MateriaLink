@@ -1,0 +1,83 @@
+{
+ "id": "3.111",
+ "headword": "σκόρδιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Teucrium scordium",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Teucrium",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "διουρητικήν",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἑρπετῶν δήγματα",
+   "en": "snakebite",
+   "category": "poisoning"
+  },
+  {
+   "greek": "δηγμοὺς στομάχου",
+   "en": "stomach pain",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "δυσεντερίαν",
+   "en": "dysentery",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "δυσουρίαν",
+   "en": "dysuria",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "παλαιὰν βῆχα",
+   "en": "chronic cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ῥήγματα καὶ σπάσματα",
+   "en": "ruptures and spasms",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ὑποχόνδριον φλεγμαῖνον",
+   "en": "hypochondrial inflammation",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "ποδάγραν",
+   "en": "gout",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ἔμμηνα κινεῖ",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "τραύματα κολλᾷ",
+   "en": "wound healing",
+   "category": "injury"
+  },
+  {
+   "greek": "ἕλκη παλαιά",
+   "en": "chronic ulcers",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

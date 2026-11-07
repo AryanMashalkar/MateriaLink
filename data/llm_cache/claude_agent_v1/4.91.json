@@ -1,0 +1,75 @@
+{
+ "id": "4.91",
+ "headword": "κοτυληδών",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Umbilicus rupestris",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Umbilicus horizontalis",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Umbilicus",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "juice",
+  "leaf",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "φιμοὺς ἐν αἰδοίοις",
+   "en": "phimosis",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "φλεγμονάς",
+   "en": "inflammations",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "ἐρυσιπέλατα",
+   "en": "erysipelas",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "χιμέτλας",
+   "en": "chilblains",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "χοιράδας",
+   "en": "scrofula",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "στόμαχον καυσούμενον",
+   "en": "heartburn",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "λίθους θρύπτει",
+   "en": "breaks stones",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "οὖρα κινεῖ",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ὑδρωπικοῖς",
+   "en": "dropsy",
+   "category": "cardiovascular disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

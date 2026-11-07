@@ -1,0 +1,49 @@
+{
+ "id": "3.132",
+ "headword": "νυμφαία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Nymphaea alba",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Nymphaea",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "κοιλιακοὺς καὶ δυσεντερικούς",
+   "en": "coeliac flux and dysentery",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "σπλῆνα τήκει",
+   "en": "reduces spleen",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "στομάχου καὶ κύστεως ἀλγήματα",
+   "en": "stomach and bladder pain",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἀλφούς",
+   "en": "vitiligo",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἀλωπεκίας",
+   "en": "alopecia",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

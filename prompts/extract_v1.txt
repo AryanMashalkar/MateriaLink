@@ -1,0 +1,25 @@
+You are assisting a historian of pharmacology and a pharmacognosist. You will read one chapter of
+Dioscorides' De materia medica (Greek text of M. Wellmann's edition, 1907-1914).
+
+Return ONLY a JSON object with these fields:
+- "id": the chapter id given to you.
+- "headword": the Greek name of the drug that the chapter is about, as written in the text.
+- "is_plant": true if the drug is a plant or plant product (incl. fungi/algae), false for animal, mineral, wine etc.
+- "candidates": up to 5 candidate modern identifications, most likely first. Each item:
+    {"taxon": "<Linnaean binomial, or genus if a species cannot be argued>",
+     "prob": <your probability (0-1) that this is the correct identification; the probabilities must sum to <= 1,
+              leaving the rest for 'none of these'>,
+     "why": "<max 15 words: which descriptive details in the Greek support it>"}
+  Base the probabilities on the botanical description, habitat and name; be honest when identifications are disputed.
+- "parts": plant parts used (English, e.g. "root", "leaf", "seed", "juice", "flower").
+- "uses": every therapeutic use stated. Each item:
+    {"greek": "<the exact Greek phrase, max 8 words>",
+     "en": "<short English gloss>",
+     "category": one of [
+        "nervous system disorder", "infectious disease", "inflammatory disease", "musculoskeletal system disease",
+        "digestive system disease", "integumentary system disease", "immune system disease", "cancer",
+        "cardiovascular disease", "connective tissue disease", "metabolic disease", "endocrine system disease",
+        "psychiatric disorder", "hematologic disease", "respiratory system disease", "urinary system disease",
+        "otorhinolaryngologic disease", "nutritional disorder", "injury", "vision disorder", "breast disease",
+        "poisoning", "reproductive/obstetric", "other"]}
+Do not invent uses that are not in the text. Do not give dosages or medical advice.

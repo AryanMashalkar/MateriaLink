@@ -1,0 +1,54 @@
+{
+ "id": "3.77",
+ "headword": "νάρθηξ",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Ferula communis",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Ferula",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "pith",
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "αἱμοπτυϊκούς",
+   "en": "haemoptysis",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "κοιλιακούς",
+   "en": "coeliac flux",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἐχιοδήκτοις",
+   "en": "viper bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ἐκ ῥινῶν αἱμορραγίας",
+   "en": "nosebleed",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "στροφουμένους",
+   "en": "colic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἱδρῶτας κινεῖ",
+   "en": "induces sweating",
+   "category": "other"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,59 @@
+{
+ "id": "4.72",
+ "headword": "στρύχνον ὑπνωτικόν",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Withania somnifera",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Withania",
+   "prob": 0.1,
+   "why": ""
+  },
+  {
+   "taxon": "Physalis",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root bark",
+  "fruit"
+ ],
+ "uses": [
+  {
+   "greek": "ὑπνωτικήν",
+   "en": "hypnotic",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "οὐρητικός",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ὑδρωπικοῖς",
+   "en": "dropsy",
+   "category": "cardiovascular disease"
+  },
+  {
+   "greek": "ἀνωδύνοις",
+   "en": "analgesic",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ὀδονταλγίαις",
+   "en": "toothache",
+   "category": "other"
+  },
+  {
+   "greek": "ἀμβλυωπίας",
+   "en": "dim sight",
+   "category": "vision disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

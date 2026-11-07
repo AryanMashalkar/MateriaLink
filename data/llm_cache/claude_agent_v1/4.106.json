@@ -1,0 +1,49 @@
+{
+ "id": "4.106",
+ "headword": "ἄρκιον (προσωπίς)",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Arctium lappa",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Arctium minus",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Arctium",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "αἱμοπτυϊκοῖς",
+   "en": "haemoptysis",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἐμπυϊκοῖς",
+   "en": "empyema",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "περὶ τὰ ἄρθρα ἀλγήματα",
+   "en": "joint pains from sprains",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "παλαιῶν ἑλκῶν",
+   "en": "chronic ulcers",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,33 @@
+{
+ "id": "3.86",
+ "headword": "γλαύκιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Glaucium flavum",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Glaucium corniculatum",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Glaucium",
+   "prob": 0.25,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "juice"
+ ],
+ "uses": [
+  {
+   "greek": "ὀφθαλμικά",
+   "en": "eye disorders",
+   "category": "vision disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

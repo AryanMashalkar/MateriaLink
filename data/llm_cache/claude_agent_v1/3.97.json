@@ -1,0 +1,38 @@
+{
+ "id": "3.97",
+ "headword": "τεύκριον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Teucrium",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Teucrium scordium",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Teucrium flavum",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "σπλῆνα τήκειν",
+   "en": "reduces spleen",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "θηριοδήκτων",
+   "en": "venomous bites",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

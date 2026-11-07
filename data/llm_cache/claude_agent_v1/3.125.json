@@ -1,0 +1,33 @@
+{
+ "id": "3.125",
+ "headword": "φύλλον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Mercurialis annua",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Theligonum cynocrambe",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Mercurialis",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "ἀρσενοτοκεῖν",
+   "en": "sex selection of offspring",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

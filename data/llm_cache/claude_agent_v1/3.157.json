@@ -1,0 +1,58 @@
+{
+ "id": "3.157",
+ "headword": "κόρις",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Hypericum empetrifolium",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Hypericum coris",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Hypericum",
+   "prob": 0.25,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit"
+ ],
+ "uses": [
+  {
+   "greek": "οὖρα",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "καταμήνια",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "φαλαγγιοδήκτοις",
+   "en": "spider bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ἰσχιαδικοῖς",
+   "en": "sciatica",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ὀπισθοτονικοῖς",
+   "en": "opisthotonus",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ῥίγη",
+   "en": "rigors",
+   "category": "infectious disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

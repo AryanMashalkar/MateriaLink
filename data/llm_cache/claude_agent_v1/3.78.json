@@ -1,0 +1,58 @@
+{
+ "id": "3.78",
+ "headword": "πευκέδανον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Peucedanum officinale",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Peucedanum",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root juice"
+ ],
+ "uses": [
+  {
+   "greek": "ληθαργικοῖς φρενιτικοῖς",
+   "en": "lethargy and phrenitis",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "σκοτωματικοῖς",
+   "en": "vertigo",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ἐπιληπτικοῖς",
+   "en": "epilepsy",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "κεφαλαλγοῦσι",
+   "en": "headache",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "παραλυτικοῖς",
+   "en": "paralysis",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ἰσχιαδικοῖς",
+   "en": "sciatica",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "σπωμένοις",
+   "en": "spasms",
+   "category": "musculoskeletal system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

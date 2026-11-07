@@ -1,0 +1,33 @@
+{
+ "id": "4.117",
+ "headword": "ὀνάγρα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Nerium oleander",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Epilobium angustifolium",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Oenothera",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "θηριώδη ἕλκη",
+   "en": "malignant ulcers",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

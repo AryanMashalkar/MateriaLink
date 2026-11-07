@@ -1,0 +1,88 @@
+{
+ "id": "4.134",
+ "headword": "ἀδίαντον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Adiantum capillus-veneris",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Adiantum",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "ἀσθματικοῖς",
+   "en": "asthma",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἰκτερικοῖς",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "σπληνικοῖς",
+   "en": "spleen complaints",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "δυσουροῦσι",
+   "en": "dysuria",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "θρύπτει λίθους",
+   "en": "breaks stones",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "κοιλίαν ἵστησι",
+   "en": "stops diarrhoea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "θηριοδήκτοις",
+   "en": "venomous bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ἔμμηνα καὶ λοχεῖα",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "αἵματος ἀναγωγήν",
+   "en": "haemoptysis",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἀλωπεκίας δασύνει",
+   "en": "alopecia",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "χοιράδας",
+   "en": "scrofula",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "πίτυρα καὶ ἀχῶρας",
+   "en": "dandruff and scalp sores",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "τρίχας ῥεούσας",
+   "en": "hair loss",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

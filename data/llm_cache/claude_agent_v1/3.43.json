@@ -1,0 +1,43 @@
+{
+ "id": "3.43",
+ "headword": "ἄκινος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Clinopodium acinos",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Ziziphora capitata",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Clinopodium",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "ἵστησι κοιλίαν",
+   "en": "stops diarrhoea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἔμμηνα",
+   "en": "menorrhagia",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "φύγεθλα καὶ ἐρυσιπέλατα",
+   "en": "boils and erysipelas",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

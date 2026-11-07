@@ -1,0 +1,33 @@
+{
+ "id": "4.127",
+ "headword": "βούγλωσσον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Anchusa italica",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Borago officinalis",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Anchusa",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "εὐφρόσυνον",
+   "en": "cheering in wine",
+   "category": "psychiatric disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

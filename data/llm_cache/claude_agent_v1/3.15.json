@@ -1,0 +1,33 @@
+{
+ "id": "3.15",
+ "headword": "ποτίρριον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Astragalus poterium",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Astragalus",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "νεύρων διακοπὰς καὶ τραύματα",
+   "en": "severed nerves and wounds",
+   "category": "injury"
+  },
+  {
+   "greek": "περὶ νεῦρα διαθέσεσι",
+   "en": "nerve disorders",
+   "category": "nervous system disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

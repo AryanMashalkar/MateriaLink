@@ -1,0 +1,53 @@
+{
+ "id": "3.95",
+ "headword": "κλινοπόδιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Clinopodium vulgare",
+   "prob": 0.55,
+   "why": ""
+  },
+  {
+   "taxon": "Clinopodium",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "θηρίων δήγματα",
+   "en": "venomous bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "σπάσματα",
+   "en": "spasms",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "στραγγουρίας",
+   "en": "strangury",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἔμμηνα καὶ ἔμβρυα",
+   "en": "emmenagogue and abortifacient",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἀκροχορδόνας",
+   "en": "warts",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "κοιλίαν ἵστησιν",
+   "en": "stops diarrhoea",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

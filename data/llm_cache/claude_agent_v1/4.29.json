@@ -1,0 +1,48 @@
+{
+ "id": "4.29",
+ "headword": "ἄγρωστις",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Cynodon dactylon",
+   "prob": 0.5,
+   "why": ""
+  },
+  {
+   "taxon": "Elymus repens",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "τραύματα κολλᾷ",
+   "en": "closes wounds",
+   "category": "injury"
+  },
+  {
+   "greek": "στρόφους",
+   "en": "colic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "δυσουρίας",
+   "en": "dysuria",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "περὶ κύστιν ἕλκη",
+   "en": "bladder ulcers",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "λίθους θρύπτει",
+   "en": "breaks stones",
+   "category": "urinary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

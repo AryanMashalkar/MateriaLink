@@ -1,0 +1,65 @@
+{
+ "id": "3.52",
+ "headword": "σταφυλῖνος ἄγριος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Daucus carota",
+   "prob": 0.8,
+   "why": ""
+  },
+  {
+   "taxon": "Daucus",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "root",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "ἔμμηνα κινεῖ",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "δυσουροῦσι",
+   "en": "dysuria",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ὑδρωπικοῖς",
+   "en": "dropsy",
+   "category": "cardiovascular disease"
+  },
+  {
+   "greek": "πλευριτικοῖς",
+   "en": "pleurisy",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "θηρίων δήγματα",
+   "en": "venomous bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "συλλήψει",
+   "en": "aids conception",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "συνουσίαν παρορμᾷ",
+   "en": "aphrodisiac",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "φαγεδαινικὰ ἕλκη",
+   "en": "phagedenic ulcers",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

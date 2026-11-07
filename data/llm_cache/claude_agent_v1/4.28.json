@@ -1,0 +1,38 @@
+{
+ "id": "4.28",
+ "headword": "ὠκιμοειδές",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Silene gallica",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Saponaria ocymoides",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Silene",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "ἐχιοδήκτους",
+   "en": "viper bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ἰσχιαδικοῖς",
+   "en": "sciatica",
+   "category": "musculoskeletal system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

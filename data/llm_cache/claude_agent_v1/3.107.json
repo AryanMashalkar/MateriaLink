@@ -1,0 +1,33 @@
+{
+ "id": "3.107",
+ "headword": "φυλλῖτις",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Asplenium scolopendrium",
+   "prob": 0.8,
+   "why": ""
+  },
+  {
+   "taxon": "Asplenium",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "ἑρπετοδήκτους",
+   "en": "snakebite",
+   "category": "poisoning"
+  },
+  {
+   "greek": "δυσεντερίαν καὶ διάρροιαν",
+   "en": "dysentery and diarrhoea",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

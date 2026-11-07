@@ -1,0 +1,33 @@
+{
+ "id": "4.73",
+ "headword": "στρύχνον μανικόν",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Datura stramonium",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Atropa belladonna",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Datura metel",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "φαντασίας ἀποτελεῖν",
+   "en": "causes hallucinations",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,63 @@
+{
+ "id": "3.3",
+ "headword": "γεντιανή",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Gentiana lutea",
+   "prob": 0.8,
+   "why": ""
+  },
+  {
+   "taxon": "Gentiana",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "θηριοδήκτοις",
+   "en": "venomous bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ὀδύνας πλευρῶν",
+   "en": "side pains",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "πτώματα στρέμματα",
+   "en": "falls, sprains",
+   "category": "injury"
+  },
+  {
+   "greek": "ἡπατικοῖς",
+   "en": "liver complaints",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "στομαχικοῖς",
+   "en": "stomach complaints",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἐκβάλλει ἔμβρυα",
+   "en": "abortifacient",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "τραυματική",
+   "en": "wounds",
+   "category": "injury"
+  },
+  {
+   "greek": "ὀφθαλμῶν φλεγμαινόντων",
+   "en": "eye inflammation",
+   "category": "vision disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

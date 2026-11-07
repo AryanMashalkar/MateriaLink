@@ -1,0 +1,38 @@
+{
+ "id": "4.17",
+ "headword": "λαγώπουν",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Trifolium arvense",
+   "prob": 0.65,
+   "why": ""
+  },
+  {
+   "taxon": "Trifolium",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "στατικὴν κοιλίας",
+   "en": "stops diarrhoea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "πυρεσσόντων",
+   "en": "fever",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "φλεγμονὴν βουβώνων",
+   "en": "inflamed buboes",
+   "category": "inflammatory disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

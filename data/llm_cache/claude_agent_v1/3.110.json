@@ -1,0 +1,63 @@
+{
+ "id": "3.110",
+ "headword": "πόλιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Teucrium polium",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Teucrium montanum",
+   "prob": 0.1,
+   "why": ""
+  },
+  {
+   "taxon": "Teucrium",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "θηριοδήκτοις",
+   "en": "venomous bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ὑδρωπικοῖς",
+   "en": "dropsy",
+   "category": "cardiovascular disease"
+  },
+  {
+   "greek": "ἰκτεριώδεσι",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "σπληνικοῖς",
+   "en": "spleen disorders",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "ἄγει κοιλίαν",
+   "en": "laxative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἔμμηνα",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "τραύματα κολλᾷ",
+   "en": "wound healing",
+   "category": "injury"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

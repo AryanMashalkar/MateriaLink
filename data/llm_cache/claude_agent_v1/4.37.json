@@ -1,0 +1,81 @@
+{
+ "id": "4.37",
+ "headword": "βάτος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Rubus ulmifolius",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Rubus fruticosus",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Rubus",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "shoots",
+  "leaf",
+  "fruit",
+  "flower"
+ ],
+ "uses": [
+  {
+   "greek": "κοιλίαν ἵστησι",
+   "en": "stops diarrhoea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ῥοῦν γυναικεῖον",
+   "en": "menorrhagia",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "πρηστῆρος δήγματι",
+   "en": "snake bite",
+   "category": "poisoning"
+  },
+  {
+   "greek": "οὖλα κρατύνει",
+   "en": "strengthens gums",
+   "category": "other"
+  },
+  {
+   "greek": "ἄφθας",
+   "en": "aphthae",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ἕρπητας",
+   "en": "herpes",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἀχῶρας ἐν κεφαλῇ",
+   "en": "scalp eruptions",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ὀφθαλμῶν προπτώσεις",
+   "en": "prolapsed eye",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "κονδυλώματα καὶ αἱμορροΐδας",
+   "en": "condylomata and haemorrhoids",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "στομαχικῶν καὶ καρδιακῶν",
+   "en": "stomach and heart complaints",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

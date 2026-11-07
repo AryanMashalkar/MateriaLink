@@ -1,0 +1,54 @@
+{
+ "id": "3.109",
+ "headword": "τρίφυλλον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Bituminaria bituminosa",
+   "prob": 0.8,
+   "why": ""
+  },
+  {
+   "taxon": "Psoralea",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "πλευριτικοῖς",
+   "en": "pleurisy",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "δυσουροῦσιν",
+   "en": "dysuria",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἐπιληπτικοῖς",
+   "en": "epilepsy",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ὑδρωπιᾶν",
+   "en": "dropsy",
+   "category": "cardiovascular disease"
+  },
+  {
+   "greek": "καταμήνια",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "θηριοδήκτοις",
+   "en": "venomous bites",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

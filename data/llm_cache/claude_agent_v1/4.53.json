@@ -1,0 +1,48 @@
+{
+ "id": "4.53",
+ "headword": "λειχὴν ὁ ἐπὶ τῶν πετρῶν",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Marchantia polymorpha",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Lunularia",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Peltigera",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "thallus"
+ ],
+ "uses": [
+  {
+   "greek": "αἱμορραγίαν ἵστησι",
+   "en": "stops bleeding",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "φλεγμονάς",
+   "en": "inflammations",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "λειχῆνας",
+   "en": "lichen-like skin eruptions",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἰκτερικούς",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

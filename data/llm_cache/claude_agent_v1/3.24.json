@@ -1,0 +1,73 @@
+{
+ "id": "3.24",
+ "headword": "ἁβρότονον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Artemisia arborescens",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Artemisia abrotanum",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Artemisia",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "ὀρθοπνοίᾳ",
+   "en": "orthopnoea",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ῥήγμασι σπάσμασιν",
+   "en": "ruptures, spasms",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ἰσχιάσι",
+   "en": "sciatica",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "δυσουρίαις",
+   "en": "dysuria",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἐμμήνων ἐπισχέσει",
+   "en": "amenorrhoea",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "θανασίμων ἀντίδοτος",
+   "en": "antidote to poisons",
+   "category": "poisoning"
+  },
+  {
+   "greek": "φαλαγγίων καὶ σκορπίων",
+   "en": "spider and scorpion stings",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ὀφθαλμῶν φλεγμοναῖς",
+   "en": "eye inflammation",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "φύματα",
+   "en": "tumours",
+   "category": "inflammatory disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

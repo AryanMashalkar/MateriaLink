@@ -1,0 +1,48 @@
+{
+ "id": "3.8",
+ "headword": "χαμαιλέων λευκός",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Carlina gummifera",
+   "prob": 0.7,
+   "why": ""
+  },
+  {
+   "taxon": "Atractylis gummifera",
+   "prob": 0.1,
+   "why": ""
+  },
+  {
+   "taxon": "Carlina",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ἕλμιν πλατεῖαν",
+   "en": "tapeworm",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "ὑδρωπικοῖς",
+   "en": "dropsy",
+   "category": "cardiovascular disease"
+  },
+  {
+   "greek": "δυσουρίαν",
+   "en": "dysuria",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "θηριακή",
+   "en": "antidote for bites",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

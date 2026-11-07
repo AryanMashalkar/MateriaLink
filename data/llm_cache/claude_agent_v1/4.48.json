@@ -1,0 +1,28 @@
+{
+ "id": "4.48",
+ "headword": "κόκκος βαφική",
+ "is_plant": false,
+ "candidates": [
+  {
+   "taxon": "Quercus coccifera",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Kermes vermilio",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "kermes galls"
+ ],
+ "uses": [
+  {
+   "greek": "τραύμασι καὶ νεύρων τρώσεσι",
+   "en": "wounds and nerve injuries",
+   "category": "injury"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

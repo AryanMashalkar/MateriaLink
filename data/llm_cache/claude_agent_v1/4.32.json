@@ -1,0 +1,22 @@
+{
+ "id": "4.32",
+ "headword": "ἄγρωστις ἐν Κιλικίᾳ (κίννα)",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Cynodon",
+   "prob": 0.1,
+   "why": ""
+  },
+  {
+   "taxon": "Agrostis",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

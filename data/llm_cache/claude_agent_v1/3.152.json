@@ -1,0 +1,59 @@
+{
+ "id": "3.152",
+ "headword": "ἄλισμα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Alisma plantago-aquatica",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Damasonium alisma",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Alisma",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "λαγωὸν θαλάσσιον καὶ φρῦνον καὶ ὄπιον",
+   "en": "sea hare, toad and opium poisoning",
+   "category": "poisoning"
+  },
+  {
+   "greek": "στρόφους καὶ δυσεντερίαν",
+   "en": "colic and dysentery",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "σπάσμασι",
+   "en": "spasms",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ὑστερικὰ πάθη",
+   "en": "uterine disorders",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἵστησι κοιλίαν",
+   "en": "stops diarrhoea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "οἰδήματα",
+   "en": "swellings",
+   "category": "inflammatory disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

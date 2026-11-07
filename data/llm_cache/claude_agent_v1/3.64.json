@@ -1,0 +1,65 @@
+{
+ "id": "3.64",
+ "headword": "σέλινον κηπαῖον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Apium graveolens",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Apium",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb",
+  "root",
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "ὀφθαλμῶν φλεγμονάς",
+   "en": "eye inflammation",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "καῦσον στομάχου",
+   "en": "heartburn",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "μαστοὺς χονδριῶντας",
+   "en": "hard breasts",
+   "category": "breast disease"
+  },
+  {
+   "greek": "κινεῖ οὖρα",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "θανασίμοις φαρμάκοις",
+   "en": "poisons",
+   "category": "poisoning"
+  },
+  {
+   "greek": "θηριοδήκτοις",
+   "en": "venomous bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "πνευμάτων διαλυτικόν",
+   "en": "carminative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "βηχικαῖς",
+   "en": "cough remedies",
+   "category": "respiratory system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

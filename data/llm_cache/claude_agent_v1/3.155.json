@@ -1,0 +1,43 @@
+{
+ "id": "3.155",
+ "headword": "ἄσκυρον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Hypericum olympicum",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Hypericum perfoliatum",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Hypericum",
+   "prob": 0.35,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit"
+ ],
+ "uses": [
+  {
+   "greek": "ἰσχιάδας",
+   "en": "sciatica",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ἄγει χολώδη",
+   "en": "purgative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "πυρίκαυτα",
+   "en": "burns",
+   "category": "injury"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

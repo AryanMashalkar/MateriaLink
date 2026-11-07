@@ -1,0 +1,45 @@
+{
+ "id": "4.27",
+ "headword": "ἔχιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Echium vulgare",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Echium italicum",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Echium",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "leaf",
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "δηχθεῖσιν ὑπὸ ἑρπετῶν",
+   "en": "snakebite",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ὀσφύος ἄλγημα",
+   "en": "back pain",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "γάλα κατασπᾷ",
+   "en": "promotes lactation",
+   "category": "breast disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

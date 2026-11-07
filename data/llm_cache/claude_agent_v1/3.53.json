@@ -1,0 +1,74 @@
+{
+ "id": "3.53",
+ "headword": "σέσελι",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Seseli tortuosum",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Seseli",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Bupleurum fruticosum",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "στραγγουρίαν",
+   "en": "strangury",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ὀρθόπνοιαν",
+   "en": "orthopnoea",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ὑστερικὰς πνίγας",
+   "en": "hysterical suffocation",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἐπιληπτικούς",
+   "en": "epilepsy",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ἔμμηνα καὶ ἔμβρυα",
+   "en": "emmenagogue, abortifacient",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "βῆχας παλαιάς",
+   "en": "chronic cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "πεπτικός",
+   "en": "digestive",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "στρόφων λυτικός",
+   "en": "colic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἠπιάλοις",
+   "en": "ague",
+   "category": "infectious disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

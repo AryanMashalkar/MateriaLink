@@ -1,0 +1,49 @@
+{
+ "id": "3.129",
+ "headword": "ὅρμινον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Salvia viridis",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Salvia verbenaca",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Salvia",
+   "prob": 0.25,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "συνουσίαν παρορμᾶν",
+   "en": "aphrodisiac",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἄργεμα, λευκώματα",
+   "en": "corneal ulcers and opacities",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "οἰδήματα",
+   "en": "swellings",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "σκόλοπας ἐπισπᾶται",
+   "en": "draws out splinters",
+   "category": "injury"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

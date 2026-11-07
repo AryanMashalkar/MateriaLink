@@ -1,0 +1,49 @@
+{
+ "id": "3.112",
+ "headword": "βήχιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Tussilago farfara",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Tussilago",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ἐρυσιπέλατα",
+   "en": "erysipelas",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "φλεγμονήν",
+   "en": "inflammation",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "ξηρᾶς βηχὸς καὶ ὀρθοπνοίας",
+   "en": "dry cough and orthopnoea",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἐν θώρακι ἀποστήματα",
+   "en": "chest abscesses",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἔμβρυον τεθνηκὸς ἐκβάλλει",
+   "en": "expels dead foetus",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

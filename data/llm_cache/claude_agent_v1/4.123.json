@@ -1,0 +1,44 @@
+{
+ "id": "4.123",
+ "headword": "βούνιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Bunium ferulaceum",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Bunium",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Carum",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "οὐρητικόν",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "δευτέρων ἀγωγόν",
+   "en": "expels afterbirth",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "σπληνί τε καὶ νεφροῖς καὶ κύστει",
+   "en": "spleen, kidney and bladder",
+   "category": "urinary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

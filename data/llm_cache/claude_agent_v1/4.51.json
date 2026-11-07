@@ -1,0 +1,38 @@
+{
+ "id": "4.51",
+ "headword": "τράγος (σκορπίος)",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Ephedra distachya",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Ephedra",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Salicornia",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit"
+ ],
+ "uses": [
+  {
+   "greek": "κοιλιακούς",
+   "en": "coeliac flux",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ῥοϊκάς",
+   "en": "menorrhagia",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

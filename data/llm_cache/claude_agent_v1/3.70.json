@@ -1,0 +1,71 @@
+{
+ "id": "3.70",
+ "headword": "μάραθον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Foeniculum vulgare",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Foeniculum",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb",
+  "seed",
+  "root",
+  "juice"
+ ],
+ "uses": [
+  {
+   "greek": "γάλα κατασπᾶν",
+   "en": "promotes lactation",
+   "category": "breast disease"
+  },
+  {
+   "greek": "νεφριτικοῖς",
+   "en": "kidney complaints",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "περὶ κύστιν πάθεσιν",
+   "en": "bladder complaints",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἑρπετοδήκτοις",
+   "en": "snakebite",
+   "category": "poisoning"
+  },
+  {
+   "greek": "καταμήνια ἄγει",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ναυσίαν",
+   "en": "nausea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "καῦσον στομάχου",
+   "en": "heartburn",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "κυνοδήκτους",
+   "en": "dog bites",
+   "category": "injury"
+  },
+  {
+   "greek": "πρὸς ὀξυδερκίαν",
+   "en": "sharpens sight",
+   "category": "vision disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

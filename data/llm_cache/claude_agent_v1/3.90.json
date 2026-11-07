@@ -1,0 +1,40 @@
+{
+ "id": "3.90",
+ "headword": "ἀπαρίνη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Galium aparine",
+   "prob": 0.8,
+   "why": ""
+  },
+  {
+   "taxon": "Galium",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "stem",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "φαλαγγιοδήκτοις καὶ ἐχιοδήκτοις",
+   "en": "spider and viper bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ὠταλγίας",
+   "en": "earache",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "χοιράδας",
+   "en": "scrofula",
+   "category": "cancer"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,39 @@
+{
+ "id": "4.96",
+ "headword": "ἠριγέρων",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Senecio vulgaris",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Senecio",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "flower"
+ ],
+ "uses": [
+  {
+   "greek": "φλεγμονὰς ὄρχεων καὶ δακτυλίου",
+   "en": "inflamed testicles and anus",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "τραύματα",
+   "en": "wounds",
+   "category": "injury"
+  },
+  {
+   "greek": "τὰ ἐν νεύροις",
+   "en": "nerve injuries",
+   "category": "injury"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

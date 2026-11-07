@@ -1,0 +1,55 @@
+{
+ "id": "3.74",
+ "headword": "λιβανωτὶς κάρπιμος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Cachrys libanotis",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Seseli libanotis",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Prangos ferulacea",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb",
+  "root",
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "αἱμορροΐδας",
+   "en": "haemorrhoids",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "φλεγμονὰς κατὰ δακτύλιον",
+   "en": "anal inflammation",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "κονδυλώματα",
+   "en": "condylomata",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "χοιράδας",
+   "en": "scrofula",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "ἀποστημάτων",
+   "en": "abscesses",
+   "category": "inflammatory disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

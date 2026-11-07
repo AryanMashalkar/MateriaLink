@@ -1,0 +1,43 @@
+{
+ "id": "4.55",
+ "headword": "χρυσοκόμη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Galatella linosyris",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Aster linosyris",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Helichrysum",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ἡπατικοῖς",
+   "en": "liver complaints",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "περιπνευμονικοῖς",
+   "en": "pneumonia",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "κάθαρσιν ὑστέρας",
+   "en": "uterine purging",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

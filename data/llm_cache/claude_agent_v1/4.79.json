@@ -1,0 +1,22 @@
+{
+ "id": "4.79",
+ "headword": "σμῖλαξ (τάξος)",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Taxus baccata",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Taxus",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit"
+ ],
+ "uses": [],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

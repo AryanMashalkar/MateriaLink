@@ -1,0 +1,33 @@
+{
+ "id": "3.147",
+ "headword": "ἀλκαία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Malva alcea",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Malva",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "δυσεντερίαν",
+   "en": "dysentery",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "ῥήγματα",
+   "en": "ruptures",
+   "category": "injury"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

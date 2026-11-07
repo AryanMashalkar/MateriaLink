@@ -1,0 +1,33 @@
+{
+ "id": "3.131",
+ "headword": "ὄνοσμα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Onosma",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Alkanna",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Onosma echioides",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "ἔμβρυα ἄγει",
+   "en": "abortifacient",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

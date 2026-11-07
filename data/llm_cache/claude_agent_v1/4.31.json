@@ -1,0 +1,44 @@
+{
+ "id": "4.31",
+ "headword": "ἄγρωστις ἐν Παρνασσῷ",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Parnassia palustris",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Parnassia",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "πρὸς ὀφθαλμοὺς",
+   "en": "eye remedy",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "οὐρητικόν",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἐμέτων στατικόν",
+   "en": "stops vomiting",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "κοιλίας ῥεούσης στατικόν",
+   "en": "stops diarrhoea",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

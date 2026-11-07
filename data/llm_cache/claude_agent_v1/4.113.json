@@ -1,0 +1,28 @@
+{
+ "id": "4.113",
+ "headword": "λωτὸς ὁ ἐν Αἰγύπτῳ",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Nymphaea lotus",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Nymphaea caerulea",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Nelumbo nucifera",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "rhizome"
+ ],
+ "uses": [],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

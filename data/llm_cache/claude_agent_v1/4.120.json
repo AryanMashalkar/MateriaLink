@@ -1,0 +1,43 @@
+{
+ "id": "4.120",
+ "headword": "ἰσόπυρον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Isopyrum thalictroides",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Fumaria",
+   "prob": 0.1,
+   "why": ""
+  },
+  {
+   "taxon": "Nigella",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "περὶ θώρακα καὶ βηχί",
+   "en": "chest complaints and cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἡπατικοῖς",
+   "en": "liver complaints",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "αἱμοπτυϊκοῖς",
+   "en": "haemoptysis",
+   "category": "respiratory system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

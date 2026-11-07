@@ -1,0 +1,33 @@
+{
+ "id": "3.101",
+ "headword": "λυχνὶς ἀγρία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Agrostemma githago",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Silene",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Silene coronaria",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "ἄγει κατὰ κοιλίαν",
+   "en": "purgative",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

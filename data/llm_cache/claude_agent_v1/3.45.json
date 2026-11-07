@@ -1,0 +1,94 @@
+{
+ "id": "3.45",
+ "headword": "πήγανον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Ruta chalepensis",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Ruta graveolens",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Ruta",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb",
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "οὐρητικά",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἐμμήνων ἀγωγά",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "κοιλίαν ἵστησι",
+   "en": "stops diarrhoea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "φθαρτικῶν φαρμάκων ἀντίδοτος",
+   "en": "antidote to poisons",
+   "category": "poisoning"
+  },
+  {
+   "greek": "πρὸς ἑρπετά",
+   "en": "snakebite",
+   "category": "poisoning"
+  },
+  {
+   "greek": "γονὴν σβέννυσιν",
+   "en": "anaphrodisiac",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "στρόφους",
+   "en": "colic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "πλευρᾶς πόνον καὶ θώρακος",
+   "en": "side and chest pain",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "δύσπνοιαν βῆχας περιπνευμονίαν",
+   "en": "dyspnoea, cough, pneumonia",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἀλγήματα ἰσχίων ἄρθρων",
+   "en": "hip and joint pain",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ῥίγη περιοδικά",
+   "en": "periodic chills",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "πνίγας ὑστερικάς",
+   "en": "hysterical suffocation",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἕλμινθας",
+   "en": "worms",
+   "category": "infectious disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

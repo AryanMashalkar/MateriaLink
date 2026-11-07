@@ -1,0 +1,33 @@
+{
+ "id": "4.130",
+ "headword": "ἀντίρρινον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Antirrhinum orontium",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Misopates orontium",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Antirrhinum",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "ἀντιπαθὲς φαρμάκοις",
+   "en": "protective amulet against poisons",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

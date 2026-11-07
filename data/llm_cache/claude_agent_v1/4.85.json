@@ -1,0 +1,69 @@
+{
+ "id": "4.85",
+ "headword": "ἑλξίνη (περδίκιον)",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Parietaria officinalis",
+   "prob": 0.5,
+   "why": ""
+  },
+  {
+   "taxon": "Parietaria judaica",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Parietaria",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "juice"
+ ],
+ "uses": [
+  {
+   "greek": "ἐρυσιπέλατα",
+   "en": "erysipelas",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "κονδυλώματα",
+   "en": "condylomata",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "κατακαύματα",
+   "en": "burns",
+   "category": "injury"
+  },
+  {
+   "greek": "φλεγμονήν",
+   "en": "inflammation",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "ποδάγρας",
+   "en": "gout",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "βήττοντας χρονίως",
+   "en": "chronic cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "παρισθμίοις φλεγμαίνουσιν",
+   "en": "inflamed tonsils",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ὠταλγίαις",
+   "en": "earache",
+   "category": "otorhinolaryngologic disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

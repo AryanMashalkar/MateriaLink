@@ -1,0 +1,17 @@
+{
+ "id": "3.88",
+ "headword": "ἰχθυοκόλλα",
+ "is_plant": false,
+ "candidates": [],
+ "parts": [
+  "isinglass"
+ ],
+ "uses": [
+  {
+   "greek": "λεπρικάς",
+   "en": "leprous skin",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,33 @@
+{
+ "id": "3.85",
+ "headword": "σαρκοκόλλα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Astragalus sarcocolla",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Astragalus",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "gum"
+ ],
+ "uses": [
+  {
+   "greek": "κολλητικὴν τραυμάτων",
+   "en": "wound healing",
+   "category": "injury"
+  },
+  {
+   "greek": "ὀφθαλμοῖς ῥευμάτων",
+   "en": "eye discharges",
+   "category": "vision disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

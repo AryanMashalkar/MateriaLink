@@ -1,0 +1,38 @@
+{
+ "id": "4.100",
+ "headword": "ποταμογείτων",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Potamogeton natans",
+   "prob": 0.55,
+   "why": ""
+  },
+  {
+   "taxon": "Potamogeton",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "κνησμοῖς",
+   "en": "itching",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "νεμομένοις",
+   "en": "spreading ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "παλαιοῖς ἕλκεσιν",
+   "en": "chronic ulcers",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,39 @@
+{
+ "id": "4.109",
+ "headword": "καπνὸς ὁ ἐν ταῖς κριθαῖς",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Fumaria officinalis",
+   "prob": 0.7,
+   "why": ""
+  },
+  {
+   "taxon": "Fumaria",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "juice",
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "ὀξυδερκής",
+   "en": "sharpens sight",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "τρίχας μὴ ἐᾶν φύεσθαι",
+   "en": "prevents regrowth of eyelashes",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "χολὴν δι᾿ οὔρων ἄγει",
+   "en": "expels bile in urine",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

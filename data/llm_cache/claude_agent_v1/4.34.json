@@ -1,0 +1,33 @@
+{
+ "id": "4.34",
+ "headword": "ἄλλη σιδηρῖτις",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Achillea",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Scabiosa",
+   "prob": 0.12,
+   "why": ""
+  },
+  {
+   "taxon": "Sideritis",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "τραυματική",
+   "en": "wounds",
+   "category": "injury"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

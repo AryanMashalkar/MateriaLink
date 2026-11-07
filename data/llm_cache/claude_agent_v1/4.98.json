@@ -1,0 +1,33 @@
+{
+ "id": "4.98",
+ "headword": "βρύον θαλάσσιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Ulva lactuca",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Ulva",
+   "prob": 0.25,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "thallus"
+ ],
+ "uses": [
+  {
+   "greek": "φλεγμονάς",
+   "en": "inflammations",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "ποδάγρας",
+   "en": "gout",
+   "category": "musculoskeletal system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

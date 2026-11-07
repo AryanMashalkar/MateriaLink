@@ -1,0 +1,29 @@
+{
+ "id": "3.142",
+ "headword": "φαληρίς",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Phalaris canariensis",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Phalaris",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb",
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "κύστεως ἀλγήματα",
+   "en": "bladder pain",
+   "category": "urinary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

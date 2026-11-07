@@ -1,0 +1,38 @@
+{
+ "id": "4.58",
+ "headword": "ἀγήρατον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Achillea ageratum",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Achillea",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Helichrysum",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "οὖρα ἄγειν",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "περὶ ὑστέραν μαλάττειν",
+   "en": "softens the womb",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

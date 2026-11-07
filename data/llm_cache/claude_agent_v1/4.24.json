@@ -1,0 +1,39 @@
+{
+ "id": "4.24",
+ "headword": "ἄγχουσα ἑτέρα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Onosma echioides",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Alkanna",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Anchusa",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "θηριοδήκτοις",
+   "en": "venomous bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ἐχιοδήκτοις",
+   "en": "viper bites",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

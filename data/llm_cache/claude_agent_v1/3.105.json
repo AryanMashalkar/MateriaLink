@@ -1,0 +1,69 @@
+{
+ "id": "3.105",
+ "headword": "πράσιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Marrubium vulgare",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Marrubium",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "φθισικοῖς",
+   "en": "consumption",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "ἀσθματικοῖς, βήσσουσιν",
+   "en": "asthma and cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἀγωγὴν ἐμμήνων",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "δυστοκούσαις",
+   "en": "difficult labour",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "θηριοδήκτοις",
+   "en": "venomous bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ῥυπαρὰ ἕλκη",
+   "en": "foul ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "πτερύγιά",
+   "en": "pterygium",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "ὀδύνην πλευρῶν",
+   "en": "side pain",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ὀξυδερκές",
+   "en": "sharpens sight",
+   "category": "vision disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

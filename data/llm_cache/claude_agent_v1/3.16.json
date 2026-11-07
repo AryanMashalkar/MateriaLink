@@ -1,0 +1,29 @@
+{
+ "id": "3.16",
+ "headword": "ἀκάνθιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Onopordum acanthium",
+   "prob": 0.5,
+   "why": ""
+  },
+  {
+   "taxon": "Onopordum",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "ὀπισθοτόνῳ",
+   "en": "opisthotonus",
+   "category": "nervous system disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

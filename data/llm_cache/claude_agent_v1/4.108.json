@@ -1,0 +1,38 @@
+{
+ "id": "4.108",
+ "headword": "ἐπιπακτίς (ἐλλεβορίνη)",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Epipactis helleborine",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Epipactis",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Herniaria",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "πρὸς τὰ θανάσιμα",
+   "en": "poisons",
+   "category": "poisoning"
+  },
+  {
+   "greek": "περὶ ἧπαρ νοσήματα",
+   "en": "liver disease",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

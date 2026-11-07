@@ -1,0 +1,33 @@
+{
+ "id": "4.116",
+ "headword": "μύαγρον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Camelina sativa",
+   "prob": 0.55,
+   "why": ""
+  },
+  {
+   "taxon": "Camelina",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Melampyrum",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed oil"
+ ],
+ "uses": [
+  {
+   "greek": "τοῦ σώματος τραχύτητας",
+   "en": "rough skin",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

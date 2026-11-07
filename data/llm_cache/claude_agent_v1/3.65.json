@@ -1,0 +1,44 @@
+{
+ "id": "3.65",
+ "headword": "ὀρεοσέλινον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Peucedanum oreoselinum",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Athamanta macedonica",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Athamanta",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "οὐρητικήν",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἔμμηνα",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἀντιδότοις",
+   "en": "antidotes",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

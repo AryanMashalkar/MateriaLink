@@ -1,0 +1,60 @@
+{
+ "id": "3.150",
+ "headword": "ἀνάγυρος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Anagyris foetida",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Anagyris",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "seed",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "οἰδήματα",
+   "en": "swellings",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "ἆσθμα",
+   "en": "asthma",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἐκβολὴν χορίου καὶ ἐμβρύου",
+   "en": "expels afterbirth and foetus",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἐμμήνων",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "φαλαγγίων πληγάς",
+   "en": "spider bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "δυστοκούσαις",
+   "en": "difficult labour",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἔμετον",
+   "en": "emetic",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,53 @@
+{
+ "id": "3.59",
+ "headword": "κύμινον τὸ ἥμερον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Cuminum cyminum",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Cuminum",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "στρόφους καὶ ἐμπνευματώσεις",
+   "en": "colic and flatulence",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὀρθοπνοϊκοῖς",
+   "en": "orthopnoea",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "θηριοδήκτοις",
+   "en": "venomous bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "διδύμων φλεγμοναῖς",
+   "en": "inflamed testicles",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "ῥοῦν γυναικεῖον",
+   "en": "menorrhagia",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἐκ μυκτήρων αἱμορραγίας",
+   "en": "nosebleed",
+   "category": "otorhinolaryngologic disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

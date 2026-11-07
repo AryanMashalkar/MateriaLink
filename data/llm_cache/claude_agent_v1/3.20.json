@@ -1,0 +1,53 @@
+{
+ "id": "3.20",
+ "headword": "τραγάκανθα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Astragalus gummifer",
+   "prob": 0.5,
+   "why": ""
+  },
+  {
+   "taxon": "Astracantha gummifera",
+   "prob": 0.1,
+   "why": ""
+  },
+  {
+   "taxon": "Astragalus",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "gum"
+ ],
+ "uses": [
+  {
+   "greek": "ὀφθαλμικά",
+   "en": "eye remedies",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "βῆχας",
+   "en": "cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "περὶ ἀρτηρίαν τραχύτητας",
+   "en": "hoarse throat",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "νεφρῶν ὀδύνην",
+   "en": "kidney pain",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "κύστεως δῆξιν",
+   "en": "bladder irritation",
+   "category": "urinary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

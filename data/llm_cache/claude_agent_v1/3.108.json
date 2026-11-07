@@ -1,0 +1,40 @@
+{
+ "id": "3.108",
+ "headword": "φαλάγγιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Anthericum liliago",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Anthericum ramosum",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Anthericum",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "seed",
+  "flower"
+ ],
+ "uses": [
+  {
+   "greek": "σκορπιοπλήκτοις καὶ φαλαγγιοδήκτοις",
+   "en": "scorpion and spider bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "στρόφους",
+   "en": "colic",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

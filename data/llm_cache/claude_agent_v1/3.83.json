@@ -1,0 +1,73 @@
+{
+ "id": "3.83",
+ "headword": "χαλβάνη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Ferula gummosa",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Ferula",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "sap"
+ ],
+ "uses": [
+  {
+   "greek": "ἔμμηνα καὶ ἔμβρυα ἄγει",
+   "en": "emmenagogue and abortifacient",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "φακούς",
+   "en": "freckles",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "παλαιὰν βῆχα",
+   "en": "chronic cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "δύσπνοιαν, ἄσθματα",
+   "en": "dyspnoea and asthma",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "σπάσματα",
+   "en": "spasms",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "τοξικῷ",
+   "en": "arrow poison",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ὀδύνην πλευρᾶς",
+   "en": "side pain",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "δοθιῆνας",
+   "en": "boils",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἐπιληπτικούς",
+   "en": "epilepsy",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ὀδόντος πόνον",
+   "en": "toothache",
+   "category": "otorhinolaryngologic disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

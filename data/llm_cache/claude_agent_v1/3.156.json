@@ -1,0 +1,44 @@
+{
+ "id": "3.156",
+ "headword": "ἀνδρόσαιμον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Hypericum androsaemum",
+   "prob": 0.55,
+   "why": ""
+  },
+  {
+   "taxon": "Hypericum",
+   "prob": 0.35,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit",
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "ἄγει χολώδη καὶ κόπρια",
+   "en": "purgative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἰσχιάδας",
+   "en": "sciatica",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "πυρίκαυτα",
+   "en": "burns",
+   "category": "injury"
+  },
+  {
+   "greek": "αἷμα ἐπέχει",
+   "en": "haemostatic",
+   "category": "injury"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

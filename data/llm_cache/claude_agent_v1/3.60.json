@@ -1,0 +1,58 @@
+{
+ "id": "3.60",
+ "headword": "κύμινον ἄγριον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Lagoecia cuminoides",
+   "prob": 0.55,
+   "why": ""
+  },
+  {
+   "taxon": "Lagoecia",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Cuminum",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "στρόφους καὶ ἐμπνευματώσεις",
+   "en": "colic and flatulence",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "λυγμούς",
+   "en": "hiccup",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἰοβόλα",
+   "en": "venomous bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "πλάδον στομάχου",
+   "en": "stomach weakness",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὑπώπια",
+   "en": "black eyes",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "φλεγμονὰς διδύμων",
+   "en": "inflamed testicles",
+   "category": "inflammatory disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,28 @@
+{
+ "id": "4.56",
+ "headword": "χρυσόγονον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Leontice leontopetalum",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Bongardia chrysogonum",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "μυγαλῆς δήγμασιν",
+   "en": "shrew bites",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

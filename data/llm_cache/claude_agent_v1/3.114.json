@@ -1,0 +1,28 @@
+{
+ "id": "3.114",
+ "headword": "ἀμβροσία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Ambrosia maritima",
+   "prob": 0.55,
+   "why": ""
+  },
+  {
+   "taxon": "Ambrosia",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "στύφουσαν",
+   "en": "astringent for fluxes",
+   "category": "other"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

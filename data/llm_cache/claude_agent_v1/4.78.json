@@ -1,0 +1,44 @@
+{
+ "id": "4.78",
+ "headword": "κώνειον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Conium maculatum",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Conium",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "juice",
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "ἀνωδύνοις κολλυρίοις",
+   "en": "analgesic eye salves",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "ἕρπητας καὶ ἐρυσιπέλατα",
+   "en": "herpes and erysipelas",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ὀνειρώττουσι",
+   "en": "nocturnal emissions",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "γάλα σβέννυσι",
+   "en": "suppresses lactation",
+   "category": "breast disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

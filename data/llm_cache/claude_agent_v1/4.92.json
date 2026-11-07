@@ -1,0 +1,33 @@
+{
+ "id": "4.92",
+ "headword": "κοτυληδὼν ἑτέρα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Sedum",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Sempervivum",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Umbilicus",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "ἃ καὶ τὸ ἀείζῳον",
+   "en": "as houseleek (skin inflammations)",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

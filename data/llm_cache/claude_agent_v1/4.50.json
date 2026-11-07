@@ -1,0 +1,28 @@
+{
+ "id": "4.50",
+ "headword": "τράγιον ἄλλο",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Hypericum hircinum",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Hypericum",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "δυσεντερικοῖς",
+   "en": "dysentery",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

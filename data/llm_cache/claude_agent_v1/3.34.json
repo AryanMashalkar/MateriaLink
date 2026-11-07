@@ -1,0 +1,79 @@
+{
+ "id": "3.34",
+ "headword": "ἡδύοσμον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Mentha spicata",
+   "prob": 0.55,
+   "why": ""
+  },
+  {
+   "taxon": "Mentha longifolia",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Mentha",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb",
+  "juice"
+ ],
+ "uses": [
+  {
+   "greek": "αἷμα ἵστησι",
+   "en": "stops bleeding",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "ἕλμινθας στρογγύλας",
+   "en": "roundworms",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "ἀφροδίσια ἐρεθίζει",
+   "en": "aphrodisiac",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "λυγμούς καὶ ἐμέτους καὶ χολέραν",
+   "en": "hiccup, vomiting, cholera",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἀποστήματα",
+   "en": "abscesses",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "κεφαλαλγίαν",
+   "en": "headache",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "μαστῶν περίτασιν",
+   "en": "breast engorgement",
+   "category": "breast disease"
+  },
+  {
+   "greek": "κυνοδήκτοις",
+   "en": "dog bites",
+   "category": "injury"
+  },
+  {
+   "greek": "ὠταλγίαις",
+   "en": "earache",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ἀσυλληψίαν",
+   "en": "contraceptive",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

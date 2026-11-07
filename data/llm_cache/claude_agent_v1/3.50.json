@@ -1,0 +1,34 @@
+{
+ "id": "3.50",
+ "headword": "πάνακες Χειρώνιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Inula helenium",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Hypericum olympicum",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Helianthemum",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "πρὸς ἑρπετά",
+   "en": "snakebite",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

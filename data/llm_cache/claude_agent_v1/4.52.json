@@ -1,0 +1,54 @@
+{
+ "id": "4.52",
+ "headword": "σχοῖνος ἑλεία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Juncus acutus",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Scirpoides holoschoenus",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Juncus",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "κοιλίαν ἵστησι",
+   "en": "stops diarrhoea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ῥοῦν ἐρυθρόν",
+   "en": "menorrhagia",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "οὖρα κινεῖ",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "φαλαγγιοδήκτοις",
+   "en": "spider bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ὑπνωτικόν",
+   "en": "soporific",
+   "category": "nervous system disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

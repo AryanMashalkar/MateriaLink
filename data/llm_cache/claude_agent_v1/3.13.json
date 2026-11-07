@@ -1,0 +1,38 @@
+{
+ "id": "3.13",
+ "headword": "ἄκανθα Ἀραβική",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Onopordum",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Echinops",
+   "prob": 0.1,
+   "why": ""
+  },
+  {
+   "taxon": "Acacia",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ῥοῦν γυναικεῖον",
+   "en": "menorrhagia",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἀναγωγὴν αἵματος",
+   "en": "haemoptysis",
+   "category": "respiratory system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

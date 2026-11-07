@@ -1,0 +1,38 @@
+{
+ "id": "4.33",
+ "headword": "σιδηρῖτις",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Sideritis romana",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Sideritis",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Stachys",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "τραυμάτων κολλητικήν",
+   "en": "heals wounds",
+   "category": "injury"
+  },
+  {
+   "greek": "ἀφλέγμαντον",
+   "en": "prevents inflammation",
+   "category": "inflammatory disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

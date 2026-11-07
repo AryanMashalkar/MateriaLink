@@ -1,0 +1,53 @@
+{
+ "id": "4.10",
+ "headword": "σύμφυτον ἄλλο",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Symphytum officinale",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Symphytum bulbosum",
+   "prob": 0.08,
+   "why": ""
+  },
+  {
+   "taxon": "Symphytum",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "αἱμοπτυϊκοῖς",
+   "en": "haemoptysis",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ῥηγματίαις",
+   "en": "ruptures",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "φλεγμονάς",
+   "en": "inflammations",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "ἐν δακτυλίῳ",
+   "en": "anal inflammation",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "νεότρωτα κολλῶσι",
+   "en": "closes fresh wounds",
+   "category": "injury"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

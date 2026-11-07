@@ -1,0 +1,80 @@
+{
+ "id": "3.121",
+ "headword": "κόνυζα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Dittrichia viscosa",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Dittrichia graveolens",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Inula",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb",
+  "leaf",
+  "flower"
+ ],
+ "uses": [
+  {
+   "greek": "θηρία διώκειν",
+   "en": "repels venomous creatures",
+   "category": "other"
+  },
+  {
+   "greek": "ἑρπετοδήκτων",
+   "en": "snakebite",
+   "category": "poisoning"
+  },
+  {
+   "greek": "φυμάτων",
+   "en": "tumours",
+   "category": "cancer"
+  },
+  {
+   "greek": "τραυμάτων",
+   "en": "wounds",
+   "category": "injury"
+  },
+  {
+   "greek": "καταμηνίων ἀγωγήν",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἐκβολὴν ἐμβρύων",
+   "en": "abortifacient",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "στραγγουρίαν",
+   "en": "strangury",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "στρόφους",
+   "en": "colic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἴκτερον",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἐπιληπτικούς",
+   "en": "epilepsy",
+   "category": "nervous system disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

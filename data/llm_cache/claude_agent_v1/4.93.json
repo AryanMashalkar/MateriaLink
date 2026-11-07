@@ -1,0 +1,110 @@
+{
+ "id": "4.93",
+ "headword": "ἀκαλήφη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Urtica pilulifera",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Urtica urens",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Urtica dioica",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "seed",
+  "juice"
+ ],
+ "uses": [
+  {
+   "greek": "κυνόδηκτα",
+   "en": "dog bites",
+   "category": "injury"
+  },
+  {
+   "greek": "γαγγραινικά",
+   "en": "gangrene",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "καρκινώδη",
+   "en": "cancerous ulcers",
+   "category": "cancer"
+  },
+  {
+   "greek": "ῥυπαρὰ τῶν ἑλκῶν",
+   "en": "foul ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "στρέμματα",
+   "en": "sprains",
+   "category": "injury"
+  },
+  {
+   "greek": "παρωτίδας",
+   "en": "parotid swellings",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "σπληνικοῖς",
+   "en": "spleen complaints",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἐκ μυκτήρων αἱμορραγίας",
+   "en": "nosebleed",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ἔμμηνα",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ὑστέρας προπτώσεις",
+   "en": "uterine prolapse",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἐπὶ συνουσίαν",
+   "en": "aphrodisiac",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ὀρθοπνοίας",
+   "en": "orthopnoea",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "πλευρίτιδας καὶ περιπνευμονίας",
+   "en": "pleurisy and pneumonia",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "κοιλίαν μαλάττει",
+   "en": "laxative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "οὖρα κινεῖ",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "κιονίδα φλεγμαίνουσαν",
+   "en": "inflamed uvula",
+   "category": "otorhinolaryngologic disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

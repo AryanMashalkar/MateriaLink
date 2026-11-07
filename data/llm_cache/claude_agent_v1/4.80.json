@@ -1,0 +1,27 @@
+{
+ "id": "4.80",
+ "headword": "ἀπόκυνον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Cynanchum acutum",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Periploca graeca",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Marsdenia erecta",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

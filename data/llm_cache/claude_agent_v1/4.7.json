@@ -1,0 +1,54 @@
+{
+ "id": "4.7",
+ "headword": "κληματίς (δαφνοειδές)",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Vinca minor",
+   "prob": 0.5,
+   "why": ""
+  },
+  {
+   "taxon": "Vinca major",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Vinca",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "stem"
+ ],
+ "uses": [
+  {
+   "greek": "διαρροίας καὶ δυσεντερίας",
+   "en": "diarrhoea and dysentery",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὑστέρας πόνους",
+   "en": "uterine pains",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ὀδόντων πόνους",
+   "en": "toothache",
+   "category": "other"
+  },
+  {
+   "greek": "θηριοδήκτοις",
+   "en": "venomous bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ἀσπιδοδήκτοις",
+   "en": "asp bites",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

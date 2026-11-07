@@ -1,0 +1,89 @@
+{
+ "id": "4.4",
+ "headword": "πολύγονον ἄρρεν",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Polygonum aviculare",
+   "prob": 0.8,
+   "why": ""
+  },
+  {
+   "taxon": "Polygonum",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "juice",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "αἱμοπτυϊκοῖς",
+   "en": "haemoptysis",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "κατὰ κοιλίαν ῥεύμασι",
+   "en": "diarrhoea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "χολερικοῖς",
+   "en": "cholera",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "στραγγουριῶσιν",
+   "en": "strangury",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "θηριοδήκτοις",
+   "en": "venomous bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "περιοδικούς",
+   "en": "periodic fevers",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "ῥοῦν γυναικεῖον",
+   "en": "menorrhagia",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ὠταλγίας",
+   "en": "earache",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ἐν αἰδοίοις ἕλκη",
+   "en": "genital ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "στομάχου ἔγκαυσιν",
+   "en": "heartburn",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἕρπητας καὶ ἐρυσιπέλατα",
+   "en": "herpes and erysipelas",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "φλεγμονάς",
+   "en": "inflammations",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "τραύματα πρόσφατα",
+   "en": "fresh wounds",
+   "category": "injury"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

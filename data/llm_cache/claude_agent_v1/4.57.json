@@ -1,0 +1,63 @@
+{
+ "id": "4.57",
+ "headword": "ἑλίχρυσον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Helichrysum stoechas",
+   "prob": 0.55,
+   "why": ""
+  },
+  {
+   "taxon": "Helichrysum italicum",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Helichrysum",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "flower heads"
+ ],
+ "uses": [
+  {
+   "greek": "δυσουρίαις",
+   "en": "dysuria",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἑρπετῶν δήγμασι",
+   "en": "snakebite",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ἰσχιάσι",
+   "en": "sciatica",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ῥήγμασι",
+   "en": "ruptures",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ἔμμηνα ἄγει",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "θρόμβους αἵματος",
+   "en": "blood clots",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "κατάρρους",
+   "en": "catarrh",
+   "category": "respiratory system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,49 @@
+{
+ "id": "4.103",
+ "headword": "φλόμος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Verbascum thapsus",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Verbascum sinuatum",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Verbascum",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "διαρροιζομένοις",
+   "en": "diarrhoea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ῥήγμασι καὶ σπάσμασι",
+   "en": "ruptures and spasms",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "θλάσμασι",
+   "en": "bruises",
+   "category": "injury"
+  },
+  {
+   "greek": "βηχὶ παλαιᾷ",
+   "en": "chronic cough",
+   "category": "respiratory system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

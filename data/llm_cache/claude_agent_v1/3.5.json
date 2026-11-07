@@ -1,0 +1,68 @@
+{
+ "id": "3.5",
+ "headword": "γλυκύρριζα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Glycyrrhiza glabra",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Glycyrrhiza",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root juice"
+ ],
+ "uses": [
+  {
+   "greek": "τραχύτητας ἀρτηρίας",
+   "en": "hoarse throat",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "καῦσον στομάχου",
+   "en": "heartburn",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἐν θώρακι",
+   "en": "chest complaints",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἥπατι",
+   "en": "liver complaints",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ψωριάσεις κύστεως",
+   "en": "bladder itch",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "νεφρίτιδας",
+   "en": "nephritis",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἄδιψον",
+   "en": "quenches thirst",
+   "category": "other"
+  },
+  {
+   "greek": "τραυματικόν",
+   "en": "wounds",
+   "category": "injury"
+  },
+  {
+   "greek": "πτερυγίοις",
+   "en": "pterygium",
+   "category": "vision disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

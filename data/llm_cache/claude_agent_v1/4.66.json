@@ -1,0 +1,38 @@
+{
+ "id": "4.66",
+ "headword": "μήκων ἀφρώδης",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Silene vulgaris",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Silene",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Euphorbia peplis",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "καθαίρει δι᾿ ἐμέτων",
+   "en": "emetic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἐπιληπτικοῖς",
+   "en": "epilepsy",
+   "category": "nervous system disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

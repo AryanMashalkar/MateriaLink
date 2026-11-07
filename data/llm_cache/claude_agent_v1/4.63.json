@@ -1,0 +1,40 @@
+{
+ "id": "4.63",
+ "headword": "μήκων ῥοιάς",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Papaver rhoeas",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Papaver",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "capsule",
+  "seed",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "ὑπνῶσαι",
+   "en": "induces sleep",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "κοιλίαν μαλάσσει",
+   "en": "gentle laxative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "φλεγμονάς",
+   "en": "inflammations",
+   "category": "inflammatory disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

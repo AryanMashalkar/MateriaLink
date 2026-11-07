@@ -1,0 +1,53 @@
+{
+ "id": "3.134",
+ "headword": "ἄσπληνος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Asplenium ceterach",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Asplenium",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "σπλῆνα τήκειν",
+   "en": "reduces spleen",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "στραγγουρίᾳ",
+   "en": "strangury",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "λυγμῷ",
+   "en": "hiccup",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἰκτέρῳ",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "λίθους ἐν κύστει",
+   "en": "bladder stones",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἀτόκιον",
+   "en": "contraceptive",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

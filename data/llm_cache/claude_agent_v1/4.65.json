@@ -1,0 +1,50 @@
+{
+ "id": "4.65",
+ "headword": "μήκων κερατῖτις",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Glaucium flavum",
+   "prob": 0.8,
+   "why": ""
+  },
+  {
+   "taxon": "Glaucium",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "seed",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "ἰσχιάδας",
+   "en": "sciatica",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ἡπατικάς",
+   "en": "liver complaints",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "παχέα οὐροῦντας",
+   "en": "turbid urine",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "κοιλίαν καθαίρει",
+   "en": "purgative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἄργεμα καὶ νεφέλια",
+   "en": "corneal opacities",
+   "category": "vision disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

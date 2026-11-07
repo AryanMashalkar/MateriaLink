@@ -1,0 +1,28 @@
+{
+ "id": "4.126",
+ "headword": "χαμαιπεύκη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Ajuga chamaepitys",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Ajuga",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "ὀσφύος ἄλγημα",
+   "en": "back pain",
+   "category": "musculoskeletal system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

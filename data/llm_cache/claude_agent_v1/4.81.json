@@ -1,0 +1,29 @@
+{
+ "id": "4.81",
+ "headword": "νήριον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Nerium oleander",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Nerium",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "flower",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "θηρίων δήγματα",
+   "en": "venomous bites",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

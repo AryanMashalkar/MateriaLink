@@ -1,0 +1,50 @@
+{
+ "id": "4.49",
+ "headword": "τράγιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Pistacia",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Hypericum",
+   "prob": 0.1,
+   "why": ""
+  },
+  {
+   "taxon": "Dictamnus",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "fruit",
+  "resin"
+ ],
+ "uses": [
+  {
+   "greek": "σκόλοπας ἐπισπᾶται",
+   "en": "draws out splinters",
+   "category": "injury"
+  },
+  {
+   "greek": "στραγγουρίας",
+   "en": "strangury",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "λίθους ἐν κύστει",
+   "en": "bladder stones",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "καταμήνια ἄγει",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

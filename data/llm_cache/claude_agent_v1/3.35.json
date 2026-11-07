@@ -1,0 +1,93 @@
+{
+ "id": "3.35",
+ "headword": "καλαμίνθη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Clinopodium nepeta",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Clinopodium",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Nepeta cataria",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "ἑρπετοδήκτοις",
+   "en": "snakebite",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ἄγει οὖρα",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ῥήγμασι σπάσμασι",
+   "en": "ruptures, spasms",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ὀρθοπνοίᾳ",
+   "en": "orthopnoea",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "στρόφοις καὶ χολέρᾳ",
+   "en": "colic and cholera",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ῥίγει",
+   "en": "chills",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "θανάσιμα",
+   "en": "poisons",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ἴκτερον",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἕλμινθας καὶ ἀσκαρίδας",
+   "en": "worms",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "ἐλεφαντιῶντας",
+   "en": "elephantiasis",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "φθείρει ἔμβρυα",
+   "en": "abortifacient",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "μελαίνας οὐλάς",
+   "en": "dark scars",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ὑπώπια",
+   "en": "black eyes",
+   "category": "vision disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

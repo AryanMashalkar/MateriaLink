@@ -1,0 +1,33 @@
+{
+ "id": "4.131",
+ "headword": "κατανάγκη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Ornithopus compressus",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Astragalus hamosus",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Catananche",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "εἰς φίλτρα",
+   "en": "love potion",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

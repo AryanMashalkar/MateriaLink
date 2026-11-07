@@ -1,0 +1,38 @@
+{
+ "id": "4.111",
+ "headword": "λωτὸς ἄγριος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Trigonella",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Melilotus",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Lotus",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "σπίλων ἐπὶ τοῦ προσώπου",
+   "en": "facial spots",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "περὶ κύστιν ἀλγήμασι",
+   "en": "bladder pains",
+   "category": "urinary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

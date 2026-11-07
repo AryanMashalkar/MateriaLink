@@ -1,0 +1,33 @@
+{
+ "id": "3.117",
+ "headword": "γναφάλλιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Achillea maritima",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Filago",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Helichrysum",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "δυσεντερίαν",
+   "en": "dysentery",
+   "category": "infectious disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,54 @@
+{
+ "id": "4.15",
+ "headword": "τρίβολος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Tribulus terrestris",
+   "prob": 0.55,
+   "why": ""
+  },
+  {
+   "taxon": "Trapa natans",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit",
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "φλεγμονῆς καταπλάσματα",
+   "en": "inflammations",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "ἄφθας",
+   "en": "aphthae",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ὀφθαλμικά",
+   "en": "eye remedies",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "λιθιῶντας",
+   "en": "bladder stones",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἐχιοδήκτους",
+   "en": "viper bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "θανασίμοις",
+   "en": "deadly poisons",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

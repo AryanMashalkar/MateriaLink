@@ -1,0 +1,53 @@
+{
+ "id": "4.13",
+ "headword": "κλύμενον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Lathyrus clymenum",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Lathyrus",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Scrophularia",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "whole plant juice"
+ ],
+ "uses": [
+  {
+   "greek": "αἵματος ἀναγωγάς",
+   "en": "haemoptysis",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "κοιλιακούς",
+   "en": "coeliac flux",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ῥοῦν ἐρυθρόν",
+   "en": "menorrhagia",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἐκ μυκτήρων αἱμορραγίας",
+   "en": "nosebleed",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "νεοτρώτοις",
+   "en": "fresh wounds",
+   "category": "injury"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

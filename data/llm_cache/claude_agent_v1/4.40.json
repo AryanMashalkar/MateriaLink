@@ -1,0 +1,38 @@
+{
+ "id": "4.40",
+ "headword": "ἐλατίνη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Kickxia elatine",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Kickxia spuria",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Kickxia",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "ὀφθαλμοὺς φλεγμαίνοντας",
+   "en": "inflamed eyes",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "δυσεντερίας",
+   "en": "dysentery",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,28 @@
+{
+ "id": "4.107",
+ "headword": "πετασῖτις",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Petasites hybridus",
+   "prob": 0.65,
+   "why": ""
+  },
+  {
+   "taxon": "Petasites",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "κακοήθη καὶ φαγεδαινικὰ ἕλκη",
+   "en": "malignant and phagedenic ulcers",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

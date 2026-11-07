@@ -1,0 +1,33 @@
+{
+ "id": "4.5",
+ "headword": "πολύγονον θῆλυ",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Hippuris vulgaris",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Equisetum",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Ephedra",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "στυπτικήν ψυκτικήν",
+   "en": "astringent, cooling",
+   "category": "other"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,28 @@
+{
+ "id": "3.75",
+ "headword": "λιβανωτὶς ῥουσμαρῖνος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Salvia rosmarinus",
+   "prob": 0.55,
+   "why": ""
+  },
+  {
+   "taxon": "Rosmarinus officinalis",
+   "prob": 0.35,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "ἰκτέρου ἰατικήν",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

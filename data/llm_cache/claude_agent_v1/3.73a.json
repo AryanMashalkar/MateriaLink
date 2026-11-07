@@ -1,0 +1,33 @@
+{
+ "id": "3.73a",
+ "headword": "δελφίνιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Consolida ajacis",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Delphinium",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Consolida regalis",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "σκορπιοπλήκτοις",
+   "en": "scorpion stings",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

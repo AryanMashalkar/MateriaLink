@@ -1,0 +1,65 @@
+{
+ "id": "3.68",
+ "headword": "σμύρνιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Smyrnium perfoliatum",
+   "prob": 0.55,
+   "why": ""
+  },
+  {
+   "taxon": "Smyrnium rotundifolium",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Smyrnium",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "herb",
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "κοιλίαν ἵστησιν",
+   "en": "stops diarrhoea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἑρπετοδήκτοις",
+   "en": "snakebite",
+   "category": "poisoning"
+  },
+  {
+   "greek": "βῆχας",
+   "en": "cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ὀρθοπνοίας",
+   "en": "orthopnoea",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "δυσουρίας",
+   "en": "dysuria",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "οἰδήματα καὶ φλεγμονάς",
+   "en": "swellings and inflammations",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "τραύματα",
+   "en": "wounds",
+   "category": "injury"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

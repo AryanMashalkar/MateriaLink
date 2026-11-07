@@ -1,0 +1,64 @@
+{
+ "id": "4.14",
+ "headword": "περικλύμενον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Lonicera periclymenum",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Lonicera etrusca",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Lonicera caprifolium",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "σπλῆνα ἐκτήκει",
+   "en": "reduces spleen",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὀρθόπνοιαν",
+   "en": "orthopnoea",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "λυγμόν",
+   "en": "hiccup",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "οὖρον ἄγει",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ὠκυτόκιος",
+   "en": "hastens birth",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἀγόνους ποιεῖν",
+   "en": "causes sterility",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "περιόδων φρικία",
+   "en": "periodic fever chills",
+   "category": "infectious disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

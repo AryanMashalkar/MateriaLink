@@ -1,0 +1,48 @@
+{
+ "id": "3.73b",
+ "headword": "πύρεθρος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Anacyclus pyrethrum",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Anacyclus",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ὀδονταλγίαις",
+   "en": "toothache",
+   "category": "other"
+  },
+  {
+   "greek": "φλέγμα",
+   "en": "draws phlegm",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἱδρῶτας κινεῖ",
+   "en": "induces sweating",
+   "category": "other"
+  },
+  {
+   "greek": "χρόνια ῥίγη",
+   "en": "chronic chills",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "παρειμένα μέρη",
+   "en": "paralysed parts",
+   "category": "nervous system disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

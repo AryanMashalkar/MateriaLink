@@ -1,0 +1,78 @@
+{
+ "id": "3.36",
+ "headword": "θύμος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Thymbra capitata",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Thymus",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Coridothymus capitatus",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "φλεγματῶδες κατὰ κοιλίαν",
+   "en": "purgative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὀρθοπνοϊκοῖς καὶ ἀσθματικοῖς",
+   "en": "orthopnoea and asthma",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἕλμινθας",
+   "en": "worms",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "ἔμμηνα καὶ δεύτερα",
+   "en": "emmenagogue, afterbirth",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "οὐρητικόν",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "τὰ ἐκ θώρακος",
+   "en": "expectorant",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "οἰδήματα",
+   "en": "swellings",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "θύμους καὶ ἀκροχορδόνας",
+   "en": "warts",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἰσχιαδικοῖς",
+   "en": "sciatica",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ἀμβλυωποῦντας",
+   "en": "dim sight",
+   "category": "vision disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

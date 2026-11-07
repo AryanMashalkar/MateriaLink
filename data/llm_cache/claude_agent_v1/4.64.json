@@ -1,0 +1,70 @@
+{
+ "id": "4.64",
+ "headword": "μήκων",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Papaver somniferum",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Papaver",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "capsule",
+  "seed",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "ὑπνοποιοῦσι",
+   "en": "induces sleep",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ἀγρυπνίαν",
+   "en": "insomnia",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "φλεγμονὰς καὶ ἐρυσιπέλατα",
+   "en": "inflammations and erysipelas",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἀνώδυνον",
+   "en": "analgesic",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "βῆχας",
+   "en": "cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ῥευματισμοὺς ἀρτηρίας",
+   "en": "throat catarrh",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "κοιλιακὰς διαθέσεις",
+   "en": "coeliac complaints",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ῥεῦμα κοιλίας",
+   "en": "diarrhoea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "γυναικεῖον ῥοῦν",
+   "en": "menorrhagia",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

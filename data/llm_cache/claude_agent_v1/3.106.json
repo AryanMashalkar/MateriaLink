@@ -1,0 +1,33 @@
+{
+ "id": "3.106",
+ "headword": "στάχυς",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Stachys germanica",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Stachys cretica",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Stachys",
+   "prob": 0.25,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "ἔμμηνα καὶ δεύτερα ἄγει",
+   "en": "emmenagogue and expels afterbirth",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

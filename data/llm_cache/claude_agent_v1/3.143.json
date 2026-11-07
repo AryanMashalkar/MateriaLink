@@ -1,0 +1,53 @@
+{
+ "id": "3.143",
+ "headword": "ἐρυθρόδανον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Rubia tinctorum",
+   "prob": 0.8,
+   "why": ""
+  },
+  {
+   "taxon": "Rubia peregrina",
+   "prob": 0.1,
+   "why": ""
+  },
+  {
+   "taxon": "Rubia",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "διουρητική",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἰκτερικοῖς",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἰσχιαδικοῖς",
+   "en": "sciatica",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "παραλελυμένοις",
+   "en": "paralysis",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "θηριοδήκτοις",
+   "en": "venomous bites",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,49 @@
+{
+ "id": "4.121",
+ "headword": "ἴον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Viola odorata",
+   "prob": 0.8,
+   "why": ""
+  },
+  {
+   "taxon": "Viola",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "flower"
+ ],
+ "uses": [
+  {
+   "greek": "στομάχῳ πυρουμένῳ",
+   "en": "heartburn",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὀφθαλμῶν φλεγμοναῖς",
+   "en": "eye inflammation",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "ἕδρας προπτώσεσι",
+   "en": "rectal prolapse",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "συναγχικοῖς",
+   "en": "quinsy",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ἐπιληψίαις ἐπὶ παίδων",
+   "en": "childhood epilepsy",
+   "category": "nervous system disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

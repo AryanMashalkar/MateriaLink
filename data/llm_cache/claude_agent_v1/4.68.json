@@ -1,0 +1,40 @@
+{
+ "id": "4.68",
+ "headword": "ὑοσκύαμος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Hyoscyamus albus",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Hyoscyamus niger",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Hyoscyamus aureus",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "leaf",
+  "juice"
+ ],
+ "uses": [
+  {
+   "greek": "κολλύρια ἀνώδυνα",
+   "en": "analgesic eye salves",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "μανιώδεις καὶ καρωτικοί",
+   "en": "causes madness and stupor",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

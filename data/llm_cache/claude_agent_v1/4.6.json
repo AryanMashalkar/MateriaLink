@@ -1,0 +1,38 @@
+{
+ "id": "4.6",
+ "headword": "πολυγόνατον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Polygonatum multiflorum",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Polygonatum odoratum",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Polygonatum",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "πρὸς τραύματα",
+   "en": "wounds",
+   "category": "injury"
+  },
+  {
+   "greek": "σπίλους ἐν προσώπῳ",
+   "en": "facial spots",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

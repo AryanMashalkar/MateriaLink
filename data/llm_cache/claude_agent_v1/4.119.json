@@ -1,0 +1,28 @@
+{
+ "id": "4.119",
+ "headword": "ἀστὴρ Ἀττικός",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Aster amellus",
+   "prob": 0.55,
+   "why": ""
+  },
+  {
+   "taxon": "Aster",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "βουβώνων φλεγμονήν",
+   "en": "inflamed groin glands",
+   "category": "inflammatory disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

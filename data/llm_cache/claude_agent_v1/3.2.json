@@ -1,0 +1,108 @@
+{
+ "id": "3.2",
+ "headword": "ῥᾶ",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Rheum rhaponticum",
+   "prob": 0.5,
+   "why": ""
+  },
+  {
+   "taxon": "Rheum ribes",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Rheum",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ἐμπνευματώσεις στομάχου",
+   "en": "stomach flatulence",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "σπάσματα ῥήγματα",
+   "en": "spasms, ruptures",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "σπληνικούς",
+   "en": "spleen complaints",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἡπατικούς",
+   "en": "liver complaints",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "νεφριτικούς",
+   "en": "kidney complaints",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "στροφουμένους",
+   "en": "colic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "περὶ ὑστέραν πάθη",
+   "en": "uterine disorders",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἰσχιάδας",
+   "en": "sciatica",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "αἵματος πτύσεις",
+   "en": "haemoptysis",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἄσθματα",
+   "en": "asthma",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "λυγμούς",
+   "en": "hiccup",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "δυσεντερίας",
+   "en": "dysentery",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "περιόδους",
+   "en": "periodic fevers",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "θηρίων δήγματα",
+   "en": "venomous bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "λειχῆνας",
+   "en": "lichenous eruptions",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "φλεγμονὰς χρονίας",
+   "en": "chronic inflammations",
+   "category": "inflammatory disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

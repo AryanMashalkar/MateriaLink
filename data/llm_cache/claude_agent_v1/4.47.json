@@ -1,0 +1,28 @@
+{
+ "id": "4.47",
+ "headword": "ἵππουρις ἑτέρα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Equisetum arvense",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Equisetum",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "τραύματα ἰᾶται",
+   "en": "heals wounds",
+   "category": "injury"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

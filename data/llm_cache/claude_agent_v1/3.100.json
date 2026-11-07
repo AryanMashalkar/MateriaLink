@@ -1,0 +1,28 @@
+{
+ "id": "3.100",
+ "headword": "λυχνὶς στεφανωματική",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Silene coronaria",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Silene",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "σκορπιοπλήκτοις",
+   "en": "scorpion stings",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

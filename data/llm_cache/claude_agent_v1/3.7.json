@@ -1,0 +1,59 @@
+{
+ "id": "3.7",
+ "headword": "κενταύρειον τὸ μικρόν",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Centaurium erythraea",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Centaurium",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb",
+  "juice"
+ ],
+ "uses": [
+  {
+   "greek": "τραυμάτων κολλητική",
+   "en": "closes wounds",
+   "category": "injury"
+  },
+  {
+   "greek": "ἑλκῶν παλαιῶν",
+   "en": "chronic ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "χολώδη κατὰ κοιλίαν",
+   "en": "purges bile",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἰσχιαδικῶν",
+   "en": "sciatica",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ὀφθαλμικά",
+   "en": "eye remedies",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "ἐμμήνων ἀγωγός",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "περὶ νεῦρα πάθεσιν",
+   "en": "nerve disorders",
+   "category": "nervous system disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,28 @@
+{
+ "id": "3.48",
+ "headword": "πάνακες Ἡράκλειον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Opopanax chironium",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Opopanax hispidus",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Opopanax",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "gum resin",
+  "root"
+ ],
+ "uses": [],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

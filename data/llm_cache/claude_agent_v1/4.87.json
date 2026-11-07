@@ -1,0 +1,43 @@
+{
+ "id": "4.87",
+ "headword": "φακὸς ὁ ἐπὶ τῶν τελμάτων",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Lemna minor",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Lemna",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "whole plant"
+ ],
+ "uses": [
+  {
+   "greek": "φλεγμοναῖς",
+   "en": "inflammations",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "ἐρυσιπέλασι",
+   "en": "erysipelas",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ποδάγραις",
+   "en": "gout",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ἐντεροκήλας",
+   "en": "infant hernia",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

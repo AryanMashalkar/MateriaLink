@@ -1,0 +1,29 @@
+{
+ "id": "4.21",
+ "headword": "σπαργάνιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Sparganium erectum",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Sparganium",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "fruit"
+ ],
+ "uses": [
+  {
+   "greek": "θηριοδήκτοις",
+   "en": "venomous bites",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

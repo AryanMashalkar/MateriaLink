@@ -1,0 +1,39 @@
+{
+ "id": "3.151",
+ "headword": "κηπαία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Sedum cepaea",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Sedum",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Portulaca",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "στραγγουριῶσι",
+   "en": "strangury",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ψωριῶσι τὴν κύστιν",
+   "en": "bladder ulceration",
+   "category": "urinary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

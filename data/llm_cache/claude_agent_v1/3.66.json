@@ -1,0 +1,58 @@
+{
+ "id": "3.66",
+ "headword": "πετροσέλινον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Petroselinum crispum",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Athamanta macedonica",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Petroselinum",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "οὐρητικόν",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἐμμήνων ἀγωγόν",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "στομάχου καὶ κόλου ἐμπνευματώσεις",
+   "en": "flatulence",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "στρόφους",
+   "en": "colic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "πλευρᾶς πόνους",
+   "en": "side pain",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "νεφρῶν καὶ κύστεως",
+   "en": "kidney and bladder",
+   "category": "urinary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

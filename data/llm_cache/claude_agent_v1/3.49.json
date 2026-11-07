@@ -1,0 +1,39 @@
+{
+ "id": "3.49",
+ "headword": "πάνακες Ἀσκληπίου",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Echinophora tenuifolia",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Ferulago",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Opopanax",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "flower",
+  "fruit"
+ ],
+ "uses": [
+  {
+   "greek": "ἕλκη καὶ φύματα καὶ φαγέδαιναν",
+   "en": "ulcers, tumours, phagedena",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "πρὸς ἑρπετά",
+   "en": "snakebite",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

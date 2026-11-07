@@ -1,0 +1,53 @@
+{
+ "id": "3.158",
+ "headword": "χαμαίπιτυς",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Ajuga chamaepitys",
+   "prob": 0.8,
+   "why": ""
+  },
+  {
+   "taxon": "Ajuga",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "ἴκτερον",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἰσχιάδα",
+   "en": "sciatica",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ἡπατικοῖς",
+   "en": "liver disease",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "δυσουροῦσι καὶ νεφριτικοῖς",
+   "en": "dysuria and kidney disease",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "στροφουμένοις",
+   "en": "colic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἀκόνιτον",
+   "en": "aconite poisoning",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

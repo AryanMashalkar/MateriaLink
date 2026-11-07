@@ -1,0 +1,59 @@
+{
+ "id": "3.72",
+ "headword": "δαῦκος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Athamanta cretensis",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Daucus guttatus",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Daucus",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ἐμμήνων καὶ ἐμβρύων",
+   "en": "emmenagogue, abortifacient",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "οὔρων ἀγωγόν",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "στρόφων",
+   "en": "colic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "βηχῶν χρονίων",
+   "en": "chronic cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "φαλαγγιοδήκτοις",
+   "en": "spider bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "οἰδήματα",
+   "en": "swellings",
+   "category": "inflammatory disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

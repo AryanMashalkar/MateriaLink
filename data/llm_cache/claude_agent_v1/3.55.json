@@ -1,0 +1,43 @@
+{
+ "id": "3.55",
+ "headword": "σίνων",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Sison amomum",
+   "prob": 0.5,
+   "why": ""
+  },
+  {
+   "taxon": "Sison",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Ammi",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "σπλῆνας",
+   "en": "spleen complaints",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "δυσουρίας",
+   "en": "dysuria",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἐμμήνων ἐποχήν",
+   "en": "amenorrhoea",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

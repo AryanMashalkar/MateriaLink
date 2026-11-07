@@ -1,0 +1,104 @@
+{
+ "id": "4.1",
+ "headword": "κέστρον (ψυχρότροφον)",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Stachys officinalis",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Stachys",
+   "prob": 0.1,
+   "why": ""
+  },
+  {
+   "taxon": "Salvia",
+   "prob": 0.03,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "σπάσματα καὶ ῥήγματα",
+   "en": "spasms and ruptures",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ἐν ὑστέρᾳ διαθέσεις",
+   "en": "uterine disorders",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "θηριοδήκτοις",
+   "en": "venomous bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "πρὸς τὰ θανάσιμα",
+   "en": "deadly poisons",
+   "category": "poisoning"
+  },
+  {
+   "greek": "οὐρητική",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "κοιλίας ὑποβιβαστική",
+   "en": "laxative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἐπιλήπτους",
+   "en": "epilepsy",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "μαινομένους",
+   "en": "madness",
+   "category": "psychiatric disorder"
+  },
+  {
+   "greek": "ἡπατικούς",
+   "en": "liver complaints",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "σπληνικούς",
+   "en": "spleen complaints",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ποιεῖ πέψιν",
+   "en": "aids digestion",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "αἱμοπτυϊκοῖς",
+   "en": "haemoptysis",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἰσχιαδικοῖς",
+   "en": "sciatica",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "νεφριτικοῖς",
+   "en": "kidney complaints",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ὑδρωπικοῖς",
+   "en": "dropsy",
+   "category": "cardiovascular disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

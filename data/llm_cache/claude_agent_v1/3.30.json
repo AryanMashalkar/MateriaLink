@@ -1,0 +1,73 @@
+{
+ "id": "3.30",
+ "headword": "τραγορίγανος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Micromeria juliana",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Thymus",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Satureja",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "οὐρητικαί",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "εὐκοίλιοι",
+   "en": "laxative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "σπληνικοῖς",
+   "en": "spleen complaints",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἰξίαν πεπωκόσι",
+   "en": "poisoning",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ἔμμηνα",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "βηξί τε καὶ περιπνευμονίαις",
+   "en": "cough and pneumonia",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ναυτία",
+   "en": "nausea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὀξυρεγμιῶσι",
+   "en": "heartburn",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "οἰδήματα",
+   "en": "swellings",
+   "category": "inflammatory disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

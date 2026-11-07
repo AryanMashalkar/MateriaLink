@@ -1,0 +1,48 @@
+{
+ "id": "4.59",
+ "headword": "περιστέριον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Verbena officinalis",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Verbena supina",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Verbena",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "ἀνωδυνίαν ὑστέρας",
+   "en": "uterine pain",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἐρυσιπέλατα",
+   "en": "erysipelas",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "σηπεδόνας",
+   "en": "putrid sores",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "τραύματα κολλᾷ",
+   "en": "closes wounds",
+   "category": "injury"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,33 @@
+{
+ "id": "4.11",
+ "headword": "ὁλόστεον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Plantago holosteum",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Holosteum umbellatum",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Plantago",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "πρὸς ῥήγματα",
+   "en": "ruptures",
+   "category": "musculoskeletal system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,43 @@
+{
+ "id": "4.16",
+ "headword": "λειμώνιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Limonium vulgare",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Limonium",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Beta",
+   "prob": 0.03,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "δυσεντερικούς",
+   "en": "dysentery",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "κοιλιακούς",
+   "en": "coeliac flux",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ῥοῦν ἐρυθρόν",
+   "en": "menorrhagia",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,29 @@
+4.106|ἄρκιον (προσωπίς)|1|Arctium lappa:0.6;Arctium minus:0.2;Arctium:0.1|root,leaf|αἱμοπτυϊκοῖς=haemoptysis=RESP;ἐμπυϊκοῖς=empyema=RESP;περὶ τὰ ἄρθρα ἀλγήματα=joint pains from sprains=MSK;παλαιῶν ἑλκῶν=chronic ulcers=SKIN
+4.107|πετασῖτις|1|Petasites hybridus:0.65;Petasites:0.2|leaf|κακοήθη καὶ φαγεδαινικὰ ἕλκη=malignant and phagedenic ulcers=SKIN
+4.108|ἐπιπακτίς (ἐλλεβορίνη)|1|Epipactis helleborine:0.35;Epipactis:0.2;Herniaria:0.05|herb|πρὸς τὰ θανάσιμα=poisons=POIS;περὶ ἧπαρ νοσήματα=liver disease=DIG
+4.109|καπνὸς ὁ ἐν ταῖς κριθαῖς|1|Fumaria officinalis:0.7;Fumaria:0.2|juice,herb|ὀξυδερκής=sharpens sight=EYE;τρίχας μὴ ἐᾶν φύεσθαι=prevents regrowth of eyelashes=EYE;χολὴν δι᾿ οὔρων ἄγει=expels bile in urine=DIG
+4.110|λωτὸς ὁ ἐν τοῖς παραδείσοις|1|Trigonella caerulea:0.35;Melilotus:0.2;Lotus:0.15|juice|ἄργεμα καὶ νεφέλια καὶ λευκώματα=corneal opacities=EYE
+4.111|λωτὸς ἄγριος|1|Trigonella:0.25;Melilotus:0.2;Lotus:0.15|seed|σπίλων ἐπὶ τοῦ προσώπου=facial spots=SKIN;περὶ κύστιν ἀλγήμασι=bladder pains=URO
+4.112|κύτισος|1|Medicago arborea:0.6;Medicago:0.1;Cytisus:0.1|leaf|οἰδημάτων=swellings=INFL;κινεῖ οὔρησιν=diuretic=URO
+4.113|λωτὸς ὁ ἐν Αἰγύπτῳ|1|Nymphaea lotus:0.6;Nymphaea caerulea:0.2;Nelumbo nucifera:0.1|seed,rhizome|
+4.114|μυριόφυλλον|1|Myriophyllum spicatum:0.5;Myriophyllum:0.25;Achillea:0.05|herb|τραυμάτων ἀφλέγμαντα=keeps fresh wounds uninflamed=INJ;πρὸς πτώματα=falls (injuries)=INJ
+4.115|μυρρίς|1|Myrrhis odorata:0.5;Smyrnium perfoliatum:0.15;Myrrhis:0.1|root|φαλαγγιοδήκτοις=spider bites=POIS;ἔμμηνα καὶ λοχεῖα=emmenagogue and lochia=REPRO;φθισικοῖς=consumption=RESP;λοιμικαῖς καταστάσεσι=epidemics=INF
+4.116|μύαγρον|1|Camelina sativa:0.55;Camelina:0.2;Melampyrum:0.1|seed oil|τοῦ σώματος τραχύτητας=rough skin=SKIN
+4.117|ὀνάγρα|1|Nerium oleander:0.25;Epilobium angustifolium:0.2;Oenothera:0.05|root|θηριώδη ἕλκη=malignant ulcers=SKIN
+4.118|κρίσσιον|1|Cirsium:0.35;Carduus:0.15;Cirsium vulgare:0.1|root|κρισσῶν ἀλγήματα=varicose vein pain=CV
+4.119|ἀστὴρ Ἀττικός|1|Aster amellus:0.55;Aster:0.2|herb|βουβώνων φλεγμονήν=inflamed groin glands=INFL
+4.120|ἰσόπυρον|1|Isopyrum thalictroides:0.4;Fumaria:0.1;Nigella:0.05|seed|περὶ θώρακα καὶ βηχί=chest complaints and cough=RESP;ἡπατικοῖς=liver complaints=DIG;αἱμοπτυϊκοῖς=haemoptysis=RESP
+4.121|ἴον|1|Viola odorata:0.8;Viola:0.15|leaf,flower|στομάχῳ πυρουμένῳ=heartburn=DIG;ὀφθαλμῶν φλεγμοναῖς=eye inflammation=EYE;ἕδρας προπτώσεσι=rectal prolapse=DIG;συναγχικοῖς=quinsy=ENT;ἐπιληψίαις ἐπὶ παίδων=childhood epilepsy=NS
+4.122|κακκαλία|1|Adenostyles alliariae:0.3;Cacalia:0.15;Adenostyles:0.15|root|βῆχας καὶ τραχύτητας ἀρτηρίας=cough and hoarse throat=RESP;πρόσωπον ἀρρυτίδωτον=keeps face unwrinkled=SKIN
+4.123|βούνιον|1|Bunium ferulaceum:0.3;Bunium:0.2;Carum:0.1|seed,root|οὐρητικόν=diuretic=URO;δευτέρων ἀγωγόν=expels afterbirth=REPRO;σπληνί τε καὶ νεφροῖς καὶ κύστει=spleen, kidney and bladder=URO
+4.124|ψευδοβούνιον|1|Pimpinella cretica:0.25;Bunium:0.15|herb|στρόφους=colic=DIG;στραγγουρίας=strangury=URO;πλευρᾶς ἀλγήματα=side pains=MSK;χοιράδας=scrofula=INF
+4.125|χαμαίκισσος|1|Glechoma hederacea:0.3;Bellis:0.1;Ajuga:0.1|leaf|ἰσχιαδικοῖς=sciatica=MSK;ἴκτερον=jaundice=DIG
+4.126|χαμαιπεύκη|1|Ajuga chamaepitys:0.3;Ajuga:0.15|herb|ὀσφύος ἄλγημα=back pain=MSK
+4.127|βούγλωσσον|1|Anchusa italica:0.4;Borago officinalis:0.3;Anchusa:0.15|leaf|εὐφρόσυνον=cheering in wine=PSY
+4.128|φύτευμα|1|Reseda phyteuma:0.4;Reseda:0.2|root|πρὸς φίλτρον=love potion=REPRO
+4.129|ὑπόγλωσσον|1|Ruscus hypoglossum:0.6;Ruscus:0.2|leaf tufts|κεφαλαλγοῦσι=headache=NS
+4.130|ἀντίρρινον|1|Antirrhinum orontium:0.45;Misopates orontium:0.25;Antirrhinum:0.2|herb|ἀντιπαθὲς φαρμάκοις=protective amulet against poisons=POIS
+4.131|κατανάγκη|1|Ornithopus compressus:0.2;Astragalus hamosus:0.15;Catananche:0.1|herb|εἰς φίλτρα=love potion=REPRO
+4.132|τριπόλιον|1|Tripolium pannonicum:0.5;Aster tripolium:0.25|root|κατὰ κοιλίαν ὕδωρ ἄγει=drains dropsy via bowels=CV;οὖρα=diuretic=URO;ἀλεξιφάρμακα=antidotes=POIS
+4.133|κῆμος|1|Trifolium:0.1;Filago:0.1;Lagurus ovatus:0.1|herb|εἰς φίλτρα=love potion=REPRO
+4.134|ἀδίαντον|1|Adiantum capillus-veneris:0.85;Adiantum:0.1|herb|ἀσθματικοῖς=asthma=RESP;ἰκτερικοῖς=jaundice=DIG;σπληνικοῖς=spleen complaints=DIG;δυσουροῦσι=dysuria=URO;θρύπτει λίθους=breaks stones=URO;κοιλίαν ἵστησι=stops diarrhoea=DIG;θηριοδήκτοις=venomous bites=POIS;ἔμμηνα καὶ λοχεῖα=emmenagogue=REPRO;αἵματος ἀναγωγήν=haemoptysis=RESP;ἀλωπεκίας δασύνει=alopecia=SKIN;χοιράδας=scrofula=INF;πίτυρα καὶ ἀχῶρας=dandruff and scalp sores=SKIN;τρίχας ῥεούσας=hair loss=SKIN

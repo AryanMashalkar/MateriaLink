@@ -1,0 +1,38 @@
+{
+ "id": "4.76",
+ "headword": "ἀκόνιτον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Doronicum pardalianches",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Doronicum",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Aconitum",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ὀφθαλμικαῖς ἀνωδύνοις",
+   "en": "analgesic eye remedies",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "σκορπίῳ",
+   "en": "against scorpions",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

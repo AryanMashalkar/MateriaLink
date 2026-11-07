@@ -1,0 +1,43 @@
+{
+ "id": "4.44",
+ "headword": "Ἰδαία ῥίζα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Ruscus hypoglossum",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Ruscus",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Smilax",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "κοιλίας ῥεύματα",
+   "en": "diarrhoea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ῥοῦν γυναικεῖον",
+   "en": "menorrhagia",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "αἱμορραγίαν",
+   "en": "haemorrhage",
+   "category": "hematologic disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

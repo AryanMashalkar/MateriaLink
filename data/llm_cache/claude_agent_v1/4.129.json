@@ -1,0 +1,28 @@
+{
+ "id": "4.129",
+ "headword": "ὑπόγλωσσον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Ruscus hypoglossum",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Ruscus",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf tufts"
+ ],
+ "uses": [
+  {
+   "greek": "κεφαλαλγοῦσι",
+   "en": "headache",
+   "category": "nervous system disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

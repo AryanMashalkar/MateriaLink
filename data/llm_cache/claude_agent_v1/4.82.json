@@ -1,0 +1,27 @@
+{
+ "id": "4.82",
+ "headword": "μύκητες",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Agaricus",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Amanita",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Boletus",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruiting body"
+ ],
+ "uses": [],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

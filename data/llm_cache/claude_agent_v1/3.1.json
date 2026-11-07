@@ -1,0 +1,88 @@
+{
+ "id": "3.1",
+ "headword": "ἀγαρικόν",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Fomitopsis officinalis",
+   "prob": 0.7,
+   "why": ""
+  },
+  {
+   "taxon": "Laricifomes officinalis",
+   "prob": 0.1,
+   "why": ""
+  },
+  {
+   "taxon": "Fomitopsis",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fungus"
+ ],
+ "uses": [
+  {
+   "greek": "στρόφους",
+   "en": "colic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ῥήγματα",
+   "en": "ruptures",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "πτώματα",
+   "en": "falls",
+   "category": "injury"
+  },
+  {
+   "greek": "ἡπατικοῖς",
+   "en": "liver complaints",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἀσθματικοῖς",
+   "en": "asthma",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "δυσουροῦσι",
+   "en": "dysuria",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "νεφριτικοῖς",
+   "en": "kidney complaints",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἰκτεριώδεσι",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὑστερικαῖς πνιξί",
+   "en": "hysterical suffocation",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "φθισικοῖς",
+   "en": "consumption",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "σπληνικοῖς",
+   "en": "spleen complaints",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "στομαχικοῖς",
+   "en": "stomach complaints",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

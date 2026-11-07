@@ -1,0 +1,38 @@
+{
+ "id": "3.10",
+ "headword": "κροκοδείλεον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Echinops ritro",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Echinops",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Carduus",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "αἷμα διὰ ῥωθώνων",
+   "en": "induces nosebleed",
+   "category": "other"
+  },
+  {
+   "greek": "σπληνικοῖς",
+   "en": "spleen complaints",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

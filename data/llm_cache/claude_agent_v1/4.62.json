@@ -1,0 +1,54 @@
+{
+ "id": "4.62",
+ "headword": "ὑάκινθος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Muscari comosum",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Hyacinthus orientalis",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Scilla bifolia",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "bulb",
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "ἀνήβους τηρεῖν",
+   "en": "delays puberty",
+   "category": "other"
+  },
+  {
+   "greek": "κοιλίαν ἵστησι",
+   "en": "stops diarrhoea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "οὖρα ἄγει",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "φαλαγγιοδήκτους",
+   "en": "spider bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ἴκτερον",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

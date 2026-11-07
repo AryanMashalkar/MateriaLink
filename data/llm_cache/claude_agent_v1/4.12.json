@@ -1,0 +1,44 @@
+{
+ "id": "4.12",
+ "headword": "στοιβή",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Sarcopoterium spinosum",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Poterium",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "δυσεντεριῶσι",
+   "en": "dysentery",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὦτα πυορροοῦντα",
+   "en": "discharging ears",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "σύγχυσιν ὀφθαλμῶν",
+   "en": "bruised eyes",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "αἱμορραγίας ἴσχει",
+   "en": "stops bleeding",
+   "category": "hematologic disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

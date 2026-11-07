@@ -1,0 +1,88 @@
+{
+ "id": "3.25",
+ "headword": "ὕσσωπος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Origanum syriacum",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Hyssopus officinalis",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Origanum",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "περιπνευμονικοῖς",
+   "en": "pneumonia",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἀσθματικοῖς",
+   "en": "asthma",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "βηχὶ χρονίᾳ",
+   "en": "chronic cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "κατάρρῳ",
+   "en": "catarrh",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἕλμεις",
+   "en": "worms",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "ὑπαγωγὴν κοιλίας",
+   "en": "laxative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "σπλῆνα καὶ ὕδρωπα",
+   "en": "spleen and dropsy",
+   "category": "cardiovascular disease"
+  },
+  {
+   "greek": "φλεγμονάς",
+   "en": "inflammations",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "ὑπώπια",
+   "en": "black eyes",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "συνάγχης",
+   "en": "quinsy",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ὀδόντος πόνον",
+   "en": "toothache",
+   "category": "other"
+  },
+  {
+   "greek": "περὶ ὦτα ἐμπνευματώσεις",
+   "en": "ear complaints",
+   "category": "otorhinolaryngologic disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

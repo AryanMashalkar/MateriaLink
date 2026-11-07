@@ -1,0 +1,28 @@
+{
+ "id": "3.46",
+ "headword": "πήγανον ἄγριον (ἁρμαλά)",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Peganum harmala",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Peganum",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "ἀμβλυωπίας",
+   "en": "dim sight",
+   "category": "vision disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

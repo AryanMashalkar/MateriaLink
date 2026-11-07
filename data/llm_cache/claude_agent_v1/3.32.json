@@ -1,0 +1,33 @@
+{
+ "id": "3.32",
+ "headword": "δίκταμνον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Origanum dictamnus",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Origanum",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "τεθνηκότα ἔμβρυα ἐκτινάσσει",
+   "en": "expels dead foetus",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "τοξεύματα",
+   "en": "draws out arrows",
+   "category": "injury"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

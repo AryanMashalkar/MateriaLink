@@ -1,0 +1,63 @@
+{
+ "id": "3.40",
+ "headword": "μελίλωτος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Melilotus officinalis",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Melilotus",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Trigonella",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "φλεγμονῆς περὶ ὀφθαλμούς",
+   "en": "eye inflammation",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "μήτραν καὶ δακτύλιον",
+   "en": "uterine and anal inflammation",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "μελικηρίδας",
+   "en": "honeycomb sores",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἀχῶρας",
+   "en": "scalp sores",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἄλγημα στομάχου",
+   "en": "stomach pain",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὠταλγίας",
+   "en": "earache",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "κεφαλαλγίας",
+   "en": "headache",
+   "category": "nervous system disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,39 @@
+{
+ "id": "4.84",
+ "headword": "ἐφήμερον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Polygonatum verticillatum",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Convallaria majalis",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Polygonatum",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "ὀδονταλγίας",
+   "en": "toothache",
+   "category": "other"
+  },
+  {
+   "greek": "οἰδήματα καὶ φύματα",
+   "en": "swellings and tumours",
+   "category": "inflammatory disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

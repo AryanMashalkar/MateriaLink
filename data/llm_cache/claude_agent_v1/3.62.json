@@ -1,0 +1,58 @@
+{
+ "id": "3.62",
+ "headword": "ἄμι",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Trachyspermum ammi",
+   "prob": 0.55,
+   "why": ""
+  },
+  {
+   "taxon": "Ammi visnaga",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Ammi",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "στρόφους",
+   "en": "colic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "δυσουρίας",
+   "en": "dysuria",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "θηριοδήκτους",
+   "en": "venomous bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ἔμμηνα",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ὑπώπια",
+   "en": "black eyes",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "ὑστέραν ἀποκαθαίρει",
+   "en": "cleanses the womb",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,39 @@
+{
+ "id": "3.133",
+ "headword": "ἀνδρόσακες",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Acetabularia",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Androsace maxima",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Androsace",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb",
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "οὖρα ἐπὶ ὑδρωπικῶν",
+   "en": "diuretic in dropsy",
+   "category": "cardiovascular disease"
+  },
+  {
+   "greek": "ποδαγρικῶν",
+   "en": "gout",
+   "category": "musculoskeletal system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

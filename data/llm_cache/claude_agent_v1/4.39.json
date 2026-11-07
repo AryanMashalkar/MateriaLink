@@ -1,0 +1,33 @@
+{
+ "id": "4.39",
+ "headword": "ἑλξίνη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Convolvulus arvensis",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Fallopia convolvulus",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Convolvulus",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf juice"
+ ],
+ "uses": [
+  {
+   "greek": "λυτικὴν κοιλίας",
+   "en": "laxative",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

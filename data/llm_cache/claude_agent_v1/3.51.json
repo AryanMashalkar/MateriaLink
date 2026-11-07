@@ -1,0 +1,54 @@
+{
+ "id": "3.51",
+ "headword": "λιγυστικόν",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Levisticum officinale",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Ligusticum lucidum",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Ligusticum",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ἐντὸς ἀλγήματα",
+   "en": "internal pains",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "οἰδήματα",
+   "en": "swellings",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "ἐμπνευματώσεις περὶ στόμαχον",
+   "en": "stomach flatulence",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "θηρίων πληγάς",
+   "en": "venomous bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ἄγει οὖρα",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

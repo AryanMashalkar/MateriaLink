@@ -1,0 +1,34 @@
+{
+ "id": "3.29",
+ "headword": "ἀγριορίγανος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Origanum vulgare",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Origanum",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Satureja",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "flower"
+ ],
+ "uses": [
+  {
+   "greek": "θηριοδήκτοις",
+   "en": "venomous bites",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

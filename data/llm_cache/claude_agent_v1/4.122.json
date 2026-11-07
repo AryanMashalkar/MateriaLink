@@ -1,0 +1,38 @@
+{
+ "id": "4.122",
+ "headword": "κακκαλία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Adenostyles alliariae",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Cacalia",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Adenostyles",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "βῆχας καὶ τραχύτητας ἀρτηρίας",
+   "en": "cough and hoarse throat",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "πρόσωπον ἀρρυτίδωτον",
+   "en": "keeps face unwrinkled",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

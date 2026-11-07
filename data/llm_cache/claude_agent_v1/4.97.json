@@ -1,0 +1,28 @@
+{
+ "id": "4.97",
+ "headword": "θαλίητρον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Thalictrum minus",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Thalictrum",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "χρόνια τῶν ἑλκῶν",
+   "en": "chronic ulcers",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,99 @@
+{
+ "id": "4.42",
+ "headword": "πεντάφυλλον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Potentilla reptans",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Potentilla",
+   "prob": 0.25,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "ὀδονταλγίας",
+   "en": "toothache",
+   "category": "other"
+  },
+  {
+   "greek": "σηπεδόνας ἐν στόματι",
+   "en": "mouth putrefaction",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "τραχύτητας ἀρτηρίας",
+   "en": "hoarse throat",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "κοιλίᾳ ῥεούσῃ καὶ δυσεντερίᾳ",
+   "en": "diarrhoea and dysentery",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἀρθριτικοῖς",
+   "en": "arthritis",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ἰσχιαδικοῖς",
+   "en": "sciatica",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ἕρπητας",
+   "en": "herpes",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "χοιράδας",
+   "en": "scrofula",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "ἐρυσιπέλατα",
+   "en": "erysipelas",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ψώρας",
+   "en": "itch",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἐν ἥπατι καὶ πνεύμονι πάθη",
+   "en": "liver and lung disease",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "θανάσιμα",
+   "en": "poisons",
+   "category": "poisoning"
+  },
+  {
+   "greek": "περιόδους",
+   "en": "periodic fevers",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "ἐπιληψίαις",
+   "en": "epilepsy",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ἴκτερον",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,53 @@
+{
+ "id": "4.20",
+ "headword": "ξιφίον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Gladiolus italicus",
+   "prob": 0.5,
+   "why": ""
+  },
+  {
+   "taxon": "Gladiolus communis",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Gladiolus",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "corm"
+ ],
+ "uses": [
+  {
+   "greek": "ἀκίδας καὶ σκόλοπας ἐπισπᾶσθαι",
+   "en": "draws out splinters",
+   "category": "injury"
+  },
+  {
+   "greek": "φύγεθλα",
+   "en": "boils",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "καταμήνια",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἀφροδίσια παρορμᾶν",
+   "en": "aphrodisiac",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἐντεροκηλικοῖς",
+   "en": "hernia",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

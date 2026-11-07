@@ -1,0 +1,41 @@
+{
+ "id": "3.120",
+ "headword": "οἰνάνθη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Filipendula vulgaris",
+   "prob": 0.5,
+   "why": ""
+  },
+  {
+   "taxon": "Oenanthe",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Filipendula",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit",
+  "stem",
+  "leaf",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "δευτέρων ἐκβολήν",
+   "en": "expels afterbirth",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "στραγγουρίας",
+   "en": "strangury",
+   "category": "urinary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

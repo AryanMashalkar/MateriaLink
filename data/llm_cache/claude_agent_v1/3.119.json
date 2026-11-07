@@ -1,0 +1,39 @@
+{
+ "id": "3.119",
+ "headword": "κιρκαία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Mandragora officinarum",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Vincetoxicum nigrum",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Circaea lutetiana",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "fruit"
+ ],
+ "uses": [
+  {
+   "greek": "ὑστέραν ἀποκαθαίρει",
+   "en": "cleanses the womb",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "γάλα κατασπᾷ",
+   "en": "promotes lactation",
+   "category": "breast disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

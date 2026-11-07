@@ -1,0 +1,38 @@
+{
+ "id": "4.99",
+ "headword": "φῦκος θαλάσσιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Fucus",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Cystoseira",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Laminaria",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "thallus"
+ ],
+ "uses": [
+  {
+   "greek": "ποδαγρικοῖς",
+   "en": "gout",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "φλεγμοναῖς",
+   "en": "inflammations",
+   "category": "inflammatory disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

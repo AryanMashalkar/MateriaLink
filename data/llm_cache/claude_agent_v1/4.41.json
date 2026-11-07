@@ -1,0 +1,44 @@
+{
+ "id": "4.41",
+ "headword": "εὐπατόριος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Agrimonia eupatoria",
+   "prob": 0.8,
+   "why": ""
+  },
+  {
+   "taxon": "Agrimonia",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "δυσαπούλωτα τῶν ἑλκῶν",
+   "en": "non-healing ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "δυσεντερικούς",
+   "en": "dysentery",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἡπατικούς",
+   "en": "liver complaints",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἑρπετοδήκτους",
+   "en": "snakebite",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

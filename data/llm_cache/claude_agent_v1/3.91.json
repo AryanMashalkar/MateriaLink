@@ -1,0 +1,43 @@
+{
+ "id": "3.91",
+ "headword": "ἄλυσσον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Alyssum",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Clypeola jonthlaspi",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Alyssum alyssoides",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "λυγμούς",
+   "en": "hiccup",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "φακοὺς καὶ ἔφηλιν",
+   "en": "freckles and sunspots",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "λύσσαν κυνός",
+   "en": "rabies",
+   "category": "infectious disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

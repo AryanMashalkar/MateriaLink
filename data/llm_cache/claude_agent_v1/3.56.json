@@ -1,0 +1,68 @@
+{
+ "id": "3.56",
+ "headword": "ἄνισον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Pimpinella anisum",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Pimpinella",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "ἰοβόλα τῶν ζῴων",
+   "en": "venomous animals",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ἐμπνευματώσεις",
+   "en": "flatulence",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "κοιλίαν ἵστησι",
+   "en": "stops diarrhoea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "λευκὸν ῥοῦν",
+   "en": "leucorrhoea",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "γάλα κατασπᾷ",
+   "en": "promotes lactation",
+   "category": "breast disease"
+  },
+  {
+   "greek": "συνουσίαν παρορμᾷ",
+   "en": "aphrodisiac",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "κεφαλαλγίαν",
+   "en": "headache",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ῥήξεις τῶν ὤτων",
+   "en": "ear injuries",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "οὐρητικήν",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

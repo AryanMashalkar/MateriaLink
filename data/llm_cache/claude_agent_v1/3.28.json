@@ -1,0 +1,28 @@
+{
+ "id": "3.28",
+ "headword": "ὀνῖτις",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Origanum onites",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Origanum",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "ἃ καὶ ἡ Ἡρακλεωτική",
+   "en": "as Heracleotic oregano (bites)",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

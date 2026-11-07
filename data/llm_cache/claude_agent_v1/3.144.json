@@ -1,0 +1,33 @@
+{
+ "id": "3.144",
+ "headword": "λογχῖτις",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Serapias vomeracea",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Serapias",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Orchis",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "διουρητική",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

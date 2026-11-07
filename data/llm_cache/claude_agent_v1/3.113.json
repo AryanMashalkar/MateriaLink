@@ -1,0 +1,49 @@
+{
+ "id": "3.113",
+ "headword": "ἀρτεμισία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Artemisia arborescens",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Artemisia vulgaris",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Artemisia",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb",
+  "flower"
+ ],
+ "uses": [
+  {
+   "greek": "ἀγωγήν ἐμμήνων καὶ δευτέρων",
+   "en": "emmenagogue and expels afterbirth",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "φλεγμονὴν τῆς ὑστέρας",
+   "en": "uterine inflammation",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "θρύψιν λίθων",
+   "en": "breaks stones",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἐποχὴν οὔρων",
+   "en": "urinary retention",
+   "category": "urinary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

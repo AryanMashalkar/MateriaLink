@@ -1,0 +1,69 @@
+{
+ "id": "3.39",
+ "headword": "σάμψουχον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Origanum majorana",
+   "prob": 0.8,
+   "why": ""
+  },
+  {
+   "taxon": "Origanum",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "ὑδρωπικῶν",
+   "en": "dropsy",
+   "category": "cardiovascular disease"
+  },
+  {
+   "greek": "δυσουρούντων",
+   "en": "dysuria",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "στροφουμένων",
+   "en": "colic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὑπώπια",
+   "en": "black eyes",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "ἔμμηνα",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "σκορπίου πληγήν",
+   "en": "scorpion sting",
+   "category": "poisoning"
+  },
+  {
+   "greek": "στρέμματα",
+   "en": "sprains",
+   "category": "injury"
+  },
+  {
+   "greek": "οἰδήματα",
+   "en": "swellings",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "ὀφθαλμῶν φλεγμονάς",
+   "en": "eye inflammation",
+   "category": "vision disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,33 @@
+{
+ "id": "4.133",
+ "headword": "κῆμος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Trifolium",
+   "prob": 0.1,
+   "why": ""
+  },
+  {
+   "taxon": "Filago",
+   "prob": 0.1,
+   "why": ""
+  },
+  {
+   "taxon": "Lagurus ovatus",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "εἰς φίλτρα",
+   "en": "love potion",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

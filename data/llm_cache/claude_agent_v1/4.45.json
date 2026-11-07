@@ -1,0 +1,28 @@
+{
+ "id": "4.45",
+ "headword": "ῥοδία ῥίζα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Rhodiola rosea",
+   "prob": 0.8,
+   "why": ""
+  },
+  {
+   "taxon": "Rhodiola",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "κεφαλαλγούντων",
+   "en": "headache",
+   "category": "nervous system disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

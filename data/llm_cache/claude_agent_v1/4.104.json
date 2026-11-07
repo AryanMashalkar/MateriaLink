@@ -1,0 +1,43 @@
+{
+ "id": "4.104",
+ "headword": "Αἰθιοπίς",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Salvia aethiopis",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Salvia",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ἰσχιάδι",
+   "en": "sciatica",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "πλευρίτιδι",
+   "en": "pleurisy",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "αἵματος πτύσει",
+   "en": "haemoptysis",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἀρτηρίας τραχύτητι",
+   "en": "hoarse throat",
+   "category": "respiratory system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

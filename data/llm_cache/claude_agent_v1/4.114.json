@@ -1,0 +1,38 @@
+{
+ "id": "4.114",
+ "headword": "μυριόφυλλον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Myriophyllum spicatum",
+   "prob": 0.5,
+   "why": ""
+  },
+  {
+   "taxon": "Myriophyllum",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Achillea",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "τραυμάτων ἀφλέγμαντα",
+   "en": "keeps fresh wounds uninflamed",
+   "category": "injury"
+  },
+  {
+   "greek": "πρὸς πτώματα",
+   "en": "falls (injuries)",
+   "category": "injury"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

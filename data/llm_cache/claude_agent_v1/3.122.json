@@ -1,0 +1,49 @@
+{
+ "id": "3.122",
+ "headword": "ἡμεροκαλλές",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Hemerocallis lilioasphodelus",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Hemerocallis fulva",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Hemerocallis",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "ὑδραγωγός καὶ αἱμαγωγός",
+   "en": "draws water and blood (uterine pessary)",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "φλεγμονάς μαστῶν",
+   "en": "mastitis",
+   "category": "breast disease"
+  },
+  {
+   "greek": "ὀφθαλμῶν φλεγμονάς",
+   "en": "eye inflammation",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "πυρικαύτων",
+   "en": "burns",
+   "category": "injury"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

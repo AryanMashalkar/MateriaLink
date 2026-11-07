@@ -1,0 +1,33 @@
+{
+ "id": "3.149",
+ "headword": "κάνναβις ἀγρία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Althaea cannabina",
+   "prob": 0.65,
+   "why": ""
+  },
+  {
+   "taxon": "Althaea",
+   "prob": 0.25,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "φλεγμονάς",
+   "en": "inflammation",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "πώρους",
+   "en": "callous swellings",
+   "category": "musculoskeletal system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

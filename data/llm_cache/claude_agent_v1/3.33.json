@@ -1,0 +1,69 @@
+{
+ "id": "3.33",
+ "headword": "ἐλελίσφακον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Salvia fruticosa",
+   "prob": 0.5,
+   "why": ""
+  },
+  {
+   "taxon": "Salvia officinalis",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Salvia",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "branch"
+ ],
+ "uses": [
+  {
+   "greek": "οὖρα ἄγειν",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἔμμηνα καὶ ἔμβρυα",
+   "en": "emmenagogue, abortifacient",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "τρυγόνος πληγαῖς",
+   "en": "stingray wounds",
+   "category": "poisoning"
+  },
+  {
+   "greek": "μελαίνει τρίχας",
+   "en": "dyes hair",
+   "category": "other"
+  },
+  {
+   "greek": "τραυματική",
+   "en": "wounds",
+   "category": "injury"
+  },
+  {
+   "greek": "ἴσχαιμος",
+   "en": "haemostatic",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "θηριωδῶν ἑλκῶν",
+   "en": "malignant ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "κνησμοὺς περὶ τὰ αἰδοῖα",
+   "en": "genital itch",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

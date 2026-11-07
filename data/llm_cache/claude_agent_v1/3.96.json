@@ -1,0 +1,33 @@
+{
+ "id": "3.96",
+ "headword": "λεοντοπέταλον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Leontice leontopetalum",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Leontice",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ἑρπετοδήκτοις",
+   "en": "snakebite",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ἰσχιαδικούς",
+   "en": "sciatica",
+   "category": "musculoskeletal system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

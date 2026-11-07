@@ -1,0 +1,38 @@
+{
+ "id": "3.126",
+ "headword": "ὄρχις",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Orchis",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Orchis mascula",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Anacamptis morio",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ἀρρενογονεῖν",
+   "en": "sex selection of offspring",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἀφροδίσια συνιστάντα",
+   "en": "aphrodisiac",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

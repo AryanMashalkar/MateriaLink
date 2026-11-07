@@ -1,0 +1,64 @@
+{
+ "id": "3.138",
+ "headword": "παρθένιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Tanacetum parthenium",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Tanacetum",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Matricaria",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb",
+  "flower"
+ ],
+ "uses": [
+  {
+   "greek": "φλέγμα καὶ χολὴν ἄγειν",
+   "en": "purges phlegm and bile",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἀσθματικούς",
+   "en": "asthma",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "μελαγχολικούς",
+   "en": "melancholy",
+   "category": "psychiatric disorder"
+  },
+  {
+   "greek": "λιθιώντων",
+   "en": "stones",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ὑστέρας ἐσκληρυσμένης",
+   "en": "hardened inflamed womb",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἐρυσιπέλατα",
+   "en": "erysipelas",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "φλεγμονάς",
+   "en": "inflammation",
+   "category": "inflammatory disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

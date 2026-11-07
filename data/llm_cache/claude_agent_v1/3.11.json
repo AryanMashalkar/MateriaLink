@@ -1,0 +1,43 @@
+{
+ "id": "3.11",
+ "headword": "δίψακος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Dipsacus fullonum",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Dipsacus sativus",
+   "prob": 0.1,
+   "why": ""
+  },
+  {
+   "taxon": "Dipsacus",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ἐν δακτυλίῳ ῥαγάδας καὶ σύριγγας",
+   "en": "anal fissures and fistulas",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "μυρμηκιῶν καὶ ἀκροχορδόνων",
+   "en": "warts",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "τεταρταϊκούς",
+   "en": "quartan fever",
+   "category": "infectious disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

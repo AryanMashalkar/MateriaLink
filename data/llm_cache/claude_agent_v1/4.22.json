@@ -1,0 +1,64 @@
+{
+ "id": "4.22",
+ "headword": "ξυρίς",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Iris foetidissima",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Iris",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "ἐν κεφαλῇ τραύματα καὶ κατάγματα",
+   "en": "head wounds and fractures",
+   "category": "injury"
+  },
+  {
+   "greek": "οἰδήματα καὶ φλεγμονάς",
+   "en": "swellings and inflammations",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "σπάσματα ῥήγματα",
+   "en": "spasms, ruptures",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ἰσχιάδας",
+   "en": "sciatica",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "στραγγουρίας",
+   "en": "strangury",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "διαρροίας",
+   "en": "diarrhoea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "οὐρητικώτατος",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "τήκει σπλῆνα",
+   "en": "reduces spleen",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

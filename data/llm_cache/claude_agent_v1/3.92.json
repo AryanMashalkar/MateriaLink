@@ -1,0 +1,39 @@
+{
+ "id": "3.92",
+ "headword": "ἀσκληπιάς",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Vincetoxicum hirundinaria",
+   "prob": 0.55,
+   "why": ""
+  },
+  {
+   "taxon": "Vincetoxicum",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "στροφουμένοις",
+   "en": "colic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "θηριοδήκτοις",
+   "en": "venomous bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "μαστοῖς καὶ μήτρᾳ κακοήθη",
+   "en": "malignant sores of breast and womb",
+   "category": "cancer"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

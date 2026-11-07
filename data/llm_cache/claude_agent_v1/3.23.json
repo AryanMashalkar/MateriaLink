@@ -1,0 +1,103 @@
+{
+ "id": "3.23",
+ "headword": "ἀψίνθιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Artemisia absinthium",
+   "prob": 0.8,
+   "why": ""
+  },
+  {
+   "taxon": "Artemisia pontica",
+   "prob": 0.1,
+   "why": ""
+  },
+  {
+   "taxon": "Artemisia",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "χολωδῶν στομάχῳ",
+   "en": "purges bile from stomach",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "οὐρητικόν",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἀκραίπαλον",
+   "en": "prevents hangover",
+   "category": "other"
+  },
+  {
+   "greek": "ἐμπνευματώσεις",
+   "en": "flatulence",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "στομάχου ἀλγήματα",
+   "en": "stomach pain",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἀνορεξίας",
+   "en": "loss of appetite",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἰκτερικούς",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἔμμηνα",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ὑπὸ μυκήτων πνιγομένους",
+   "en": "mushroom poisoning",
+   "category": "poisoning"
+  },
+  {
+   "greek": "κώνειον καὶ μυγαλῆς δήγματα",
+   "en": "hemlock and shrew bite",
+   "category": "poisoning"
+  },
+  {
+   "greek": "συναγχικοῖς",
+   "en": "quinsy",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ὑπώπια",
+   "en": "black eyes",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "ἀμβλυωπίας",
+   "en": "dim sight",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "ἰχωρορροοῦντα ὦτα",
+   "en": "discharging ears",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ἧπαρ",
+   "en": "liver complaints",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

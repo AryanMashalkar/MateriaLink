@@ -1,0 +1,38 @@
+{
+ "id": "3.103",
+ "headword": "βαλλωτή",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Ballota nigra",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Ballota",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "κυνόδηκτα",
+   "en": "dog bites",
+   "category": "injury"
+  },
+  {
+   "greek": "κονδυλώματα",
+   "en": "condylomata",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ῥυπαρὰ ἕλκη",
+   "en": "foul ulcers",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

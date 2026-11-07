@@ -1,0 +1,88 @@
+{
+ "id": "3.81",
+ "headword": "σαγαπηνόν",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Ferula persica",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Ferula",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Ferula szowitsiana",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "sap"
+ ],
+ "uses": [
+  {
+   "greek": "θώρακος καὶ πλευρᾶς πόνον",
+   "en": "chest and side pain",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "σπάσματα",
+   "en": "spasms",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "βῆχας χρονίους",
+   "en": "chronic cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἐπιληπτικοῖς",
+   "en": "epilepsy",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "σπληνικοῖς",
+   "en": "spleen disorders",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "παραλυτικοῖς",
+   "en": "paralysis",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "περιοδικοῖς πυρετοῖς",
+   "en": "periodic fevers",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "ἄγει ἔμμηνα",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἔμβρυα φθείρει",
+   "en": "abortifacient",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "θηριοδήκτοις",
+   "en": "venomous bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ὑστερικῶς πνιγομένας",
+   "en": "hysterical suffocation",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἀμβλυωπίας καὶ ὑποχύματα",
+   "en": "dim sight and cataract",
+   "category": "vision disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,35 @@
+4.71|στρύχνον ἁλικάκκαβον|1|Physalis alkekengi:0.8;Physalis:0.1|fruit,herb|ἴκτερον ἀποκαθαίρειν=jaundice=DIG;οὐρητικός=diuretic=URO;ἐρυσιπέλατα=erysipelas (as garden nightshade)=SKIN
+4.72|στρύχνον ὑπνωτικόν|1|Withania somnifera:0.75;Withania:0.1;Physalis:0.05|root bark,fruit|ὑπνωτικήν=hypnotic=NS;οὐρητικός=diuretic=URO;ὑδρωπικοῖς=dropsy=CV;ἀνωδύνοις=analgesic=NS;ὀδονταλγίαις=toothache=OTH;ἀμβλυωπίας=dim sight=EYE
+4.73|στρύχνον μανικόν|1|Datura stramonium:0.35;Atropa belladonna:0.35;Datura metel:0.1|root|φαντασίας ἀποτελεῖν=causes hallucinations=POIS
+4.74|δορύκνιον|1|Convolvulus oleifolius:0.3;Dorycnium:0.2;Withania somnifera:0.1|seed|ὑπνωτικόν=soporific=NS
+4.75|μανδραγόρας|1|Mandragora officinarum:0.6;Mandragora autumnalis:0.3;Mandragora:0.05|root bark,fruit|φίλτρων ποιητική=love potion=REPRO
+4.76|ἀκόνιτον|1|Doronicum pardalianches:0.45;Doronicum:0.2;Aconitum:0.1|root|ὀφθαλμικαῖς ἀνωδύνοις=analgesic eye remedies=EYE;σκορπίῳ=against scorpions=POIS
+4.77|ἀκόνιτον ἕτερον (λυκοκτόνον)|1|Aconitum lycoctonum:0.45;Aconitum napellus:0.25;Aconitum:0.2|root|
+4.78|κώνειον|1|Conium maculatum:0.9;Conium:0.05|juice,herb|ἀνωδύνοις κολλυρίοις=analgesic eye salves=EYE;ἕρπητας καὶ ἐρυσιπέλατα=herpes and erysipelas=SKIN;ὀνειρώττουσι=nocturnal emissions=REPRO;γάλα σβέννυσι=suppresses lactation=BREAST
+4.79|σμῖλαξ (τάξος)|1|Taxus baccata:0.85;Taxus:0.1|fruit|
+4.80|ἀπόκυνον|1|Cynanchum acutum:0.35;Periploca graeca:0.3;Marsdenia erecta:0.15|leaf|
+4.81|νήριον|1|Nerium oleander:0.9;Nerium:0.05|flower,leaf|θηρίων δήγματα=venomous bites=POIS
+4.82|μύκητες|1|Agaricus:0.15;Amanita:0.15;Boletus:0.05|fruiting body|
+4.83|κολχικόν|1|Colchicum autumnale:0.5;Colchicum variegatum:0.15;Colchicum:0.25|corm|
+4.84|ἐφήμερον|1|Polygonatum verticillatum:0.25;Convallaria majalis:0.25;Polygonatum:0.1|root,leaf|ὀδονταλγίας=toothache=OTH;οἰδήματα καὶ φύματα=swellings and tumours=INFL
+4.85|ἑλξίνη (περδίκιον)|1|Parietaria officinalis:0.5;Parietaria judaica:0.3;Parietaria:0.1|leaf,juice|ἐρυσιπέλατα=erysipelas=SKIN;κονδυλώματα=condylomata=SKIN;κατακαύματα=burns=INJ;φλεγμονήν=inflammation=INFL;ποδάγρας=gout=MSK;βήττοντας χρονίως=chronic cough=RESP;παρισθμίοις φλεγμαίνουσιν=inflamed tonsils=ENT;ὠταλγίαις=earache=ENT
+4.86|ἀλσίνη|1|Stellaria media:0.6;Stellaria:0.15;Myosotis:0.05|herb,juice|φλεγμονὰς ὀφθαλμῶν=eye inflammation=EYE;ὤτων πόνον=earache=ENT
+4.87|φακὸς ὁ ἐπὶ τῶν τελμάτων|1|Lemna minor:0.75;Lemna:0.15|whole plant|φλεγμοναῖς=inflammations=INFL;ἐρυσιπέλασι=erysipelas=SKIN;ποδάγραις=gout=MSK;ἐντεροκήλας=infant hernia=DIG
+4.88|ἀείζῳον μέγα|1|Sempervivum arboreum:0.5;Aeonium arboreum:0.3;Sempervivum:0.1|leaf,juice|ἐρυσιπέλατα=erysipelas=SKIN;ἕρπητας=herpes=SKIN;ὀφθαλμῶν φλεγμονάς=eye inflammation=EYE;πυρίκαυτα=burns=INJ;ποδάγρας=gout=MSK;κεφαλαλγίας=headache=NS;φαλαγγιοδήκτοις=spider bites=POIS;δυσεντερικοῖς=dysentery=DIG;στρογγύλας ἕλμεις=roundworms=INF;ῥοῦν γυναικεῖον=menorrhagia=REPRO
+4.89|ἀείζῳον τὸ μικρόν|1|Sedum album:0.35;Sedum acre:0.2;Sedum:0.25|leaf|ἐρυσιπέλατα=erysipelas (as large houseleek)=SKIN
+4.90|ἀείζῳον τρίτον (τηλέφιον)|1|Sedum acre:0.4;Sedum:0.2;Telephium imperati:0.1|leaf|χοιράδων διαφορητικήν=disperses scrofula=INF
+4.91|κοτυληδών|1|Umbilicus rupestris:0.6;Umbilicus horizontalis:0.2;Umbilicus:0.1|juice,leaf,root|φιμοὺς ἐν αἰδοίοις=phimosis=REPRO;φλεγμονάς=inflammations=INFL;ἐρυσιπέλατα=erysipelas=SKIN;χιμέτλας=chilblains=SKIN;χοιράδας=scrofula=INF;στόμαχον καυσούμενον=heartburn=DIG;λίθους θρύπτει=breaks stones=URO;οὖρα κινεῖ=diuretic=URO;ὑδρωπικοῖς=dropsy=CV
+4.92|κοτυληδὼν ἑτέρα|1|Sedum:0.2;Sempervivum:0.15;Umbilicus:0.1|leaf|ἃ καὶ τὸ ἀείζῳον=as houseleek (skin inflammations)=SKIN
+4.93|ἀκαλήφη|1|Urtica pilulifera:0.4;Urtica urens:0.3;Urtica dioica:0.15|leaf,seed,juice|κυνόδηκτα=dog bites=INJ;γαγγραινικά=gangrene=INF;καρκινώδη=cancerous ulcers=CAN;ῥυπαρὰ τῶν ἑλκῶν=foul ulcers=SKIN;στρέμματα=sprains=INJ;παρωτίδας=parotid swellings=ENT;σπληνικοῖς=spleen complaints=DIG;ἐκ μυκτήρων αἱμορραγίας=nosebleed=ENT;ἔμμηνα=emmenagogue=REPRO;ὑστέρας προπτώσεις=uterine prolapse=REPRO;ἐπὶ συνουσίαν=aphrodisiac=REPRO;ὀρθοπνοίας=orthopnoea=RESP;πλευρίτιδας καὶ περιπνευμονίας=pleurisy and pneumonia=RESP;κοιλίαν μαλάττει=laxative=DIG;οὖρα κινεῖ=diuretic=URO;κιονίδα φλεγμαίνουσαν=inflamed uvula=ENT
+4.94|γαλήοψις|1|Lamium maculatum:0.35;Lamium purpureum:0.25;Lamium:0.15;Stachys sylvatica:0.1|leaf,stem|σκληρωμάτων=indurations=INFL;καρκινωμάτων=carcinomas=CAN;χοιράδων=scrofula=INF;παρωτίδων=parotid swellings=ENT;γαγγραίνας=gangrene=INF
+4.95|γάλιον|1|Galium verum:0.85;Galium:0.1|flower,root|πυρίκαυτα=burns=INJ;αἱμορραγίαις=haemorrhage=HEM;πρὸς συνουσίαν=aphrodisiac=REPRO
+4.96|ἠριγέρων|1|Senecio vulgaris:0.75;Senecio:0.15|leaf,flower|φλεγμονὰς ὄρχεων καὶ δακτυλίου=inflamed testicles and anus=INFL;τραύματα=wounds=INJ;τὰ ἐν νεύροις=nerve injuries=INJ
+4.97|θαλίητρον|1|Thalictrum minus:0.4;Thalictrum:0.3|leaf|χρόνια τῶν ἑλκῶν=chronic ulcers=SKIN
+4.98|βρύον θαλάσσιον|1|Ulva lactuca:0.6;Ulva:0.25|thallus|φλεγμονάς=inflammations=INFL;ποδάγρας=gout=MSK
+4.99|φῦκος θαλάσσιον|1|Fucus:0.25;Cystoseira:0.15;Laminaria:0.1|thallus|ποδαγρικοῖς=gout=MSK;φλεγμοναῖς=inflammations=INFL
+4.100|ποταμογείτων|1|Potamogeton natans:0.55;Potamogeton:0.3|leaf|κνησμοῖς=itching=SKIN;νεμομένοις=spreading ulcers=SKIN;παλαιοῖς ἕλκεσιν=chronic ulcers=SKIN
+4.101|στρατιώτης ὁ ἐπὶ τῶν ὑδάτων|1|Pistia stratiotes:0.45;Stratiotes aloides:0.3|leaf|ἐκ νεφρῶν αἱμορραγίας=bleeding from kidneys=URO;τραύματα ἀφλέγμαντα=keeps wounds uninflamed=INJ;ἐρυσιπέλατα=erysipelas=SKIN;οἰδήματα=swellings=INFL
+4.102|στρατιώτης ὁ χιλιόφυλλος|1|Achillea millefolium:0.75;Achillea:0.15|herb|αἱμορραγίαν=haemorrhage=HEM;ἕλκη παλαιὰ καὶ πρόσφατα=old and fresh ulcers=SKIN;σύριγγας=fistulas=SKIN
+4.103|φλόμος|1|Verbascum thapsus:0.4;Verbascum sinuatum:0.2;Verbascum:0.3|root,leaf|διαρροιζομένοις=diarrhoea=DIG;ῥήγμασι καὶ σπάσμασι=ruptures and spasms=MSK;θλάσμασι=bruises=INJ;βηχὶ παλαιᾷ=chronic cough=RESP
+4.104|Αἰθιοπίς|1|Salvia aethiopis:0.75;Salvia:0.15|root|ἰσχιάδι=sciatica=MSK;πλευρίτιδι=pleurisy=RESP;αἵματος πτύσει=haemoptysis=RESP;ἀρτηρίας τραχύτητι=hoarse throat=RESP
+4.105|ἄρκτιον|1|Verbascum:0.15;Arctium:0.15;Celsia:0.1|root,seed|ὀδονταλγίας=toothache=OTH;πυρικαύτων=burns=INJ;χιμέτλης=chilblains=SKIN;ἰσχιάδα=sciatica=MSK;δυσουρίαν=dysuria=URO

@@ -1,0 +1,54 @@
+{
+ "id": "3.80",
+ "headword": "σίλφιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Ferula",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Ferula assa-foetida",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Ferula tingitana",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "sap"
+ ],
+ "uses": [
+  {
+   "greek": "χοιράδας καὶ φύματα",
+   "en": "scrofula and tumours",
+   "category": "cancer"
+  },
+  {
+   "greek": "ὑπώπια",
+   "en": "bruises under the eye",
+   "category": "injury"
+  },
+  {
+   "greek": "ἰσχιαδικοῖς",
+   "en": "sciatica",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "περὶ δακτύλιον ἐξοχάς",
+   "en": "anal excrescences",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "θανασίμων ἀντιφάρμακον",
+   "en": "antidote to poisons",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

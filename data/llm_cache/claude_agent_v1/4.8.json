@@ -1,0 +1,63 @@
+{
+ "id": "4.8",
+ "headword": "πολεμώνιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Polemonium caeruleum",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Polemonium",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Clinopodium",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "πρὸς θηρία",
+   "en": "venomous bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "δυσεντερίαν",
+   "en": "dysentery",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "δυσουρίαν",
+   "en": "dysuria",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἰσχιάδα",
+   "en": "sciatica",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "σπληνικοῖς",
+   "en": "spleen complaints",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "σκορπίου πληγήν",
+   "en": "scorpion sting",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ὀδονταλγίας",
+   "en": "toothache",
+   "category": "other"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

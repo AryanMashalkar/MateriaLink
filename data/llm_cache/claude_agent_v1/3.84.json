@@ -1,0 +1,73 @@
+{
+ "id": "3.84",
+ "headword": "ἀμμωνιακόν",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Ferula marmarica",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Dorema ammoniacum",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Ferula",
+   "prob": 0.25,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "sap"
+ ],
+ "uses": [
+  {
+   "greek": "σκληρωμάτων τε καὶ φυμάτων",
+   "en": "indurations and tumours",
+   "category": "cancer"
+  },
+  {
+   "greek": "κοιλίαν ὑπάγει",
+   "en": "laxative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἔμβρυα κατασπᾷ",
+   "en": "abortifacient",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "σπλῆνα τήκει",
+   "en": "reduces spleen",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "ἄρθρων καὶ ἰσχίων ἀλγήματα",
+   "en": "joint and hip pain",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ἀσθματικοῖς",
+   "en": "asthma",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἐπιληπτικοῖς",
+   "en": "epilepsy",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "οὖρα αἱματώδη",
+   "en": "bloody urine",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "λευκώματα",
+   "en": "corneal opacities",
+   "category": "vision disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

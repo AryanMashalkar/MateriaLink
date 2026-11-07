@@ -1,0 +1,63 @@
+{
+ "id": "3.127",
+ "headword": "σεραπιάς",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Serapias",
+   "prob": 0.5,
+   "why": ""
+  },
+  {
+   "taxon": "Serapias lingua",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Orchis",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "οἰδημάτων",
+   "en": "swellings",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "ἑλκῶν ἀνακαθαρτικήν",
+   "en": "cleansing ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἕρπητος",
+   "en": "herpes",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "σύριγγας",
+   "en": "fistulas",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "νομάς",
+   "en": "spreading ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἐν στόματι κακοήθη",
+   "en": "malignant mouth sores",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ἵστησι κοιλίαν",
+   "en": "stops diarrhoea",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

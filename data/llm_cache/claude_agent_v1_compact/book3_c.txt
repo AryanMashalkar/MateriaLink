@@ -1,0 +1,40 @@
+3.80|σίλφιον|1|Ferula:0.35;Ferula assa-foetida:0.2;Ferula tingitana:0.1|root,sap|χοιράδας καὶ φύματα=scrofula and tumours=CAN;ὑπώπια=bruises under the eye=INJ;ἰσχιαδικοῖς=sciatica=MSK;περὶ δακτύλιον ἐξοχάς=anal excrescences=DIG;θανασίμων ἀντιφάρμακον=antidote to poisons=POIS
+3.81|σαγαπηνόν|1|Ferula persica:0.4;Ferula:0.35;Ferula szowitsiana:0.1|sap|θώρακος καὶ πλευρᾶς πόνον=chest and side pain=RESP;σπάσματα=spasms=MSK;βῆχας χρονίους=chronic cough=RESP;ἐπιληπτικοῖς=epilepsy=NS;σπληνικοῖς=spleen disorders=HEM;παραλυτικοῖς=paralysis=NS;περιοδικοῖς πυρετοῖς=periodic fevers=INF;ἄγει ἔμμηνα=emmenagogue=REPRO;ἔμβρυα φθείρει=abortifacient=REPRO;θηριοδήκτοις=venomous bites=POIS;ὑστερικῶς πνιγομένας=hysterical suffocation=REPRO;ἀμβλυωπίας καὶ ὑποχύματα=dim sight and cataract=EYE
+3.82|εὐφόρβιον|1|Euphorbia resinifera:0.55;Euphorbia officinarum:0.2;Euphorbia:0.2|sap|ὑποχυμάτων=cataract=EYE
+3.83|χαλβάνη|1|Ferula gummosa:0.6;Ferula:0.3|sap|ἔμμηνα καὶ ἔμβρυα ἄγει=emmenagogue and abortifacient=REPRO;φακούς=freckles=SKIN;παλαιὰν βῆχα=chronic cough=RESP;δύσπνοιαν, ἄσθματα=dyspnoea and asthma=RESP;σπάσματα=spasms=MSK;τοξικῷ=arrow poison=POIS;ὀδύνην πλευρᾶς=side pain=RESP;δοθιῆνας=boils=SKIN;ἐπιληπτικούς=epilepsy=NS;ὀδόντος πόνον=toothache=ENT
+3.84|ἀμμωνιακόν|1|Ferula marmarica:0.35;Dorema ammoniacum:0.3;Ferula:0.25|sap|σκληρωμάτων τε καὶ φυμάτων=indurations and tumours=CAN;κοιλίαν ὑπάγει=laxative=DIG;ἔμβρυα κατασπᾷ=abortifacient=REPRO;σπλῆνα τήκει=reduces spleen=HEM;ἄρθρων καὶ ἰσχίων ἀλγήματα=joint and hip pain=MSK;ἀσθματικοῖς=asthma=RESP;ἐπιληπτικοῖς=epilepsy=NS;οὖρα αἱματώδη=bloody urine=URO;λευκώματα=corneal opacities=EYE
+3.85|σαρκοκόλλα|1|Astragalus sarcocolla:0.6;Astragalus:0.3|gum|κολλητικὴν τραυμάτων=wound healing=INJ;ὀφθαλμοῖς ῥευμάτων=eye discharges=EYE
+3.86|γλαύκιον|1|Glaucium flavum:0.35;Glaucium corniculatum:0.3;Glaucium:0.25|juice|ὀφθαλμικά=eye disorders=EYE
+3.88|ἰχθυοκόλλα|0||isinglass|λεπρικάς=leprous skin=SKIN
+3.89|ἰξός|1|Viscum album:0.45;Loranthus europaeus:0.3;Viscum:0.15|fruit|φύματα, παρωτίδας=tumours and parotid swelling=CAN;ἐπινυκτίδας=night pustules=SKIN;ἕλκη παλαιά=chronic ulcers=SKIN;σπλῆνα τήκει=reduces spleen=HEM
+3.90|ἀπαρίνη|1|Galium aparine:0.8;Galium:0.15|seed,stem,leaf|φαλαγγιοδήκτοις καὶ ἐχιοδήκτοις=spider and viper bites=POIS;ὠταλγίας=earache=ENT;χοιράδας=scrofula=CAN
+3.91|ἄλυσσον|1|Alyssum:0.35;Clypeola jonthlaspi:0.2;Alyssum alyssoides:0.15|herb|λυγμούς=hiccup=DIG;φακοὺς καὶ ἔφηλιν=freckles and sunspots=SKIN;λύσσαν κυνός=rabies=INF
+3.92|ἀσκληπιάς|1|Vincetoxicum hirundinaria:0.55;Vincetoxicum:0.3|root,leaf|στροφουμένοις=colic=DIG;θηριοδήκτοις=venomous bites=POIS;μαστοῖς καὶ μήτρᾳ κακοήθη=malignant sores of breast and womb=CAN
+3.93|ἀτρακτυλίς|1|Carthamus lanatus:0.6;Carthamus:0.3|leaf,head,fruit|σκορπιοπλήκτους=scorpion stings=POIS
+3.94|πολύκνημον|1|Ziziphora capitata:0.3;Clinopodium:0.2;Mentha:0.15|herb|τραύματα κολλῶν=wound healing=INJ;στραγγουρίας=strangury=URO;ῥήγματα=ruptures=INJ
+3.95|κλινοπόδιον|1|Clinopodium vulgare:0.55;Clinopodium:0.3|herb|θηρίων δήγματα=venomous bites=POIS;σπάσματα=spasms=MSK;στραγγουρίας=strangury=URO;ἔμμηνα καὶ ἔμβρυα=emmenagogue and abortifacient=REPRO;ἀκροχορδόνας=warts=SKIN;κοιλίαν ἵστησιν=stops diarrhoea=DIG
+3.96|λεοντοπέταλον|1|Leontice leontopetalum:0.75;Leontice:0.2|root|ἑρπετοδήκτοις=snakebite=POIS;ἰσχιαδικούς=sciatica=MSK
+3.97|τεύκριον|1|Teucrium:0.4;Teucrium scordium:0.15;Teucrium flavum:0.1|herb|σπλῆνα τήκειν=reduces spleen=HEM;θηριοδήκτων=venomous bites=POIS
+3.98|χαμαίδρυς|1|Teucrium chamaedrys:0.8;Teucrium:0.15|herb|σπάσμασι=spasms=MSK;βηχί=cough=RESP;σπληνὶ ἐσκιρρωμένῳ=hardened spleen=HEM;δυσουροῦσιν=dysuria=URO;ὑδρωπικοῖς=dropsy=CV;ἔμμηνα καὶ ἔμβρυα=emmenagogue and abortifacient=REPRO;θηρία=venomous bites=POIS;ἕλκη παλαιά=chronic ulcers=SKIN;ἀχλῦς ἐν ὀφθαλμοῖς=dimness of sight=EYE
+3.99|λευκάς|1|Leucas:0.3;Lamium:0.2;Stachys:0.1|herb|ἰοβόλων=venomous bites and stings=POIS
+3.100|λυχνὶς στεφανωματική|1|Silene coronaria:0.75;Silene:0.2|seed|σκορπιοπλήκτοις=scorpion stings=POIS
+3.101|λυχνὶς ἀγρία|1|Agrostemma githago:0.4;Silene:0.3;Silene coronaria:0.1|seed|ἄγει κατὰ κοιλίαν=purgative=DIG
+3.102|κρίνον|1|Lilium candidum:0.85;Lilium:0.1|flower,leaf,root,seed|σκληριῶν περὶ μήτραν=uterine indurations=REPRO;ἑρπετοδήκτοις=snakebite=POIS;κατακαύματα=burns=INJ;παλαιὰ ἕλκη καὶ τραύματα=chronic ulcers and wounds=SKIN;ἔμμηνα ἄγει=emmenagogue=REPRO;στρέμματα=sprains=INJ;ἀλφοὺς καὶ λέπρας=vitiligo and leprous skin=SKIN;ὄρχεων φλεγμονάς=testicular inflammation=URO
+3.103|βαλλωτή|1|Ballota nigra:0.75;Ballota:0.2|leaf|κυνόδηκτα=dog bites=INJ;κονδυλώματα=condylomata=SKIN;ῥυπαρὰ ἕλκη=foul ulcers=SKIN
+3.104|μελισσόφυλλον|1|Melissa officinalis:0.8;Melissa:0.15|leaf|σκορπιοπλήκτους καὶ φαλαγγιοδήκτους=scorpion and spider bites=POIS;ἐμμήνων ἀγωγήν=emmenagogue=REPRO;ὀδονταλγίας=toothache=ENT;δυσεντερίας=dysentery=INF;ὑπὸ μυκήτων πνιγομένοις=mushroom poisoning=POIS;στροφουμένοις=colic=DIG;ὀρθοπνοῖκοῖς=orthopnoea=RESP;χοιράδας=scrofula=CAN;ἀρθριτικῶν ἀλγήματα=arthritic pain=MSK
+3.105|πράσιον|1|Marrubium vulgare:0.85;Marrubium:0.1|leaf,seed|φθισικοῖς=consumption=INF;ἀσθματικοῖς, βήσσουσιν=asthma and cough=RESP;ἀγωγὴν ἐμμήνων=emmenagogue=REPRO;δυστοκούσαις=difficult labour=REPRO;θηριοδήκτοις=venomous bites=POIS;ῥυπαρὰ ἕλκη=foul ulcers=SKIN;πτερύγιά=pterygium=EYE;ὀδύνην πλευρῶν=side pain=RESP;ὀξυδερκές=sharpens sight=EYE
+3.106|στάχυς|1|Stachys germanica:0.45;Stachys cretica:0.2;Stachys:0.25|leaf|ἔμμηνα καὶ δεύτερα ἄγει=emmenagogue and expels afterbirth=REPRO
+3.107|φυλλῖτις|1|Asplenium scolopendrium:0.8;Asplenium:0.15|leaf|ἑρπετοδήκτους=snakebite=POIS;δυσεντερίαν καὶ διάρροιαν=dysentery and diarrhoea=DIG
+3.108|φαλάγγιον|1|Anthericum liliago:0.45;Anthericum ramosum:0.25;Anthericum:0.2|leaf,seed,flower|σκορπιοπλήκτοις καὶ φαλαγγιοδήκτοις=scorpion and spider bites=POIS;στρόφους=colic=DIG
+3.109|τρίφυλλον|1|Bituminaria bituminosa:0.8;Psoralea:0.1|seed,leaf|πλευριτικοῖς=pleurisy=RESP;δυσουροῦσιν=dysuria=URO;ἐπιληπτικοῖς=epilepsy=NS;ὑδρωπιᾶν=dropsy=CV;καταμήνια=emmenagogue=REPRO;θηριοδήκτοις=venomous bites=POIS
+3.110|πόλιον|1|Teucrium polium:0.75;Teucrium montanum:0.1;Teucrium:0.1|herb|θηριοδήκτοις=venomous bites=POIS;ὑδρωπικοῖς=dropsy=CV;ἰκτεριώδεσι=jaundice=DIG;σπληνικοῖς=spleen disorders=HEM;ἄγει κοιλίαν=laxative=DIG;ἔμμηνα=emmenagogue=REPRO;τραύματα κολλᾷ=wound healing=INJ
+3.111|σκόρδιον|1|Teucrium scordium:0.85;Teucrium:0.1|herb|διουρητικήν=diuretic=URO;ἑρπετῶν δήγματα=snakebite=POIS;δηγμοὺς στομάχου=stomach pain=DIG;δυσεντερίαν=dysentery=INF;δυσουρίαν=dysuria=URO;παλαιὰν βῆχα=chronic cough=RESP;ῥήγματα καὶ σπάσματα=ruptures and spasms=MSK;ὑποχόνδριον φλεγμαῖνον=hypochondrial inflammation=INFL;ποδάγραν=gout=MSK;ἔμμηνα κινεῖ=emmenagogue=REPRO;τραύματα κολλᾷ=wound healing=INJ;ἕλκη παλαιά=chronic ulcers=SKIN
+3.112|βήχιον|1|Tussilago farfara:0.85;Tussilago:0.1|leaf,root|ἐρυσιπέλατα=erysipelas=SKIN;φλεγμονήν=inflammation=INFL;ξηρᾶς βηχὸς καὶ ὀρθοπνοίας=dry cough and orthopnoea=RESP;ἐν θώρακι ἀποστήματα=chest abscesses=RESP;ἔμβρυον τεθνηκὸς ἐκβάλλει=expels dead foetus=REPRO
+3.113|ἀρτεμισία|1|Artemisia arborescens:0.3;Artemisia vulgaris:0.3;Artemisia:0.3|herb,flower|ἀγωγήν ἐμμήνων καὶ δευτέρων=emmenagogue and expels afterbirth=REPRO;φλεγμονὴν τῆς ὑστέρας=uterine inflammation=REPRO;θρύψιν λίθων=breaks stones=URO;ἐποχὴν οὔρων=urinary retention=URO
+3.114|ἀμβροσία|1|Ambrosia maritima:0.55;Ambrosia:0.3|herb|στύφουσαν=astringent for fluxes=OTH
+3.115|βότρυς|1|Dysphania botrys:0.75;Chenopodium:0.15|herb|ὀρθοπνοίας=orthopnoea=RESP
+3.116|γεράνιον|1|Geranium tuberosum:0.5;Geranium:0.35|root|ὑστέρας ἐμπνευματώσεις=uterine flatulence=REPRO
+3.117|γναφάλλιον|1|Achillea maritima:0.45;Filago:0.2;Helichrysum:0.15|leaf|δυσεντερίαν=dysentery=INF
+3.118|τύφη|1|Typha latifolia:0.5;Typha angustifolia:0.3;Typha:0.15|flower|κατακαύματα=burns=INJ
+3.119|κιρκαία|1|Mandragora officinarum:0.25;Vincetoxicum nigrum:0.25;Circaea lutetiana:0.15|root,fruit|ὑστέραν ἀποκαθαίρει=cleanses the womb=REPRO;γάλα κατασπᾷ=promotes lactation=BREAST
+3.120|οἰνάνθη|1|Filipendula vulgaris:0.5;Oenanthe:0.25;Filipendula:0.15|fruit,stem,leaf,root|δευτέρων ἐκβολήν=expels afterbirth=REPRO;στραγγουρίας=strangury=URO

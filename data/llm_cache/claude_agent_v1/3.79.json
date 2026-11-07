@@ -1,0 +1,78 @@
+{
+ "id": "3.79",
+ "headword": "μελάνθιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Nigella sativa",
+   "prob": 0.8,
+   "why": ""
+  },
+  {
+   "taxon": "Nigella",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "κεφαλαλγοῦσι",
+   "en": "headache",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ὑποχεῖσθαι",
+   "en": "incipient cataract",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "φακοὺς καὶ λέπρας",
+   "en": "freckles and leprous skin",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "οἰδήματα παλαιά",
+   "en": "chronic swellings",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "ἥλους",
+   "en": "corns",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ὀδονταλγίας",
+   "en": "toothache",
+   "category": "other"
+  },
+  {
+   "greek": "ἕλμινθας στρογγύλας",
+   "en": "roundworms",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "καταρροϊζομένους",
+   "en": "catarrh",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἔμμηνα καὶ οὖρα καὶ γάλα",
+   "en": "emmenagogue, diuretic, galactagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "δύσπνοιαν",
+   "en": "dyspnoea",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "φαλαγγιοδήκτοις",
+   "en": "spider bites",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

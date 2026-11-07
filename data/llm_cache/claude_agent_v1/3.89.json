@@ -1,0 +1,48 @@
+{
+ "id": "3.89",
+ "headword": "ἰξός",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Viscum album",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Loranthus europaeus",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Viscum",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit"
+ ],
+ "uses": [
+  {
+   "greek": "φύματα, παρωτίδας",
+   "en": "tumours and parotid swelling",
+   "category": "cancer"
+  },
+  {
+   "greek": "ἐπινυκτίδας",
+   "en": "night pustules",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἕλκη παλαιά",
+   "en": "chronic ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "σπλῆνα τήκει",
+   "en": "reduces spleen",
+   "category": "hematologic disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

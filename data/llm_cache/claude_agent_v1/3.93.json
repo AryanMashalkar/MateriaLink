@@ -1,0 +1,30 @@
+{
+ "id": "3.93",
+ "headword": "ἀτρακτυλίς",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Carthamus lanatus",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Carthamus",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "head",
+  "fruit"
+ ],
+ "uses": [
+  {
+   "greek": "σκορπιοπλήκτους",
+   "en": "scorpion stings",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

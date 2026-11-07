@@ -1,0 +1,33 @@
+{
+ "id": "4.110",
+ "headword": "λωτὸς ὁ ἐν τοῖς παραδείσοις",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Trigonella caerulea",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Melilotus",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Lotus",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "juice"
+ ],
+ "uses": [
+  {
+   "greek": "ἄργεμα καὶ νεφέλια καὶ λευκώματα",
+   "en": "corneal opacities",
+   "category": "vision disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

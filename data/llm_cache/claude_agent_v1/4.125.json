@@ -1,0 +1,38 @@
+{
+ "id": "4.125",
+ "headword": "χαμαίκισσος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Glechoma hederacea",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Bellis",
+   "prob": 0.1,
+   "why": ""
+  },
+  {
+   "taxon": "Ajuga",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "ἰσχιαδικοῖς",
+   "en": "sciatica",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ἴκτερον",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

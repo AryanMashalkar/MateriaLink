@@ -1,0 +1,59 @@
+{
+ "id": "4.60",
+ "headword": "ἱερὰ βοτάνη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Verbena officinalis",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Verbena",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ἑρπετῶν δήγματα",
+   "en": "snakebite",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ἴκτερον",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "οἰδήματα χρόνια καὶ φλεγμονάς",
+   "en": "chronic swellings and inflammations",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "ῥυπαρὰ ἕλκη",
+   "en": "foul ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἐν παρισθμίοις",
+   "en": "tonsil sores",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "νομὰς ἐν στόματι",
+   "en": "spreading mouth ulcers",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "τριταίζουσι",
+   "en": "tertian fever",
+   "category": "infectious disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,33 @@
+{
+ "id": "3.47",
+ "headword": "μῶλυ",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Allium nigrum",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Allium moly",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Allium",
+   "prob": 0.25,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "bulb"
+ ],
+ "uses": [
+  {
+   "greek": "ὑστέρας ἀναστομώσεις",
+   "en": "opens the womb",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,38 @@
+{
+ "id": "3.139",
+ "headword": "βούφθαλμον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Glebionis coronaria",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Anthemis tinctoria",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Buphthalmum",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "flower"
+ ],
+ "uses": [
+  {
+   "greek": "οἰδήματα καὶ σκληρίας",
+   "en": "swellings and indurations",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "ἰκτεριῶσιν",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

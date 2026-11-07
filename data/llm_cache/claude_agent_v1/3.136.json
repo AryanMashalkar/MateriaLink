@@ -1,0 +1,48 @@
+{
+ "id": "3.136",
+ "headword": "ἀνθυλλίς",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Cressa cretica",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Ajuga iva",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Anthyllis",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "δυσουροῦσι καὶ νεφριτικοῖς",
+   "en": "dysuria and kidney disease",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "φλεγμονάς ἐν ὑστέρᾳ",
+   "en": "uterine inflammation",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "τραύματα",
+   "en": "wounds",
+   "category": "injury"
+  },
+  {
+   "greek": "ἐπιληπτικῶν",
+   "en": "epilepsy",
+   "category": "nervous system disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

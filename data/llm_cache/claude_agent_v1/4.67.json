@@ -1,0 +1,28 @@
+{
+ "id": "4.67",
+ "headword": "ὑπήκοον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Hypecoum procumbens",
+   "prob": 0.65,
+   "why": ""
+  },
+  {
+   "taxon": "Hypecoum",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "ἀναλογοῦσαν τῷ μήκωνος ὀπῷ",
+   "en": "acts like opium",
+   "category": "nervous system disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

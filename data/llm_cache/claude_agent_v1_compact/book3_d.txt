@@ -1,0 +1,38 @@
+3.121|κόνυζα|1|Dittrichia viscosa:0.45;Dittrichia graveolens:0.3;Inula:0.15|herb,leaf,flower|θηρία διώκειν=repels venomous creatures=OTH;ἑρπετοδήκτων=snakebite=POIS;φυμάτων=tumours=CAN;τραυμάτων=wounds=INJ;καταμηνίων ἀγωγήν=emmenagogue=REPRO;ἐκβολὴν ἐμβρύων=abortifacient=REPRO;στραγγουρίαν=strangury=URO;στρόφους=colic=DIG;ἴκτερον=jaundice=DIG;ἐπιληπτικούς=epilepsy=NS
+3.122|ἡμεροκαλλές|1|Hemerocallis lilioasphodelus:0.4;Hemerocallis fulva:0.3;Hemerocallis:0.2|root,leaf|ὑδραγωγός καὶ αἱμαγωγός=draws water and blood (uterine pessary)=REPRO;φλεγμονάς μαστῶν=mastitis=BREAST;ὀφθαλμῶν φλεγμονάς=eye inflammation=EYE;πυρικαύτων=burns=INJ
+3.123|λευκόϊον|1|Erysimum cheiri:0.5;Matthiola incana:0.35;Matthiola:0.1|flower,seed,root|περὶ ὑστέραν φλεγμονάς=uterine inflammation=REPRO;ἀγωγάς ἐμμήνων=emmenagogue=REPRO;ῥαγάδας ἐν δακτυλίῳ=anal fissures=DIG;ἄφθας=aphthae=DIG;ἔμβρυα ἄγει=abortifacient=REPRO;σπλῆνα=spleen disorders=HEM;ποδαγρικούς=gout=MSK
+3.124|κραταιόγονον|1|Melampyrum arvense:0.4;Polygonum:0.2;Melampyrum:0.2|seed|ἀρσενοτόκον ποιεῖν=to conceive a male child=REPRO
+3.125|φύλλον|1|Mercurialis annua:0.3;Theligonum cynocrambe:0.25;Mercurialis:0.2|seed|ἀρσενοτοκεῖν=sex selection of offspring=REPRO
+3.126|ὄρχις|1|Orchis:0.4;Orchis mascula:0.2;Anacamptis morio:0.15|root|ἀρρενογονεῖν=sex selection of offspring=REPRO;ἀφροδίσια συνιστάντα=aphrodisiac=REPRO
+3.127|σεραπιάς|1|Serapias:0.5;Serapias lingua:0.2;Orchis:0.15|root|οἰδημάτων=swellings=INFL;ἑλκῶν ἀνακαθαρτικήν=cleansing ulcers=SKIN;ἕρπητος=herpes=SKIN;σύριγγας=fistulas=SKIN;νομάς=spreading ulcers=SKIN;ἐν στόματι κακοήθη=malignant mouth sores=ENT;ἵστησι κοιλίαν=stops diarrhoea=DIG
+3.128|σατύριον|1|Orchis:0.3;Platanthera bifolia:0.2;Fritillaria graeca:0.1|root|ὀπισθότονον=opisthotonus=NS;συνουσίαν παρορμᾶν=aphrodisiac=REPRO
+3.129|ὅρμινον|1|Salvia viridis:0.4;Salvia verbenaca:0.3;Salvia:0.25|seed,herb|συνουσίαν παρορμᾶν=aphrodisiac=REPRO;ἄργεμα, λευκώματα=corneal ulcers and opacities=EYE;οἰδήματα=swellings=INFL;σκόλοπας ἐπισπᾶται=draws out splinters=INJ
+3.130|πελεκῖνος|1|Securigera securidaca:0.75;Securigera:0.2|seed|εὐστόμαχον=good for the stomach=DIG;ἀτόκιον=contraceptive=REPRO
+3.131|ὄνοσμα|1|Onosma:0.45;Alkanna:0.2;Onosma echioides:0.15|leaf|ἔμβρυα ἄγει=abortifacient=REPRO
+3.132|νυμφαία|1|Nymphaea alba:0.75;Nymphaea:0.2|root,seed|κοιλιακοὺς καὶ δυσεντερικούς=coeliac flux and dysentery=DIG;σπλῆνα τήκει=reduces spleen=HEM;στομάχου καὶ κύστεως ἀλγήματα=stomach and bladder pain=DIG;ἀλφούς=vitiligo=SKIN;ἀλωπεκίας=alopecia=SKIN
+3.133|ἀνδρόσακες|1|Acetabularia:0.3;Androsace maxima:0.25;Androsace:0.2|herb,seed|οὖρα ἐπὶ ὑδρωπικῶν=diuretic in dropsy=CV;ποδαγρικῶν=gout=MSK
+3.134|ἄσπληνος|1|Asplenium ceterach:0.75;Asplenium:0.2|leaf|σπλῆνα τήκειν=reduces spleen=HEM;στραγγουρίᾳ=strangury=URO;λυγμῷ=hiccup=DIG;ἰκτέρῳ=jaundice=DIG;λίθους ἐν κύστει=bladder stones=URO;ἀτόκιον=contraceptive=REPRO
+3.135|ἡμιονῖτις|1|Asplenium sagittatum:0.6;Asplenium:0.3|leaf|τήκει σπλῆνα=reduces spleen=HEM
+3.136|ἀνθυλλίς|1|Cressa cretica:0.35;Ajuga iva:0.25;Anthyllis:0.2|herb|δυσουροῦσι καὶ νεφριτικοῖς=dysuria and kidney disease=URO;φλεγμονάς ἐν ὑστέρᾳ=uterine inflammation=REPRO;τραύματα=wounds=INJ;ἐπιληπτικῶν=epilepsy=NS
+3.137|ἀνθεμίς|1|Matricaria chamomilla:0.4;Anthemis:0.3;Chamaemelum nobile:0.15|root,flower,herb|καταμήνια καὶ ἔμβρυα=emmenagogue and abortifacient=REPRO;λίθους καὶ οὖρα=stones and urine=URO;ἐμπνευματώσεις=flatulence=DIG
+3.138|παρθένιον|1|Tanacetum parthenium:0.6;Tanacetum:0.2;Matricaria:0.1|herb,flower|φλέγμα καὶ χολὴν ἄγειν=purges phlegm and bile=DIG;ἀσθματικούς=asthma=RESP;μελαγχολικούς=melancholy=PSY;λιθιώντων=stones=URO;ὑστέρας ἐσκληρυσμένης=hardened inflamed womb=REPRO;ἐρυσιπέλατα=erysipelas=SKIN;φλεγμονάς=inflammation=INFL
+3.139|βούφθαλμον|1|Glebionis coronaria:0.35;Anthemis tinctoria:0.3;Buphthalmum:0.15|flower|οἰδήματα καὶ σκληρίας=swellings and indurations=INFL;ἰκτεριῶσιν=jaundice=DIG
+3.140|γλυκυσίδη|1|Paeonia mascula:0.45;Paeonia officinalis:0.3;Paeonia:0.2|root,seed|ἐκ τοκετοῦ μὴ καθαιρομέναις=retained lochia=REPRO;καταμήνια ἄγει=emmenagogue=REPRO
+3.141|λιθόσπερμον|1|Lithospermum officinale:0.75;Lithospermum:0.2|seed|λίθους θρύπτειν=breaks stones=URO;οὖρα ἄγειν=diuretic=URO
+3.142|φαληρίς|1|Phalaris canariensis:0.6;Phalaris:0.3|herb,seed|κύστεως ἀλγήματα=bladder pain=URO
+3.143|ἐρυθρόδανον|1|Rubia tinctorum:0.8;Rubia peregrina:0.1;Rubia:0.05|root|διουρητική=diuretic=URO;ἰκτερικοῖς=jaundice=DIG;ἰσχιαδικοῖς=sciatica=MSK;παραλελυμένοις=paralysis=NS;θηριοδήκτοις=venomous bites=POIS
+3.144|λογχῖτις|1|Serapias vomeracea:0.4;Serapias:0.3;Orchis:0.1|root|διουρητική=diuretic=URO
+3.145|λογχῖτις ἑτέρα|1|Polystichum lonchitis:0.5;Polystichum:0.25;Asplenium:0.1|leaf|τραυματικήν=wound healing=INJ;σπλῆνα=reduces spleen=HEM
+3.146|ἀλθαία|1|Althaea officinalis:0.85;Althaea:0.1|root|τραύματα=wounds=INJ;παρωτίδας, χοιράδας=parotid swelling and scrofula=CAN;ἀποστήματα=abscesses=SKIN;μαστούς φλεγμαίνοντας=mastitis=BREAST;φλεγμονὰς δακτυλίου=anal inflammation=DIG;θλάσματα=contusions=INJ;ὑστέρας φλεγμονάς=uterine inflammation=REPRO;λοχεῖα=lochia=REPRO;δυσουροῦντας, λιθιῶντας=dysuria and stones=URO
+3.147|ἀλκαία|1|Malva alcea:0.6;Malva:0.3|root|δυσεντερίαν=dysentery=INF;ῥήγματα=ruptures=INJ
+3.148|κάνναβις|1|Cannabis sativa:0.9;Cannabis:0.08|seed,juice|σβέννυσι γονήν=anaphrodisiac=REPRO;ὤτων ἀλγηδόνας=earache=ENT
+3.149|κάνναβις ἀγρία|1|Althaea cannabina:0.65;Althaea:0.25|root|φλεγμονάς=inflammation=INFL;πώρους=callous swellings=MSK
+3.150|ἀνάγυρος|1|Anagyris foetida:0.85;Anagyris:0.1|leaf,seed,root|οἰδήματα=swellings=INFL;ἆσθμα=asthma=RESP;ἐκβολὴν χορίου καὶ ἐμβρύου=expels afterbirth and foetus=REPRO;ἐμμήνων=emmenagogue=REPRO;φαλαγγίων πληγάς=spider bites=POIS;δυστοκούσαις=difficult labour=REPRO;ἔμετον=emetic=DIG
+3.151|κηπαία|1|Sedum cepaea:0.45;Sedum:0.3;Portulaca:0.1|leaf,root|στραγγουριῶσι=strangury=URO;ψωριῶσι τὴν κύστιν=bladder ulceration=URO
+3.152|ἄλισμα|1|Alisma plantago-aquatica:0.4;Damasonium alisma:0.3;Alisma:0.2|root,herb|λαγωὸν θαλάσσιον καὶ φρῦνον καὶ ὄπιον=sea hare, toad and opium poisoning=POIS;στρόφους καὶ δυσεντερίαν=colic and dysentery=DIG;σπάσμασι=spasms=MSK;ὑστερικὰ πάθη=uterine disorders=REPRO;ἵστησι κοιλίαν=stops diarrhoea=DIG;οἰδήματα=swellings=INFL
+3.153|ὀνοβρυχίς|1|Onobrychis viciifolia:0.5;Onobrychis caput-galli:0.2;Onobrychis:0.25|herb|φύματα=tumours=CAN;στραγγουρίαν=strangury=URO;ἱδρῶτας κινεῖ=sudorific=OTH
+3.154|ὑπερικόν|1|Hypericum perforatum:0.55;Hypericum crispum:0.15;Hypericum:0.25|herb,seed,leaf|διουρητικήν=diuretic=URO;ἐμμήνων ἀγωγόν=emmenagogue=REPRO;τεταρταϊκούς=quartan fever=INF;ἰσχιάδας=sciatica=MSK;κατακαύματα=burns=INJ
+3.155|ἄσκυρον|1|Hypericum olympicum:0.3;Hypericum perfoliatum:0.25;Hypericum:0.35|fruit|ἰσχιάδας=sciatica=MSK;ἄγει χολώδη=purgative=DIG;πυρίκαυτα=burns=INJ
+3.156|ἀνδρόσαιμον|1|Hypericum androsaemum:0.55;Hypericum:0.35|fruit,herb|ἄγει χολώδη καὶ κόπρια=purgative=DIG;ἰσχιάδας=sciatica=MSK;πυρίκαυτα=burns=INJ;αἷμα ἐπέχει=haemostatic=INJ
+3.157|κόρις|1|Hypericum empetrifolium:0.45;Hypericum coris:0.2;Hypericum:0.25|fruit|οὖρα=diuretic=URO;καταμήνια=emmenagogue=REPRO;φαλαγγιοδήκτοις=spider bites=POIS;ἰσχιαδικοῖς=sciatica=MSK;ὀπισθοτονικοῖς=opisthotonus=NS;ῥίγη=rigors=INF
+3.158|χαμαίπιτυς|1|Ajuga chamaepitys:0.8;Ajuga:0.15|leaf|ἴκτερον=jaundice=DIG;ἰσχιάδα=sciatica=MSK;ἡπατικοῖς=liver disease=DIG;δυσουροῦσι καὶ νεφριτικοῖς=dysuria and kidney disease=URO;στροφουμένοις=colic=DIG;ἀκόνιτον=aconite poisoning=POIS

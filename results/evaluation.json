@@ -1,0 +1,163 @@
+{
+ "n_gold": 6,
+ "methods": {
+  "baseline": {
+   "genus_top1": {
+    "acc": 0.167,
+    "ci95": [
+     0.0,
+     0.5
+    ],
+    "n": 6
+   },
+   "genus_top3": {
+    "acc": 0.167,
+    "ci95": [
+     0.0,
+     0.5
+    ],
+    "n": 6
+   },
+   "species_top1": {
+    "acc": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "n": 6
+   },
+   "species_top3": {
+    "acc": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ],
+    "n": 6
+   }
+  },
+  "llm": {
+   "genus_top1": {
+    "acc": 0.833,
+    "ci95": [
+     0.5,
+     1.0
+    ],
+    "n": 6
+   },
+   "genus_top3": {
+    "acc": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "n": 6
+   },
+   "species_top1": {
+    "acc": 0.833,
+    "ci95": [
+     0.5,
+     1.0
+    ],
+    "n": 6
+   },
+   "species_top3": {
+    "acc": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "n": 6
+   }
+  },
+  "hybrid": {
+   "genus_top1": {
+    "acc": 0.833,
+    "ci95": [
+     0.5,
+     1.0
+    ],
+    "n": 6
+   },
+   "genus_top3": {
+    "acc": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "n": 6
+   },
+   "species_top1": {
+    "acc": 0.833,
+    "ci95": [
+     0.5,
+     1.0
+    ],
+    "n": 6
+   },
+   "species_top3": {
+    "acc": 1.0,
+    "ci95": [
+     1.0,
+     1.0
+    ],
+    "n": 6
+   }
+  }
+ },
+ "kappa_genus": {
+  "n": 6,
+  "kappa": 1.0
+ },
+ "llm_calibration": {
+  "n": 6,
+  "ece": 0.225,
+  "bins": [
+   {
+    "range": [
+     0.0,
+     0.2
+    ],
+    "n": 0,
+    "mean_conf": null,
+    "accuracy": null
+   },
+   {
+    "range": [
+     0.2,
+     0.4
+    ],
+    "n": 2,
+    "mean_conf": 0.325,
+    "accuracy": 0.5
+   },
+   {
+    "range": [
+     0.4,
+     0.6
+    ],
+    "n": 0,
+    "mean_conf": null,
+    "accuracy": null
+   },
+   {
+    "range": [
+     0.6,
+     0.8
+    ],
+    "n": 2,
+    "mean_conf": 0.675,
+    "accuracy": 1.0
+   },
+   {
+    "range": [
+     0.8,
+     1.0
+    ],
+    "n": 2,
+    "mean_conf": 0.825,
+    "accuracy": 1.0
+   }
+  ]
+ },
+ "warning": "only 6 gold rows filled; numbers are illustrative, not conclusive. Fill data/gold/gold.csv (two independent annotators) and rerun."
+}

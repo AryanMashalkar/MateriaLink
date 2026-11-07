@@ -1,0 +1,33 @@
+{
+ "id": "3.42",
+ "headword": "μᾶρον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Teucrium marum",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Origanum sipyleum",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Teucrium",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "νομάς",
+   "en": "spreading ulcers",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

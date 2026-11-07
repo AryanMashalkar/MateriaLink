@@ -1,0 +1,43 @@
+{
+ "id": "4.43",
+ "headword": "φοῖνιξ (πόα)",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Lolium perenne",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Lolium",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Hordeum murinum",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "διάρροιαν",
+   "en": "diarrhoea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "αἱμορραγίαν ἐκ μήτρας",
+   "en": "uterine bleeding",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "οὔρων πλείονα φοράν",
+   "en": "excessive urination",
+   "category": "urinary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

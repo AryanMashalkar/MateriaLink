@@ -1,0 +1,33 @@
+{
+ "id": "4.35",
+ "headword": "σιδηρῖτις ἑτέρα (Ἡρακλεία Κρατεύα)",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Sideritis",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Geranium robertianum",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Erodium",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "κολλητικὴ ἐναίμων καὶ νεοτρώτων",
+   "en": "closes bleeding and fresh wounds",
+   "category": "injury"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

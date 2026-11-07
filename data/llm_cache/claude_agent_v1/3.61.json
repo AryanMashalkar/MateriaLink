@@ -1,0 +1,48 @@
+{
+ "id": "3.61",
+ "headword": "κύμινον ἄγριον ἕτερον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Nigella arvensis",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Nigella",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Hypecoum",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "ἑρπετοδήκτους",
+   "en": "snakebite",
+   "category": "poisoning"
+  },
+  {
+   "greek": "στραγγουριῶσι",
+   "en": "strangury",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "λιθιῶσι",
+   "en": "stones",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "αἵματος θρόμβους οὐροῦσιν",
+   "en": "blood clots in urine",
+   "category": "urinary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,54 @@
+{
+ "id": "4.105",
+ "headword": "ἄρκτιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Verbascum",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Arctium",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Celsia",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "ὀδονταλγίας",
+   "en": "toothache",
+   "category": "other"
+  },
+  {
+   "greek": "πυρικαύτων",
+   "en": "burns",
+   "category": "injury"
+  },
+  {
+   "greek": "χιμέτλης",
+   "en": "chilblains",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἰσχιάδα",
+   "en": "sciatica",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "δυσουρίαν",
+   "en": "dysuria",
+   "category": "urinary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

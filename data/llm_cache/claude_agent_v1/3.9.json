@@ -1,0 +1,53 @@
+{
+ "id": "3.9",
+ "headword": "χαμαιλέων μέλας",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Cardopatium corymbosum",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Cardopatium",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Carthamus",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ψώρας",
+   "en": "itch",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "λειχῆνας",
+   "en": "lichenous eruptions",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ὀδονταλγίας",
+   "en": "toothache",
+   "category": "other"
+  },
+  {
+   "greek": "ἔφηλιν καὶ ἀλφούς",
+   "en": "freckles and white leprosy",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "φαγεδαινικὰ ἕλκη",
+   "en": "phagedenic ulcers",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

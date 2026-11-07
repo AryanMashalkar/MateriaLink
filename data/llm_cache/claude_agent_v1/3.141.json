@@ -1,0 +1,33 @@
+{
+ "id": "3.141",
+ "headword": "λιθόσπερμον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Lithospermum officinale",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Lithospermum",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "λίθους θρύπτειν",
+   "en": "breaks stones",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "οὖρα ἄγειν",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

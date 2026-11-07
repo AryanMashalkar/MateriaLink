@@ -1,0 +1,50 @@
+{
+ "id": "3.54",
+ "headword": "τόρδιλον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Tordylium officinale",
+   "prob": 0.55,
+   "why": ""
+  },
+  {
+   "taxon": "Tordylium apulum",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Tordylium",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "juice",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "δυσουρίαν",
+   "en": "dysuria",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἐμμήνων ἀγωγήν",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "νεφριτικούς",
+   "en": "kidney complaints",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "τὰ ἐκ θώρακος",
+   "en": "expectorant",
+   "category": "respiratory system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

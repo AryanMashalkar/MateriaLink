@@ -1,0 +1,29 @@
+{
+ "meta": {
+  "n_plants": 211,
+  "n_pairs": 691,
+  "min_prob": 0.3,
+  "n_perm": 10000,
+  "seed": 42
+ },
+ "literature": {
+  "observed": 0.2388,
+  "null_mean": 0.2209,
+  "null_95": [
+   0.2,
+   0.2425
+  ],
+  "enrichment": 1.081,
+  "p_value": 0.05169483051694831
+ },
+ "cross_cultural": {
+  "observed": 0.1881,
+  "null_mean": 0.1707,
+  "null_95": [
+   0.1517,
+   0.1909
+  ],
+  "enrichment": 1.102,
+  "p_value": 0.044295570442955706
+ }
+}

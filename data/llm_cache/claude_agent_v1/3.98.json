@@ -1,0 +1,68 @@
+{
+ "id": "3.98",
+ "headword": "χαμαίδρυς",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Teucrium chamaedrys",
+   "prob": 0.8,
+   "why": ""
+  },
+  {
+   "taxon": "Teucrium",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "σπάσμασι",
+   "en": "spasms",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "βηχί",
+   "en": "cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "σπληνὶ ἐσκιρρωμένῳ",
+   "en": "hardened spleen",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "δυσουροῦσιν",
+   "en": "dysuria",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ὑδρωπικοῖς",
+   "en": "dropsy",
+   "category": "cardiovascular disease"
+  },
+  {
+   "greek": "ἔμμηνα καὶ ἔμβρυα",
+   "en": "emmenagogue and abortifacient",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "θηρία",
+   "en": "venomous bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ἕλκη παλαιά",
+   "en": "chronic ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἀχλῦς ἐν ὀφθαλμοῖς",
+   "en": "dimness of sight",
+   "category": "vision disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

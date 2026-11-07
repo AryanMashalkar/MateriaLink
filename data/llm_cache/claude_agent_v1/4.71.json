@@ -1,0 +1,39 @@
+{
+ "id": "4.71",
+ "headword": "στρύχνον ἁλικάκκαβον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Physalis alkekengi",
+   "prob": 0.8,
+   "why": ""
+  },
+  {
+   "taxon": "Physalis",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit",
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "ἴκτερον ἀποκαθαίρειν",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "οὐρητικός",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἐρυσιπέλατα",
+   "en": "erysipelas (as garden nightshade)",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

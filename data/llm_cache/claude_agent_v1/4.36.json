@@ -1,0 +1,53 @@
+{
+ "id": "4.36",
+ "headword": "Ἀχίλλειος σιδηρῖτις",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Achillea millefolium",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Achillea ligustica",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Achillea",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "flowering tops"
+ ],
+ "uses": [
+  {
+   "greek": "ἐναίμων κολλητική",
+   "en": "closes bleeding wounds",
+   "category": "injury"
+  },
+  {
+   "greek": "ἀφλέγμαντος",
+   "en": "prevents inflammation",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "αἱμορραγίας ἐφεκτική",
+   "en": "stops haemorrhage",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "τῆς ἐκ μήτρας",
+   "en": "uterine bleeding",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "δυσεντερίαν",
+   "en": "dysentery",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

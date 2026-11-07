@@ -1,0 +1,43 @@
+{
+ "id": "4.124",
+ "headword": "ψευδοβούνιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Pimpinella cretica",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Bunium",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "στρόφους",
+   "en": "colic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "στραγγουρίας",
+   "en": "strangury",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "πλευρᾶς ἀλγήματα",
+   "en": "side pains",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "χοιράδας",
+   "en": "scrofula",
+   "category": "infectious disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

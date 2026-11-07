@@ -1,0 +1,78 @@
+{
+ "id": "3.31",
+ "headword": "γλήχων",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Mentha pulegium",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Mentha",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "ἔμμηνα καὶ δεύτερα",
+   "en": "emmenagogue, afterbirth",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἐκ πνεύμονος",
+   "en": "lung complaints",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "σπωμένοις",
+   "en": "spasms",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ναυσίας",
+   "en": "nausea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "θηριοδήκτοις",
+   "en": "venomous bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "λειποθυμοῦντας",
+   "en": "fainting",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "οὖλα",
+   "en": "gums",
+   "category": "other"
+  },
+  {
+   "greek": "φλεγμονήν",
+   "en": "inflammation",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "ποδαγρικοῖς",
+   "en": "gout",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "σπληνικούς",
+   "en": "spleen complaints",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "κνησμούς",
+   "en": "itching",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

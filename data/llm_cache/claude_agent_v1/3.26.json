@@ -1,0 +1,33 @@
+{
+ "id": "3.26",
+ "headword": "στοιχάς",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Lavandula stoechas",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Lavandula",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "ἐν θώρακι",
+   "en": "chest complaints",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἀντιδότοις",
+   "en": "antidotes",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

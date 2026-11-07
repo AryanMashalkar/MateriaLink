@@ -1,0 +1,39 @@
+{
+ "id": "4.86",
+ "headword": "ἀλσίνη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Stellaria media",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Stellaria",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Myosotis",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb",
+  "juice"
+ ],
+ "uses": [
+  {
+   "greek": "φλεγμονὰς ὀφθαλμῶν",
+   "en": "eye inflammation",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "ὤτων πόνον",
+   "en": "earache",
+   "category": "otorhinolaryngologic disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

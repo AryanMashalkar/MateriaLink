@@ -1,0 +1,38 @@
+{
+ "id": "4.38",
+ "headword": "βάτος Ἰδαία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Rubus idaeus",
+   "prob": 0.8,
+   "why": ""
+  },
+  {
+   "taxon": "Rubus",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "flower"
+ ],
+ "uses": [
+  {
+   "greek": "ὀφθαλμῶν φλεγμοναῖς",
+   "en": "eye inflammation",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "ἐρυσιπέλατα",
+   "en": "erysipelas",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "στομαχικοῖς",
+   "en": "stomach complaints",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

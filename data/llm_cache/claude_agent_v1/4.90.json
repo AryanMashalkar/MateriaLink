@@ -1,0 +1,33 @@
+{
+ "id": "4.90",
+ "headword": "ἀείζῳον τρίτον (τηλέφιον)",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Sedum acre",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Sedum",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Telephium imperati",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "χοιράδων διαφορητικήν",
+   "en": "disperses scrofula",
+   "category": "infectious disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

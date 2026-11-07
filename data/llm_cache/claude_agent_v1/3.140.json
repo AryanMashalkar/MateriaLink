@@ -1,0 +1,39 @@
+{
+ "id": "3.140",
+ "headword": "γλυκυσίδη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Paeonia mascula",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Paeonia officinalis",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Paeonia",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "ἐκ τοκετοῦ μὴ καθαιρομέναις",
+   "en": "retained lochia",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "καταμήνια ἄγει",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

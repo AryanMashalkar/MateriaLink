@@ -1,0 +1,33 @@
+{
+ "id": "4.74",
+ "headword": "δορύκνιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Convolvulus oleifolius",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Dorycnium",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Withania somnifera",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "ὑπνωτικόν",
+   "en": "soporific",
+   "category": "nervous system disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,43 @@
+{
+ "id": "3.4",
+ "headword": "ἀριστολοχεία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Aristolochia rotunda",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Aristolochia longa",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Aristolochia clematitis",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "βοηθεῖν ταῖς λοχοῖς",
+   "en": "childbirth",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "πρὸς τὰ ἑρπετά",
+   "en": "snakebite",
+   "category": "poisoning"
+  },
+  {
+   "greek": "θανάσιμα",
+   "en": "poisons",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

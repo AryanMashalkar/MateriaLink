@@ -1,0 +1,75 @@
+{
+ "id": "3.76",
+ "headword": "σφονδύλιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Heracleum sphondylium",
+   "prob": 0.65,
+   "why": ""
+  },
+  {
+   "taxon": "Heracleum",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "root",
+  "flower juice"
+ ],
+ "uses": [
+  {
+   "greek": "φλεγματῶδες κατὰ κοιλίαν",
+   "en": "purgative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἡπατικούς ἰκτερικούς",
+   "en": "liver complaints and jaundice",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὀρθοπνοϊκούς",
+   "en": "orthopnoea",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἐπιληπτικούς",
+   "en": "epilepsy",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ὑστερικὴν πνίγα",
+   "en": "hysterical suffocation",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "φρενιτικοῖς ληθαργικοῖς",
+   "en": "phrenitis and lethargy",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "κεφαλαλγίαις",
+   "en": "headache",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ἕρπητας",
+   "en": "herpes",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "τύλους ἐν σύριγξι",
+   "en": "callous fistulas",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἡλκωμένα ὦτα",
+   "en": "ulcerated ears",
+   "category": "otorhinolaryngologic disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

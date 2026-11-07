@@ -1,0 +1,48 @@
+{
+ "id": "4.61",
+ "headword": "ἀστράγαλος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Astragalus",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Lathyrus linifolius",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Orobus",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "κοιλίαν ῥευματιζομένην",
+   "en": "diarrhoea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "κινεῖ οὖρα",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "παλαιὰ ἕλκη",
+   "en": "chronic ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "αἶμα ἴσχει",
+   "en": "stops bleeding",
+   "category": "hematologic disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

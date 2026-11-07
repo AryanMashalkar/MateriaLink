@@ -1,0 +1,48 @@
+{
+ "id": "3.19",
+ "headword": "λευκάκανθα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Picnomon acarna",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Echinops",
+   "prob": 0.1,
+   "why": ""
+  },
+  {
+   "taxon": "Cirsium",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ὀδονταλγίας",
+   "en": "toothache",
+   "category": "other"
+  },
+  {
+   "greek": "πλευριτικοῖς χρονίοις",
+   "en": "chronic pleurisy",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἰσχιαδικοῖς",
+   "en": "sciatica",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ῥήγμασι σπωμένοις",
+   "en": "ruptures, spasms",
+   "category": "musculoskeletal system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

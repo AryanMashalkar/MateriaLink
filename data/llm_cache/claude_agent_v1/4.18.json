@@ -1,0 +1,39 @@
+{
+ "id": "4.18",
+ "headword": "μήδιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Campanula",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Michauxia campanuloides",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Campanula lingulata",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root",
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "ῥοῦν τὸν ἐρυθρόν",
+   "en": "menorrhagia",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἔμμηνα ἄγει",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

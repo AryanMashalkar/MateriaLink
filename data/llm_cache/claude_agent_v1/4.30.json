@@ -1,0 +1,27 @@
+{
+ "id": "4.30",
+ "headword": "καλαμάγρωστις",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Calamagrostis epigejos",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Calamagrostis",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Arundo",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,39 @@
+{
+ "id": "4.95",
+ "headword": "γάλιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Galium verum",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Galium",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "flower",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "πυρίκαυτα",
+   "en": "burns",
+   "category": "injury"
+  },
+  {
+   "greek": "αἱμορραγίαις",
+   "en": "haemorrhage",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "πρὸς συνουσίαν",
+   "en": "aphrodisiac",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

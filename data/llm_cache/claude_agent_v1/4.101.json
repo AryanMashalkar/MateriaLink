@@ -1,0 +1,43 @@
+{
+ "id": "4.101",
+ "headword": "στρατιώτης ὁ ἐπὶ τῶν ὑδάτων",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Pistia stratiotes",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Stratiotes aloides",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "ἐκ νεφρῶν αἱμορραγίας",
+   "en": "bleeding from kidneys",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "τραύματα ἀφλέγμαντα",
+   "en": "keeps wounds uninflamed",
+   "category": "injury"
+  },
+  {
+   "greek": "ἐρυσιπέλατα",
+   "en": "erysipelas",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "οἰδήματα",
+   "en": "swellings",
+   "category": "inflammatory disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

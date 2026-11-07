@@ -1,0 +1,68 @@
+{
+ "id": "3.104",
+ "headword": "μελισσόφυλλον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Melissa officinalis",
+   "prob": 0.8,
+   "why": ""
+  },
+  {
+   "taxon": "Melissa",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf"
+ ],
+ "uses": [
+  {
+   "greek": "σκορπιοπλήκτους καὶ φαλαγγιοδήκτους",
+   "en": "scorpion and spider bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ἐμμήνων ἀγωγήν",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ὀδονταλγίας",
+   "en": "toothache",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "δυσεντερίας",
+   "en": "dysentery",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "ὑπὸ μυκήτων πνιγομένοις",
+   "en": "mushroom poisoning",
+   "category": "poisoning"
+  },
+  {
+   "greek": "στροφουμένοις",
+   "en": "colic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὀρθοπνοῖκοῖς",
+   "en": "orthopnoea",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "χοιράδας",
+   "en": "scrofula",
+   "category": "cancer"
+  },
+  {
+   "greek": "ἀρθριτικῶν ἀλγήματα",
+   "en": "arthritic pain",
+   "category": "musculoskeletal system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

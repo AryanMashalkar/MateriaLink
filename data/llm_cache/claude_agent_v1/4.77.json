@@ -1,0 +1,27 @@
+{
+ "id": "4.77",
+ "headword": "ἀκόνιτον ἕτερον (λυκοκτόνον)",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Aconitum lycoctonum",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Aconitum napellus",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Aconitum",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

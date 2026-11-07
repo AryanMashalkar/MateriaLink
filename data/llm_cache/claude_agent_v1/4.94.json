@@ -1,0 +1,59 @@
+{
+ "id": "4.94",
+ "headword": "γαλήοψις",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Lamium maculatum",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Lamium purpureum",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Lamium",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Stachys sylvatica",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "stem"
+ ],
+ "uses": [
+  {
+   "greek": "σκληρωμάτων",
+   "en": "indurations",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "καρκινωμάτων",
+   "en": "carcinomas",
+   "category": "cancer"
+  },
+  {
+   "greek": "χοιράδων",
+   "en": "scrofula",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "παρωτίδων",
+   "en": "parotid swellings",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "γαγγραίνας",
+   "en": "gangrene",
+   "category": "infectious disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

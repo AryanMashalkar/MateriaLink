@@ -1,0 +1,33 @@
+{
+ "id": "3.69",
+ "headword": "ἐλαφόβοσκον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Pastinaca sativa",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Peucedanum cervaria",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Pastinaca",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "ἑρπετοδήκτοις",
+   "en": "snakebite",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

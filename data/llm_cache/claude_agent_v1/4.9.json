@@ -1,0 +1,73 @@
+{
+ "id": "4.9",
+ "headword": "σύμφυτον πετραῖον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Coris monspeliensis",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Satureja",
+   "prob": 0.1,
+   "why": ""
+  },
+  {
+   "taxon": "Thymus",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "ἐκ πνεύμονος",
+   "en": "lung complaints",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "αἷμα ἀνάγουσι",
+   "en": "haemoptysis",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "νεφριτικοῖς",
+   "en": "kidney complaints",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "δυσεντερίαν",
+   "en": "dysentery",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ῥοῦν γυναικεῖον ἐρυθρόν",
+   "en": "menorrhagia",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "σπάσματα καὶ ῥήγματα",
+   "en": "spasms and ruptures",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "περὶ βρόγχον τραχύτησι",
+   "en": "hoarse throat",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "νεότρωτα",
+   "en": "fresh wounds",
+   "category": "injury"
+  },
+  {
+   "greek": "ἐντεροκήλας",
+   "en": "hernia",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

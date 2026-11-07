@@ -1,0 +1,33 @@
+{
+ "id": "3.82",
+ "headword": "εὐφόρβιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Euphorbia resinifera",
+   "prob": 0.55,
+   "why": ""
+  },
+  {
+   "taxon": "Euphorbia officinarum",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Euphorbia",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "sap"
+ ],
+ "uses": [
+  {
+   "greek": "ὑποχυμάτων",
+   "en": "cataract",
+   "category": "vision disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

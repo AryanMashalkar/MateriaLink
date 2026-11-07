@@ -1,0 +1,38 @@
+{
+ "id": "4.102",
+ "headword": "στρατιώτης ὁ χιλιόφυλλος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Achillea millefolium",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Achillea",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "αἱμορραγίαν",
+   "en": "haemorrhage",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "ἕλκη παλαιὰ καὶ πρόσφατα",
+   "en": "old and fresh ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "σύριγγας",
+   "en": "fistulas",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

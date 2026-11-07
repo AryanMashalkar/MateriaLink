@@ -1,0 +1,34 @@
+{
+ "id": "4.25",
+ "headword": "ἄλλη (ἄγχουσα)",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Onosma",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Alkanna",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Anchusa",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "πλατεῖαν ἕλμιν",
+   "en": "tapeworm",
+   "category": "infectious disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

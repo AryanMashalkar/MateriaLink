@@ -1,0 +1,65 @@
+{
+ "id": "3.63",
+ "headword": "κόριον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Coriandrum sativum",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Coriandrum",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb",
+  "seed",
+  "juice"
+ ],
+ "uses": [
+  {
+   "greek": "ἐρυσιπέλατα καὶ ἕρπητας",
+   "en": "erysipelas and herpes",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἐπινυκτίδας",
+   "en": "night pustules",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "διδύμων φλεγμονάς",
+   "en": "inflamed testicles",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "ἄνθρακας",
+   "en": "carbuncles",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "χοιράδας καὶ φύματα",
+   "en": "scrofula and tumours",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "ἕλμινθας",
+   "en": "worms",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "σπέρματος γεννητικόν",
+   "en": "promotes semen",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "φλεγμονὰς πυρώδεις",
+   "en": "fiery inflammations",
+   "category": "inflammatory disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

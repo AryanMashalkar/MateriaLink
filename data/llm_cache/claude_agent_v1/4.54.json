@@ -1,0 +1,33 @@
+{
+ "id": "4.54",
+ "headword": "παρωνυχία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Paronychia argentea",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Paronychia",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Saxifraga",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb"
+ ],
+ "uses": [
+  {
+   "greek": "παρωνυχίας καὶ κηρία",
+   "en": "whitlows and honeycomb sores",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}
