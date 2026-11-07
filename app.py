@@ -1,4 +1,4 @@
-"""MateriaLink: a Dioscorides concordance.
+﻿"""MateriaLink: a Dioscorides concordance.
 
 Greek chapter of De materia medica -> candidate plant identifications with confidence ->
 accepted name and NCBI taxon -> known compounds -> modern literature signal per use.
@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parent
 P = ROOT / "data/processed"
 R = ROOT / "results"
 import sys; sys.path.insert(0, str(ROOT / "src"))
-from export_site import PLAIN  # plain-English names for the disease categories
+PLAIN = {}
 
 st.set_page_config(page_title="MateriaLink · Dioscorides", page_icon="🌿", layout="wide",
                    initial_sidebar_state="collapsed")
