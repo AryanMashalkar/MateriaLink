@@ -1,22 +1,22 @@
 {
- "n_gold": 6,
+ "n_gold": 59,
  "methods": {
   "baseline": {
    "genus_top1": {
-    "acc": 0.167,
+    "acc": 0.322,
     "ci95": [
-     0.0,
-     0.5
+     0.203,
+     0.441
     ],
-    "n": 6
+    "n": 59
    },
    "genus_top3": {
-    "acc": 0.167,
+    "acc": 0.356,
     "ci95": [
-     0.0,
-     0.5
+     0.237,
+     0.475
     ],
-    "n": 6
+    "n": 59
    },
    "species_top1": {
     "acc": 0.0,
@@ -24,7 +24,7 @@
      0.0,
      0.0
     ],
-    "n": 6
+    "n": 59
    },
    "species_top3": {
     "acc": 0.0,
@@ -32,85 +32,85 @@
      0.0,
      0.0
     ],
-    "n": 6
+    "n": 59
    }
   },
   "llm": {
    "genus_top1": {
-    "acc": 0.833,
+    "acc": 0.881,
     "ci95": [
-     0.5,
-     1.0
+     0.797,
+     0.966
     ],
-    "n": 6
+    "n": 59
    },
    "genus_top3": {
-    "acc": 1.0,
+    "acc": 0.966,
     "ci95": [
-     1.0,
+     0.915,
      1.0
     ],
-    "n": 6
+    "n": 59
    },
    "species_top1": {
-    "acc": 0.833,
+    "acc": 0.678,
     "ci95": [
-     0.5,
-     1.0
+     0.559,
+     0.797
     ],
-    "n": 6
+    "n": 59
    },
    "species_top3": {
-    "acc": 1.0,
+    "acc": 0.831,
     "ci95": [
-     1.0,
-     1.0
+     0.729,
+     0.915
     ],
-    "n": 6
+    "n": 59
    }
   },
   "hybrid": {
    "genus_top1": {
-    "acc": 0.833,
+    "acc": 0.881,
     "ci95": [
-     0.5,
-     1.0
+     0.797,
+     0.949
     ],
-    "n": 6
+    "n": 59
    },
    "genus_top3": {
-    "acc": 1.0,
+    "acc": 0.966,
     "ci95": [
-     1.0,
+     0.915,
      1.0
     ],
-    "n": 6
+    "n": 59
    },
    "species_top1": {
-    "acc": 0.833,
+    "acc": 0.678,
     "ci95": [
-     0.5,
-     1.0
+     0.559,
+     0.797
     ],
-    "n": 6
+    "n": 59
    },
    "species_top3": {
-    "acc": 1.0,
+    "acc": 0.831,
     "ci95": [
-     1.0,
-     1.0
+     0.729,
+     0.915
     ],
-    "n": 6
+    "n": 59
    }
   }
  },
  "kappa_genus": {
-  "n": 6,
-  "kappa": 1.0
+  "n": 57,
+  "kappa": 0.627
  },
  "llm_calibration": {
-  "n": 6,
-  "ece": 0.225,
+  "n": 59,
+  "ece": 0.331,
   "bins": [
    {
     "range": [
@@ -126,26 +126,26 @@
      0.2,
      0.4
     ],
-    "n": 2,
-    "mean_conf": 0.325,
-    "accuracy": 0.5
+    "n": 12,
+    "mean_conf": 0.283,
+    "accuracy": 0.75
    },
    {
     "range": [
      0.4,
      0.6
     ],
-    "n": 0,
-    "mean_conf": null,
-    "accuracy": null
+    "n": 23,
+    "mean_conf": 0.448,
+    "accuracy": 0.826
    },
    {
     "range": [
      0.6,
      0.8
     ],
-    "n": 2,
-    "mean_conf": 0.675,
+    "n": 9,
+    "mean_conf": 0.694,
     "accuracy": 1.0
    },
    {
@@ -153,11 +153,10 @@
      0.8,
      1.0
     ],
-    "n": 2,
-    "mean_conf": 0.825,
+    "n": 15,
+    "mean_conf": 0.837,
     "accuracy": 1.0
    }
   ]
- },
- "warning": "only 6 gold rows filled; numbers are illustrative, not conclusive. Fill data/gold/gold.csv (two independent annotators) and rerun."
+ }
 }

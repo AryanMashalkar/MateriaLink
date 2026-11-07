@@ -1,4 +1,8 @@
-# Gold set: how to fill it
+# Gold set
+
+Current state (7 Nov 2026): 59 of 60 chapters filled. annotator1 = Gunther, *The Greek Herbal of Dioscorides* (1934); annotator2 = Osbaldeston, *Dioscorides: De materia medica* (2000), both cited by chapter in `source_citation`. Identifications were transcribed from the books (AI-assisted, team spot-checked), never chosen by the model being evaluated. The original instructions for human annotators follow, for anyone extending the set.
+
+## How to fill it
 
 `gold.csv` is what `src/evaluate.py` scores against. Six rows come from a published source (Touwaide, *Pharmantica*, Solanaceae). The other 54 chapters were drawn at random (seed 7) and need two people to identify them **independently**.
 
@@ -22,3 +26,6 @@ python src/evaluate.py
 ```
 
 It reports top-1 and top-3 accuracy at genus and species level with bootstrap 95% intervals, Cohen's kappa between the two of you, and a calibration plot. About two hours per person for 54 chapters.
+
+Shortcut: save the two filled sheets as `data/gold/annotator1.csv` and `data/gold/annotator2.csv`, then run
+`python src/merge_gold.py data/gold/annotator1.csv data/gold/annotator2.csv` instead of copying by hand.

@@ -35,7 +35,14 @@ Then it asks one question no concordance has asked before: **do Dioscorides' use
 
 The result changed as the text grew, and we report every stage rather than pick one. A first run on Books 3 and 4 only (211 plants): traditions significant (×1.10, p = 0.044), literature just missed (×1.08, p = 0.052). All five books, before we fixed the parser (268 plants): literature significant (×1.09, p = 0.025), traditions not (×1.05, p = 0.13). The complete text (422 plants, above): both significant. The honest reading: Dioscorides' uses match modern findings more often than chance, the effect is real but modest (about 1.1 times chance), and part of the literature gain may come from the newly added trees, fruits and vegetables, which are well-studied food plants. See `results/chance_test.png`.
 
-**Identification accuracy.** `src/evaluate.py` scores the spelling-only baseline against the model on a hand-curated gold set (top-1 and top-3, genus and species, bootstrap 95% CIs, Cohen's kappa between annotators, calibration error). The gold set currently holds 6 published identifications (Touwaide, *Pharmantica*, Solanaceae) and 54 chapters awaiting two independent annotators (`data/gold/annotation_sheet.csv`, instructions in `data/gold/README.md`), so current numbers are illustrative only. The model did not fill these rows: scoring a system against its own answers would be circular. On those 6 rows: baseline 1/6 at genus level, model 5/6 at species level.
+**Identification accuracy.** `src/evaluate.py` scores the spelling-only baseline and the model against a gold set of 59 chapters with published identifications: 6 from Touwaide (*Pharmantica*, Solanaceae), and 53 drawn at random (seed 7) from Books 3 and 4 and identified from two printed sources, R. T. Gunther, *The Greek Herbal of Dioscorides* (1934), and T. A. Osbaldeston, *Dioscorides: De materia medica* (2000). Each source is treated as one annotator; a row is correct if the model's name matches either source. The two sources only partly agree at genus level (Cohen's kappa 0.63), which shows how disputed these identifications are.
+
+| | Genus, top 1 | Genus, top 3 | Species, top 1 | Species, top 3 |
+|---|---|---|---|---|
+| Spelling-only baseline | 32% | 36% | 0% | 0% |
+| MateriaLink (reads the description) | **88%** (80 to 97) | 97% | **68%** (56 to 80) | 83% |
+
+Against Gunther alone the model gets the genus right 81% of the time, against Osbaldeston alone 73%. Brackets are bootstrap 95% intervals. The model did not choose these identifications: they were transcribed from the two books (Gunther's names as printed, with the current accepted name added where it is a pure synonym such as *Poterium spinosum* = *Sarcopoterium spinosum*; Osbaldeston's modern Linnaean suggestions, leaving out his "other usage" lines). The transcription was done with AI assistance and spot-checked by the team; every row cites its chapter in `data/gold/gold.csv`. Three chapters have no usable identification in either book. The model is over-confident at low probabilities (calibration error 0.33), so treat its percentages as rankings, not exact odds.
 
 **Explore it: https://aryanmashalkar.github.io/MateriaLink/** (interactive site)  
 **Analysis app: https://materialink-dioscorides.streamlit.app**
@@ -97,6 +104,7 @@ The extraction step in `data/llm_cache/claude_agent_v1/` was produced by Claude 
 | Dioscorides, *De materia medica*, ed. Wellmann, via [First1KGreek](https://github.com/OpenGreekAndLatin/First1KGreek) (`tlg0656.tlg001.1st1K-grc1`) | Greek text | CC BY-SA 4.0 |
 | [enveda/ethnobotany](https://github.com/enveda/ethnobotany): Trefle grounding, LOTUS/COCONUT plant-compound pairs, BERN2 PubMed plant-disease co-mentions, IMPPAT/KTKP/ETM/VietHerb/Ewé, MONDO categories | Grounding and evidence | MIT |
 | Touwaide, *Pharmantica*, Solanaceae (medimanus.chs.harvard.edu) | 6 gold identifications | cited |
+| Gunther, *The Greek Herbal of Dioscorides* (1934); Osbaldeston, *Dioscorides: De materia medica* (2000) | 53 gold identifications (names only, cited by chapter) | cited |
 
 Code is MIT. Everything derived from the Greek text (processed data, model outputs, gold set) is CC BY-SA 4.0. See `LICENSE`.
 
@@ -114,7 +122,7 @@ data/raw/                  Greek TEI
 data/external/enveda/      grounding and evidence tables
 data/processed/            chapters, predictions, enriched records
 data/llm_cache/            raw model outputs (provenance)
-data/gold/gold.csv         gold set (fill in and rerun evaluate.py)
+data/gold/gold.csv         gold set: 59 chapters, published identifications with citations
 results/                   chance test, evaluation, figures
 docs/                      method notes, pitch and video outline
 ```

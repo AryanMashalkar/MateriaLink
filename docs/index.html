@@ -436,7 +436,7 @@ function renderOdds(){
       <span class="badge ${sig ? 'sig' : 'border'}">${sig ? 'Unlikely to be chance' : (v.p_value < .1 ? 'Just short of significant' : 'Not significant on its own')}, p ${v.p_value < .001 ? '< 0.001' : '= ' + v.p_value.toFixed(3)}</span>
       ${hist(v)}</div>`; }).join('');
   const e = D.eval.methods;
-  $('fine').innerHTML = `Tested on ${m.n_plants} confidently identified plants and ${m.n_pairs} plant and use pairs. Each shuffle keeps every plant's number of uses and how common each kind of disease is, so only the pairing changes. The effect is modest. Plants studied <i>because</i> of their reputation can inflate the literature match, which is why we also compare against five independent traditions. On the ${D.eval.n} published identifications checked so far, reading the description gets ${Math.round(e.llm.species_top1*D.eval.n)} right and spelling alone gets ${Math.round(e.baseline.genus_top1*D.eval.n)}; a larger hand-checked set is in progress.`;
+  $('fine').innerHTML = `Tested on ${m.n_plants} confidently identified plants and ${m.n_pairs} plant and use pairs. Each shuffle keeps every plant's number of uses and how common each kind of disease is, so only the pairing changes. The effect is modest. Plants studied <i>because</i> of their reputation can inflate the literature match, which is why we also compare against five independent traditions. On ${D.eval.n} chapters with published identifications (Touwaide; Gunther 1934; Osbaldeston 2000), reading the description gets the genus right ${Math.round(e.llm.genus_top1*100)}% of the time and the species ${Math.round(e.llm.species_top1*100)}%; matching the spelling alone gets the genus ${Math.round(e.baseline.genus_top1*100)}%.`;
 }
 
 function renderGrid(){

@@ -31,7 +31,7 @@ Then a **permutation test** shuffles his prescriptions between plants 10,000 tim
 - **Other traditions:** 24.2% against 22.6% (×1.07, p = 0.025).
 - **Robustness:** our PubMed source has no rows for some famous plants (garlic, olive, grape). Rerunning on only the 229 plants it covers gives the same answer (44.2% against 39.3%, ×1.12, p < 0.001).
 - The result changed as the text grew, and we show every stage: Books 3 and 4 alone (traditions p = 0.044, literature p = 0.052), five books with a parser bug that dropped 199 chapters (literature p = 0.025, traditions p = 0.13), and the complete text (both significant). The honest reading: better than chance, but modest, about 1.1 times chance.
-- **Identification:** on the six published identifications we could find (Touwaide, *Pharmantica*), matching names by spelling gets 1 of 6 right; reading the description gets 5 of 6 to species. That is too few to claim accuracy, so the repository includes a 54-chapter blind annotation sheet and an evaluation script (bootstrap intervals, Cohen's kappa, calibration).
+- **Identification:** on 59 chapters with published identifications (Touwaide; Gunther 1934; Osbaldeston 2000), reading the description gets the genus right 88% of the time and the species 68%; matching names by spelling gets the genus 32% and the species never. The two printed sources themselves only partly agree (kappa 0.63), which is why we show several candidates instead of one answer.
 
 ## How we built it
 
@@ -47,7 +47,7 @@ Then a **permutation test** shuffles his prescriptions between plants 10,000 tim
 - **Spelling lies.** κέστρον looks like *Cestrum*, a New World genus Dioscorides could never have seen; the description says betony. That is why we read descriptions rather than match names.
 - **Honest statistics.** As we added chapters, the significant result moved from one comparison to the other and then to both. It would have been easy to report only the best run. We report all three.
 - **A hidden parser bug.** The TEI file nests some chapters inside the previous one, so our first parser silently stopped at 623 of 822 chapters. We found it, fixed it, and reran everything.
-- **No gold standard.** Published identifications of Dioscorides plants are scattered and disputed. We refused to have the model label its own test set, because that would be circular.
+- **No gold standard.** Published identifications of Dioscorides plants are scattered and disputed. We refused to have the model label its own test set, because that would be circular, and built it instead from two printed translations, each row citing its chapter.
 - **Readers without Greek.** We added English names for all 822 chapters, plain-English summaries, and English glosses for every use, so the Greek is there for those who want it but nobody needs it.
 
 ## What we learned
@@ -64,7 +64,7 @@ The extraction step (candidate species, uses and English glosses) was produced b
 
 ## What's next
 
-Complete the two-annotator gold set with scholars, add the Byzantine and Arabic translations of Dioscorides as further layers, and open the gold set for corrections.
+Extend the gold set to Books 1, 2 and 5 with scholars, add the Byzantine and Arabic translations of Dioscorides as further layers, and open the gold set for corrections.
 
 ## Built with
 
