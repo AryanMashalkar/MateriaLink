@@ -1,0 +1,93 @@
+{
+ "id": "1.64",
+ "headword": "σμύρνα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Commiphora myrrha",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Commiphora",
+   "prob": 0.12,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "resin"
+ ],
+ "uses": [
+  {
+   "greek": "ἔμμηνα καὶ ἔμβρυα",
+   "en": "brings on menses and expels the fetus",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "βῆχα χρόνιον",
+   "en": "chronic cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ὀρθόπνοιαν",
+   "en": "breathlessness",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "πλευρᾶς πόνον",
+   "en": "pain in the side",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "δυσεντερίαν",
+   "en": "dysentery",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ῥίγη",
+   "en": "fever chills",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "ἕλμινθας",
+   "en": "intestinal worms",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "δυσωδίαν στόματος",
+   "en": "bad breath",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὀδόντας καὶ οὖλα κρατύνει",
+   "en": "strengthens teeth and gums",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἐν τῇ κεφαλῇ τραύματα",
+   "en": "head wounds",
+   "category": "injury"
+  },
+  {
+   "greek": "πυορροοῦντα τῶν ὤτων",
+   "en": "running ears",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "λειχῆνάς",
+   "en": "lichen",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "τρίχας ῥεούσας",
+   "en": "hair loss",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἐν ὀφθαλμοῖς ἕλκη",
+   "en": "eye ulcers",
+   "category": "vision disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,33 @@
+{
+ "id": "1.9",
+ "headword": "νάρδος ὀρεινή",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Valeriana tuberosa",
+   "prob": 0.5,
+   "why": ""
+  },
+  {
+   "taxon": "Valeriana",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Valeriana italica",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ὅσα καὶ ἡ Κελτικὴ νάρδος",
+   "en": "same uses as Celtic nard (diuretic, liver)",
+   "category": "urinary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

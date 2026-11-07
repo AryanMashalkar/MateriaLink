@@ -1,0 +1,73 @@
+{
+ "id": "1.14",
+ "headword": "κινάμωμον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Cinnamomum verum",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Cinnamomum",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "bark"
+ ],
+ "uses": [
+  {
+   "greek": "οὐρητικήν",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἔμμηνα καὶ ἔμβρυα",
+   "en": "brings on menses and expels the fetus",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἰοβόλοις θηρίοις καὶ θανασίμοις",
+   "en": "venomous bites and deadly poisons",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ταῖς κόραις ἐπισκοτοῦντα",
+   "en": "dim sight",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "φακούς τε καὶ ἐφήλεις",
+   "en": "freckles and spots",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "βῆχας",
+   "en": "cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "κατάρρους",
+   "en": "catarrh",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ὕδρωπας",
+   "en": "dropsy",
+   "category": "cardiovascular disease"
+  },
+  {
+   "greek": "νεφρίτιδας",
+   "en": "kidney disease",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "δυσουρίας",
+   "en": "painful urination",
+   "category": "urinary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,43 @@
+{
+ "id": "1.30",
+ "headword": "ἔλαιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Olea europaea",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "oil"
+ ],
+ "uses": [
+  {
+   "greek": "εὐστόμαχον",
+   "en": "good for the stomach",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "οὔλων σταλτικόν",
+   "en": "strengthens gums",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ἱδρώτων ἐφεκτικόν",
+   "en": "stops sweating",
+   "category": "other"
+  },
+  {
+   "greek": "εὐκοίλιον",
+   "en": "laxative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "θανάσιμα",
+   "en": "poisons",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

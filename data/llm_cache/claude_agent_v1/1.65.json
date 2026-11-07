@@ -1,0 +1,33 @@
+{
+ "id": "1.65",
+ "headword": "σμύρνα Βοιωτική",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Ferulago nodosa",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Smyrnium perfoliatum",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Ferulago",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "θυμιάμασι",
+   "en": "used in incense",
+   "category": "other"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

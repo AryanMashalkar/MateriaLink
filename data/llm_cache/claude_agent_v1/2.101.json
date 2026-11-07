@@ -1,0 +1,22 @@
+{
+ "id": "2.101",
+ "headword": "ἄμυλον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Triticum aestivum",
+   "prob": 0.7,
+   "why": ""
+  },
+  {
+   "taxon": "Triticum",
+   "prob": 0.25,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "starch"
+ ],
+ "uses": [],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

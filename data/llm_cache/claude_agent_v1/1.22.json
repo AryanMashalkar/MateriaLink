@@ -1,0 +1,54 @@
+{
+ "id": "1.22",
+ "headword": "ἀγάλοχον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Aquilaria malaccensis",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Aquilaria agallocha",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Aquilaria",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "wood",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "εὐωδίαν στόματος",
+   "en": "bad breath",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "στομάχου ἀτονίαν",
+   "en": "weak stomach",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἧπαρ",
+   "en": "liver pain",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "δυσεντερικοῖς",
+   "en": "dysentery",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "στροφουμένοις",
+   "en": "colic",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

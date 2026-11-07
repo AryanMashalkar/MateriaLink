@@ -1,0 +1,53 @@
+{
+ "id": "1.13",
+ "headword": "κασσία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Cinnamomum cassia",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Cinnamomum",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "bark"
+ ],
+ "uses": [
+  {
+   "greek": "ὀξυδερκίαν",
+   "en": "sharpens sight",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "φακούς",
+   "en": "freckles",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἔμμηνα ἄγει",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἐχιοδήκτοις",
+   "en": "viper bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ἐντὸς φλεγμονὰς",
+   "en": "internal inflammation",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "πρὸς νεφρούς",
+   "en": "kidney complaints",
+   "category": "urinary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "5.119",
+ "headword": "προσαγορευόμενος",
+ "is_plant": false,
+ "candidates": [],
+ "parts": [
+  "mineral"
+ ],
+ "uses": [],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

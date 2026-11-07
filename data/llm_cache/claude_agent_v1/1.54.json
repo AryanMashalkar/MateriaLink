@@ -1,0 +1,48 @@
+{
+ "id": "1.54",
+ "headword": "κρόκινον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Crocus sativus",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Crocus",
+   "prob": 0.08,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "stigma oil"
+ ],
+ "uses": [
+  {
+   "greek": "ὑπνωτικήν",
+   "en": "brings sleep",
+   "category": "psychiatric disorder"
+  },
+  {
+   "greek": "φρενιτικῶν",
+   "en": "delirium",
+   "category": "psychiatric disorder"
+  },
+  {
+   "greek": "ἑλκῶν καθαρτικόν",
+   "en": "cleans ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἐν τῇ μήτρᾳ σκληρίας",
+   "en": "hardness of the womb",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἀπογλαυκώσεις",
+   "en": "clouding of the eye",
+   "category": "vision disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

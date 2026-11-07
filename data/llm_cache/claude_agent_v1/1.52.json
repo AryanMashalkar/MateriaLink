@@ -1,0 +1,43 @@
+{
+ "id": "1.52",
+ "headword": "σούσινον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Lilium candidum",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Lilium",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "flower oil"
+ ],
+ "uses": [
+  {
+   "greek": "περὶ μήτραν μύσεων καὶ φλεγμονῶν",
+   "en": "closure and inflammation of the womb",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἀχῶρας, ἰόνθους",
+   "en": "scalp sores and pimples",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "πίτυρα, ἐκζέματα",
+   "en": "dandruff and eczema",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "μώλωπάς",
+   "en": "bruises",
+   "category": "injury"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,43 @@
+{
+ "id": "1.34",
+ "headword": "βαλάνινον ἔλαιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Moringa peregrina",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Balanites aegyptiaca",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Moringa",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed oil"
+ ],
+ "uses": [
+  {
+   "greek": "σπίλων, φακῶν, ἰόνθων",
+   "en": "spots, freckles and acne",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "κοιλίας μαλακτικήν",
+   "en": "laxative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὠταλγίαις καὶ ἤχοις",
+   "en": "earache and tinnitus",
+   "category": "otorhinolaryngologic disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

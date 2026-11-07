@@ -1,0 +1,28 @@
+{
+ "id": "2.93",
+ "headword": "τράγος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Triticum dicoccum",
+   "prob": 0.5,
+   "why": ""
+  },
+  {
+   "taxon": "Triticum",
+   "prob": 0.35,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "groats"
+ ],
+ "uses": [
+  {
+   "greek": "κοιλίας μαλακτικός",
+   "en": "laxative",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

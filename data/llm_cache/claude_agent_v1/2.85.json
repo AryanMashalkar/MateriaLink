@@ -1,0 +1,35 @@
+{
+ "id": "2.85",
+ "headword": "πυροὶ",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Triticum aestivum",
+   "prob": 0.55,
+   "why": ""
+  },
+  {
+   "taxon": "Triticum turgidum",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Triticum",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "flour",
+  "bran"
+ ],
+ "uses": [
+  {
+   "greek": "κυνοδήκτους",
+   "en": "dog bites",
+   "category": "injury"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

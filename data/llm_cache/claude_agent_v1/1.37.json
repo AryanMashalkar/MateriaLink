@@ -1,0 +1,33 @@
+{
+ "id": "1.37",
+ "headword": "ῥαφάνινον ἔλαιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Raphanus sativus",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Raphanus",
+   "prob": 0.08,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed oil"
+ ],
+ "uses": [
+  {
+   "greek": "φθειριῶσι",
+   "en": "lice",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "περὶ τὸ πρόσωπον τραχύτητας",
+   "en": "rough facial skin",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

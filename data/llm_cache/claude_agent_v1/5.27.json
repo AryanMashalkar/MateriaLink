@@ -1,0 +1,11 @@
+{
+ "id": "5.27",
+ "headword": "ῥοδίτης",
+ "is_plant": false,
+ "candidates": [],
+ "parts": [
+  "wine or vinegar preparation"
+ ],
+ "uses": [],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

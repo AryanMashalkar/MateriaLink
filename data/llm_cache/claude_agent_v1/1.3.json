@@ -1,0 +1,58 @@
+{
+ "id": "1.3",
+ "headword": "μῆον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Meum athamanticum",
+   "prob": 0.8,
+   "why": ""
+  },
+  {
+   "taxon": "Meum",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "περὶ κύστιν καὶ νεφροὺς πάθη",
+   "en": "bladder and kidney disorders",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "δυσουρίαις",
+   "en": "dysuria",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "στομάχου ἐμπνευματώσεσι καὶ στρόφοις",
+   "en": "flatulence and colic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὑστερικαῖς διαθέσεσι",
+   "en": "uterine disorders",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἄρθρων πόνοις",
+   "en": "joint pain",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "θώρακι ῥευματιζομένῳ",
+   "en": "chest catarrh",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἔμμηνα",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

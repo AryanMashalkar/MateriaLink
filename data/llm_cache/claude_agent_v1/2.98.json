@@ -1,0 +1,33 @@
+{
+ "id": "2.98",
+ "headword": "ἔλυμος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Setaria italica",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Setaria",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Panicum miliaceum",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "κοιλίαν ἴστησιν",
+   "en": "stops diarrhoea",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

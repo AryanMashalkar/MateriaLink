@@ -1,0 +1,22 @@
+{
+ "id": "2.88",
+ "headword": "κοῦρμι",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Hordeum vulgare",
+   "prob": 0.7,
+   "why": ""
+  },
+  {
+   "taxon": "Triticum aestivum",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "beer from seed"
+ ],
+ "uses": [],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

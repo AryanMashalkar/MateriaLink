@@ -1,0 +1,63 @@
+{
+ "id": "1.33",
+ "headword": "ἀμυγδάλινον ἔλαιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Prunus dulcis",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Prunus",
+   "prob": 0.08,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed oil"
+ ],
+ "uses": [
+  {
+   "greek": "ἐν μήτρᾳ ἀλγηδόνας",
+   "en": "uterine pain",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "πνίγας ὑστερικάς",
+   "en": "hysterical suffocation",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "κεφαλαλγίας",
+   "en": "headache",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ὤτων πόνους καὶ ἤχους",
+   "en": "earache and tinnitus",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "νεφριτικούς καὶ δυσουριῶντας",
+   "en": "kidney disease and dysuria",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "λιθιῶντας",
+   "en": "stones",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἀσθματικούς",
+   "en": "asthma",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "σπληνικούς",
+   "en": "spleen disorders",
+   "category": "hematologic disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

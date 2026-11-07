@@ -1,0 +1,11 @@
+{
+ "id": "1.62",
+ "headword": "νάρδινον",
+ "is_plant": false,
+ "candidates": [],
+ "parts": [
+  "compound unguent"
+ ],
+ "uses": [],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

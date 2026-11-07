@@ -1,0 +1,39 @@
+{
+ "id": "2.105",
+ "headword": "κύαμος Ἑλληνικὸς",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Vicia faba",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "meal"
+ ],
+ "uses": [
+  {
+   "greek": "βηχὶ σύμφορος",
+   "en": "cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "δυσεντερίας",
+   "en": "dysentery",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἐμέτους",
+   "en": "vomiting",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἐκ πληγῆς φλεγμονάς",
+   "en": "inflammation from blows",
+   "category": "injury"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

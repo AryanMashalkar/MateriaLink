@@ -1,0 +1,33 @@
+{
+ "id": "1.29",
+ "headword": "ἑλένιον Αἰγύπτιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Teucrium creticum",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Lotus",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Inula",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "θηριοδήκτοις",
+   "en": "venomous bites",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

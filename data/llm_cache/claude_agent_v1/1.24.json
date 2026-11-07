@@ -1,0 +1,73 @@
+{
+ "id": "1.24",
+ "headword": "κάγκαμον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Commiphora",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Boswellia",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Gardenia",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "resin"
+ ],
+ "uses": [
+  {
+   "greek": "καταπιμέλων",
+   "en": "obesity",
+   "category": "metabolic disease"
+  },
+  {
+   "greek": "σπληνικοῖς",
+   "en": "spleen disorders",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "ἐπιλημπτικοῖς",
+   "en": "epilepsy",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ἀσθματικοῖς",
+   "en": "asthma",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἔμμηνα",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἐν ὀφθαλμοῖς οὐλάς",
+   "en": "eye scars",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "ἀμβλυωπίας",
+   "en": "dim sight",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "μυδήσεις οὔλων",
+   "en": "gum disease",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ὀδονταλγίας",
+   "en": "toothache",
+   "category": "otorhinolaryngologic disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

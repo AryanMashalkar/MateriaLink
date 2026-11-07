@@ -1,0 +1,28 @@
+{
+ "id": "1.36",
+ "headword": "κνίδιον ἔλαιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Daphne gnidium",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Daphne",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed oil"
+ ],
+ "uses": [
+  {
+   "greek": "καθαρτικήν κοιλίας",
+   "en": "purgative",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

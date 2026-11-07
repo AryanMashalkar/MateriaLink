@@ -1,0 +1,68 @@
+{
+ "id": "2.104",
+ "headword": "ἐρέβινθος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Cicer arietinum",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Cicer",
+   "prob": 0.08,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "οὐρητικός",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "καταμηνίων ἀγωγὸς",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "γάλακτος γεννητικός",
+   "en": "promotes milk",
+   "category": "breast disease"
+  },
+  {
+   "greek": "ὄρχεων φλεγμονὰς",
+   "en": "inflamed testicles",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "λειχῆνας καὶ ψώρας",
+   "en": "lichen and itch",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "μυρμηκίας",
+   "en": "warts",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "καρκινώδη ἕλκη",
+   "en": "cancerous ulcers",
+   "category": "cancer"
+  },
+  {
+   "greek": "ἴκτερον",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὕδρωπα",
+   "en": "dropsy",
+   "category": "cardiovascular disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,43 @@
+{
+ "id": "1.11",
+ "headword": "φοῦ",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Valeriana officinalis",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Valeriana dioscoridis",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Valeriana",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "οὖρα κινεῖν",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "πλευρᾶς πόνον",
+   "en": "side pain",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἔμμηνα",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

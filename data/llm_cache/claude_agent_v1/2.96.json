@@ -1,0 +1,43 @@
+{
+ "id": "2.96",
+ "headword": "χόνδρος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Triticum dicoccum",
+   "prob": 0.7,
+   "why": ""
+  },
+  {
+   "taxon": "Triticum",
+   "prob": 0.25,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "groats"
+ ],
+ "uses": [
+  {
+   "greek": "λέπρας",
+   "en": "scaly skin (lepra)",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "λεπρούς ὄνυχας",
+   "en": "diseased nails",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "αἰγιλώπια",
+   "en": "lacrimal fistula",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "δυσεντερικῶν",
+   "en": "painful dysentery",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

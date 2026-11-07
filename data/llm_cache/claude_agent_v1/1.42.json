@@ -1,0 +1,38 @@
+{
+ "id": "1.42",
+ "headword": "μαστίχινον ἔλαιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Pistacia lentiscus",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Pistacia",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "resin oil"
+ ],
+ "uses": [
+  {
+   "greek": "ἐν ὑστέρᾳ πάντα",
+   "en": "uterine disorders",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "στόμαχον σκιρρώματα",
+   "en": "stomach indurations",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "κοιλιακὰ καὶ δυσεντερικά",
+   "en": "coeliac flux and dysentery",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

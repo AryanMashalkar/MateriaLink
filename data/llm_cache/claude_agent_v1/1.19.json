@@ -1,0 +1,95 @@
+{
+ "id": "1.19",
+ "headword": "βάλσαμον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Commiphora gileadensis",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Commiphora",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "sap",
+  "wood",
+  "fruit"
+ ],
+ "uses": [
+  {
+   "greek": "ἐπισκοτοῦντα ταῖς κόραις",
+   "en": "dim sight",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "περὶ μήτραν ψύξεις",
+   "en": "uterine chill",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἄγει δεύτερα καὶ ἔμβρυα",
+   "en": "expels afterbirth and fetus",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ῥυπαρὰ τῶν ἑλκῶν",
+   "en": "dirty ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "οὐρητικὸς",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "δυσπνοοῦσιν",
+   "en": "shortness of breath",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἀκόνιτον πεπωκόσι",
+   "en": "aconite poisoning",
+   "category": "poisoning"
+  },
+  {
+   "greek": "θηριοδήκτοις",
+   "en": "venomous bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "πλευριτικοῖς",
+   "en": "pleurisy",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "βήσσουσιν",
+   "en": "cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἰσχιαδικοῖς",
+   "en": "sciatica",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ἐπιλημπτικοῖς",
+   "en": "epilepsy",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "στροφουμένοις",
+   "en": "colic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἀπεψίαις",
+   "en": "indigestion",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,68 @@
+{
+ "id": "1.47",
+ "headword": "τήλινον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Trigonella foenum-graecum",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Trigonella",
+   "prob": 0.08,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed oil"
+ ],
+ "uses": [
+  {
+   "greek": "ἀποστημάτων",
+   "en": "abscesses",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "περὶ μήτραν σκιρρώμασι",
+   "en": "uterine indurations",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "δυστοκούσαις",
+   "en": "difficult labour",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἐν δακτυλίῳ φλεγμονάς",
+   "en": "anal inflammation",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "τεινεσμῶν",
+   "en": "tenesmus",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "πίτυρα καὶ ἀχῶρας",
+   "en": "dandruff and scalp sores",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "κατακαύματα",
+   "en": "burns",
+   "category": "injury"
+  },
+  {
+   "greek": "χίμετλα",
+   "en": "chilblains",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἐφηλίδας",
+   "en": "freckles",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

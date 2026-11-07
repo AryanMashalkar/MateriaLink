@@ -1,0 +1,44 @@
+{
+ "id": "2.86",
+ "headword": "κριθὴ",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Hordeum vulgare",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Hordeum",
+   "prob": 0.08,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "meal"
+ ],
+ "uses": [
+  {
+   "greek": "περὶ ἀρτηρίαν τραχύτητας καὶ ἑλκώσεις",
+   "en": "roughness and ulcers of the windpipe",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "οὐρητική",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "κατασπᾷ γάλα",
+   "en": "promotes milk",
+   "category": "breast disease"
+  },
+  {
+   "greek": "συμπεπτικὴ οἰδημάτων",
+   "en": "ripens swellings",
+   "category": "inflammatory disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

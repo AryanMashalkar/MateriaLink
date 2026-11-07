@@ -1,0 +1,43 @@
+{
+ "id": "1.51",
+ "headword": "ἀνήθινον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Anethum graveolens",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Anethum",
+   "prob": 0.08,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "flower oil"
+ ],
+ "uses": [
+  {
+   "greek": "περὶ μήτραν",
+   "en": "uterine disorders",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "περιοδικὰ ῥίγη",
+   "en": "periodic chills",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "κόπους",
+   "en": "fatigue",
+   "category": "other"
+  },
+  {
+   "greek": "ἀλγήματα ἄρθρων",
+   "en": "joint pain",
+   "category": "musculoskeletal system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

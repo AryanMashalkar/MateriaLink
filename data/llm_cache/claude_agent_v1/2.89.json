@@ -1,0 +1,27 @@
+{
+ "id": "2.89",
+ "headword": "ζέα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Triticum dicoccum",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Triticum monococcum",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Triticum spelta",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

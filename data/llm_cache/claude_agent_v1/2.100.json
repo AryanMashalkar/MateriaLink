@@ -1,0 +1,43 @@
+{
+ "id": "2.100",
+ "headword": "αἶρα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Lolium temulentum",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Lolium",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "meal"
+ ],
+ "uses": [
+  {
+   "greek": "νομῶν καὶ σηπεδόνων καὶ γαγγραινῶν",
+   "en": "spreading sores and gangrene",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "λειχῆνας καὶ λέπρας",
+   "en": "lichen and scaly skin",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "χοιράδας",
+   "en": "scrofulous swellings",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "ἰσχιαδικούς",
+   "en": "sciatica",
+   "category": "nervous system disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

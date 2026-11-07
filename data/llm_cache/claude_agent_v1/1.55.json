@@ -1,0 +1,53 @@
+{
+ "id": "1.55",
+ "headword": "κύπρινον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Lawsonia inermis",
+   "prob": 0.8,
+   "why": ""
+  },
+  {
+   "taxon": "Lawsonia",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "flower oil"
+ ],
+ "uses": [
+  {
+   "greek": "περὶ μήτραν καὶ νεῦρα πάθεσι",
+   "en": "womb and nerve disorders",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "πλευριτικοῖς",
+   "en": "pleurisy",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "κατάγμασι",
+   "en": "fractures",
+   "category": "injury"
+  },
+  {
+   "greek": "ὀπισθοτόνῳ",
+   "en": "back spasm (opisthotonos)",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "συνάγχῃ",
+   "en": "quinsy (sore throat)",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "βουβώνων φλεγμονῇ",
+   "en": "swollen groin glands",
+   "category": "infectious disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

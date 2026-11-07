@@ -1,0 +1,53 @@
+{
+ "id": "1.18",
+ "headword": "κάλαμος ἀρωματικός",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Acorus calamus",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Cymbopogon",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Andropogon",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "stem"
+ ],
+ "uses": [
+  {
+   "greek": "ὑδρωπικοῖς",
+   "en": "dropsy",
+   "category": "cardiovascular disease"
+  },
+  {
+   "greek": "νεφριτικοῖς, στραγγουριῶσι",
+   "en": "kidney disease and strangury",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ῥήγμασιν",
+   "en": "ruptures",
+   "category": "injury"
+  },
+  {
+   "greek": "ἔμμηνα",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "βῆχάς",
+   "en": "cough",
+   "category": "respiratory system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

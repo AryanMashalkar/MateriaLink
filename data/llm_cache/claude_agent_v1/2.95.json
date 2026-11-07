@@ -1,0 +1,23 @@
+{
+ "id": "2.95",
+ "headword": "ὄρυζα",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Oryza sativa",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "κοιλίας σταλτική",
+   "en": "binds the bowels",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,38 @@
+{
+ "id": "1.1",
+ "headword": "ἶρις Ἰλλυρική",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Iris germanica",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Iris pallida",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Iris florentina",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "βῆχας",
+   "en": "cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "πταρμούς",
+   "en": "sneezing",
+   "category": "respiratory system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

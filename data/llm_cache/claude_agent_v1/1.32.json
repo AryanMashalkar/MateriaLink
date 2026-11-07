@@ -1,0 +1,53 @@
+{
+ "id": "1.32",
+ "headword": "κίκινον ἔλαιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Ricinus communis",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed oil"
+ ],
+ "uses": [
+  {
+   "greek": "ψώρας καὶ ἀχῶρας",
+   "en": "itch and scalp sores",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἐν ἕδρᾳ φλεγμονάς",
+   "en": "anal inflammation",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὑστέρας μύσεις",
+   "en": "closed womb",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "οὐλὰς ἀπρεπεῖς",
+   "en": "unsightly scars",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ὠταλγίας",
+   "en": "earache",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ἄγει κατὰ κοιλίαν",
+   "en": "purgative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἕλμινθας",
+   "en": "intestinal worms",
+   "category": "infectious disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

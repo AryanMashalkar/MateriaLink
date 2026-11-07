@@ -1,0 +1,28 @@
+{
+ "id": "1.60",
+ "headword": "στακτή",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Commiphora myrrha",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Commiphora",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "resin oil"
+ ],
+ "uses": [
+  {
+   "greek": "θερμαντικήν",
+   "en": "warming, like myrrh",
+   "category": "other"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

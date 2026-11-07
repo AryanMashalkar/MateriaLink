@@ -44,6 +44,11 @@ nav ul a:hover{color:var(--vellum)}
 .verdict{margin:14px 0 0;color:var(--vellum-dim);font-size:.95rem;max-width:420px}
 .verdict b{color:var(--vellum);font-weight:600}
 .disputed{display:inline-block;margin-top:12px;padding:4px 12px;border:1px solid var(--cinnabar);color:#f3a493;border-radius:2px;font-size:.82rem}
+.plain{font:400 1.02rem/1.7 var(--ui);color:var(--vellum);margin:22px 0 0;max-width:460px}
+.latin{margin:8px 0 0;color:var(--vellum-dim);font-size:.95rem}.latin i{color:var(--gold);font-family:var(--display)}
+.translit .en{color:var(--vellum);font-style:italic}
+details.orig summary{cursor:pointer;color:var(--gold);font-size:.9rem;letter-spacing:.04em;margin:18px 0 12px}
+.lead-en{font:400 1.08rem/1.75 var(--display);color:var(--vellum);margin:0 0 10px}
 .excerpt{font:400 1.05rem/1.75 var(--greek);color:var(--vellum-dim);margin:22px 0 0;max-width:440px;
   display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
 .controls{display:flex;gap:10px;margin-top:28px;flex-wrap:wrap}
@@ -116,7 +121,8 @@ input[type=search]::placeholder{color:var(--vellum-dim)}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:2px}
 .cell{text-align:left;border-radius:0;border:0;padding:14px 14px 12px;background:var(--porphyry-2);color:var(--vellum);display:flex;flex-direction:column;gap:3px;min-height:92px}
 .cell:hover{background:var(--porphyry-3)}
-.cell .g{font:400 1.25rem/1.15 var(--greek)}
+.cell .g{font:400 1.2rem/1.15 var(--display)}
+.cell .gk{font:400 .9rem/1.2 var(--greek);color:var(--gold)}
 .cell .l{font:italic 400 .86rem/1.2 var(--display);color:var(--vellum-dim)}
 .cell .bar{margin-top:auto;height:3px;background:var(--vellum-faint);position:relative}
 .cell .bar i{position:absolute;inset:0 auto 0 0;background:var(--verdigris)}
@@ -127,7 +133,8 @@ footer{border-top:1px solid var(--vellum-faint);padding:56px 0 80px;display:grid
 footer h3{font-size:1.05rem}
 
 @media (max-width:900px){
-  .hero,.folio,.tests,footer{grid-template-columns:1fr}
+  .hero,.folio,.tests,footer{grid-template-columns:minmax(0,1fr)}
+  .hero>div,.folio>div{min-width:0}
   .hero{min-height:auto;gap:12px}
   nav ul{gap:16px}
   nav ul{display:none}
@@ -157,9 +164,10 @@ footer h3{font-size:1.05rem}
       <div class="where" id="where"></div>
       <div class="hw" id="hw" lang="grc"></div>
       <p class="translit" id="translit"></p>
+      <p class="latin" id="latin"></p>
       <p class="verdict" id="verdict"></p>
       <div id="disp"></div>
-      <p class="excerpt" id="excerpt" lang="grc"></p>
+      <p class="plain" id="plain"></p>
       <div class="controls">
         <button id="prev" aria-label="Previous chapter">Previous</button>
         <button class="primary" id="rand">Show me another plant</button>
@@ -171,10 +179,15 @@ footer h3{font-size:1.05rem}
 
   <section class="folio" id="chapter">
     <div>
-      <h3>What Dioscorides wrote</h3>
-      <p class="syn" id="syn" lang="grc"></p>
-      <div class="greek-text" id="gtext" lang="grc"></div>
-      <p class="urn" id="urn"></p>
+      <h3>What this chapter says, in plain English</h3>
+      <p class="lead-en" id="lead"></p>
+      <p class="note">This summary is built from the uses on the right, each translated phrase by phrase from the Greek. It is not a full literary translation.</p>
+      <details class="orig" open>
+        <summary>The original Greek text</summary>
+        <p class="syn" id="syn"></p>
+        <div class="greek-text" id="gtext" lang="grc"></div>
+        <p class="urn" id="urn"></p>
+      </details>
     </div>
     <div>
       <h3>His prescriptions, checked</h3>
@@ -195,15 +208,18 @@ footer h3{font-size:1.05rem}
   <section class="index" id="index">
     <div class="index-head">
       <div>
-        <h2>Every plant in Books 3 and 4</h2>
+        <h2>Every plant in the five books</h2>
         <p>The green line under each name shows how many of its uses modern papers back up.</p>
       </div>
       <div class="filters">
-        <input type="search" id="q" placeholder="Find a plant, species or ailment" aria-label="Find a plant, species or ailment">
+        <input type="search" id="q" placeholder="Find a plant in English, Greek or Latin, or an ailment" aria-label="Find a plant or ailment">
         <div class="seg" role="group" aria-label="Book">
-          <button data-b="0" aria-pressed="true">Both</button>
-          <button data-b="3" aria-pressed="false">Book 3</button>
-          <button data-b="4" aria-pressed="false">Book 4</button>
+          <button data-b="0" aria-pressed="true">All</button>
+          <button data-b="1" aria-pressed="false">1</button>
+          <button data-b="2" aria-pressed="false">2</button>
+          <button data-b="3" aria-pressed="false">3</button>
+          <button data-b="4" aria-pressed="false">4</button>
+          <button data-b="5" aria-pressed="false">5</button>
         </div>
       </div>
     </div>
@@ -230,6 +246,7 @@ footer h3{font-size:1.05rem}
 <script>
 const TIER = {A:'#5fb3a1', B:'#3f8577', C:'#d8b25c', D:'rgba(241,230,207,.30)', 'n/a':'transparent'};
 const TIER_TXT = {A:'five or more papers', B:'two to four papers', C:'one paper', D:'no papers yet', 'n/a':'outside the disease ontology'};
+const TRAD = {imppat:'Indian medicine (IMPPAT)', koreantk:'Korean medicine', ktkp:'Korean medicine', etm:'Chinese medicine (ETM)', vietherb:'Vietnamese medicine', vietnam:'Vietnamese medicine', ewe:'Ewé medicine (West Africa)'};
 const RM = matchMedia('(prefers-reduced-motion: reduce)').matches;
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -253,7 +270,7 @@ function drawLoom(c){
   const anims = [];
   const cy = cands.map((_, i) => ay + (i - (cands.length - 1) / 2) * 128);
   const uy = uses.map((_, i) => ay + (i - (uses.length - 1) / 2) * 48);
-  [['The Greek name', ax, 'start'], ['Most likely species', cx, 'middle'], ['What he used it for', ux - 9, 'start']]
+  [['The Greek name', ax, 'start'], ['Most likely species', cx, 'middle'], ['What he used it for (in English)', ux - 9, 'start']]
     .forEach(([t, x, a]) => { el('text', {x, y: 18, class:'cap', 'text-anchor': a}, svg).textContent = t; });
   // anchor
   el('circle', {cx:ax, cy:ay, r:7, fill:'none', stroke:'#d8b25c', 'stroke-width':2}, svg);
@@ -282,8 +299,9 @@ function drawLoom(c){
   // candidate nodes + labels
   cands.forEach((k, i) => {
     el('circle', {cx, cy:cy[i], r: i ? 5 : 9, fill: i ? '#45203f' : '#d8b25c', stroke:'#d8b25c', 'stroke-width':1.5}, svg);
-    const t = el('text', {x: cx, y: cy[i] - (i ? 16 : 42), 'text-anchor':'middle', class:'lbl', opacity: i ? .72 : 1}, svg);
+    const t = el('text', {x: cx, y: cy[i] - (i ? 16 : 60), 'text-anchor':'middle', class:'lbl', opacity: i ? .72 : 1}, svg);
     t.textContent = k.t;
+    if (!i && k.en) el('text', {x: cx, y: cy[i] - 42, 'text-anchor':'middle', class:'cap'}, svg).textContent = k.en;
     const pc = el('text', {x: cx, y: cy[i] + (i ? 24 : 52), 'text-anchor':'middle', class:'pct'}, svg);
     pc.textContent = Math.round(k.p * 100) + '%';
   });
@@ -317,20 +335,22 @@ function show(i, push = true){
   $('where').textContent = `Book ${c.id.split('.')[0]}, chapter ${c.id.split('.')[1]}`;
   $('hw').textContent = c.hw;
   const colw = $('hw').parentElement.clientWidth || 400;
-  $('hw').style.fontSize = Math.min(132, colw / (c.hw.length * 0.56)) + 'px';
-  $('translit').innerHTML = top ? `${esc(translit(c.hw))}<span class="arrow">to</span>${esc(top.t)}` : esc(translit(c.hw));
+  $('hw').style.fontSize = Math.min(132, Math.min(colw, innerWidth - 32) / (c.hw.length * 0.6)) + 'px';
+  $('translit').innerHTML = `${esc(translit(c.hw))}<span class="arrow">means</span><span class="en">${esc(c.en || '?')}</span>`;
+  $('latin').innerHTML = top ? `Most likely <i>${esc(top.t)}</i>` : '';
   const ok = c.uses.filter(u => 'ABC'.includes(u.tier)).length;
   $('verdict').innerHTML = top ? `<b>${Math.round(top.p*100)}% likely</b> from the description. Modern papers back <b>${ok} of ${c.uses.length}</b> uses he gives.` : '';
   $('disp').innerHTML = c.cands.length > 1 && c.cands[1].p >= .5 * c.cands[0].p ? `<span class="disputed">Scholars could read this as ${esc(c.cands[1].t)} too</span>` : '';
-  $('excerpt').textContent = c.text.slice(0, 320);
+  $('plain').textContent = c.sum;
+  $('lead').textContent = c.sum;
   drawLoom(c);
-  $('syn').textContent = c.syn.length ? 'Also called ' + c.syn.join(', ') : '';
+  $('syn').innerHTML = c.syn.length ? 'Other names he records: ' + c.syn.map(x => `<span lang="grc">${esc(x)}</span> <i>(${esc(translit(x))})</i>`).join(', ') : '';
   $('gtext').textContent = c.text;
   $('urn').textContent = c.urn;
   $('uses').innerHTML = c.uses.map(u => `<li><span class="dot" style="background:${TIER[u.tier]};${u.tier==='n/a'?'border:1px dashed rgba(241,230,207,.5)':''}"></span>
-    <div><div class="en">${esc(u.en)}</div><div class="gr" lang="grc">${esc(u.gr)}</div><div class="cat">${esc(u.cat)}</div></div>
+    <div><div class="en">${esc(u.en)}</div><div class="gr" lang="grc">${esc(u.gr)}</div><div class="cat">${esc(u.plain || u.cat)}</div></div>
     <div class="ev">${u.n ? `${u.n} paper${u.n>1?'s':''}<br>${u.pm.slice(0,2).map(p => `<a href="https://pubmed.ncbi.nlm.nih.gov/${p}/" target="_blank" rel="noopener">${p}</a>`).join(' ')}` : 'no papers yet'}
-    ${u.cc.length ? `<br><span class="cc">also in ${u.cc.map(esc).join(', ')}</span>` : ''}</div></li>`).join('') || '<li>No uses extracted.</li>';
+    ${u.cc.length ? `<br><span class="cc">also in ${u.cc.map(x => esc(TRAD[x.toLowerCase()] || x)).join(', ')}</span>` : ''}</div></li>`).join('') || '<li>No uses extracted.</li>';
   $('key').innerHTML = Object.keys(TIER).map(k => `<span><span class="dot" style="background:${TIER[k]};${k==='n/a'?'border:1px dashed rgba(241,230,207,.5)':''}"></span> ${TIER_TXT[k]}</span>`).join('');
   $('comph').style.display = c.comps.length ? '' : 'none';
   $('comps').innerHTML = c.comps.map(n => `<span>${esc(n)}</span>`).join('');
@@ -356,23 +376,23 @@ function hist(v, color){
 
 function renderOdds(){
   const ch = D.chance, m = ch.meta;
-  const T = [['cross_cultural', 'match the same use in five other medical traditions (Indian, Korean, Chinese, Vietnamese, West African)'],
-             ['literature', 'match a disease that PubMed papers mention alongside the plant']];
+  const T = [['literature', 'match a disease that PubMed papers mention alongside the plant'],
+             ['cross_cultural', 'match the same use in five other medical traditions (Indian, Korean, Chinese, Vietnamese, West African)']];
   $('tests').innerHTML = T.map(([k, txt]) => { const v = ch[k], sig = v.p_value < .05;
     return `<div class="test"><div class="num">${(v.observed*100).toFixed(1)}%<small>vs ${(v.null_mean*100).toFixed(1)}% by chance</small></div>
       <p>of his prescriptions ${txt}.</p>
-      <span class="badge ${sig ? 'sig' : 'border'}">${sig ? 'Unlikely to be chance' : 'Just short of significant'}, p = ${v.p_value.toFixed(3)}</span>
+      <span class="badge ${sig ? 'sig' : 'border'}">${sig ? 'Unlikely to be chance' : (v.p_value < .1 ? 'Just short of significant' : 'Not significant on its own')}, p = ${v.p_value.toFixed(3)}</span>
       ${hist(v)}</div>`; }).join('');
   const e = D.eval.methods;
-  $('fine').innerHTML = `Tested on ${m.n_plants} confidently identified plants and ${m.n_pairs} plant and use pairs. Each shuffle keeps every plant's number of uses and how common each kind of disease is, so only the pairing changes. The effect is modest, and stronger against other traditions than against the literature, where plants studied <i>because</i> of their reputation can inflate the match. On the ${D.eval.n} published identifications checked so far, reading the description gets ${Math.round(e.llm.species_top1*D.eval.n)} right and spelling alone gets ${Math.round(e.baseline.genus_top1*D.eval.n)}; a larger hand-checked set is in progress.`;
+  $('fine').innerHTML = `Tested on ${m.n_plants} confidently identified plants and ${m.n_pairs} plant and use pairs. Each shuffle keeps every plant's number of uses and how common each kind of disease is, so only the pairing changes. The effect is modest. Plants studied <i>because</i> of their reputation can inflate the literature match, which is why we also compare against five independent traditions. On the ${D.eval.n} published identifications checked so far, reading the description gets ${Math.round(e.llm.species_top1*D.eval.n)} right and spelling alone gets ${Math.round(e.baseline.genus_top1*D.eval.n)}; a larger hand-checked set is in progress.`;
 }
 
 function renderGrid(){
   const q = $('q').value.trim().toLowerCase();
   const list = plants.filter(c => (!book || c.id.startsWith(book + '.')) && (!q || c.hw.toLowerCase().includes(q) || translit(c.hw).includes(q)
-      || c.cands.some(k => k.t.toLowerCase().includes(q)) || c.uses.some(u => (u.en||'').toLowerCase().includes(q))));
+      || (c.en||'').toLowerCase().includes(q) || c.cands.some(k => k.t.toLowerCase().includes(q) || (k.en||'').toLowerCase().includes(q)) || c.uses.some(u => (u.en||'').toLowerCase().includes(q))));
   $('grid').innerHTML = list.map(c => `<button class="cell${plants[cur] && plants[cur].id === c.id ? ' on' : ''}" data-id="${c.id}">
-      <span class="g" lang="grc">${esc(c.hw)}</span><span class="l">${esc(c.cands[0] ? c.cands[0].t : '')}</span>
+      <span class="g">${esc(c.en)}</span><span class="gk" lang="grc">${esc(c.hw)}</span><span class="l">${esc(c.cands[0] ? c.cands[0].t : '')}</span>
       <span class="bar"><i style="width:${Math.round(score(c)*100)}%"></i></span></button>`).join('');
   $('count').textContent = list.length ? `${list.length} plants` : 'No plant matches. Try a Greek name, a Latin genus or an ailment such as cough.';
 }

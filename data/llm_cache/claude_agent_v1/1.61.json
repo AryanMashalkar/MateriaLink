@@ -1,0 +1,17 @@
+{
+ "id": "1.61",
+ "headword": "κιναμώμινον",
+ "is_plant": false,
+ "candidates": [],
+ "parts": [
+  "compound unguent"
+ ],
+ "uses": [
+  {
+   "greek": "περὶ μήτραν",
+   "en": "uterine disorders",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

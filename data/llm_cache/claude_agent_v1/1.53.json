@@ -1,0 +1,38 @@
+{
+ "id": "1.53",
+ "headword": "ναρκίσσινον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Narcissus poeticus",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Narcissus tazetta",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Narcissus",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "flower oil"
+ ],
+ "uses": [
+  {
+   "greek": "ἐν ὑστέρᾳ σκληρίας καὶ μύσεις",
+   "en": "hardened or closed womb",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "κεφαλαλγές",
+   "en": "causes headache",
+   "category": "nervous system disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

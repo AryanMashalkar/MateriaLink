@@ -1,0 +1,53 @@
+{
+ "id": "5.5",
+ "headword": "ὀμφάκιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Vitis vinifera",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "unripe grape juice"
+ ],
+ "uses": [
+  {
+   "greek": "παρίσθμια",
+   "en": "tonsillitis",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ἄφθας",
+   "en": "mouth ulcers",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ὦτα πυορροοῦντα",
+   "en": "running ears",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "σύριγγας καὶ παλαιὰ ἕλκη",
+   "en": "fistulas and old ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "δυσεντερικῶν",
+   "en": "dysentery",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "τραχύτησιν ὀφθαλμῶν",
+   "en": "rough eyelids",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "αἵματος πτύσιν",
+   "en": "spitting blood",
+   "category": "respiratory system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,63 @@
+{
+ "id": "1.16",
+ "headword": "κόστος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Saussurea costus",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Saussurea",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ἐμμήνων ἀγωγόν",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "περὶ ὑστέραν παθῶν",
+   "en": "uterine disorders",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἐχεοδήκτοις",
+   "en": "viper bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "θώρακος πόνους",
+   "en": "chest pain",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "σπάσματα",
+   "en": "spasms",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ἐμπνευματώσεις",
+   "en": "flatulence",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἀφροδίσια παρορμᾷ",
+   "en": "aphrodisiac",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἕλμινθα πλατεῖαν",
+   "en": "tapeworm",
+   "category": "infectious disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

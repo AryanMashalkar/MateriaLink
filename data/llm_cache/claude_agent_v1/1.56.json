@@ -1,0 +1,78 @@
+{
+ "id": "1.56",
+ "headword": "ἴρινον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Iris germanica",
+   "prob": 0.45,
+   "why": ""
+  },
+  {
+   "taxon": "Iris pallida",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Iris",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root oil"
+ ],
+ "uses": [
+  {
+   "greek": "σηπεδόνας",
+   "en": "putrid sores",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "περὶ μήτραν διαθέσεσιν",
+   "en": "womb disorders",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἔμβρυά ἐκβάλλει",
+   "en": "expels the fetus",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "αἱμορροίδας",
+   "en": "haemorrhoids",
+   "category": "cardiovascular disease"
+  },
+  {
+   "greek": "ἤχους ὤτων",
+   "en": "ringing in the ears",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "κατάρρους χρονίζοντας",
+   "en": "chronic catarrh",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ὀζαίνας",
+   "en": "foul nasal ulcers",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "καθαίρει τὴν κοιλίαν",
+   "en": "purgative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "συναγχικῶν",
+   "en": "sore throat",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "κώνειον ἢ μύκητας πεπωκόσιν",
+   "en": "hemlock or mushroom poisoning",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

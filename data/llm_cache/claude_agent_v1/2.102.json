@@ -1,0 +1,43 @@
+{
+ "id": "2.102",
+ "headword": "τῆλις",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Trigonella foenum-graecum",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Trigonella",
+   "prob": 0.08,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed meal"
+ ],
+ "uses": [
+  {
+   "greek": "φλεγμονὰς τὰς ἐντὸς καὶ ἐκτός",
+   "en": "inflammation, internal and external",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "σπλῆνα μειοῖ",
+   "en": "reduces the spleen",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "γυναικεῖα κατὰ φλεγμονὴν",
+   "en": "inflamed womb",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "πίτυρα καὶ ἀχῶρας",
+   "en": "dandruff and scalp sores",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

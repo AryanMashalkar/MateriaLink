@@ -1,0 +1,43 @@
+{
+ "id": "1.45",
+ "headword": "μήλινον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Cydonia oblonga",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Cydonia",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit oil"
+ ],
+ "uses": [
+  {
+   "greek": "ψωρώδη ἕλκη",
+   "en": "itchy ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "χίμετλα",
+   "en": "chilblains",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἕρπητας",
+   "en": "herpes",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἐν ὑστέρᾳ ἑλκώσεις",
+   "en": "uterine ulcers",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

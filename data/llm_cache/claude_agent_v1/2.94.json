@@ -1,0 +1,39 @@
+{
+ "id": "2.94",
+ "headword": "βρόμος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Avena sativa",
+   "prob": 0.55,
+   "why": ""
+  },
+  {
+   "taxon": "Avena sterilis",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Bromus",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "juice"
+ ],
+ "uses": [
+  {
+   "greek": "σταλτικὸς κοιλίας",
+   "en": "binds the bowels",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "βήσσουσιν",
+   "en": "cough",
+   "category": "respiratory system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

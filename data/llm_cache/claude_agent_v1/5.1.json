@@ -1,0 +1,76 @@
+{
+ "id": "5.1",
+ "headword": "ἄμπελος οἰνοφόρος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Vitis vinifera",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "tendril",
+  "gum",
+  "ash"
+ ],
+ "uses": [
+  {
+   "greek": "κεφαλαλγίας",
+   "en": "headache",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "φλεγμονὴν στομάχου",
+   "en": "stomach inflammation",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "δυσεντερικοὺς",
+   "en": "dysentery",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "αἱμοπτοικοὺς",
+   "en": "spitting blood",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "λίθους ἐκτινάσσει",
+   "en": "expels stones",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "λειχῆνας λέπρας ψώρας",
+   "en": "lichen, scaly skin, itch",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "μυρμηκίας",
+   "en": "warts",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "κονδυλώματα",
+   "en": "anal condylomas",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "στρέμματα",
+   "en": "sprains",
+   "category": "injury"
+  },
+  {
+   "greek": "ἐχεοδήκτοις",
+   "en": "viper bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "σπληνὸς φλεγμονῇ",
+   "en": "inflamed spleen",
+   "category": "hematologic disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

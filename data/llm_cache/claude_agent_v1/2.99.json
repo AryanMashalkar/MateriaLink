@@ -1,0 +1,55 @@
+{
+ "id": "2.99",
+ "headword": "σήσαμον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Sesamum indicum",
+   "prob": 0.95,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed",
+  "herb",
+  "oil"
+ ],
+ "uses": [
+  {
+   "greek": "ἐν νεύροις παχύτητας",
+   "en": "thickenings of the sinews",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ἐν ὠσὶ θλάσματα καὶ φλεγμονάς",
+   "en": "bruises and inflammation of the ears",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "πυρίκαυτα",
+   "en": "burns",
+   "category": "injury"
+  },
+  {
+   "greek": "κόλου ἀλγήματα",
+   "en": "colon pain",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "κεράστου δῆγμα",
+   "en": "horned viper bite",
+   "category": "poisoning"
+  },
+  {
+   "greek": "κεφαλῆς ἀλγήματα ἐξ ἐγκαύσεως",
+   "en": "headache from sunstroke",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "φλεγμοναῖς ὀφθαλμῶν",
+   "en": "eye inflammation",
+   "category": "vision disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

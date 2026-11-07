@@ -1,0 +1,53 @@
+{
+ "id": "1.28",
+ "headword": "ἑλένιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Inula helenium",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Inula",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "οὖρα καὶ ἔμμηνα",
+   "en": "diuretic and emmenagogue",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "βηξίν",
+   "en": "cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ὀρθοπνοίαις",
+   "en": "orthopnoea",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ῥήγμασι, σπάσμασιν",
+   "en": "ruptures and spasms",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ἐμπνευματώσεσι",
+   "en": "flatulence",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "θηρίων δήγμασι",
+   "en": "venomous bites",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

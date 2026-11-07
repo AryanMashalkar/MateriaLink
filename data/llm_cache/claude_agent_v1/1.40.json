@@ -1,0 +1,48 @@
+{
+ "id": "1.40",
+ "headword": "δάφνινον ἔλαιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Laurus nobilis",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Laurus",
+   "prob": 0.08,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "berry oil"
+ ],
+ "uses": [
+  {
+   "greek": "περὶ τὰ νεῦρα πάθεσι",
+   "en": "nerve disorders",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "φρίκαις",
+   "en": "shivering",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "ὠταλγίαις",
+   "en": "earache",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "κατάρροις",
+   "en": "catarrh",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "κεφαλαλγίαις",
+   "en": "headache",
+   "category": "nervous system disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

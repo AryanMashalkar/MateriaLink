@@ -1,0 +1,37 @@
+{
+ "id": "1.58",
+ "headword": "ἀμαράκινον",
+ "is_plant": false,
+ "candidates": [],
+ "parts": [
+  "compound unguent"
+ ],
+ "uses": [
+  {
+   "greek": "σύριγγας",
+   "en": "fistulas",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ὑδροκήλας",
+   "en": "hydrocele",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "δυσουρίαν",
+   "en": "dysuria",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "αἱμορροίδων",
+   "en": "haemorrhoids",
+   "category": "cardiovascular disease"
+  },
+  {
+   "greek": "ἔμμηνα",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

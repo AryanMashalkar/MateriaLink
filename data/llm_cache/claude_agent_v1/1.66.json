@@ -1,0 +1,58 @@
+{
+ "id": "1.66",
+ "headword": "στύραξ",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Styrax officinalis",
+   "prob": 0.8,
+   "why": ""
+  },
+  {
+   "taxon": "Liquidambar orientalis",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "resin"
+ ],
+ "uses": [
+  {
+   "greek": "βῆχας",
+   "en": "cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "κατάρρους, κορύζας",
+   "en": "catarrh and colds",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "βράγχους, ἀποκοπὴν φωνῆς",
+   "en": "hoarseness and loss of voice",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ἤχους",
+   "en": "ringing in the ears",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ἐν ὑστέρᾳ μύσεις καὶ σκληρίας",
+   "en": "closure and hardness of the womb",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἔμμηνά ἄγει",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "κοιλίαν μαλάττει",
+   "en": "laxative",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

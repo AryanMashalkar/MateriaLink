@@ -1,0 +1,27 @@
+{
+ "id": "1.57",
+ "headword": "γλεύκινον",
+ "is_plant": false,
+ "candidates": [],
+ "parts": [
+  "compound unguent"
+ ],
+ "uses": [
+  {
+   "greek": "ῥίγη",
+   "en": "chills",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "νευρικά",
+   "en": "nerve disorders",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ἐν ὑστέρᾳ",
+   "en": "uterine disorders",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

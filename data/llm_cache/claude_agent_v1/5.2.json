@@ -1,0 +1,29 @@
+{
+ "id": "5.2",
+ "headword": "ἄμπελος ἀγρία",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Vitis vinifera subsp. sylvestris",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Vitis vinifera",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Bryonia",
+   "prob": 0.05,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf",
+  "tendril",
+  "stem"
+ ],
+ "uses": [],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

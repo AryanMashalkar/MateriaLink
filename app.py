@@ -16,6 +16,8 @@ import streamlit as st
 ROOT = Path(__file__).resolve().parent
 P = ROOT / "data/processed"
 R = ROOT / "results"
+import sys; sys.path.insert(0, str(ROOT / "src"))
+from export_site import PLAIN  # plain-English names for the disease categories
 
 st.set_page_config(page_title="MateriaLink · Dioscorides", page_icon="🌿", layout="wide",
                    initial_sidebar_state="collapsed")
@@ -114,7 +116,9 @@ def load():
     ch = {r["id"]: r for r in map(json.loads, (P / "chapters.jsonl").open(encoding="utf-8"))}
     en = [json.loads(l) for l in (P / "enriched.jsonl").open(encoding="utf-8")]
     base = {r["id"]: r for r in map(json.loads, (P / "baseline_predictions.jsonl").open(encoding="utf-8"))}
-    return ch, en, base
+    site = json.loads((ROOT / "docs/data.json").read_text(encoding="utf-8"))
+    eng = {c["id"]: c for c in site["chapters"]}  # English names and plain summaries (src/export_site.py)
+    return ch, en, base, eng
 
 
 def key(cid):
@@ -122,7 +126,8 @@ def key(cid):
     return int(b), int("".join(x for x in c if x.isdigit()) or 0), c
 
 
-ch, en, base = load()
+ch, en, base, eng = load()
+EN = lambda cid: eng.get(cid, {}).get("en", "")
 en = sorted(en, key=lambda r: key(r["id"]))
 plants = [r for r in en if r["is_plant"] and r["candidates"]]
 uses_all = [u for r in en for u in r["uses"]]
@@ -153,22 +158,23 @@ tab_ch, tab_chance, tab_stats, tab_about = st.tabs(
 # ---------------------------------------------------------------- explorer
 with tab_ch:
     f1, f2, f3 = st.columns([1, 2.2, 3])
+    allch = st.checkbox("Also show animals, minerals and wines (not plants)", value=False)
     with f1:
         books = sorted({r["book"] for r in en})
         book = st.selectbox("Book", books, index=books.index(4) if 4 in books else 0,
                             format_func=lambda b: f"Book {b}")
     with f2:
-        q = st.text_input("Search", "", placeholder="κώνειον, Conium, asthma, burns …")
-    rows = [r for r in en if r["book"] == book and r["is_plant"]]
+        q = st.text_input("Search", "", placeholder="hemlock, κώνειον, Conium, cough, burns …")
+    rows = [r for r in en if r["book"] == book and (r["is_plant"] or allch)]
     if q:
         ql = q.lower()
-        rows = [r for r in en if ql in r["headword"].lower()
+        rows = [r for r in en if ql in r["headword"].lower() or ql in EN(r["id"]).lower()
                 or any(ql in c["taxon"].lower() for c in r["candidates"])
                 or any(ql in (u.get("en") or "").lower() for u in r["uses"])]
     if not rows:
         st.info("No chapters match.")
         st.stop()
-    labels = [f"{r['id']} · {r['headword']} — {r['candidates'][0]['taxon'] if r['candidates'] else 'unidentified'}"
+    labels = [f"{r['id']} · {EN(r['id']) or r['headword']} ({r['headword']})" + (f" — {r['candidates'][0]['taxon']}" if r['candidates'] else "")
               for r in rows]
     default = next((i for i, r in enumerate(rows) if r["id"] == "4.78"), 0)
     with f3:
@@ -184,9 +190,14 @@ with tab_ch:
         <div class="card">
           <div class="label">Chapter {e(r['id'])} · the Greek text</div>
           <div class="headword">{e(r['headword'])}</div>
+          <div style="font-size:1.25rem;font-style:italic;margin-top:.2rem">in English: {e(EN(r['id']))}</div>
           <div class="urn">{e(r['urn'])}</div>
           {f'<div class="syn">also called: {e(", ".join(syn[:10]))}</div>' if syn else ''}
           <div style="height:.9rem"></div>
+          <div class="label">In plain English</div>
+          <div style="line-height:1.6">{e(eng.get(r['id'], {}).get('sum', ''))}</div>
+          <div class="note" style="margin:.4rem 0 .9rem">Built from the uses, each translated phrase by phrase. Not a full literary translation.</div>
+          <div class="label">The original Greek</div>
           <div class="manuscript">{e(c.get('text', ''))}</div>
           <div class="note" style="margin-top:.8rem">Wellmann edition via First1KGreek · CC BY-SA 4.0</div>
         </div>""")
@@ -242,7 +253,7 @@ with tab_ch:
                 f'<div class="use"><div class="tier" style="background:{TIER_COLOR.get(t, "#ccc")}" '
                 f'title="{e(TIER_HELP.get(t, ""))}">{"–" if t == "n/a" else t}</div>'
                 f'<div><div class="en">{e(u.get("en"))}</div><div class="gr">{e(u.get("greek"))}</div>'
-                f'<div class="cat">{e(u.get("category"))}</div></div><div class="ev">{evtxt}</div></div>')
+                f'<div class="cat">{e(PLAIN.get(u.get("category"), u.get("category")))}</div></div><div class="ev">{evtxt}</div></div>')
         legend = "".join(f'<span><i style="background:{TIER_COLOR[k]}"></i>{k}: {v}</span>' for k, v in TIER_HELP.items())
         html(f"""
         <div class="card">
@@ -268,7 +279,7 @@ with tab_chance:
             v = d[name]
             sig = v["p_value"] < 0.05
             pill = (f'<span class="pill" style="background:#e3eedc;color:{HERB}">significant · p = {v["p_value"]:.3f}</span>' if sig
-                    else f'<span class="pill" style="background:#f4e9cf;color:#8a6414">borderline · p = {v["p_value"]:.3f}</span>')
+                    else f'<span class="pill" style="background:#f4e9cf;color:#8a6414">{"borderline" if v["p_value"] < 0.1 else "not significant alone"} · p = {v["p_value"]:.3f}</span>')
             with col:
                 html(f"""
                 <div class="card">
@@ -280,10 +291,10 @@ with tab_chance:
         st.image(str(R / "chance_test.png"), width="stretch")
         html(f"""<div class="card"><div class="note">How the shuffle works: each plant keeps its number of uses and each disease category keeps
         how often it appears overall, so popular categories such as inflammation get no unfair advantage. Only the
-        pairing of plant and category is randomised.<br><br><b>Reading it honestly:</b> the signal is real but modest.
-        It is stronger against other traditional systems than against the literature. Plants studied <i>because</i> of
-        their traditional reputation can inflate the literature figure (circularity); the cross-tradition comparison is
-        partly independent of that.</div></div>""")
+        pairing of plant and category is randomised.<br><br><b>Reading it honestly:</b> the signal is modest. Across all five
+        books the literature match is significant and the match with other traditions is not. On Books 3 and 4 alone it was
+        the other way round, so neither result should be read as strong on its own. Plants studied <i>because</i> of their
+        traditional reputation can inflate the literature figure (circularity).</div></div>""")
     else:
         st.info("Run `python src/chance_test.py` first.")
 

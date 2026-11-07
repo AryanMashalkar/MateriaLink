@@ -1,0 +1,48 @@
+{
+ "id": "1.10",
+ "headword": "ἄσαρον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Asarum europaeum",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Asarum",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "οὐρητική",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ὑδρωπικοῖς",
+   "en": "dropsy",
+   "category": "cardiovascular disease"
+  },
+  {
+   "greek": "ἰσχιάδι χρονίᾳ",
+   "en": "chronic sciatica",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "ἔμμηνα",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "καθαίρουσι",
+   "en": "emetic purge",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

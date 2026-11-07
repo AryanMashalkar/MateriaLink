@@ -1,0 +1,17 @@
+{
+ "id": "1.25",
+ "headword": "κῦφι",
+ "is_plant": false,
+ "candidates": [],
+ "parts": [
+  "preparation"
+ ],
+ "uses": [
+  {
+   "greek": "ἀσθματικοῖς",
+   "en": "asthma",
+   "category": "respiratory system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

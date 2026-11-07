@@ -1,0 +1,83 @@
+{
+ "id": "1.6",
+ "headword": "καρδάμωμον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Elettaria cardamomum",
+   "prob": 0.5,
+   "why": ""
+  },
+  {
+   "taxon": "Amomum subulatum",
+   "prob": 0.2,
+   "why": ""
+  },
+  {
+   "taxon": "Amomum",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "ἐπιλημπτικούς",
+   "en": "epilepsy",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "βήττοντας",
+   "en": "cough",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "ἰσχιαδικούς",
+   "en": "sciatica",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "παράλυσιν",
+   "en": "paralysis",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "στρόφους",
+   "en": "colic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἕλμινθα πλατεῖαν",
+   "en": "tapeworm",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "νεφριτικοῖς, δυσουροῦσι",
+   "en": "kidney disease and dysuria",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "σκορπιοπλήκτοις",
+   "en": "scorpion stings",
+   "category": "poisoning"
+  },
+  {
+   "greek": "λίθους θρύπτει",
+   "en": "breaks stones",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "φθείρει ἔμβρυα",
+   "en": "abortifacient",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ψώρας",
+   "en": "scabies",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

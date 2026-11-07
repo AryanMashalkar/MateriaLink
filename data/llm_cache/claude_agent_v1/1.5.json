@@ -1,0 +1,28 @@
+{
+ "id": "1.5",
+ "headword": "κύπερος Ἰνδικός",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Curcuma longa",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Curcuma",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "ψιλοῖ τὰς τρίχας",
+   "en": "depilatory",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

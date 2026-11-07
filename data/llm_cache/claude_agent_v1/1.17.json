@@ -1,0 +1,45 @@
+{
+ "id": "1.17",
+ "headword": "σχοῖνος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Cymbopogon schoenanthus",
+   "prob": 0.75,
+   "why": ""
+  },
+  {
+   "taxon": "Cymbopogon",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "flower",
+  "stem",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "οὐρητικήν",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἐμμήνων ἀγωγόν",
+   "en": "emmenagogue",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "αἵματος ἀναγωγάς",
+   "en": "coughing blood",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "πόνους στομάχου, πνεύμονος, ἥπατος, νεφρῶν",
+   "en": "pain of stomach, lungs, liver, kidneys",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,11 @@
+{
+ "id": "2.49",
+ "headword": "ἀλεκτορίδες",
+ "is_plant": false,
+ "candidates": [],
+ "parts": [
+  "animal product"
+ ],
+ "uses": [],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

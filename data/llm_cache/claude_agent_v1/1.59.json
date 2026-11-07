@@ -1,0 +1,32 @@
+{
+ "id": "1.59",
+ "headword": "μετώπιον",
+ "is_plant": false,
+ "candidates": [],
+ "parts": [
+  "compound unguent"
+ ],
+ "uses": [
+  {
+   "greek": "ἕλκη",
+   "en": "ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "νεῦρα διακοπέντα",
+   "en": "severed tendons",
+   "category": "injury"
+  },
+  {
+   "greek": "ῥίγη",
+   "en": "chills",
+   "category": "infectious disease"
+  },
+  {
+   "greek": "ὀπισθοτονικῶς σπωμένους",
+   "en": "opisthotonus",
+   "category": "nervous system disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

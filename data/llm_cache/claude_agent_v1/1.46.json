@@ -1,0 +1,28 @@
+{
+ "id": "1.46",
+ "headword": "οἰνάνθινον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Vitis vinifera",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Vitis",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "flower oil"
+ ],
+ "uses": [
+  {
+   "greek": "στυπτικήν",
+   "en": "astringent (as rose oil)",
+   "category": "inflammatory disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

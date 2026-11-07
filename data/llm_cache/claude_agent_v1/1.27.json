@@ -1,0 +1,17 @@
+{
+ "id": "1.27",
+ "headword": "κροκόμαγμα",
+ "is_plant": false,
+ "candidates": [],
+ "parts": [
+  "preparation"
+ ],
+ "uses": [
+  {
+   "greek": "ἐπισκοτούντων ταῖς κόραις",
+   "en": "dim sight",
+   "category": "vision disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

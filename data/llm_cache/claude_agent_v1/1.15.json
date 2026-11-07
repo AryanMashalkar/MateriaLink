@@ -1,0 +1,73 @@
+{
+ "id": "1.15",
+ "headword": "ἄμωμον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Amomum subulatum",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Solanum pseudocapsicum",
+   "prob": 0.15,
+   "why": ""
+  },
+  {
+   "taxon": "Amomum",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "fruit"
+ ],
+ "uses": [
+  {
+   "greek": "ὑπνοποιόν",
+   "en": "brings sleep",
+   "category": "psychiatric disorder"
+  },
+  {
+   "greek": "ἀνώδυνον τοῦ μετώπου",
+   "en": "headache",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "φλεγμονάς",
+   "en": "inflammation",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "σκορπιοπλήκτους",
+   "en": "scorpion stings",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ὀφθαλμῶν φλεγμονὰς",
+   "en": "eye inflammation",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "γυναικεῖα",
+   "en": "women's disorders",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἡπατικοῖς",
+   "en": "liver complaints",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "νεφριτικοῖς",
+   "en": "kidney disease",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ποδαγρικοῖς",
+   "en": "gout",
+   "category": "musculoskeletal system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

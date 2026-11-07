@@ -1,0 +1,59 @@
+{
+ "id": "1.8",
+ "headword": "νάρδος Κελτική",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Valeriana celtica",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Valeriana",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "stem",
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "διουρητικωτέρα",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "περὶ ἧπαρ φλεγμονὰς",
+   "en": "liver inflammation",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἰκτερικοὺς",
+   "en": "jaundice",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "πνευματώσεις στομάχου",
+   "en": "stomach flatulence",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "σπλῆνα",
+   "en": "spleen complaints",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "τὰ περὶ τὴν κύστιν καὶ νεφρούς",
+   "en": "bladder and kidney disorders",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ἰοβόλων δήγματα",
+   "en": "venomous bites",
+   "category": "poisoning"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

@@ -1,0 +1,161 @@
+5.1|ἄμπελος οἰνοφόρος|1|Vitis vinifera:0.95|leaf,tendril,gum,ash|κεφαλαλγίας=headache=NS;φλεγμονὴν στομάχου=stomach inflammation=DIG;δυσεντερικοὺς=dysentery=DIG;αἱμοπτοικοὺς=spitting blood=RESP;λίθους ἐκτινάσσει=expels stones=URO;λειχῆνας λέπρας ψώρας=lichen, scaly skin, itch=SKIN;μυρμηκίας=warts=SKIN;κονδυλώματα=anal condylomas=SKIN;στρέμματα=sprains=INJ;ἐχεοδήκτοις=viper bites=POIS;σπληνὸς φλεγμονῇ=inflamed spleen=HEM
+5.2|ἄμπελος ἀγρία|1|Vitis vinifera subsp. sylvestris:0.6;Vitis vinifera:0.3;Bryonia:0.05|leaf,tendril,stem|
+5.3|σταφυλή|1|Vitis vinifera:0.95|fruit,seed,raisin|εὐστόμαχός=good for the stomach=DIG;αἱμοπτοικῶν=spitting blood=RESP;καυσώδεσι πυρετοῖς=burning fevers=INF;σπάργησιν μαστῶν=engorged breasts=BREAST;δυσεντερικοὺς καὶ κοιλιακοὺς=dysentery and diarrhoea=DIG
+5.4|οἰνάνθη|1|Vitis vinifera subsp. sylvestris:0.7;Vitis vinifera:0.25|flower|οὐρητική=diuretic=URO;κοιλίαν ἐφιστᾶσα=stops diarrhoea=DIG;αἵματος πτύσιν=spitting blood=RESP;κεφαλαλγίας=headache=NS;αἰγιλώπων=lacrimal fistula=EYE;νομῶν τῶν ἐν αἰδοίοις=genital sores=REPRO;ῥεύματα ὀφθαλμῶν=eye discharge=EYE;παρωνυχίας=whitlows=SKIN
+5.5|ὀμφάκιον|1|Vitis vinifera:0.95|unripe grape juice|παρίσθμια=tonsillitis=ENT;ἄφθας=mouth ulcers=DIG;ὦτα πυορροοῦντα=running ears=ENT;σύριγγας καὶ παλαιὰ ἕλκη=fistulas and old ulcers=SKIN;δυσεντερικῶν=dysentery=DIG;τραχύτησιν ὀφθαλμῶν=rough eyelids=EYE;αἵματος πτύσιν=spitting blood=RESP
+5.6|οἶνοι|0||wine or vinegar preparation|
+5.7|καλούμενος|0||wine or vinegar preparation|
+5.8|οἰνόμελι|0||wine or vinegar preparation|
+5.9|μελίκρατον|0||wine or vinegar preparation|
+5.10|ὕδωρ|0||wine or vinegar preparation|
+5.11|θαλάττιον|0||wine or vinegar preparation|
+5.12|θαλασσόμελι|0||wine or vinegar preparation|
+5.13|ὄξος|0||wine or vinegar preparation|
+5.14|ὀ|0||wine or vinegar preparation|
+5.15|ὀξάλμη|0||wine or vinegar preparation|
+5.16|θυμοξάλμῃ|0||wine or vinegar preparation|
+5.17|σκιλλητικὸν|0||wine or vinegar preparation|
+5.18|σκίλλης|0||wine or vinegar preparation|
+5.19|διὰ|0||wine or vinegar preparation|
+5.20|μὲν|0||wine or vinegar preparation|
+5.21|μηλόμελι|0||wine or vinegar preparation|
+5.22|ὑδρόμηλον|0||wine or vinegar preparation|
+5.23|ὀ|0||wine or vinegar preparation|
+5.24|ἀπίτης|0||wine or vinegar preparation|
+5.25|ρἰνάνθινος|0||wine or vinegar preparation|
+5.26|ῥοίτης|0||wine or vinegar preparation|
+5.27|ῥοδίτης|0||wine or vinegar preparation|
+5.28|μυρτίτην|0||wine or vinegar preparation|
+5.29|μυρσινίης|0||wine or vinegar preparation|
+5.30|σχίνινος|0||wine or vinegar preparation|
+5.31|φοινικίτης|0||wine or vinegar preparation|
+5.32|τροχίτης|0||wine or vinegar preparation|
+5.33|σκευάζεται|0||wine or vinegar preparation|
+5.34|ῥητινίτης|0||wine or vinegar preparation|
+5.35|στροβιλίτης|0||wine or vinegar preparation|
+5.36|κέδρινος|0||wine or vinegar preparation|
+5.37|κεδρίτης|0||wine or vinegar preparation|
+5.38|ο|0||wine or vinegar preparation|
+5.39|ἀψινθίτης|0||wine or vinegar preparation|
+5.40|ὑσσωπίτης Κιλικίου|0||wine or vinegar preparation|
+5.41|χαμαιδρυίτης|0||wine or vinegar preparation|
+5.42|σκευάζεται|0||wine or vinegar preparation|
+5.43|γίνεται|0||wine or vinegar preparation|
+5.44|γίνεται|0||wine or vinegar preparation|
+5.45|τραγοριγανίτης|0||wine or vinegar preparation|
+5.46|οἶνος|0||wine or vinegar preparation|
+5.47|δικταμνίτης|0||wine or vinegar preparation|
+5.48|διὰ|0||wine or vinegar preparation|
+5.49|θυμίτης|0||wine or vinegar preparation|
+5.50|θυμβρίτης|0||wine or vinegar preparation|
+5.51|οἶνος|0||wine or vinegar preparation|
+5.52|οἶνος|0||wine or vinegar preparation|
+5.53|οἶνος|0||wine or vinegar preparation|
+5.54|οἶνος|0||wine or vinegar preparation|
+5.55|σκευάζεται|0||wine or vinegar preparation|
+5.56|νεκταρίτης|0||wine or vinegar preparation|
+5.57|διὰ Συριακῆς|0||wine or vinegar preparation|
+5.58|ἀσαρίτης|0||wine or vinegar preparation|
+5.59|διὰ|0||wine or vinegar preparation|
+5.60|δαυκίτης|0||wine or vinegar preparation|
+5.61|ἐλελισφακίτης|0||wine or vinegar preparation|
+5.62|πανακίτης|0||wine or vinegar preparation|
+5.63|ἀκορίτης|0||wine or vinegar preparation|
+5.64|σελινίτης|0||wine or vinegar preparation|
+5.65|μαραθίτης|0||wine or vinegar preparation|
+5.66|σκεύαζεται|0||wine or vinegar preparation|
+5.67|γίνεται|0||wine or vinegar preparation|
+5.68|θυμελαίτης|0||wine or vinegar preparation|
+5.69|χαμελαίτης|0||wine or vinegar preparation|
+5.70|χαμαιπιτύινος|0||wine or vinegar preparation|
+5.71|μανδραγορίτης|0||wine or vinegar preparation|
+5.72|ἐλλεβορίτης|0||wine or vinegar preparation|
+5.73|σκαμμωνίτης|0||wine or vinegar preparation|
+5.74|καδμεία|0||mineral|
+5.75|πομφόλυξ|0||mineral|
+5.76|κεκαυμένος|0||mineral|
+5.77|χαλκοῦ|0||mineral|
+5.78|λεπὶς|0||mineral|
+5.79|ἰὸν|0||mineral|
+5.80|ἰὸς|0||mineral|
+5.81|σκευάζεται|0||mineral|
+5.82|σκωρία|0||mineral|
+5.83|μολυβδοειδὴς|0||mineral|
+5.84|στίβι|0||mineral|
+5.85|μολύβδαινα|0||mineral|
+5.86|ἀργύρου|0||mineral|
+5.87|λιθάργυρος|0||mineral|
+5.88|ψιμύθιον|0||mineral|
+5.89|χρυσοκόλλα|0||mineral|
+5.90|Ἀρμένιον|0||mineral|
+5.91|κύανος|0||mineral|
+5.92|λεγομένου Ἰνδικοῦ|0||mineral|
+5.93|ὦχραν|0||mineral|
+5.94|κιννάβαρι|0||mineral|
+5.95|ὑδράργυρος|0||mineral|
+5.96|μίλτος Σινωπικὴ|0||mineral|
+5.97|Λημνία|0||mineral|
+5.98|χαλκανθὲν|0||mineral|
+5.99|χαλκῖτιν|0||mineral|
+5.100|μίσυ|0||mineral|
+5.101|μελαντηρία|0||mineral|
+5.102|σῶρι|0||mineral|
+5.103|διφρυγοῦς|0||mineral|
+5.104|ἀρσενικὸν|0||mineral|
+5.105|σανδαράκην|0||mineral|
+5.106|στυπτηρίας|0||mineral|
+5.107|θεῖον|0||mineral|
+5.108|κίσηριν|0||mineral|
+5.109|τῶν|0||mineral|
+5.110|ἁλὸς|0||mineral|
+5.111|ἅλμη|0||mineral|
+5.112|ἄνθος|0||mineral|
+5.113|νίτρον|0||mineral|
+5.114|τρύγα|0||mineral|
+5.115|ἄσβεστος|0||mineral|
+5.116|γύψος|0||mineral|
+5.117|τέφρα|0||mineral|
+5.118|ἀλκυονίου|0||mineral|
+5.119|προσαγορευόμενος|0||mineral|
+5.120|τῶν|0||mineral|
+5.121|κουράλιον|0||mineral|
+5.122|καλούμενον|0||mineral|
+5.123|λίθος Φρύγιος|0||mineral|
+5.124|Ἄσσιον|0||mineral|
+5.125|πυρίτης|0||mineral|
+5.126|αἱματίτης|0||mineral|
+5.127|σχιστὸς|0||mineral|
+5.128|γαγάτου|0||mineral|
+5.129|λεγόμενος Θρᾳκίας|0||mineral|
+5.130|μαγνήτου|0||mineral|
+5.131|Ἀραβικὸς|0||mineral|
+5.133|μελιτίτης|0||mineral|
+5.134|λίθος|0||mineral|
+5.135|λίθος|0||mineral|
+5.136|λίθος|0||mineral|
+5.137|Ἰουδαικὸς|0||mineral|
+5.138|λίθος|0||mineral|
+5.139|λίθος|0||mineral|
+5.140|λίθος Μεμφίτης|0||mineral|
+5.141|λίθος|0||mineral|
+5.142|λίθος|0||mineral|
+5.143|λίθος|0||mineral|
+5.144|λίθοι|0||mineral|
+5.145|λιθοκόλλα|0||mineral|
+5.146|λίθος|0||mineral|
+5.147|σμύρις|0||mineral|
+5.148|ἄμμος|0||mineral|
+5.149|ἀκόνης Ναξίας|0||mineral|
+5.150|λίθος|0||mineral|
+5.151|γῆ|0||mineral|
+5.152|μὲν|0||mineral|
+5.153|Σαμίας|0||mineral|
+5.154|εὑρίσκεται|0||mineral|
+5.155|Χίας|0||mineral|
+5.156|Κιμωλίας|0||mineral|
+5.157|λεγομένη|0||mineral|
+5.158|ὄστρακα|0||mineral|
+5.159|Μηλία|0||mineral|
+5.160|ἀμπελίτιδος|0||mineral|
+5.161|ἀσβόλη|0||mineral|
+5.162|μέλαν|0||mineral|

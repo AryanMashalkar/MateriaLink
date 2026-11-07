@@ -1,0 +1,53 @@
+{
+ "id": "1.20",
+ "headword": "ἀσπάλαθος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Calicotome villosa",
+   "prob": 0.35,
+   "why": ""
+  },
+  {
+   "taxon": "Genista acanthoclada",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Calicotome",
+   "prob": 0.2,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "wood"
+ ],
+ "uses": [
+  {
+   "greek": "ἄφθας",
+   "en": "aphthae",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἐν αἰδοίοις ἀκαθαρσίας καὶ νομάς",
+   "en": "genital ulcers",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "ὀζαίνας",
+   "en": "ozaena",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ἔμβρυα κατασπᾷ",
+   "en": "abortifacient",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "κοιλίαν ἵστησι",
+   "en": "stops diarrhoea",
+   "category": "digestive system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

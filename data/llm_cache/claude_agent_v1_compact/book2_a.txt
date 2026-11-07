@@ -1,0 +1,104 @@
+2.1|ἐχῖνος|0||animal product|
+2.2|χερσαί|0||animal product|
+2.3|ἱππόκαμπος|0||animal product|
+2.4|πορφύρα|0||animal product|
+2.5|μύακες|0||animal product|
+2.6|τελλῖναι|0||animal product|
+2.7|πορφύρας|0||animal product|
+2.8|ὄνυξ|0||animal product|
+2.9|κοχλίας|0||animal product|
+2.10|καρκίνων|0||animal product|
+2.11|σκορπιος|0||animal product|
+2.12|θαλασσίου|0||animal product|
+2.13|δράκων|0||animal product|
+2.14|σκολοπἐνδρα|0||animal product|
+2.15|νάρκη|0||animal product|
+2.16|ἐχίδνης|0||animal product|
+2.17|γῆρας|0||animal product|
+2.18|λαγωὸς|0||animal product|
+2.19|χερσαίου|0||animal product|
+2.20|τρυγόνος|0||animal product|
+2.21|σηπ|0||animal product|
+2.22|τρἐγλα|0||animal product|
+2.23|ὄδρχις|0||animal product|
+2.24|κάστορος|0||animal product|
+2.25|γαῆ|0||animal product|
+2.26|βάτρακοι|0||animal product|
+2.27|σίλουρος|0||animal product|
+2.28|σμαρίδος|0||animal product|
+2.29|μαινίδος|0||animal product|
+2.30|κωβιὸν|0||animal product|
+2.31|ὠ|0||animal product|
+2.32|γάρος|0||animal product|
+2.33|ζωμὸς|0||animal product|
+2.34|κόρεις|0||animal product|
+2.35|ὄνοι|0||animal product|
+2.36|σίλφης|0||animal product|
+2.37|πνεύμων|0||animal product|
+2.38|χοίρειος|0||animal product|
+2.39|ἀ|0||animal product|
+2.40|ἧπαρ|0||animal product|
+2.41|αἰδοῖον|0||animal product|
+2.42|ὄνυχες|0||animal product|
+2.43|λειχῇνες|0||animal product|
+2.44|τῶν|0||animal product|
+2.45|ἥπατος|0||animal product|
+2.46|κάπρου|0||animal product|
+2.47|κυνὸς|0||animal product|
+2.48|τῶν|0||animal product|
+2.49|ἀλεκτορίδες|0||animal product|
+2.50|ᾠὸν|0||animal product|
+2.51|τέττιγες|0||animal product|
+2.52|ἀκρίδες|0||animal product|
+2.53|φ|0||animal product|
+2.54|κορυδαλλὸς|0||animal product|
+2.55|αίθυίας|0||animal product|
+2.56|χελιδόνος|0||animal product|
+2.57|ἐλέφαντος|0||animal product|
+2.58|ἀστράγα|0||animal product|
+2.59|ἐλάφου|0||animal product|
+2.60|κάμπαι|0||animal product|
+2.61|κανθαρίδες|0||animal product|
+2.62|καλαμάν|0||animal product|
+2.63|ἀράχνη|0||animal product|
+2.64|σαύρας|0||animal product|
+2.65|σήψ|0||animal product|
+2.67|γῆς|0||animal product|
+2.68|μυογαλῆ|0||animal product|
+2.69|μύας|0||animal product|
+2.70|γάλα|0||animal product|
+2.71|τυρὸς|0||animal product|
+2.72|βούτυρον|0||animal product|
+2.73|ἔρια|0||animal product|
+2.74|οἴσυπος|0||animal product|
+2.75|πιτύα|0||animal product|
+2.76|στέαρ|0||animal product|
+2.77|μυε|0||animal product|
+2.78|χολὴ|0||animal product|
+2.79|αἷμα|0||animal product|
+2.80|ἀπόπα|0||animal product|
+2.81|οὖρον|0||animal product|
+2.82|μέλι|0||animal product|
+2.83|κηρὸς|0||animal product|
+2.84|πρόπο|0||animal product|
+2.85|πυροὶ|1|Triticum aestivum:0.55;Triticum turgidum:0.3;Triticum:0.1|seed,flour,bran|κυνοδήκτους=dog bites=INJ
+2.86|κριθὴ|1|Hordeum vulgare:0.9;Hordeum:0.08|seed,meal|περὶ ἀρτηρίαν τραχύτητας καὶ ἑλκώσεις=roughness and ulcers of the windpipe=RESP;οὐρητική=diuretic=URO;κατασπᾷ γάλα=promotes milk=BREAST;συμπεπτικὴ οἰδημάτων=ripens swellings=INFL
+2.87|ζύθος|1|Hordeum vulgare:0.85;Hordeum:0.1|beer from seed|διουρητικὸς=diuretic=URO
+2.88|κοῦρμι|1|Hordeum vulgare:0.7;Triticum aestivum:0.2|beer from seed|
+2.89|ζέα|1|Triticum dicoccum:0.45;Triticum monococcum:0.3;Triticum spelta:0.2|seed|
+2.90|κρίμνον|1|Triticum dicoccum:0.5;Triticum aestivum:0.35|coarse meal|σταλτικώτερον κοιλίας=binds the bowels (diarrhoea)=DIG
+2.91|ὄλυρα|1|Triticum monococcum:0.45;Triticum dicoccum:0.35;Triticum spelta:0.15|seed|
+2.92|ἀθήρα|1|Triticum dicoccum:0.6;Triticum:0.3|gruel|καταπλάσματα=poultices for swellings=INFL
+2.93|τράγος|1|Triticum dicoccum:0.5;Triticum:0.35|groats|κοιλίας μαλακτικός=laxative=DIG
+2.94|βρόμος|1|Avena sativa:0.55;Avena sterilis:0.3;Bromus:0.1|seed,juice|σταλτικὸς κοιλίας=binds the bowels=DIG;βήσσουσιν=cough=RESP
+2.95|ὄρυζα|1|Oryza sativa:0.95|seed|κοιλίας σταλτική=binds the bowels=DIG
+2.96|χόνδρος|1|Triticum dicoccum:0.7;Triticum:0.25|groats|λέπρας=scaly skin (lepra)=SKIN;λεπρούς ὄνυχας=diseased nails=SKIN;αἰγιλώπια=lacrimal fistula=EYE;δυσεντερικῶν=painful dysentery=DIG
+2.97|κέγχρος|1|Panicum miliaceum:0.85;Panicum:0.1|seed|κοιλίαν ἴστησιν=stops diarrhoea=DIG;οὖρα κινεῖ=diuretic=URO;στρόφων=colic=DIG
+2.98|ἔλυμος|1|Setaria italica:0.75;Setaria:0.15;Panicum miliaceum:0.05|seed|κοιλίαν ἴστησιν=stops diarrhoea=DIG
+2.99|σήσαμον|1|Sesamum indicum:0.95|seed,herb,oil|ἐν νεύροις παχύτητας=thickenings of the sinews=MSK;ἐν ὠσὶ θλάσματα καὶ φλεγμονάς=bruises and inflammation of the ears=ENT;πυρίκαυτα=burns=INJ;κόλου ἀλγήματα=colon pain=DIG;κεράστου δῆγμα=horned viper bite=POIS;κεφαλῆς ἀλγήματα ἐξ ἐγκαύσεως=headache from sunstroke=NS;φλεγμοναῖς ὀφθαλμῶν=eye inflammation=EYE
+2.100|αἶρα|1|Lolium temulentum:0.85;Lolium:0.1|meal|νομῶν καὶ σηπεδόνων καὶ γαγγραινῶν=spreading sores and gangrene=SKIN;λειχῆνας καὶ λέπρας=lichen and scaly skin=SKIN;χοιράδας=scrofulous swellings=INF;ἰσχιαδικούς=sciatica=NS
+2.101|ἄμυλον|1|Triticum aestivum:0.7;Triticum:0.25|starch|
+2.102|τῆλις|1|Trigonella foenum-graecum:0.9;Trigonella:0.08|seed meal|φλεγμονὰς τὰς ἐντὸς καὶ ἐκτός=inflammation, internal and external=INFL;σπλῆνα μειοῖ=reduces the spleen=HEM;γυναικεῖα κατὰ φλεγμονὴν=inflamed womb=REPRO;πίτυρα καὶ ἀχῶρας=dandruff and scalp sores=SKIN
+2.103|λινόσπερμον|1|Linum usitatissimum:0.9;Linum:0.08|seed|φλεγμονὴν=inflammation=INFL;ἐφήλεις καὶ ἰόνθους=freckles and pimples=SKIN;παρωτίδας=parotid swellings=ENT;ἕρπητάς=herpes (spreading sores)=SKIN;λεπρούς ὄνυχας=diseased nails=SKIN;ἐκ θώρακος ἀνάγει=expectorant=RESP;βῆχας=cough=RESP
+2.104|ἐρέβινθος|1|Cicer arietinum:0.9;Cicer:0.08|seed|οὐρητικός=diuretic=URO;καταμηνίων ἀγωγὸς=emmenagogue=REPRO;γάλακτος γεννητικός=promotes milk=BREAST;ὄρχεων φλεγμονὰς=inflamed testicles=REPRO;λειχῆνας καὶ ψώρας=lichen and itch=SKIN;μυρμηκίας=warts=SKIN;καρκινώδη ἕλκη=cancerous ulcers=CAN;ἴκτερον=jaundice=DIG;ὕδρωπα=dropsy=CV
+2.105|κύαμος Ἑλληνικὸς|1|Vicia faba:0.95|seed,meal|βηχὶ σύμφορος=cough=RESP;δυσεντερίας=dysentery=DIG;ἐμέτους=vomiting=DIG;ἐκ πληγῆς φλεγμονάς=inflammation from blows=INJ

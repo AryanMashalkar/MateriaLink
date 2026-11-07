@@ -14,25 +14,26 @@ Greek chapter (CTS URN)
 
 Then it asks one question no concordance has asked before: **do Dioscorides' uses line up with modern findings more often than chance would predict?**
 
-## Headline results (Books 3 and 4, 292 chapters)
+## Headline results (all five books, 623 chapters)
 
 | | |
 |---|---|
-| Chapters processed | 292 (290 plants) |
-| Plant chapters whose top identification resolves to a species | 229 |
-| Therapeutic uses extracted | 1,237 |
-| Uses with a PubMed literature signal (tiers A to C) | 282 |
+| Chapters processed | 623 (374 plants; the rest are animals, wines, minerals and prepared products) |
+| Plant chapters whose top identification resolves to a species | 293 |
+| Therapeutic uses extracted | 1,625 |
+| Uses with a PubMed literature signal (tiers A to C) | 390 |
+| Chapters with an English name and a plain-English summary | 623 |
 
-**Better than chance?** For 211 confidently identified plants (691 plant-use pairs) we compared the real assignment of disease categories with 10,000 random reshuffles that keep each plant's number of uses and each category's overall frequency.
+**Better than chance?** For 268 confidently identified plants (879 plant-use pairs) we compared the real assignment of disease categories with 10,000 random reshuffles that keep each plant's number of uses and each category's overall frequency.
 
 | Reference | Dioscorides | Chance | Enrichment | p |
 |---|---|---|---|---|
-| Independent traditions (IMPPAT, KTKP, ETM, VietHerb, Ewé) | 18.8% | 17.1% | ×1.10 | 0.044 |
-| Modern literature (PubMed co-mentions, BERN2) | 23.9% | 22.1% | ×1.08 | 0.052 |
+| Modern literature (PubMed co-mentions, BERN2) | 23.8% | 21.9% | ×1.09 | 0.025 |
+| Independent traditions (IMPPAT, KTKP, ETM, VietHerb, Ewé) | 23.3% | 22.3% | ×1.05 | 0.133 |
 
-The effect is real but modest. We report it as it is: a small, consistent signal, stronger against other traditional systems than against the literature. See `results/chance_test.png`.
+We first ran the test on Books 3 and 4 only (211 plants): there the traditions comparison was significant (×1.10, p = 0.044) and the literature one just missed (×1.08, p = 0.052). On the full text it is the other way round. We report both rather than pick the better one. The honest reading: Dioscorides' uses match modern findings a little more often than chance, the effect is modest, and neither comparison is strong on its own. See `results/chance_test.png`.
 
-**Identification accuracy.** `src/evaluate.py` scores the spelling-only baseline against the model on a hand-curated gold set (top-1 and top-3, genus and species, bootstrap 95% CIs, Cohen's kappa between annotators, calibration error). The gold set currently holds 6 published identifications (Touwaide, *Pharmantica*, Solanaceae) and 54 chapters awaiting two independent annotators, so current numbers are illustrative only. On those 6 rows: baseline 1/6 at genus level, model 5/6 at species level.
+**Identification accuracy.** `src/evaluate.py` scores the spelling-only baseline against the model on a hand-curated gold set (top-1 and top-3, genus and species, bootstrap 95% CIs, Cohen's kappa between annotators, calibration error). The gold set currently holds 6 published identifications (Touwaide, *Pharmantica*, Solanaceae) and 54 chapters awaiting two independent annotators (`data/gold/annotation_sheet.csv`, instructions in `data/gold/README.md`), so current numbers are illustrative only. The model did not fill these rows: scoring a system against its own answers would be circular. On those 6 rows: baseline 1/6 at genus level, model 5/6 at species level.
 
 **Explore it: https://aryanmashalkar.github.io/MateriaLink/** (interactive site)  
 **Analysis app: https://materialink-dioscorides.streamlit.app**
@@ -58,6 +59,7 @@ python src/extract_llm.py --collect --run my_run
 python src/enrich.py                       # taxa, compounds, evidence tiers
 python src/chance_test.py --n 10000        # permutation test
 python src/evaluate.py                     # accuracy, kappa, calibration
+python src/export_site.py                  # English names, summaries, site data
 ```
 
 ## How it works
@@ -75,7 +77,8 @@ python src/evaluate.py                     # accuracy, kappa, calibration
 - **A literature signal is not efficacy.** A PubMed co-mention means a paper mentions the plant and the disease together, not that the plant works.
 - **Circularity.** Some plants were studied *because* of their traditional reputation, which inflates the literature match. The cross-cultural comparison is partly independent of this, which is why we report both.
 - **Database noise.** LOTUS and COCONUT contain some wrong occurrence records.
-- **Coverage.** Books 3 and 4 (the herbal core) are processed; Books 1, 2 and 5 (aromatics, trees, animals, wines, minerals) are parsed but not yet extracted.
+- **Coverage.** All five books are extracted, but the parser stops early in Book 1 (chapter 66 of about 130) and Book 2 (105 of about 180), so trees, fruits and vegetables are under-represented. Animal, mineral and wine chapters get an English name but are left out of the statistics.
+- **English.** Every chapter has an English name and a plain-English summary built only from the extracted data, and every use carries an English gloss of its Greek phrase. This is not a full literary translation; for that see Beck (2005) or Osbaldeston (2000). Common names are in `data/editorial/` and were written by us.
 - **Not medical advice.** Several plants here (hemlock, aconite, mandrake, henbane, hellebore) are lethal.
 
 ## Use of generative AI (disclosure)

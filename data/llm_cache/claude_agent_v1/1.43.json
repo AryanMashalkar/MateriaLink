@@ -1,0 +1,68 @@
+{
+ "id": "1.43",
+ "headword": "ῥόδινον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Rosa gallica",
+   "prob": 0.5,
+   "why": ""
+  },
+  {
+   "taxon": "Rosa damascena",
+   "prob": 0.3,
+   "why": ""
+  },
+  {
+   "taxon": "Rosa",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "petal oil"
+ ],
+ "uses": [
+  {
+   "greek": "λύει κοιλίαν",
+   "en": "laxative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "καῦσον στομάχου",
+   "en": "burning stomach",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἑλκῶν κοίλων καὶ κακοήθων",
+   "en": "deep and malignant ulcers",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἀχώρων καὶ ἐκζεμάτων",
+   "en": "scalp sores and eczema",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "κεφαλαλγίας",
+   "en": "headache",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "ὀδονταλγίας",
+   "en": "toothache",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "βλέφαρα ἐσκληρυμμένα",
+   "en": "hardened eyelids",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "ὑστέρας φλεγμονὰς",
+   "en": "inflamed womb",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

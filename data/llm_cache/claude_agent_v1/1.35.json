@@ -1,0 +1,28 @@
+{
+ "id": "1.35",
+ "headword": "ὑοσκυάμινον ἔλαιον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Hyoscyamus albus",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Hyoscyamus niger",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed oil"
+ ],
+ "uses": [
+  {
+   "greek": "ὠταλγίας",
+   "en": "earache",
+   "category": "otorhinolaryngologic disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

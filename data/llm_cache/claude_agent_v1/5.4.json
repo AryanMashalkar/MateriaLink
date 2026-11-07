@@ -1,0 +1,63 @@
+{
+ "id": "5.4",
+ "headword": "οἰνάνθη",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Vitis vinifera subsp. sylvestris",
+   "prob": 0.7,
+   "why": ""
+  },
+  {
+   "taxon": "Vitis vinifera",
+   "prob": 0.25,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "flower"
+ ],
+ "uses": [
+  {
+   "greek": "οὐρητική",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "κοιλίαν ἐφιστᾶσα",
+   "en": "stops diarrhoea",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "αἵματος πτύσιν",
+   "en": "spitting blood",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "κεφαλαλγίας",
+   "en": "headache",
+   "category": "nervous system disorder"
+  },
+  {
+   "greek": "αἰγιλώπων",
+   "en": "lacrimal fistula",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "νομῶν τῶν ἐν αἰδοίοις",
+   "en": "genital sores",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ῥεύματα ὀφθαλμῶν",
+   "en": "eye discharge",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "παρωνυχίας",
+   "en": "whitlows",
+   "category": "integumentary system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

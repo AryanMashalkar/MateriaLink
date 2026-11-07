@@ -1,0 +1,63 @@
+{
+ "id": "1.26",
+ "headword": "κρόκος",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Crocus sativus",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Crocus",
+   "prob": 0.08,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "stigma"
+ ],
+ "uses": [
+  {
+   "greek": "οὐρητικήν",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "εὔχροιαν",
+   "en": "good complexion",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἀκραίπαλός",
+   "en": "prevents hangover",
+   "category": "poisoning"
+  },
+  {
+   "greek": "ῥεῦμά ὀφθαλμῶν",
+   "en": "eye discharge",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "πρὸς μήτραν καὶ δακτύλιον",
+   "en": "womb and anal complaints",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "πρὸς ἀφροδίσια",
+   "en": "aphrodisiac",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἐρυσιπελατώδεις φλεγμονὰς",
+   "en": "erysipelas",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ὠτικὰς",
+   "en": "ear remedies",
+   "category": "otorhinolaryngologic disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

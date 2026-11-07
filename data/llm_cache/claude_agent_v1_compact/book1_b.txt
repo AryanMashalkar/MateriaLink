@@ -1,0 +1,33 @@
+1.34|βαλάνινον ἔλαιον|1|Moringa peregrina:0.6;Balanites aegyptiaca:0.2;Moringa:0.15|seed oil|σπίλων, φακῶν, ἰόνθων=spots, freckles and acne=SKIN;κοιλίας μαλακτικήν=laxative=DIG;ὠταλγίαις καὶ ἤχοις=earache and tinnitus=ENT
+1.35|ὑοσκυάμινον ἔλαιον|1|Hyoscyamus albus:0.6;Hyoscyamus niger:0.3|seed oil|ὠταλγίας=earache=ENT
+1.36|κνίδιον ἔλαιον|1|Daphne gnidium:0.75;Daphne:0.2|seed oil|καθαρτικήν κοιλίας=purgative=DIG
+1.37|ῥαφάνινον ἔλαιον|1|Raphanus sativus:0.9;Raphanus:0.08|seed oil|φθειριῶσι=lice=INF;περὶ τὸ πρόσωπον τραχύτητας=rough facial skin=SKIN
+1.38|σινάπινον ἔλαιον|1|Sinapis alba:0.45;Brassica nigra:0.45|seed oil|χρόνια ἀλγήματα=chronic pain=MSK
+1.39|μυρσίνινον ἔλαιον|1|Myrtus communis:0.9;Myrtus:0.08|leaf oil|πυρίκαυτα=burns=INJ;ἀχῶρας, πίτυρα, ἐξανθήματα=scalp sores, dandruff and rashes=SKIN;παρατρίμματα, ῥαγάδας=chafing and fissures=SKIN;κονδυλώματα=condylomata=SKIN;ἄρθρα κεχαλασμένα=loose joints=MSK;ἱδρῶτας=sweating=OTH
+1.40|δάφνινον ἔλαιον|1|Laurus nobilis:0.9;Laurus:0.08|berry oil|περὶ τὰ νεῦρα πάθεσι=nerve disorders=NS;φρίκαις=shivering=INF;ὠταλγίαις=earache=ENT;κατάρροις=catarrh=RESP;κεφαλαλγίαις=headache=NS
+1.41|σχίνινον ἔλαιον|1|Pistacia lentiscus:0.85;Pistacia:0.1|fruit oil|ψώρας κτηνῶν=scabies in animals=SKIN;λεπρικά=leprous skin=SKIN;ἱδρῶτας=sweating=OTH
+1.42|μαστίχινον ἔλαιον|1|Pistacia lentiscus:0.85;Pistacia:0.1|resin oil|ἐν ὑστέρᾳ πάντα=uterine disorders=REPRO;στόμαχον σκιρρώματα=stomach indurations=DIG;κοιλιακὰ καὶ δυσεντερικά=coeliac flux and dysentery=DIG
+1.43|ῥόδινον|1|Rosa gallica:0.5;Rosa damascena:0.3;Rosa:0.15|petal oil|λύει κοιλίαν=laxative=DIG;καῦσον στομάχου=burning stomach=DIG;ἑλκῶν κοίλων καὶ κακοήθων=deep and malignant ulcers=SKIN;ἀχώρων καὶ ἐκζεμάτων=scalp sores and eczema=SKIN;κεφαλαλγίας=headache=NS;ὀδονταλγίας=toothache=DIG;βλέφαρα ἐσκληρυμμένα=hardened eyelids=EYE;ὑστέρας φλεγμονὰς=inflamed womb=REPRO
+1.44|ἐλάτινον|1|Abies cephalonica:0.4;Abies alba:0.3;Abies:0.2|oil|ἀναλογοῦσαν τῷ ῥοδίνῳ=as rose oil (cooling, astringent)=INFL
+1.45|μήλινον|1|Cydonia oblonga:0.85;Cydonia:0.1|fruit oil|ψωρώδη ἕλκη=itchy ulcers=SKIN;χίμετλα=chilblains=SKIN;ἕρπητας=herpes=SKIN;ἐν ὑστέρᾳ ἑλκώσεις=uterine ulcers=REPRO
+1.46|οἰνάνθινον|1|Vitis vinifera:0.85;Vitis:0.1|flower oil|στυπτικήν=astringent (as rose oil)=INFL
+1.47|τήλινον|1|Trigonella foenum-graecum:0.9;Trigonella:0.08|seed oil|ἀποστημάτων=abscesses=SKIN;περὶ μήτραν σκιρρώμασι=uterine indurations=REPRO;δυστοκούσαις=difficult labour=REPRO;ἐν δακτυλίῳ φλεγμονάς=anal inflammation=DIG;τεινεσμῶν=tenesmus=DIG;πίτυρα καὶ ἀχῶρας=dandruff and scalp sores=SKIN;κατακαύματα=burns=INJ;χίμετλα=chilblains=SKIN;ἐφηλίδας=freckles=SKIN
+1.48|σαμψούχινον|1|Origanum majorana:0.85;Origanum:0.1|herb oil|μύσιν καὶ διαστροφὴν ὑστέρας=closed or displaced womb=REPRO;ἔμμηνα καὶ δεύτερα=emmenagogue and afterbirth=REPRO;πνίγας ὑστερικάς=hysterical suffocation=REPRO;ὀσφύων καὶ βουβώνων ἀλγήματα=loin and groin pain=MSK
+1.49|ὠκίμινον|1|Ocimum basilicum:0.9;Ocimum:0.08|herb oil|τὸ αὐτὸ τῷ σαμψουχίνῳ=as marjoram oil (warming)=OTH
+1.50|ἁβροτόνινον|1|Artemisia arborescens:0.4;Artemisia abrotanum:0.4;Artemisia:0.15|leaf oil|ἐν ὑστέρᾳ μύσεις καὶ σκληρίας=closed or hardened womb=REPRO;ἔμμηνα καὶ δεύτερα=emmenagogue and afterbirth=REPRO
+1.51|ἀνήθινον|1|Anethum graveolens:0.9;Anethum:0.08|flower oil|περὶ μήτραν=uterine disorders=REPRO;περιοδικὰ ῥίγη=periodic chills=INF;κόπους=fatigue=OTH;ἀλγήματα ἄρθρων=joint pain=MSK
+1.52|σούσινον|1|Lilium candidum:0.85;Lilium:0.1|flower oil|περὶ μήτραν μύσεων καὶ φλεγμονῶν=closure and inflammation of the womb=REPRO;ἀχῶρας, ἰόνθους=scalp sores and pimples=SKIN;πίτυρα, ἐκζέματα=dandruff and eczema=SKIN;μώλωπάς=bruises=INJ
+1.53|ναρκίσσινον|1|Narcissus poeticus:0.4;Narcissus tazetta:0.4;Narcissus:0.15|flower oil|ἐν ὑστέρᾳ σκληρίας καὶ μύσεις=hardened or closed womb=REPRO;κεφαλαλγές=causes headache=NS
+1.54|κρόκινον|1|Crocus sativus:0.9;Crocus:0.08|stigma oil|ὑπνωτικήν=brings sleep=PSY;φρενιτικῶν=delirium=PSY;ἑλκῶν καθαρτικόν=cleans ulcers=SKIN;ἐν τῇ μήτρᾳ σκληρίας=hardness of the womb=REPRO;ἀπογλαυκώσεις=clouding of the eye=EYE
+1.55|κύπρινον|1|Lawsonia inermis:0.8;Lawsonia:0.15|flower oil|περὶ μήτραν καὶ νεῦρα πάθεσι=womb and nerve disorders=REPRO;πλευριτικοῖς=pleurisy=RESP;κατάγμασι=fractures=INJ;ὀπισθοτόνῳ=back spasm (opisthotonos)=NS;συνάγχῃ=quinsy (sore throat)=ENT;βουβώνων φλεγμονῇ=swollen groin glands=INF
+1.56|ἴρινον|1|Iris germanica:0.45;Iris pallida:0.3;Iris:0.2|root oil|σηπεδόνας=putrid sores=SKIN;περὶ μήτραν διαθέσεσιν=womb disorders=REPRO;ἔμβρυά ἐκβάλλει=expels the fetus=REPRO;αἱμορροίδας=haemorrhoids=CV;ἤχους ὤτων=ringing in the ears=ENT;κατάρρους χρονίζοντας=chronic catarrh=RESP;ὀζαίνας=foul nasal ulcers=ENT;καθαίρει τὴν κοιλίαν=purgative=DIG;συναγχικῶν=sore throat=ENT;κώνειον ἢ μύκητας πεπωκόσιν=hemlock or mushroom poisoning=POIS
+1.57|γλεύκινον|0||compound unguent|ῥίγη=chills=INF;νευρικά=nerve disorders=NS;ἐν ὑστέρᾳ=uterine disorders=REPRO
+1.58|ἀμαράκινον|0||compound unguent|σύριγγας=fistulas=SKIN;ὑδροκήλας=hydrocele=URO;δυσουρίαν=dysuria=URO;αἱμορροίδων=haemorrhoids=CV;ἔμμηνα=emmenagogue=REPRO
+1.59|μετώπιον|0||compound unguent|ἕλκη=ulcers=SKIN;νεῦρα διακοπέντα=severed tendons=INJ;ῥίγη=chills=INF;ὀπισθοτονικῶς σπωμένους=opisthotonus=NS
+1.60|στακτή|1|Commiphora myrrha:0.85;Commiphora:0.1|resin oil|θερμαντικήν=warming, like myrrh=OTH
+1.61|κιναμώμινον|0||compound unguent|περὶ μήτραν=uterine disorders=REPRO
+1.62|νάρδινον|0||compound unguent|
+1.63|μαλαβάθρινον|0||compound unguent|
+1.64|σμύρνα|1|Commiphora myrrha:0.85;Commiphora:0.12|resin|ἔμμηνα καὶ ἔμβρυα=brings on menses and expels the fetus=REPRO;βῆχα χρόνιον=chronic cough=RESP;ὀρθόπνοιαν=breathlessness=RESP;πλευρᾶς πόνον=pain in the side=RESP;δυσεντερίαν=dysentery=DIG;ῥίγη=fever chills=INF;ἕλμινθας=intestinal worms=INF;δυσωδίαν στόματος=bad breath=DIG;ὀδόντας καὶ οὖλα κρατύνει=strengthens teeth and gums=DIG;ἐν τῇ κεφαλῇ τραύματα=head wounds=INJ;πυορροοῦντα τῶν ὤτων=running ears=ENT;λειχῆνάς=lichen=SKIN;τρίχας ῥεούσας=hair loss=SKIN;ἐν ὀφθαλμοῖς ἕλκη=eye ulcers=EYE
+1.65|σμύρνα Βοιωτική|1|Ferulago nodosa:0.25;Smyrnium perfoliatum:0.15;Ferulago:0.2|root|θυμιάμασι=used in incense=OTH
+1.66|στύραξ|1|Styrax officinalis:0.8;Liquidambar orientalis:0.15|resin|βῆχας=cough=RESP;κατάρρους, κορύζας=catarrh and colds=RESP;βράγχους, ἀποκοπὴν φωνῆς=hoarseness and loss of voice=ENT;ἤχους=ringing in the ears=ENT;ἐν ὑστέρᾳ μύσεις καὶ σκληρίας=closure and hardness of the womb=REPRO;ἔμμηνά ἄγει=emmenagogue=REPRO;κοιλίαν μαλάττει=laxative=DIG

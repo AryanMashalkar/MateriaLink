@@ -1,0 +1,38 @@
+{
+ "id": "1.50",
+ "headword": "ἁβροτόνινον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Artemisia arborescens",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Artemisia abrotanum",
+   "prob": 0.4,
+   "why": ""
+  },
+  {
+   "taxon": "Artemisia",
+   "prob": 0.15,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "leaf oil"
+ ],
+ "uses": [
+  {
+   "greek": "ἐν ὑστέρᾳ μύσεις καὶ σκληρίας",
+   "en": "closed or hardened womb",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἔμμηνα καὶ δεύτερα",
+   "en": "emmenagogue and afterbirth",
+   "category": "reproductive/obstetric"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

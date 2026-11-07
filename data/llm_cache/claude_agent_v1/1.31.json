@@ -1,0 +1,43 @@
+{
+ "id": "1.31",
+ "headword": "ἐλαιόμελι",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Olea europaea",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Olea",
+   "prob": 0.3,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "exudate"
+ ],
+ "uses": [
+  {
+   "greek": "ἄγει κατὰ κοιλίαν",
+   "en": "purgative",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ἐπισκοτοῦντα ταῖς κόραις",
+   "en": "dim sight",
+   "category": "vision disorder"
+  },
+  {
+   "greek": "λέπρας",
+   "en": "leprous skin",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἀλγήματα περὶ νεῦρα",
+   "en": "nerve pain",
+   "category": "nervous system disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

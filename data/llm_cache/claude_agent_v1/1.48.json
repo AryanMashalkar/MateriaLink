@@ -1,0 +1,43 @@
+{
+ "id": "1.48",
+ "headword": "σαμψούχινον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Origanum majorana",
+   "prob": 0.85,
+   "why": ""
+  },
+  {
+   "taxon": "Origanum",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "herb oil"
+ ],
+ "uses": [
+  {
+   "greek": "μύσιν καὶ διαστροφὴν ὑστέρας",
+   "en": "closed or displaced womb",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἔμμηνα καὶ δεύτερα",
+   "en": "emmenagogue and afterbirth",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "πνίγας ὑστερικάς",
+   "en": "hysterical suffocation",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ὀσφύων καὶ βουβώνων ἀλγήματα",
+   "en": "loin and groin pain",
+   "category": "musculoskeletal system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

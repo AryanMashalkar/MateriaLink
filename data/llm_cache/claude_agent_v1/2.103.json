@@ -1,0 +1,58 @@
+{
+ "id": "2.103",
+ "headword": "λινόσπερμον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Linum usitatissimum",
+   "prob": 0.9,
+   "why": ""
+  },
+  {
+   "taxon": "Linum",
+   "prob": 0.08,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "seed"
+ ],
+ "uses": [
+  {
+   "greek": "φλεγμονὴν",
+   "en": "inflammation",
+   "category": "inflammatory disease"
+  },
+  {
+   "greek": "ἐφήλεις καὶ ἰόνθους",
+   "en": "freckles and pimples",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "παρωτίδας",
+   "en": "parotid swellings",
+   "category": "otorhinolaryngologic disease"
+  },
+  {
+   "greek": "ἕρπητάς",
+   "en": "herpes (spreading sores)",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "λεπρούς ὄνυχας",
+   "en": "diseased nails",
+   "category": "integumentary system disease"
+  },
+  {
+   "greek": "ἐκ θώρακος ἀνάγει",
+   "en": "expectorant",
+   "category": "respiratory system disease"
+  },
+  {
+   "greek": "βῆχας",
+   "en": "cough",
+   "category": "respiratory system disease"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}

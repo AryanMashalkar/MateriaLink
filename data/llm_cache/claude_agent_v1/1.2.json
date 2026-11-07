@@ -1,0 +1,73 @@
+{
+ "id": "1.2",
+ "headword": "ἄκορον",
+ "is_plant": true,
+ "candidates": [
+  {
+   "taxon": "Acorus calamus",
+   "prob": 0.6,
+   "why": ""
+  },
+  {
+   "taxon": "Iris pseudacorus",
+   "prob": 0.25,
+   "why": ""
+  },
+  {
+   "taxon": "Acorus",
+   "prob": 0.1,
+   "why": ""
+  }
+ ],
+ "parts": [
+  "root"
+ ],
+ "uses": [
+  {
+   "greek": "οὖρα κινεῖ",
+   "en": "diuretic",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "πλευρᾶς πόνους καὶ θώρακος καὶ ἥπατος",
+   "en": "pain of side, chest and liver",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "στρόφους",
+   "en": "colic",
+   "category": "digestive system disease"
+  },
+  {
+   "greek": "ῥήγματα, σπάσματα",
+   "en": "ruptures and spasms",
+   "category": "musculoskeletal system disease"
+  },
+  {
+   "greek": "σπλῆνάς τήκει",
+   "en": "reduces spleen",
+   "category": "hematologic disease"
+  },
+  {
+   "greek": "στραγγουριῶντας",
+   "en": "strangury",
+   "category": "urinary system disease"
+  },
+  {
+   "greek": "θηριοδήκτους",
+   "en": "venomous bites",
+   "category": "poisoning"
+  },
+  {
+   "greek": "γυναικεῖα",
+   "en": "women's disorders",
+   "category": "reproductive/obstetric"
+  },
+  {
+   "greek": "ἐπισκοτοῦντα",
+   "en": "dim sight",
+   "category": "vision disorder"
+  }
+ ],
+ "_model": "claude (Anthropic) in agent session; prompts/extract_v1.txt; compact format"
+}
